@@ -1,0 +1,179 @@
+{
+  "format": "pdf",
+  "fields": [
+    {
+      "id": "pdf:Contact",
+      "label": "REPORT TO - Contact",
+      "kind": "pdf_form",
+      "value_key": "시험 의뢰 연락 담당자",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Contact",
+      "original_native_tooltip": "Contact",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 40,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          77.64,
+          482.64,
+          296.88,
+          499.08
+        ]
+      }
+    },
+    {
+      "id": "pdf:Company",
+      "label": "REPORT TO - Company",
+      "kind": "pdf_form",
+      "value_key": "시험 의뢰 회사",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Company",
+      "original_native_tooltip": "Company",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 45,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          77.64,
+          464.88,
+          296.88,
+          481.68
+        ]
+      }
+    },
+    {
+      "id": "pdf:Sample NameDescription Sample name for CoARoA MUST MATCH SAMPLE LABELRow1",
+      "label": "Sample Name/Description - Sample name for CoA/RoA - MUST MATCH SAMPLE LABEL row 1",
+      "kind": "pdf_form",
+      "value_key": "제품명",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "original_field_name": "Sample NameDescription Sample name for CoARoA MUST MATCH SAMPLE LABELRow1",
+      "original_native_tooltip": "Sample Name/Description Sample name for CoA/RoA MUST MATCH SAMPLE LABEL_Row_1",
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 90,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          90.36,
+          151.32,
+          308.4,
+          164.64
+        ]
+      }
+    },
+    {
+      "id": "pdf:Sample Lot No to be l sted on CoARoA MUST MATCH SAMPLE LABELRow1",
+      "label": "Sample Lot - MUST MATCH SAMPLE LABEL row 1",
+      "kind": "pdf_form",
+      "value_key": "시료 로트 번호",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Sample Lot No to be l sted on CoARoA MUST MATCH SAMPLE LABELRow1",
+      "original_native_tooltip": "Sample Lot (No. to be l sted on CoA/RoA MUST MATCH SAMPLE LABEL)_Row_1",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 22,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          309.72,
+          151.32,
+          399.48,
+          164.64
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "PDF 입력칸의 배경·테두리·크기를 유지함. 한글 표시에는 설치된 한글 TTF 글꼴을 내장하며 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함",
+    "등록한 sender 텍스트 입력칸만 시험함. 전체 필수항목·선택칸·서명·첨부요건·실제 시료 라벨 일치는 미평가함."
+  ],
+  "supported": true,
+  "source_sha256": "7fa3a5ff25941a789317618a25591985372c9d49a409ecfdc4c2f028ff8f8c1e",
+  "render_mode": "acroform",
+  "pages": [
+    {
+      "page": 1,
+      "width": 792.0,
+      "height": 612.0
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "corporate_ra_sgs_sample_submission",
+  "source_filename": "sgs_public_form.pdf",
+  "source_path": "data/public_templates/ra_cross_company/sgs_public_form.pdf",
+  "resource_kind": "blank_form",
+  "source_kind": "public_form",
+  "corporate_form": true,
+  "company_internal": false,
+  "private_internal_template_verified": false,
+  "company": "SGS Health Science",
+  "company_role": "public_form_issuer",
+  "owner": "SGS Health Science",
+  "domain": "pharmaceutical_ra",
+  "use_classification": "official_public_pharma_testing_submission",
+  "citation_mode": "sidecar",
+  "checked_at": "2026-10-03",
+  "source_url": "https://www.sgs.com/en/-/media/sgscorp/Documents/Corporate/Brochures/SGS-HN-US-Health-Science-Sample-Submission-Form-EN.cdn.en.pdf",
+  "source_page": "https://www.sgs.com/en/-/media/sgscorp/Documents/Corporate/Brochures/SGS-HN-US-Health-Science-Sample-Submission-Form-EN.cdn.en.pdf",
+  "current_version_verified": false,
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "demo_values": {
+    "시험 의뢰 연락 담당자": "TEST USER - NOT FOR SUBMISSION",
+    "시험 의뢰 회사": "TEST ONLY - NOT FOR SUBMISSION",
+    "제품명": "TEST SAMPLE - NOT FOR SUBMISSION",
+    "시료 로트 번호": "QA-FAKE-LOT"
+  },
+  "demo_notice": "실제 제출용이 아님. 공식 공개 기업 시험/규제지원 양식의 가짜 부분 기입 QA임. 실제 제출·시료 발송·거래·주문·승인·서명·GMP 적합성 주장 아님.",
+  "form_version": "FRM-001582 Rev. 3.0",
+  "real_public_fact_mapping": {
+    "eligible": true,
+    "keys": [
+      "제품명"
+    ],
+    "scope": "제품명 원문 대조 QA만 가능하며 실제 시료·판매·거래 관계를 증명하지 않음"
+  },
+  "profile_verification": {
+    "sample_fill_verified": true,
+    "synthetic_qa": true,
+    "independent_output_check": "passed",
+    "full_submission_ready": false,
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium with native form appearance",
+      "render_scale": 1.5,
+      "original_pages_reviewed": 1,
+      "synthetic_output_pages_reviewed": 1,
+      "real_identity_output_pages_reviewed": 3,
+      "scope": "전체 페이지 PNG 연락시트에서 원문·선택 기입 위치·전체 제품명·잘림/겹침 여부를 확인함. 실제 Acrobat/Office 앱 또는 제출 적합성 검증 아님.",
+      "limitations": [
+        "서명·시험의뢰 결정·실제 시료 라벨 일치·법적 접수 요건은 미평가",
+        "원본 최신 버전 여부와 비공개 내부 양식 여부는 검증하지 않음"
+      ],
+      "source_contact_sheet": "outputs/ra-cross-company/templates/sgs_source_contact.png",
+      "synthetic_contact_sheet": "outputs/ra-cross-company/templates/sgs_synthetic_partial_contact.png"
+    },
+    "actual_llm_calls": 0
+  }
+}

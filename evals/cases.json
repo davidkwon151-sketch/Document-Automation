@@ -1,0 +1,429 @@
+[
+  {
+    "id": "case_01",
+    "instruction": "팀장에게 영업 매출 주간업무보고를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_01.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "주간업무보고",
+      "source_text": "매출 120만원을 달성함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "영업 매출",
+      "보고 대상": "팀장",
+      "보고서 유형": "주간업무보고",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_02",
+    "instruction": "팀장에게 교육 참석자 결과보고서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_02.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "결과보고서",
+      "source_text": "참석자 32명이 교육을 완료함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "교육 참석자",
+      "보고 대상": "팀장",
+      "보고서 유형": "결과보고서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_03",
+    "instruction": "임원에게 장비 예산 품의서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_03.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "품의서",
+      "source_text": "장비 예산 450만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "장비 예산",
+      "보고 대상": "임원",
+      "보고서 유형": "품의서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_04",
+    "instruction": "팀장에게 고객 문의 주간업무보고를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_04.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "주간업무보고",
+      "source_text": "고객 문의 18건을 처리함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "고객 문의",
+      "보고 대상": "팀장",
+      "보고서 유형": "주간업무보고",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_05",
+    "instruction": "팀장에게 행사 비용 결과보고서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_05.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "결과보고서",
+      "source_text": "행사 비용 210만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "행사 비용",
+      "보고 대상": "팀장",
+      "보고서 유형": "결과보고서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_06",
+    "instruction": "임원에게 출장 예산 품의서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_06.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "품의서",
+      "source_text": "출장 예산 75만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "출장 예산",
+      "보고 대상": "임원",
+      "보고서 유형": "품의서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_07",
+    "instruction": "팀장에게 개발 작업 주간업무보고를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_07.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "주간업무보고",
+      "source_text": "개발 작업 7건을 완료함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "개발 작업",
+      "보고 대상": "팀장",
+      "보고서 유형": "주간업무보고",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_08",
+    "instruction": "팀장에게 설문 응답자 결과보고서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_08.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "결과보고서",
+      "source_text": "설문 응답자 84명임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "설문 응답자",
+      "보고 대상": "팀장",
+      "보고서 유형": "결과보고서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_09",
+    "instruction": "임원에게 홍보 예산 품의서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_09.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "품의서",
+      "source_text": "홍보 예산 330만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "홍보 예산",
+      "보고 대상": "임원",
+      "보고서 유형": "품의서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_10",
+    "instruction": "팀장에게 운영 비용 주간업무보고를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_10.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "주간업무보고",
+      "source_text": "운영 비용 95만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "운영 비용",
+      "보고 대상": "팀장",
+      "보고서 유형": "주간업무보고",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_11",
+    "instruction": "팀장에게 영업 매출 결과보고서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_11.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "결과보고서",
+      "source_text": "매출 1250만원을 달성함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "영업 매출",
+      "보고 대상": "팀장",
+      "보고서 유형": "결과보고서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_12",
+    "instruction": "임원에게 교육 예산 품의서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_12.docx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "품의서",
+      "source_text": "교육 예산 160만원임",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "교육 예산",
+      "보고 대상": "임원",
+      "보고서 유형": "품의서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_13",
+    "instruction": "팀장에게 고객 상담 결과보고서를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_13.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "결과보고서",
+      "source_text": "고객 상담 24건을 완료함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "고객 상담",
+      "보고 대상": "팀장",
+      "보고서 유형": "결과보고서",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_14",
+    "instruction": "첨부 자료로 보고서를 만들어줘",
+    "attachments": [
+      "data/case_14.docx"
+    ],
+    "expected": {
+      "status": "needs_information",
+      "report_type": "결과보고서",
+      "source_text": "참석자 12명이 교육을 완료함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "",
+      "보고 대상": "",
+      "보고서 유형": "",
+      "마감": "",
+      "분량": "",
+      "부족한 정보": [
+        "목적",
+        "보고 대상",
+        "보고서 유형"
+      ],
+      "질문": [
+        "어떤 목적으로 누구에게 보고하나요?",
+        "주간업무보고, 결과보고서, 품의서 중 어떤 유형인가요?"
+      ]
+    },
+    "inject_wrong_number_in_mock": false
+  },
+  {
+    "id": "case_15",
+    "instruction": "팀장에게 영업 매출 주간업무보고를 2026-10-06까지 1쪽으로 작성해줘",
+    "attachments": [
+      "data/case_15.xlsx"
+    ],
+    "expected": {
+      "status": "ready",
+      "report_type": "주간업무보고",
+      "source_text": "매출 140만원을 달성함",
+      "fields": [
+        "제목",
+        "요약",
+        "본문"
+      ],
+      "max_summary_lines": 3
+    },
+    "mock_brief": {
+      "목적": "영업 매출",
+      "보고 대상": "팀장",
+      "보고서 유형": "주간업무보고",
+      "마감": "2026-10-06",
+      "분량": "1쪽",
+      "부족한 정보": [],
+      "질문": []
+    },
+    "inject_wrong_number_in_mock": true
+  }
+]

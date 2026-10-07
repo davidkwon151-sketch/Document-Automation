@@ -1,0 +1,207 @@
+{
+  "format": "hwpx",
+  "fields": [
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[1]/hp:tc[3]",
+      "label": "연구과제명",
+      "kind": "hwpx_cell",
+      "value_key": "연구과제명",
+      "suggested_mapping": "연구과제명",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[2]/hp:tc[2]",
+      "label": "연구과제명 영문",
+      "kind": "hwpx_cell",
+      "value_key": "연구과제명 영문",
+      "suggested_mapping": "연구과제명 영문",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[3]/hp:tc[3]",
+      "label": "성명",
+      "kind": "hwpx_cell",
+      "value_key": "성명",
+      "suggested_mapping": "성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[3]/hp:tc[5]",
+      "label": "직위",
+      "kind": "hwpx_cell",
+      "value_key": "직위",
+      "suggested_mapping": "직위",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[3]/hp:tc[7]",
+      "label": "학위",
+      "kind": "hwpx_cell",
+      "value_key": "학위",
+      "suggested_mapping": "학위",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[4]/hp:tc[2]",
+      "label": "소속기관",
+      "kind": "hwpx_cell",
+      "value_key": "소속기관",
+      "suggested_mapping": "소속기관",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[4]/hp:tc[4]",
+      "label": "소속학회",
+      "kind": "hwpx_cell",
+      "value_key": "소속학회",
+      "suggested_mapping": "소속학회",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[5]/hp:tc[2]",
+      "label": "담당과목",
+      "kind": "hwpx_cell",
+      "value_key": "담당과목",
+      "suggested_mapping": "담당과목",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[5]/hp:tc[4]",
+      "label": "세부전공",
+      "kind": "hwpx_cell",
+      "value_key": "세부전공",
+      "suggested_mapping": "세부전공",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[9]/hp:tc[3]",
+      "label": "연구비 신청액",
+      "kind": "hwpx_cell",
+      "value_key": "연구비 신청액",
+      "suggested_mapping": "연구비 신청액",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 40,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "min": 0
+      },
+      "narrative_style_required": false
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[2]/hp:run/hp:tbl/hp:tr[10]/hp:tc[2]",
+      "label": "자비및기타",
+      "kind": "hwpx_cell",
+      "value_key": "자비및기타",
+      "suggested_mapping": "자비및기타",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 40,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함",
+    "2026-09-14 접수 마감된 공고임. 현재 접수 가능 양식으로 표시하지 않음",
+    "실제 제출 전 미등록 날짜·서명·동의·선택 항목과 기관의 최신 양식을 직접 확인해야 함. 등록 필드는 전체 법적 완결성을 인증하지 않음"
+  ],
+  "supported": true,
+  "source_sha256": "ab3c729504c64e8e9e4371889e0ab89debf568f1c819bd53e53e97e01912c828",
+  "schema_version": 1,
+  "entry_id": "moel-research-2026",
+  "title": "정책연구용역 사업 신청서",
+  "resource_kind": "blank_form",
+  "source_url": "https://moel.go.kr/common/downloadFile.do?file_seq=20260900264&bbs_seq=20260900163&bbs_id=9&file_ext=hwpx",
+  "source_page": "https://moel.go.kr/news/notice/noticeView.do?bbs_seq=20260900163",
+  "source_filename": "moel-research-2026.hwpx",
+  "source_kind": "public_form",
+  "verification": {
+    "structure": "verified",
+    "visual_source": "HWPX 첫 연구용역 신청 표의 XML label/빈 셀을 확인함. native HWP 렌더 대기",
+    "native_output": "pending",
+    "coverage": "selected_input_fields",
+    "checked_at": "2026-10-03",
+    "native_output_reason": "한글 자동화 보안 모듈 미등록으로 원본 프로그램 렌더를 검증하지 못함. XML·출력값 검사는 통과함"
+  },
+  "demo_values": {
+    "연구과제명": "제출금지 시험정보",
+    "연구과제명 영문": "Test project",
+    "성명": "제출금지 시험정보",
+    "직위": "제출금지 시험정보",
+    "학위": "제출금지 시험정보",
+    "소속기관": "제출금지 시험정보",
+    "소속학회": "제출금지 시험정보",
+    "담당과목": "제출금지 시험정보",
+    "세부전공": "제출금지 시험정보",
+    "연구비 신청액": "1000000",
+    "자비및기타": "제출금지 시험정보"
+  },
+  "demo_notice": "호환 검증용 가짜 정보임. 실제 제출용이 아니며 자동으로 적용하지 않음",
+  "submission_ready": false,
+  "validation_evidence": {
+    "source_sha256": "ab3c729504c64e8e9e4371889e0ab89debf568f1c819bd53e53e97e01912c828",
+    "source_filename": "moel-research-2026.hwpx",
+    "scope": "원본 인쇄 라벨과 단위에 근거한 값/관계 검사임. 시험값은 실제 제출용이 아니며 법적 적합성 인증이 아님.",
+    "fields": {
+      "연구비 신청액": {
+        "printed_labels": [
+          "연 구 비",
+          "신 청 액"
+        ],
+        "page": null,
+        "location": "Contents/section0.xml의 신청서 첫 표 연구비 신청액 입력셀; 원칸에는 단위 표기가 없음"
+      }
+    },
+    "relations": []
+  }
+}

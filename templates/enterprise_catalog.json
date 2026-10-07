@@ -1,0 +1,1494 @@
+{
+  "basis": {
+    "metric": "공정거래위원회 공시대상기업집단 자산총액 순위",
+    "year": 2026,
+    "designation_date": "2026-04-29",
+    "unit": "billion KRW",
+    "scope": "2026년 공시대상기업집단 중 자산 상위30개. 기업 매출 순위와 구분함",
+    "internal_form_coverage": "unknown",
+    "affiliate_document_coverage": "representative_public_sources_only"
+  },
+  "ranking_source": {
+    "owner": "공정거래위원회",
+    "source_url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156759013",
+    "attachment_url": "https://www.korea.kr/common/download.do?fileId=198445881&tblKey=GMN",
+    "sheet": "(별첨2) 2026년 공시대상기업집단 지정현황.xlsx",
+    "attachment_sha256": "00210354df119c62e1fb3a3afe7709fde5f7ae703bac52e2e387f18e05625a6e",
+    "sheet_sha256": "16a149223a63162beb30b0ba2c49338ac6503b41055aff2fdae3d9466b4c7844",
+    "checked_at": "2026-10-02T16:47:18.562475+00:00"
+  },
+  "checked_at": "2026-10-02T16:47:18.562475+00:00",
+  "groups": [
+    {
+      "rank": 1,
+      "name": "삼성",
+      "aliases": [
+        "삼성전자"
+      ],
+      "official_url": "https://www.samsung.com/",
+      "source_page": "https://www.samsung.com/sec/sustainability/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 67,
+      "assets_billion_krw": "695785.006",
+      "documents": [
+        {
+          "id": "samsung_sr_2025",
+          "title": "삼성전자 지속가능경영보고서 2025",
+          "filename": "samsung_sr_2025.pdf",
+          "source_url": "https://www.samsung.com/sec/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_KOR.pdf",
+          "source_page": "https://www.samsung.com/sec/sustainability/",
+          "owner": "삼성전자",
+          "affiliate": "삼성전자",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "342a99a14d7c32b4e66cbbf977cc89dc79044ccc7c5e71367fb476c14538c8c5",
+          "size_bytes": 5649767,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.samsung.com"
+          ],
+          "license": {
+            "owner": "삼성전자",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.samsung.com/sec/sustainability/media/pdf/Samsung_Electronics_Sustainability_Report_2025_KOR.pdf"
+        },
+        {
+          "id": "samsung_business_plan_ai_2026",
+          "title": "2026 삼성형 스마트공장 AI트랙 사업계획서 양식",
+          "filename": "samsung_business_plan_ai_2026.docx",
+          "source_url": "https://cdn.samsung-smartfactory.com/resource/2026/03/30/1b1f723a-702d-4ca6-a7b5-0f9fd13d99a5.docx",
+          "source_page": "https://www.samsung-smartfactory.com/support/library/205",
+          "owner": "삼성전자",
+          "affiliate": "삼성전자",
+          "format": "DOCX",
+          "source_kind": "public_form",
+          "download_status": "blocked_drm",
+          "sha256": "b708272091a33211cacf93df84e84efe7d05a2fae77960ffc37acc11a2b77c81",
+          "size_bytes": 127604,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "cdn.samsung-smartfactory.com"
+          ],
+          "license": {
+            "owner": "삼성전자",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "blocked",
+          "note": "NASCA DRM 보호 파일이며 정상 DOCX ZIP 구조가 아님. 권한 있는 원본이 필요함; 보호 해제를 시도하지 않음",
+          "verified_final_url": "https://cdn.samsung-smartfactory.com/resource/2026/03/30/1b1f723a-702d-4ca6-a7b5-0f9fd13d99a5.docx"
+        },
+        {
+          "id": "samsung_business_plan_2026",
+          "title": "2026 삼성형 스마트공장 상생형 고도화·기초 사업계획서 양식",
+          "filename": "samsung_business_plan_2026.docx",
+          "source_url": "https://cdn.samsung-smartfactory.com/resource/2026/03/30/4fb8b8e2-b394-4b76-82d6-4f5e2580c6ba.docx",
+          "source_page": "https://www.samsung-smartfactory.com/support/library/205",
+          "owner": "삼성전자",
+          "affiliate": "삼성전자",
+          "format": "DOCX",
+          "source_kind": "public_form",
+          "download_status": "blocked_drm",
+          "sha256": "832a10612d39e686f351ae862898b6409211c84f77df1106d42a71a541ede753",
+          "size_bytes": 598644,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "cdn.samsung-smartfactory.com"
+          ],
+          "license": {
+            "owner": "삼성전자",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "blocked",
+          "note": "NASCA DRM 보호 파일이며 정상 DOCX ZIP 구조가 아님. 권한 있는 원본이 필요함; 보호 해제를 시도하지 않음",
+          "verified_final_url": "https://cdn.samsung-smartfactory.com/resource/2026/03/30/4fb8b8e2-b394-4b76-82d6-4f5e2580c6ba.docx"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 2,
+      "name": "에스케이",
+      "aliases": [
+        "SK",
+        "SK그룹"
+      ],
+      "official_url": "https://www.sk.com/",
+      "source_page": "https://www.sk.com/ko/esg/sustainability.jsp",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 151,
+      "assets_billion_krw": "421978.626684765",
+      "documents": [
+        {
+          "id": "sk_skms",
+          "title": "SK 경영관리체계 SKMS",
+          "filename": "sk_skms.pdf",
+          "source_url": "https://www.sk.com/lib/pdf/skms.pdf",
+          "source_page": "https://www.sk.com/ko/esg/sustainability.jsp",
+          "owner": "SK",
+          "affiliate": "SK",
+          "format": "PDF",
+          "source_kind": "public_policy",
+          "download_status": "verified",
+          "sha256": "9345e18edb5faba961e133f0d1197659f688913d076eff0d15a0ae7525ffb62e",
+          "size_bytes": 339039,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.sk.com"
+          ],
+          "license": {
+            "owner": "SK",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.sk.com/lib/pdf/skms.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 3,
+      "name": "현대자동차",
+      "aliases": [
+        "현대차",
+        "현대자동차그룹"
+      ],
+      "official_url": "https://www.hyundai.com/",
+      "source_page": "https://www.hyundai.com/kr/ko/sustain-manage/manage-system/sustainability-report",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 74,
+      "assets_billion_krw": "320845.32543223",
+      "documents": [
+        {
+          "id": "hyundai_sr_2025",
+          "title": "현대자동차 지속가능성보고서 2025",
+          "filename": "hyundai_sr_2025.pdf",
+          "source_url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/data/company-report/2025/07/07/hmc-sr-kor-2025.pdf",
+          "source_page": "https://www.hyundai.com/kr/ko/sustain-manage/manage-system/sustainability-report",
+          "owner": "현대자동차",
+          "affiliate": "현대자동차",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "60b4f545b9b155247d8d5903e97095d4016c0607c75bf9fe9304609e54ebb5b7",
+          "size_bytes": 53373389,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hyundai.com"
+          ],
+          "license": {
+            "owner": "현대자동차",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.hyundai.com/content/dam/hyundai/kr/ko/data/company-report/2025/07/07/hmc-sr-kor-2025.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 4,
+      "name": "엘지",
+      "aliases": [
+        "LG",
+        "LG그룹"
+      ],
+      "official_url": "https://www.lg.com/",
+      "source_page": "https://www.lg.com/global/sustainability/policies-reports/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 63,
+      "assets_billion_krw": "186278.568",
+      "documents": [
+        {
+          "id": "lg_sr_2024_2025",
+          "title": "LG전자 지속가능경영보고서 2024-2025",
+          "filename": "lg_sr_2024_2025.pdf",
+          "source_url": "https://www.lg.com/content/dam/lge/global/sustainability/pdf/2024-2025_LGE_Sustainability_Report_Korean.pdf",
+          "source_page": "https://www.lg.com/global/sustainability/policies-reports/",
+          "owner": "LG전자",
+          "affiliate": "LG전자",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "9ae1cfcf07c923c1c2529f66e1215b42b380e62c600a4bc02ebcc41a223ff8fc",
+          "size_bytes": 45153880,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.lg.com"
+          ],
+          "license": {
+            "owner": "LG전자",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.lg.com/content/dam/lge/global/sustainability/pdf/2024-2025_LGE_Sustainability_Report_Korean.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 5,
+      "name": "한화",
+      "aliases": [
+        "한화그룹"
+      ],
+      "official_url": "https://www.hanwha.co.kr/",
+      "source_page": "https://www.hanwha.co.kr/sustainability/philosophy.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "verified_public_form",
+      "affiliate_count": 116,
+      "assets_billion_krw": "149605.456",
+      "documents": [
+        {
+          "id": "hanwha_vision_sr_2025",
+          "title": "한화비전 지속가능경영보고서 2025",
+          "filename": "hanwha_vision_sr_2025.pdf",
+          "source_url": "https://www.hanwha.co.kr/assets/data/philosophy/2025-Hanwha-Vision-Sustainability_Report-KOREAN.pdf",
+          "source_page": "https://www.hanwha.co.kr/sustainability/philosophy.do",
+          "owner": "한화비전",
+          "affiliate": "한화비전",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "37318be2b2e830645db46f263a09ac52924b6a11564fac828d26d66b0d381d81",
+          "size_bytes": 43467011,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hanwha.co.kr"
+          ],
+          "license": {
+            "owner": "한화비전",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.hanwha.co.kr/assets/data/philosophy/2025-Hanwha-Vision-Sustainability_Report-KOREAN.pdf"
+        },
+        {
+          "id": "hanwha_engine_proxy_2025",
+          "title": "한화엔진 2025 정기주주총회 위임장",
+          "filename": "hanwha_engine_proxy_2025.pdf",
+          "source_url": "https://www.hanwha-engine.com/attach/download/1c082a15-aa16-4c17-9143-48541f2976e7",
+          "source_page": "https://www.hanwha-engine.com/attach/download/1c082a15-aa16-4c17-9143-48541f2976e7",
+          "owner": "한화엔진",
+          "affiliate": "한화엔진",
+          "format": "PDF",
+          "source_kind": "public_form",
+          "download_status": "verified",
+          "sha256": "625d5e3f68a510ba09eff31436c3a3ad77d51854fe8dfdf5b265f286cd2cf0e2",
+          "size_bytes": 102623,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hanwha-engine.com"
+          ],
+          "license": {
+            "owner": "한화엔진",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "공개 제출/민원/주주총회 서식이며 사내 보고서 양식 호환을 보장하지 않음",
+          "verified_final_url": "https://www.hanwha-engine.com/attach/download/1c082a15-aa16-4c17-9143-48541f2976e7"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 6,
+      "name": "롯데",
+      "aliases": [
+        "롯데그룹"
+      ],
+      "official_url": "https://www.lotte.co.kr/",
+      "source_page": "https://www.lotte.co.kr/ir/irNoticeList.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "verified_public_form",
+      "affiliate_count": 98,
+      "assets_billion_krw": "142420.283421513",
+      "documents": [
+        {
+          "id": "lotte_sr_2022",
+          "title": "롯데지주 지속가능경영보고서 2022",
+          "filename": "lotte_sr_2022.pdf",
+          "source_url": "https://www.lotte.co.kr/upload/report/2022_lotte_report_kor.pdf",
+          "source_page": "https://www.lotte.co.kr/ir/irNoticeList.do",
+          "owner": "롯데지주",
+          "affiliate": "롯데지주",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "6fa34b0ca67ddcfaab62aeea8909bf91a9663b72573bf80c16dfdd193f1e607b",
+          "size_bytes": 12064798,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.lotte.co.kr"
+          ],
+          "license": {
+            "owner": "롯데지주",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.lotte.co.kr/upload/report/2022_lotte_report_kor.pdf"
+        },
+        {
+          "id": "lotte_proxy_2026",
+          "title": "롯데지주 제59기 정기주주총회 위임장 2026",
+          "filename": "lotte_proxy_2026.pdf",
+          "source_url": "https://www.lotte.co.kr/common/files/%EC%9C%84%EC%9E%84%EC%9E%A5.pdf",
+          "source_page": "https://www.lotte.co.kr/ir/irNoticeView.do?seq=85",
+          "owner": "롯데지주",
+          "affiliate": "롯데지주",
+          "format": "PDF",
+          "source_kind": "public_form",
+          "download_status": "verified",
+          "sha256": "aeaca430bdaa12e84cd963eb201f57395894b385ff6f6c0a03d16560bb473c98",
+          "size_bytes": 272189,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.lotte.co.kr"
+          ],
+          "license": {
+            "owner": "롯데지주",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "공개 제출/민원/주주총회 서식이며 사내 보고서 양식 호환을 보장하지 않음",
+          "verified_final_url": "https://www.lotte.co.kr/common/files/%EC%9C%84%EC%9E%84%EC%9E%A5.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 7,
+      "name": "포스코",
+      "aliases": [
+        "POSCO",
+        "포스코그룹"
+      ],
+      "official_url": "https://sustainability.posco.com/",
+      "source_page": "https://sustainability.posco.com/S91/S91F10/kor/cmspage.do?mmcd=2645996979005381",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 51,
+      "assets_billion_krw": "140584.271",
+      "documents": [
+        {
+          "id": "posco_sr_2024",
+          "title": "포스코 지속가능경영보고서 2024",
+          "filename": "posco_sr_2024.pdf",
+          "source_url": "https://sustainability.posco.com/assets/file/POSCO_Sustainability_Report_2024_kor.pdf",
+          "source_page": "https://sustainability.posco.com/S91/S91F10/kor/cmspage.do?mmcd=2645996979005381",
+          "owner": "포스코",
+          "affiliate": "포스코",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "58a05bcb0c36cb20da035883390e8cdf43763b00a35d9f69d1b751497058d70f",
+          "size_bytes": 16432581,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "sustainability.posco.com"
+          ],
+          "license": {
+            "owner": "포스코",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://sustainability.posco.com/assets/file/POSCO_Sustainability_Report_2024_kor.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 8,
+      "name": "HD현대",
+      "aliases": [
+        "HD현대그룹",
+        "현대중공업그룹"
+      ],
+      "official_url": "https://esg.hd.com/",
+      "source_page": "https://esg.hd.com/ko/main",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 29,
+      "assets_billion_krw": "89179.756",
+      "documents": [
+        {
+          "id": "hd_xitesolution_sr_2024",
+          "title": "HD현대사이트솔루션 ESG보고서 2024",
+          "filename": "hd_xitesolution_sr_2024.pdf",
+          "source_url": "https://www.hd.com/common/kr/docs/2024_HD%20Hyundai%20Xitesolution_ESG%20Report_KOR.pdf",
+          "source_page": "https://esg.hd.com/ko/main",
+          "owner": "HD현대사이트솔루션",
+          "affiliate": "HD현대사이트솔루션",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "f2f844ca0768da0eeb30a113069e85cd6c477ae6189c466b1f9c1fc7acd97bb9",
+          "size_bytes": 6115198,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hd.com"
+          ],
+          "license": {
+            "owner": "HD현대사이트솔루션",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.hd.com/common/kr/docs/2024_HD%20Hyundai%20Xitesolution_ESG%20Report_KOR.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 9,
+      "name": "농협",
+      "aliases": [
+        "NH",
+        "농협중앙회"
+      ],
+      "official_url": "https://www.nonghyup.com/",
+      "source_page": "https://www.nonghyup.com/complaint/handbook/form.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "verified_public_form",
+      "affiliate_count": 58,
+      "assets_billion_krw": "83504.4489999999",
+      "documents": [
+        {
+          "id": "nonghyup_complaint",
+          "title": "농협중앙회 민원신청서",
+          "filename": "nonghyup_complaint.hwp",
+          "source_url": "https://www.nonghyup.com/cmm/file/resourceDownLoad.do?filepath=%EB%86%8D%ED%98%91%EC%A4%91%EC%95%99%ED%9A%8C%EB%AF%BC%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+          "source_page": "https://www.nonghyup.com/complaint/handbook/form.do",
+          "owner": "농협중앙회",
+          "affiliate": "농협중앙회",
+          "format": "HWP",
+          "source_kind": "public_form",
+          "download_status": "verified",
+          "sha256": "ee387c23c5d273fa484e3fdb9d1ca4a82dae0dbefebed2d882b918e6dee80cb1",
+          "size_bytes": 17920,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.nonghyup.com"
+          ],
+          "license": {
+            "owner": "농협중앙회",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "공개 제출/민원/주주총회 서식이며 사내 보고서 양식 호환을 보장하지 않음",
+          "verified_final_url": "https://www.nonghyup.com/cmm/file/resourceDownLoad.do?filepath=%EB%86%8D%ED%98%91%EC%A4%91%EC%95%99%ED%9A%8C%EB%AF%BC%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp"
+        },
+        {
+          "id": "nonghyup_bank_complaint",
+          "title": "농협은행 민원신청서",
+          "filename": "nonghyup_bank_complaint.hwp",
+          "source_url": "https://www.nonghyup.com/cmm/file/resourceDownLoad.do?filepath=%EB%86%8D%ED%98%91%EC%9D%80%ED%96%89%EB%AF%BC%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp",
+          "source_page": "https://www.nonghyup.com/complaint/handbook/form.do",
+          "owner": "농협은행",
+          "affiliate": "농협은행",
+          "format": "HWP",
+          "source_kind": "public_form",
+          "download_status": "verified",
+          "sha256": "0ad462849dfc9ad85f1925f4c49eca5d8a0e5e635d4c0bf55f263428ae04002c",
+          "size_bytes": 11776,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.nonghyup.com"
+          ],
+          "license": {
+            "owner": "농협은행",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "공개 제출/민원/주주총회 서식이며 사내 보고서 양식 호환을 보장하지 않음",
+          "verified_final_url": "https://www.nonghyup.com/cmm/file/resourceDownLoad.do?filepath=%EB%86%8D%ED%98%91%EC%9D%80%ED%96%89%EB%AF%BC%EC%9B%90%EC%8B%A0%EC%B2%AD%EC%84%9C.hwp"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 10,
+      "name": "지에스",
+      "aliases": [
+        "GS",
+        "GS그룹"
+      ],
+      "official_url": "https://www.gs.co.kr/",
+      "source_page": "https://www.gs.co.kr/ko/sustainability/esg",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 104,
+      "assets_billion_krw": "80423",
+      "documents": [
+        {
+          "id": "gs_sr_2025",
+          "title": "GS 지속가능경영보고서 2025",
+          "filename": "gs_sr_2025.pdf",
+          "source_url": "https://www.gs.co.kr/comm/filedown/?file=I7b3AoAX%2FNDl73%2FJLZDgHA%3D%3D",
+          "source_page": "https://www.gs.co.kr/ko/sustainability/esg",
+          "owner": "GS",
+          "affiliate": "GS",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "dd48e653ad30f818f4c5939369b3f34d79d2ab4e5a24292cd5aeedf1284b0093",
+          "size_bytes": 15105766,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.gs.co.kr"
+          ],
+          "license": {
+            "owner": "GS",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.gs.co.kr/comm/filedown/?file=I7b3AoAX%2FNDl73%2FJLZDgHA%3D%3D"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 11,
+      "name": "신세계",
+      "aliases": [
+        "신세계그룹"
+      ],
+      "official_url": "https://www.shinsegae.com/",
+      "source_page": "https://www.shinsegae.com/company/esg/esg_report.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 65,
+      "assets_billion_krw": "74581.707",
+      "documents": [
+        {
+          "id": "shinsegae_sr_2025",
+          "title": "신세계 ESG보고서 2025",
+          "filename": "shinsegae_sr_2025.pdf",
+          "source_url": "https://www.shinsegae.com/download.do?path=funding.board&oriName=7368696e73656761655f323032355f6573675f7265706f72745f315f4b522e706466&svrName=shinsegae_2025_esg_report_1_KR.pdf",
+          "source_page": "https://www.shinsegae.com/company/esg/esg_report.do",
+          "owner": "신세계",
+          "affiliate": "신세계",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "b9f42c715906c360c33add3f8a6751cd837b36267a185d8422751c77e81cc0d0",
+          "size_bytes": 9668846,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.shinsegae.com"
+          ],
+          "license": {
+            "owner": "신세계",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.shinsegae.com/download.do?path=funding.board&oriName=7368696e73656761655f323032355f6573675f7265706f72745f315f4b522e706466&svrName=shinsegae_2025_esg_report_1_KR.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 12,
+      "name": "한진",
+      "aliases": [
+        "한진그룹"
+      ],
+      "official_url": "https://www.hanjin.com/",
+      "source_page": "https://www.hanjin.com/kor/CMS/Contents/Contents.do?mCode=MN115",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 44,
+      "assets_billion_krw": "62470.206",
+      "documents": [
+        {
+          "id": "hanjin_sr_2025",
+          "title": "한진 ESG보고서 2025",
+          "filename": "hanjin_sr_2025.pdf",
+          "source_url": "https://www.hanjinkal.co.kr/common/file/2025_Hanjin_Report_kr.pdf",
+          "source_page": "https://www.hanjin.com/kor/CMS/Contents/Contents.do?mCode=MN115",
+          "owner": "한진",
+          "affiliate": "한진",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "failed",
+          "sha256": null,
+          "size_bytes": null,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hanjinkal.co.kr"
+          ],
+          "license": {
+            "owner": "한진",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "blocked",
+          "note": "Client error '403 Forbidden' for url 'https://www.hanjinkal.com/common/file/2025_Hanjin_Report_kr.pdf'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 13,
+      "name": "케이티",
+      "aliases": [
+        "KT",
+        "KT그룹"
+      ],
+      "official_url": "https://corp.kt.com/",
+      "source_page": "https://corp.kt.com/eng/html/investors/financial/business.html",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 49,
+      "assets_billion_krw": "47269.175184706",
+      "documents": [
+        {
+          "id": "kt_appendix_2025",
+          "title": "KT ESG보고서 공개 부록",
+          "filename": "kt_appendix_2025.pdf",
+          "source_url": "https://m.corp.kt.com/archive/ipgrpt/attach/now/APPENDIX_.pdf",
+          "source_page": "https://corp.kt.com/eng/html/investors/financial/business.html",
+          "owner": "KT",
+          "affiliate": "KT",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "08d72960a80718bbf17356ca4292f7382211a1889cebd8553e1903b826737a98",
+          "size_bytes": 1194910,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "m.corp.kt.com"
+          ],
+          "license": {
+            "owner": "KT",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://m.corp.kt.com/archive/ipgrpt/attach/now/APPENDIX_.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 14,
+      "name": "엘에스",
+      "aliases": [
+        "LS",
+        "LS그룹"
+      ],
+      "official_url": "https://www.lsholdings.com/",
+      "source_page": "https://www.lsholdings.com/ko/sustainability/report",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 72,
+      "assets_billion_krw": "41650.927",
+      "documents": [],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음; 공식 2025-2026 보고서 목록은 확인했지만 파일 다운로드 검증은 보류됨",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 15,
+      "name": "씨제이",
+      "aliases": [
+        "CJ",
+        "CJ그룹"
+      ],
+      "official_url": "https://www.cj.net/",
+      "source_page": "https://www.cj.net/kr/en/cj-introduction/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 67,
+      "assets_billion_krw": "39730.372",
+      "documents": [
+        {
+          "id": "cj_cheiljedang_sr_2024",
+          "title": "CJ제일제당 지속가능경영보고서 2024",
+          "filename": "cj_cheiljedang_sr_2024.pdf",
+          "source_url": "https://contents.cj.net/esg/report/KR/2024_CJCJ_sustainability_report_ko.pdf",
+          "source_page": "https://www.cj.net/kr/en/cj-introduction/",
+          "owner": "CJ제일제당",
+          "affiliate": "CJ제일제당",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "5ebfe5f2e4aece4ba2e4c8918d105052b47bfc08f1960e89ba6a91bd00167909",
+          "size_bytes": 16244189,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "contents.cj.net"
+          ],
+          "license": {
+            "owner": "CJ제일제당",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://contents.cj.net/esg/report/KR/2024_CJCJ_sustainability_report_ko.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 16,
+      "name": "카카오",
+      "aliases": [
+        "카카오그룹"
+      ],
+      "official_url": "https://www.kakaocorp.com/",
+      "source_page": "https://www.kakaocorp.com/page/sustainability",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 93,
+      "assets_billion_krw": "36556.553",
+      "documents": [
+        {
+          "id": "kakao_sr_2024",
+          "title": "카카오 ESG보고서 2024",
+          "filename": "kakao_sr_2024.pdf",
+          "source_url": "https://www.kakaocorp.com/media/esg-resource/pdf/ESGReport2024_KR.pdf",
+          "source_page": "https://www.kakaocorp.com/page/sustainability",
+          "owner": "카카오",
+          "affiliate": "카카오",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "ed403b934ef643fb9b2d7db6beb39e9db9ae67f55455dd559d52e97c18767c61",
+          "size_bytes": 14705058,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.kakaocorp.com"
+          ],
+          "license": {
+            "owner": "카카오",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.kakaocorp.com/media/esg-resource/pdf/ESGReport2024_KR.pdf"
+        },
+        {
+          "id": "kakao_factsheet_2026q2",
+          "title": "카카오 2026년 2분기 실적 Fact Sheet",
+          "filename": "kakao_factsheet_2026q2.xlsx",
+          "source_url": "https://t1.kakaocdn.net/kakaocorp/admin/ir/results-announcement/6042.xlsx",
+          "source_page": "https://www.kakaocorp.com/ir/referenceRoom/earningsAnnouncement",
+          "owner": "카카오",
+          "affiliate": "카카오",
+          "format": "XLSX",
+          "source_kind": "financial_data",
+          "download_status": "verified",
+          "sha256": "a75224a58856fbbe87e09cfb3e8e7d13dac77d301bfbc25ce01f3ba011c4ff19",
+          "size_bytes": 166899,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "t1.kakaocdn.net"
+          ],
+          "license": {
+            "owner": "카카오",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://t1.kakaocdn.net/kakaocorp/admin/ir/results-announcement/6042.xlsx"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 17,
+      "name": "에이치엠엠",
+      "aliases": [
+        "HMM"
+      ],
+      "official_url": "https://www.hmm21.com/",
+      "source_page": "https://www.hmm21.com/data_files/company/files/download/HMM%20ESG_REPORT_2024.pdf",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 4,
+      "assets_billion_krw": "33047.8269999999",
+      "documents": [
+        {
+          "id": "hmm_sr_2024",
+          "title": "HMM ESG보고서 2024",
+          "filename": "hmm_sr_2024.pdf",
+          "source_url": "https://www.hmm21.com/data_files/company/files/download/HMM%20ESG_REPORT_2024.pdf",
+          "source_page": "https://www.hmm21.com/data_files/company/files/download/HMM%20ESG_REPORT_2024.pdf",
+          "owner": "HMM",
+          "affiliate": "HMM",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "7e932e27e36fee9a00cd2c3c0c22b12a262fdf054eb2b60c7d1eb9f1d929a676",
+          "size_bytes": 18832477,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hmm21.com"
+          ],
+          "license": {
+            "owner": "HMM",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.hmm21.com/data_files/company/files/download/HMM%20ESG_REPORT_2024.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 18,
+      "name": "두산",
+      "aliases": [
+        "두산그룹"
+      ],
+      "official_url": "https://www.doosan.com/",
+      "source_page": "https://www.doosan.com/kr/ir/report/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 23,
+      "assets_billion_krw": "30909.103",
+      "documents": [
+        {
+          "id": "doosan_annual_2025",
+          "title": "두산 2025년 연간 경영실적",
+          "filename": "doosan_annual_2025.pdf",
+          "source_url": "https://www.doosan.com/file/down/e883f661-dc7b-4d14-bcd7-3489949b67dd",
+          "source_page": "https://www.doosan.com/kr/ir/report/",
+          "owner": "두산",
+          "affiliate": "두산",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "e558209041877748832e5801ebef8d0bc474e4417d4764508e5a86cfb103fe34",
+          "size_bytes": 1318907,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.doosan.com"
+          ],
+          "license": {
+            "owner": "두산",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.doosan.com/file/down/e883f661-dc7b-4d14-bcd7-3489949b67dd"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 19,
+      "name": "셀트리온",
+      "aliases": [
+        "셀트리온그룹"
+      ],
+      "official_url": "https://www.celltrion.com/",
+      "source_page": "https://www.celltrion.com/ko-kr/investment/notice/announce",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "verified_public_form",
+      "affiliate_count": 10,
+      "assets_billion_krw": "29285.677",
+      "documents": [
+        {
+          "id": "celltrion_sr_2023_2024",
+          "title": "셀트리온 ESG보고서 2023/24",
+          "filename": "celltrion_sr_2023_2024.pdf",
+          "source_url": "https://www.celltrion.com/api/common/files/view?encData=wMEj85pBmdoWNrq2PTtgJrez+oZAf4SnCdf%2FR9Jv64A%3D",
+          "source_page": "https://www.celltrion.com/ko-kr/investment/notice/announce",
+          "owner": "셀트리온",
+          "affiliate": "셀트리온",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "afd6867dec9d08e8d67f8fe0cf79c8c6743309a5e2e377bf843f3c4574318792",
+          "size_bytes": 14297226,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.celltrion.com"
+          ],
+          "license": {
+            "owner": "셀트리온",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.celltrion.com/api/common/files/view?encData=wMEj85pBmdoWNrq2PTtgJrez+oZAf4SnCdf%2FR9Jv64A%3D"
+        },
+        {
+          "id": "celltrion_attendance_2026",
+          "title": "셀트리온 2026년 주주총회 참석 시 참고서류",
+          "filename": "celltrion_attendance_2026.docx",
+          "source_url": "https://www.celltrion.com/api/common/files/download?encData=p1HMD1S3So3vC8XECOCOe%2BaGrdW9sBhomtImPvibwMk%3D",
+          "source_page": "https://www.celltrion.com/ko-kr/investment/notice/announce",
+          "owner": "셀트리온",
+          "affiliate": "셀트리온",
+          "format": "DOCX",
+          "source_kind": "public_form",
+          "download_status": "verified",
+          "sha256": "30bec196b1c9c81f0293935bf5e8d5cda72057cc58390032e204a05c352bfe09",
+          "size_bytes": 33359,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.celltrion.com"
+          ],
+          "license": {
+            "owner": "셀트리온",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "Official attachment is a valid DOCX ZIP container; local extension corrected from initial research filename. Public shareholder form, not a private internal report template.",
+          "verified_final_url": "https://www.celltrion.com/api/common/files/download?encData=p1HMD1S3So3vC8XECOCOe%2BaGrdW9sBhomtImPvibwMk%3D"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 20,
+      "name": "네이버",
+      "aliases": [
+        "NAVER"
+      ],
+      "official_url": "https://www.navercorp.com/",
+      "source_page": "https://www.navercorp.com/investment/irReports",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 50,
+      "assets_billion_krw": "29151.417",
+      "documents": [
+        {
+          "id": "naver_audit_2025",
+          "title": "NAVER 2025년 연결감사보고서",
+          "filename": "naver_audit_2025.pdf",
+          "source_url": "https://www.navercorp.com/api/article/download/fb35768c-b7e8-42de-b316-47997bf32590",
+          "source_page": "https://www.navercorp.com/investment/irReports",
+          "owner": "네이버",
+          "affiliate": "네이버",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "1cd29568d9c14c17c60c1fdd51ee716382151e97aa6a9c757e5dc93b7c364951",
+          "size_bytes": 1327044,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.navercorp.com"
+          ],
+          "license": {
+            "owner": "네이버",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.navercorp.com/api/article/download/fb35768c-b7e8-42de-b316-47997bf32590"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 21,
+      "name": "중흥건설",
+      "aliases": [
+        "중흥그룹",
+        "중흥"
+      ],
+      "official_url": "https://partner.jungheung.co.kr/",
+      "source_page": "https://partner.jungheung.co.kr/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "portal_only",
+      "affiliate_count": 55,
+      "assets_billion_krw": "28351.503",
+      "documents": [],
+      "note": "공식 협력사 등록/로그인 포털을 확인함. 공개 다운로드 가능한 빈 보고서 양식은 확인하지 못함",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 22,
+      "name": "쿠팡",
+      "aliases": [
+        "Coupang"
+      ],
+      "official_url": "https://news.coupang.com/",
+      "source_page": "https://news.coupang.com/archives/57041/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 16,
+      "assets_billion_krw": "27197.406",
+      "documents": [
+        {
+          "id": "coupang_impact_2025",
+          "title": "쿠팡 임팩트 리포트 2025",
+          "filename": "coupang_impact_2025.pdf",
+          "source_url": "https://news.coupang.com/wp-content/uploads/2025/09/2025-Impact-Report_20250929_Newsroom-Version_F-1.pdf",
+          "source_page": "https://news.coupang.com/archives/57041/",
+          "owner": "쿠팡",
+          "affiliate": "쿠팡",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "3e49c664b31ffd570b832b317df255c0b3970b06ef9fbb3117c286d926d6e66f",
+          "size_bytes": 2203069,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "news.coupang.com"
+          ],
+          "license": {
+            "owner": "쿠팡",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://news.coupang.com/wp-content/uploads/2025/09/2025-Impact-Report_20250929_Newsroom-Version_F-1.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 23,
+      "name": "에쓰-오일",
+      "aliases": [
+        "S-OIL",
+        "에쓰오일"
+      ],
+      "official_url": "https://www.s-oil.com/",
+      "source_page": "https://www.s-oil.com/relation/ir/Report.aspx",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 2,
+      "assets_billion_krw": "26660.115",
+      "documents": [
+        {
+          "id": "soil_annual_2025",
+          "title": "S-OIL 2025년 사업보고서",
+          "filename": "soil_annual_2025.pdf",
+          "source_url": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=639100569867560235.pdf&PIndex=6&PathType=BOARD&TFileName=2025+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
+          "source_page": "https://www.s-oil.com/relation/ir/Report.aspx",
+          "owner": "에쓰-오일",
+          "affiliate": "에쓰-오일",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "9488607fb37557cd2045e853b60257dbc3b05ef7042b0617f88fc12b3b5daeb0",
+          "size_bytes": 1415517,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.s-oil.com"
+          ],
+          "license": {
+            "owner": "에쓰-오일",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.s-oil.com/common/page/FileDownload.aspx?FileName=639100569867560235.pdf&PIndex=6&PathType=BOARD&TFileName=2025+%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 24,
+      "name": "DL",
+      "aliases": [
+        "DL그룹",
+        "대림"
+      ],
+      "official_url": "https://www.dlenc.co.kr/",
+      "source_page": "https://www.dlenc.co.kr/sustainability/manage/Report01.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 41,
+      "assets_billion_krw": "26389.739",
+      "documents": [
+        {
+          "id": "dl_sr_2024",
+          "title": "DL 지속가능경영보고서 2024",
+          "filename": "dl_sr_2024.pdf",
+          "source_url": "https://www.dlholdings.co.kr/download/2024_DL_SUSTAINABILITY_REPORT_KOR.pdf",
+          "source_page": "https://www.dlenc.co.kr/sustainability/manage/Report01.do",
+          "owner": "DL",
+          "affiliate": "DL",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "failed",
+          "sha256": null,
+          "size_bytes": null,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.dlholdings.co.kr"
+          ],
+          "license": {
+            "owner": "DL",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "blocked",
+          "note": "large document"
+        },
+        {
+          "id": "dlenc_sr_2026",
+          "title": "DL이앤씨 지속가능경영보고서 2026",
+          "filename": "dlenc_sr_2026.pdf",
+          "source_url": "https://www.dlenc.co.kr/common/fileDownloadSecu.do?fileseq=38829&filesral=41093&nm_file_chg=report_20266172629809.pdf",
+          "source_page": "https://www.dlenc.co.kr/sustainability/manage/Report01.do",
+          "owner": "DL이앤씨",
+          "affiliate": "DL이앤씨",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "e6d9e37af126c9898ec28b3e09d3a67fd03c510d12085f597b110dcfb3b9142e",
+          "size_bytes": 9805562,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.dlenc.co.kr"
+          ],
+          "license": {
+            "owner": "DL이앤씨",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.dlenc.co.kr/common/fileDownloadSecu.do?fileseq=38829&filesral=41093&nm_file_chg=report_20266172629809.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 25,
+      "name": "영풍",
+      "aliases": [
+        "영풍그룹"
+      ],
+      "official_url": "https://www.ypzinc.co.kr/",
+      "source_page": "https://www.ypzinc.co.kr/site/main/archive/category/report-manage-esg",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 30,
+      "assets_billion_krw": "25927.634",
+      "documents": [
+        {
+          "id": "youngpoong_sr_2025",
+          "title": "영풍 지속가능경영보고서 2025",
+          "filename": "youngpoong_sr_2025.pdf",
+          "source_url": "https://www.ypzinc.co.kr/uploadfile/ecms/media/media/2026/09/28e1dd7bc21edc8d263e71eee035c2bf.pdf",
+          "source_page": "https://www.ypzinc.co.kr/site/main/archive/category/report-manage-esg",
+          "owner": "영풍",
+          "affiliate": "영풍",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "ec1cac770fdafb7bb49cf565a8648c524d824b5f7ebf514389ce1b8fc7a6d02d",
+          "size_bytes": 20581466,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.ypzinc.co.kr"
+          ],
+          "license": {
+            "owner": "영풍",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.ypzinc.co.kr/uploadfile/ecms/media/media/2026/09/28e1dd7bc21edc8d263e71eee035c2bf.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 26,
+      "name": "미래에셋",
+      "aliases": [
+        "미래에셋그룹"
+      ],
+      "official_url": "https://securities.miraeasset.com/",
+      "source_page": "https://securities.miraeasset.com/newir/view/mobile/kr/about/sustain_05.jsp",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 24,
+      "assets_billion_krw": "25072.3794",
+      "documents": [
+        {
+          "id": "mirae_sr_2025",
+          "title": "미래에셋증권 지속가능경영보고서 2025",
+          "filename": "mirae_sr_2025.pdf",
+          "source_url": "https://securities.miraeasset.com/newir/common/download.jsp?f=/public/newir/irdata/2025/07/02/1751437726764.pdf&o=1751437726366.pdf",
+          "source_page": "https://securities.miraeasset.com/newir/view/mobile/kr/about/sustain_05.jsp",
+          "owner": "미래에셋증권",
+          "affiliate": "미래에셋증권",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "683c1d6d9691f239e53d38f2b3460e138f90b67bac3440749d4eae42e8109601",
+          "size_bytes": 19756364,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "securities.miraeasset.com"
+          ],
+          "license": {
+            "owner": "미래에셋증권",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://securities.miraeasset.com/newir/common/download.jsp?f=/public/newir/irdata/2025/07/02/1751437726764.pdf&o=1751437726366.pdf"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 27,
+      "name": "현대백화점",
+      "aliases": [
+        "현대백화점그룹"
+      ],
+      "official_url": "https://ehyundai.com/",
+      "source_page": "https://ehyundai.com/newPortal/RC/RP000001_V.do",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 24,
+      "assets_billion_krw": "23198.562",
+      "documents": [],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음; 보고서 다운로드는 소속기관 선택 UI를 요구하므로 목록만 확인함",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 28,
+      "name": "효성",
+      "aliases": [
+        "효성그룹"
+      ],
+      "official_url": "https://www.hyosung.com/",
+      "source_page": "https://www.hyosung.com/kr/sustainability/esg-resources/reports",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 71,
+      "assets_billion_krw": "22519.7230033",
+      "documents": [
+        {
+          "id": "hyosung_sr_2024",
+          "title": "효성 지속가능경영보고서 2024",
+          "filename": "hyosung_sr_2024.pdf",
+          "source_url": "https://www.hyosung.com/resources/assets/downloads/sustainability/report/SR_2024_kr.pdf",
+          "source_page": "https://www.hyosung.com/kr/sustainability/esg-resources/reports",
+          "owner": "효성",
+          "affiliate": "효성",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "failed",
+          "sha256": null,
+          "size_bytes": null,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.hyosung.com"
+          ],
+          "license": {
+            "owner": "효성",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "blocked",
+          "note": "Client error '404 Not Found' for url 'https://www.hyosung.com/resources/assets/downloads/sustainability/report/SR_2024_kr.pdf'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 29,
+      "name": "하림",
+      "aliases": [
+        "하림그룹"
+      ],
+      "official_url": "https://www.harim.com/",
+      "source_page": "https://www.harim.com/main/filedown.php?indexno=2807&menu=85&no=20886",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "layout_reference",
+      "affiliate_count": 38,
+      "assets_billion_krw": "22242.131",
+      "documents": [
+        {
+          "id": "harim_sr_2024",
+          "title": "하림 지속가능경영보고서 2024",
+          "filename": "harim_sr_2024.pdf",
+          "source_url": "https://www.harim.com/main/filedown.php?indexno=2807&menu=85&no=20886",
+          "source_page": "https://www.harim.com/main/filedown.php?indexno=2807&menu=85&no=20886",
+          "owner": "하림",
+          "affiliate": "하림",
+          "format": "PDF",
+          "source_kind": "published_report",
+          "download_status": "verified",
+          "sha256": "8423694a468856302048762aff0810a4d5e9b9dfd2db6098006499a99d494917",
+          "size_bytes": 15820878,
+          "checked_at": "2026-10-02T16:47:18.562475+00:00",
+          "allowed_hosts": [
+            "www.harim.com"
+          ],
+          "license": {
+            "owner": "하림",
+            "redistribution_permitted": false,
+            "license_verified": false,
+            "usage": "공식 공개 다운로드 원본의 로컬 열람·호환 분석용; 재배포/수정 허가는 확인되지 않음"
+          },
+          "compatibility_status": "not_tested",
+          "note": "완성 보고서·정책·재무자료는 공개 빈 사내 양식이 아님",
+          "verified_final_url": "https://www.harim.com/main/filedown.php?indexno=2807&menu=85&no=20886"
+        }
+      ],
+      "note": "확인된 공개 자료는 해당 계열사의 자료이며 모든 계열사 또는 비공개 사내 양식 검증을 의미하지 않음",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    },
+    {
+      "rank": 30,
+      "name": "부영",
+      "aliases": [
+        "부영그룹"
+      ],
+      "official_url": "https://www.booyoung.co.kr/",
+      "source_page": "https://www.booyoung.co.kr/",
+      "checked_at": "2026-10-02T16:47:18.562475+00:00",
+      "status": "no_verified_public_form",
+      "affiliate_count": 21,
+      "assets_billion_krw": "21696.549",
+      "documents": [],
+      "note": "공식 홈페이지를 확인했으나 공개 빈 양식·공개 보고서 다운로드는 검증하지 못함",
+      "all_affiliates_verified": false,
+      "internal_forms_verified": false
+    }
+  ],
+  "limitations": [
+    "기업·계열사 등록 및 공개자료 존재는 사내 양식 호환 보장을 의미하지 않음",
+    "ESG/사업보고서는 완성 보고서 참고자료이며 빈 사내 양식으로 표시하지 않음",
+    "DOCX/HWPX 치환·PDF/XLSX 출력 등 지원은 문서별 호환 검사 결과로 판단함",
+    "문서 원본은 로컬 data/에서만 보관하고 Git·배포본에 포함하지 않음",
+    "공식 자료 게시 연도·자료 기준 연도는 서로 다를 수 있음"
+  ]
+}

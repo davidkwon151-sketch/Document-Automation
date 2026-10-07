@@ -1,0 +1,1365 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-03",
+  "scope": "공식 기업 공개 RA/품질 관련 빈 양식의 표본 조사. 비공개 내부 양식 전수·현재 사내 최신성·제출 적합성 인증이 아님.",
+  "documents": [
+    {
+      "id": "corporate_pfizer_canada_supplier_survey",
+      "company": "Pfizer Canada",
+      "owner": "Pfizer Canada",
+      "title": "pfizer canada supplier survey",
+      "filename": "pfizer_canada_supplier_survey.pdf",
+      "path": "data/public_templates/ra_corporate/pfizer_canada_supplier_survey.pdf",
+      "source_path": "data/public_templates/ra_corporate/pfizer_canada_supplier_survey.pdf",
+      "source_page": "https://channels.pfizer.ca/sites/default/files/Pfizer_Canada_Supplier_Survey_distributed.pdf",
+      "source_url": "https://channels.pfizer.ca/sites/default/files/Pfizer_Canada_Supplier_Survey_distributed.pdf",
+      "format": "PDF",
+      "sha256": "3f7d2b061fc4cfbb0fb27a774528a30f1f2b77c06733fab57bf51b9b511f54b4",
+      "size_bytes": 401238,
+      "pages": 12,
+      "printed_version": "2017-01-20",
+      "current_version_verified": false,
+      "checked_at": "2026-10-03",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "corporate_form": true,
+      "company_internal": false,
+      "use_classification": "company_supplier_quality_submission",
+      "private_internal_template_verified": false,
+      "scope": "공급업체 등록·품질보증·윤리·조달 설문; 회사 비공개 내부 RA 양식 인증이 아님",
+      "download_status": "verified",
+      "parser_verification": {
+        "status": "passed",
+        "scope": "전체 페이지 본문·표 공통 PDF 파서 읽기",
+        "characters": 25746,
+        "pages": 12,
+        "source_unchanged": true
+      },
+      "canonical_field_count": 95,
+      "widget_count": 95,
+      "canonical_fields": {
+        "Title": {
+          "/T": "Title",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "eMail": {
+          "/T": "eMail",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Phone1": {
+          "/T": "Phone1",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Phone2": {
+          "/T": "Phone2",
+          "/FT": "/Tx"
+        },
+        "Name": {
+          "/T": "Name",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoName2": {
+          "/T": "CoName2",
+          "/FT": "/Tx"
+        },
+        "CoStreet": {
+          "/T": "CoStreet",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoLocation": {
+          "/T": "CoLocation",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoRegion": {
+          "/T": "CoRegion",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoPostalCode": {
+          "/T": "CoPostalCode",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoCountry": {
+          "/T": "CoCountry",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoWebSite": {
+          "/T": "CoWebSite",
+          "/FT": "/Tx"
+        },
+        "CoOwnership": {
+          "/T": "CoOwnership",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "Public",
+          "/DV": "Public",
+          "/Opt": [
+            [
+              "Private",
+              "Private / Privée"
+            ],
+            [
+              "Public",
+              "Public / Publique"
+            ]
+          ],
+          "/_States_": [
+            [
+              "Private",
+              "Private / Privée"
+            ],
+            [
+              "Public",
+              "Public / Publique"
+            ]
+          ]
+        },
+        "PfizerHistory": {
+          "/T": "PfizerHistory",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Ref1CoName": {
+          "/T": "Ref1CoName",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CoName1": {
+          "/T": "CoName1",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Ref1eMail": {
+          "/T": "Ref1eMail",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Ref1Contact": {
+          "/T": "Ref1Contact",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Ref1Phone": {
+          "/T": "Ref1Phone",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Ref2CoName": {
+          "/T": "Ref2CoName",
+          "/FT": "/Tx"
+        },
+        "Ref2Contact": {
+          "/T": "Ref2Contact",
+          "/FT": "/Tx"
+        },
+        "Ref2eMail": {
+          "/T": "Ref2eMail",
+          "/FT": "/Tx"
+        },
+        "Ref2Phone": {
+          "/T": "Ref2Phone",
+          "/FT": "/Tx"
+        },
+        "Ref3CoName": {
+          "/T": "Ref3CoName",
+          "/FT": "/Tx"
+        },
+        "Ref3Contact": {
+          "/T": "Ref3Contact",
+          "/FT": "/Tx"
+        },
+        "Ref3eMail": {
+          "/T": "Ref3eMail",
+          "/FT": "/Tx"
+        },
+        "Ref3Phone": {
+          "/T": "Ref3Phone",
+          "/FT": "/Tx"
+        },
+        "Ref4CoName": {
+          "/T": "Ref4CoName",
+          "/FT": "/Tx"
+        },
+        "Ref4Contact": {
+          "/T": "Ref4Contact",
+          "/FT": "/Tx"
+        },
+        "Ref4eMail": {
+          "/T": "Ref4eMail",
+          "/FT": "/Tx"
+        },
+        "Ref4Phone": {
+          "/T": "Ref4Phone",
+          "/FT": "/Tx"
+        },
+        "Ref5CoName": {
+          "/T": "Ref5CoName",
+          "/FT": "/Tx"
+        },
+        "Ref5Contact": {
+          "/T": "Ref5Contact",
+          "/FT": "/Tx"
+        },
+        "Ref5eMail": {
+          "/T": "Ref5eMail",
+          "/FT": "/Tx"
+        },
+        "Ref5Phone": {
+          "/T": "Ref5Phone",
+          "/FT": "/Tx"
+        },
+        "PharmaHistory": {
+          "/T": "PharmaHistory",
+          "/FT": "/Ch",
+          "/Ff": 4325378,
+          "/V": "Yes",
+          "/DV": "Yes",
+          "/Opt": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "NO",
+              "No / Non"
+            ]
+          ],
+          "/_States_": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "NO",
+              "No / Non"
+            ]
+          ]
+        },
+        "Established": {
+          "/T": "Established",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "ExecSum": {
+          "/T": "ExecSum",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Geography": {
+          "/T": "Geography",
+          "/FT": "/Tx",
+          "/Ff": 33554434
+        },
+        "Staff": {
+          "/T": "Staff",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Contractor": {
+          "/T": "Contractor",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Turnover": {
+          "/T": "Turnover",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Sales": {
+          "/T": "Sales",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "DnB": {
+          "/T": "DnB",
+          "/FT": "/Tx"
+        },
+        "Client1Name": {
+          "/T": "Client1Name",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Client1%": {
+          "/T": "Client1%",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Client2Name": {
+          "/T": "Client2Name",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Client2%": {
+          "/T": "Client2%",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Client3Name": {
+          "/T": "Client3Name",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "Client3%": {
+          "/T": "Client3%",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "ASN": {
+          "/T": "ASN",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "No",
+          "/DV": "No",
+          "/Opt": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "EFT": {
+          "/T": "EFT",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Wire": {
+          "/T": "Wire",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Cheque": {
+          "/T": "Cheque",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Amex": {
+          "/T": "Amex",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "AmexType": {
+          "/T": "AmexType",
+          "/FT": "/Tx"
+        },
+        "OtherPay": {
+          "/T": "OtherPay",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "OtherPayDesc": {
+          "/T": "OtherPayDesc",
+          "/FT": "/Tx"
+        },
+        "QA": {
+          "/T": "QA",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "EHS": {
+          "/T": "EHS",
+          "/FT": "/Ch",
+          "/Ff": 4325378,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ],
+          "/_States_": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ]
+        },
+        "Waste": {
+          "/T": "Waste",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Pollution": {
+          "/T": "Pollution",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Energy": {
+          "/T": "Energy",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Water": {
+          "/T": "Water",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "Sustain": {
+          "/T": "Sustain",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "OtherSustain": {
+          "/T": "OtherSustain",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "OtherSustainDesc": {
+          "/T": "OtherSustainDesc",
+          "/FT": "/Tx"
+        },
+        "FCPA": {
+          "/T": "FCPA",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "No",
+          "/DV": "No",
+          "/Opt": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "PIGO": {
+          "/T": "PIGO",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "GOComp": {
+          "/T": "GOComp",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "Privacy": {
+          "/T": "Privacy",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "No",
+          "/DV": "No",
+          "/Opt": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "FedPolLegis": {
+          "/T": "FedPolLegis",
+          "/FT": "/Ch",
+          "/Ff": 131074,
+          "/V": "No",
+          "/DV": "No",
+          "/Opt": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "No",
+              "No / Non"
+            ]
+          ],
+          "/_States_": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "No",
+              "No / Non"
+            ]
+          ]
+        },
+        "FedPolList": {
+          "/T": "FedPolList",
+          "/FT": "/Tx"
+        },
+        "Capacity": {
+          "/T": "Capacity",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "CostCompete": {
+          "/T": "CostCompete",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "DeliveryDate": {
+          "/T": "DeliveryDate",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "PaymentTerm": {
+          "/T": "PaymentTerm",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "LicensingIndustry": {
+          "/T": "LicensingIndustry",
+          "/FT": "/Tx",
+          "/Ff": 2
+        },
+        "LicensingReqs": {
+          "/T": "LicensingReqs",
+          "/FT": "/Ch",
+          "/Ff": 4849666,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "No / Non"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "Aboriginal": {
+          "/T": "Aboriginal",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "Woman": {
+          "/T": "Woman",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "Disadvantaged": {
+          "/T": "Disadvantaged",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "LGBT": {
+          "/T": "LGBT",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "VisibleMinority": {
+          "/T": "VisibleMinority",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "SBE": {
+          "/T": "SBE",
+          "/FT": "/Ch",
+          "/Ff": 4849664,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ],
+          "/_States_": [
+            [
+              "N/A",
+              "N/A / S.O."
+            ],
+            [
+              "No",
+              "Non / No"
+            ],
+            [
+              "Yes",
+              "Yes / Oui"
+            ]
+          ]
+        },
+        "SBESales": {
+          "/T": "SBESales",
+          "/FT": "/Tx"
+        },
+        "SBESector": {
+          "/T": "SBESector",
+          "/FT": "/Ch",
+          "/Ff": 131072,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "Service",
+              "Service Sector / Secteur des services"
+            ],
+            [
+              "Manufacturing",
+              "Manufacturing Sector / Secteur manufacturier"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ],
+          "/_States_": [
+            [
+              "Service",
+              "Service Sector / Secteur des services"
+            ],
+            [
+              "Manufacturing",
+              "Manufacturing Sector / Secteur manufacturier"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ]
+        },
+        "WeConnect": {
+          "/T": "WeConnect",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "WBE": {
+          "/T": "WBE",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "CAMSC": {
+          "/T": "CAMSC",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "CGLCC": {
+          "/T": "CGLCC",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "OtherDiverse": {
+          "/T": "OtherDiverse",
+          "/FT": "/Btn",
+          "/_States_": [
+            "/Off",
+            "/Yes"
+          ]
+        },
+        "OtherDiverseDesc": {
+          "/T": "OtherDiverseDesc",
+          "/FT": "/Tx"
+        },
+        "DiverseProgram": {
+          "/T": "DiverseProgram",
+          "/FT": "/Ch",
+          "/Ff": 131072,
+          "/V": "N/A",
+          "/DV": "N/A",
+          "/Opt": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "Non",
+              "No / Non"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ],
+          "/_States_": [
+            [
+              "Yes",
+              "Yes / Oui"
+            ],
+            [
+              "Non",
+              "No / Non"
+            ],
+            [
+              "N/A",
+              "N/A / S.O."
+            ]
+          ]
+        },
+        "SubmitButton1": {
+          "/T": "SubmitButton1",
+          "/FT": "/Btn",
+          "/Ff": 65536,
+          "/AA": {
+            "/U": "{'/JS': IndirectObject(2720, 0, 2471261859792), '/S': '/JavaScript'}"
+          },
+          "/_States_": [
+            "/BBox",
+            "/FormType",
+            "/Matrix",
+            "/Resources",
+            "/Subtype",
+            "/Type",
+            "/Off"
+          ]
+        }
+      },
+      "analysis_render_mode": "signed",
+      "analysis_supported": false,
+      "fill_status": "blocked_preserve_signature",
+      "fill_reason": "/Perms/UR3 Adobe usage-rights 인증 서명이 존재함. 95개 canonical/widget 입력칸을 읽었지만 현재 엔진 signed 보호로 기입하지 않음.",
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "license": "공개 접근 확인. 재배포·사용권 전반은 별도 확인 대상",
+      "inspection_path": "outputs/ra_corporate_form_qa/pfizer_canada_supplier_survey_inspection.json",
+      "registered_fields": 0,
+      "partial_sample_fill_verified": false,
+      "has_company_internal_quality_sections": false,
+      "visual_qa": {
+        "renderer": "PDFium",
+        "reviewed_pages": [
+          2,
+          6,
+          12
+        ],
+        "source_only": true,
+        "status": "passed",
+        "scope": "개인/회사 빈 칸·품질보증·첨부 안내를 표본 관찰함. 12쪽 시각 전수와 기입 검증이 아님."
+      }
+    },
+    {
+      "id": "corporate_roche_supplier_change_request",
+      "company": "Roche",
+      "owner": "Roche",
+      "title": "roche supplier change request",
+      "filename": "roche_supplier_change_request.pdf",
+      "path": "data/public_templates/ra_corporate/roche_supplier_change_request.pdf",
+      "source_path": "data/public_templates/ra_corporate/roche_supplier_change_request.pdf",
+      "source_page": "https://suppliers.roche.com/suppliers/site-specific-instructions",
+      "source_url": "https://assets.roche.com/f/94122/x/9c208e373e/supplier-initiated-change-request-form.pdf",
+      "format": "PDF",
+      "sha256": "0a1f1b102bc2330d93df4ecebb609cbc4b498d1a77f19d76d9fc15607d5360a9",
+      "size_bytes": 207110,
+      "pages": 6,
+      "printed_version": "2023-06-30 / 04",
+      "current_version_verified": false,
+      "checked_at": "2026-10-03",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "corporate_form": true,
+      "company_internal": false,
+      "use_classification": "company_supplier_quality_submission",
+      "private_internal_template_verified": false,
+      "scope": "Roche Diagnostics site-specific 공급자 품질 변경관리·Roche 내부 결정 섹션. 신약 허가신청서가 아님",
+      "download_status": "verified",
+      "parser_verification": {
+        "status": "passed",
+        "scope": "전체 페이지 본문·표 공통 PDF 파서 읽기",
+        "characters": 6771,
+        "pages": 6,
+        "source_unchanged": true
+      },
+      "canonical_field_count": 0,
+      "widget_count": 0,
+      "canonical_fields": {},
+      "analysis_render_mode": "overlay",
+      "analysis_supported": true,
+      "fill_status": "partial_fill_verified",
+      "fill_reason": "공급자 A~F 중 33개 텍스트 칸만 시험 기입. 체크·Roche 내부 결정·서명은 제외함.",
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "license": "공개 접근 확인. 재배포·사용권 전반은 별도 확인 대상",
+      "inspection_path": "outputs/ra_corporate_form_qa/roche_supplier_change_request_inspection.json",
+      "profile_id": "corporate_roche_supplier_change_request",
+      "registered_fields": 33,
+      "partial_sample_fill_verified": true,
+      "visual_qa": {
+        "status": "passed",
+        "renderer": "PDFium",
+        "resolution_dpi": 86.4,
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "result_pngs": [
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page1.png",
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page2.png",
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page3.png",
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page4.png",
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page5.png",
+          "outputs/ra_corporate_form_qa/roche_supplier_change_request_filled_page6.png"
+        ],
+        "scope": "원본과 시험 기입 결과 6쪽을 PDFium PNG로 직접 관찰함. 공급자 텍스트 33칸만 작성하고 모든 선택칸 및 Roche 결정·서명 영역과 안내·표·로고를 유지함."
+      },
+      "actual_reference_cross_fill": {
+        "status": "passed",
+        "fields": 3,
+        "reference_only": true,
+        "proves_supply_or_change": false,
+        "sidecar_path": "outputs/ra_corporate_form_qa/roche_ema_cross_fill_sidecar.json",
+        "scope": "EMA 세 제품 전체 명칭을 세 행에 기입하는 원문 보존 시험만 수행"
+      },
+      "has_company_internal_quality_sections": true
+    },
+    {
+      "id": "corporate_terumo_supplier_change_notification",
+      "company": "Terumo Medical Corporation",
+      "owner": "Terumo Medical Corporation",
+      "title": "terumo supplier change notification",
+      "filename": "terumo_supplier_change_notification.pdf",
+      "path": "data/public_templates/ra_corporate/terumo_supplier_change_notification.pdf",
+      "source_path": "data/public_templates/ra_corporate/terumo_supplier_change_notification.pdf",
+      "source_page": "https://www.terumomedical.com/en-us/support/08-1TFORM-04-Supplier-Change-Notification-Form.pdf",
+      "source_url": "https://www.terumomedical.com/en-us/support/08-1TFORM-04-Supplier-Change-Notification-Form.pdf",
+      "format": "PDF",
+      "sha256": "3dc571cc2fcfbf1385f77a50d7a5edfc5e00d5670900db40722aad3a70452b7a",
+      "size_bytes": 292850,
+      "pages": 3,
+      "printed_version": "Rev 12 (date not printed)",
+      "current_version_verified": false,
+      "checked_at": "2026-10-03",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "corporate_form": true,
+      "company_internal": false,
+      "use_classification": "company_supplier_quality_submission",
+      "private_internal_template_verified": false,
+      "scope": "의료기기 공급자 변경통지·TMC 내부 품질/RA 평가와 승인 섹션. 의약품 RA 제출 양식이 아님",
+      "download_status": "verified",
+      "parser_verification": {
+        "status": "passed",
+        "scope": "전체 페이지 본문·표 공통 PDF 파서 읽기",
+        "characters": 5163,
+        "pages": 3,
+        "source_unchanged": true
+      },
+      "canonical_field_count": 0,
+      "widget_count": 0,
+      "canonical_fields": {},
+      "analysis_render_mode": "overlay",
+      "analysis_supported": true,
+      "fill_status": "pending_word_source_or_manual_mapping",
+      "fill_reason": "공개 PDF에는 정적 Word 입력 안내 문자열이 인쇄되어 있음. 안내문 삭제 없이 대응하는 Word 원본 또는 확인한 빈 영역 등록 필요. 원본 지침은 Microsoft Word 제출임.",
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "license": "공개 접근 확인. 재배포·사용권 전반은 별도 확인 대상",
+      "inspection_path": "outputs/ra_corporate_form_qa/terumo_supplier_change_notification_inspection.json",
+      "registered_fields": 0,
+      "partial_sample_fill_verified": false,
+      "has_company_internal_quality_sections": true,
+      "visual_qa": {
+        "renderer": "PDFium",
+        "reviewed_pages": [
+          1,
+          2,
+          3
+        ],
+        "source_only": true,
+        "status": "passed",
+        "scope": "공급자·회사 내부 품질/규제/승인 섹션과 원본 Word 제출 지침을 관찰함. 입력 결과가 아닌 원본 확인임."
+      }
+    }
+  ],
+  "research": [
+    {
+      "company": "Pfizer",
+      "queries": [
+        "site.pfizer.com supplier quality questionnaire filetype:pdf",
+        "site.pfizer.com \"quality agreement\" template"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.pfizer.com%20supplier%20quality%20questionnaire%20filetype%3Apdf",
+        "https://www.google.com/search?q=site.pfizer.com%20%22quality%20agreement%22%20template"
+      ],
+      "observed_official_urls": [
+        "https://channels.pfizer.ca/sites/default/files/Pfizer_Canada_Supplier_Survey_distributed.pdf"
+      ],
+      "result": "공식 Canada 공급업체 설문 1종 확보. 공개 계약 완료본·CDP 완료 설문은 빈 양식에서 제외함."
+    },
+    {
+      "company": "Roche",
+      "queries": [
+        "site.roche.com supplier questionnaire quality form filetype:pdf",
+        "site.roche.com \"change notification\" \"form\""
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.roche.com%20supplier%20questionnaire%20quality%20form%20filetype%3Apdf",
+        "https://www.google.com/search?q=site.roche.com%20%22change%20notification%22%20%22form%22"
+      ],
+      "observed_official_urls": [
+        "https://suppliers.roche.com/suppliers/site-specific-instructions",
+        "https://vendorportal.roche.com/en/Home/ExistingSupplier"
+      ],
+      "result": "공식 변경요청 1종 확보. Canada 승인 공급업체 전용 자원은 로그인 제한이라 추가 내부 양식으로 집계하지 않음."
+    },
+    {
+      "company": "Novartis",
+      "queries": [
+        "site.novartis.com supplier quality questionnaire filetype:pdf",
+        "site.novartis.com \"supplier\" \"questionnaire\" filetype:xlsx"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.novartis.com%20supplier%20quality%20questionnaire%20filetype%3Apdf",
+        "https://www.google.com/search?q=site.novartis.com%20%22supplier%22%20%22questionnaire%22%20filetype%3Axlsx"
+      ],
+      "observed_official_urls": [
+        "https://www.novartis.com/about/quality/third-party-suppliers",
+        "https://www.novartis.com/supplier-portal/documentation"
+      ],
+      "result": "GxP 평가·품질협약 절차 및 Ariba 등록 안내는 확인함. 이번 검색에서 독립 공개 RA/품질 빈 양식 파일은 확보하지 못함. 정책/구매조건·완료보고서를 양식으로 집계하지 않음."
+    },
+    {
+      "company": "Sanofi",
+      "queries": [
+        "site.sanofi.com supplier questionnaire form filetype:pdf",
+        "site.sanofi.com \"supplier\" \"form\" \"quality\" filetype:docx"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.sanofi.com%20supplier%20questionnaire%20form%20filetype%3Apdf",
+        "https://www.google.com/search?q=site.sanofi.com%20%22supplier%22%20%22form%22%20%22quality%22%20filetype%3Adocx"
+      ],
+      "observed_official_urls": [
+        "https://suppliers.sanofi.com/",
+        "https://suppliers.sanofi.com/en/standards-and-procedures"
+      ],
+      "result": "공급자 HTML 등록과 규정·구매조건을 확인함. 별도 공개 RA/품질 빈 파일 양식은 이번 검색에서 미확보함."
+    },
+    {
+      "company": "Yuhan",
+      "queries": [
+        "site.yuhan.co.kr \"공급업체\" \"평가\"",
+        "site.yuhan.co.kr 품질 변경 신청서 양식"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.yuhan.co.kr%20%22%EA%B3%B5%EA%B8%89%EC%97%85%EC%B2%B4%22%20%22%ED%8F%89%EA%B0%80%22",
+        "https://www.google.com/search?q=site.yuhan.co.kr%20%ED%92%88%EC%A7%88%20%EB%B3%80%EA%B2%BD%20%EC%8B%A0%EC%B2%AD%EC%84%9C%20%EC%96%91%EC%8B%9D"
+      ],
+      "observed_official_urls": [
+        "https://www.yuhan.co.kr/common/file/%EC%9C%A0%ED%95%9C%EC%96%91%ED%96%89%20%EC%A7%80%EC%86%8D%EA%B0%80%EB%8A%A5%EA%B2%BD%EC%98%81%EB%B3%B4%EA%B3%A0%EC%84%9C%202024-2025.pdf?v=3"
+      ],
+      "result": "제품정보·완료 ESG 보고서는 검색되었으나 회사 빈 RA/품질 양식 원본은 이번 검색에서 미확보함."
+    },
+    {
+      "company": "Hanmi",
+      "queries": [
+        "site.hanmi.co.kr \"품질\" \"양식\"",
+        "site.hanmi.co.kr 공급업체 평가 양식"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.hanmi.co.kr%20%22%ED%92%88%EC%A7%88%22%20%22%EC%96%91%EC%8B%9D%22",
+        "https://www.google.com/search?q=site.hanmi.co.kr%20%EA%B3%B5%EA%B8%89%EC%97%85%EC%B2%B4%20%ED%8F%89%EA%B0%80%20%EC%96%91%EC%8B%9D"
+      ],
+      "observed_official_urls": [
+        "https://hanmi.co.kr/business/cmdo.hm",
+        "https://www.hanmi.co.kr/about/news-media/press/detail-4922.hm"
+      ],
+      "result": "CDMO 소개·QA 자동화 보도자료·완료 ESG 보고서는 빈 입력 양식이 아님. 회사 빈 RA/품질 양식 원본은 이번 검색에서 미확보함."
+    },
+    {
+      "company": "Celltrion",
+      "queries": [
+        "site.celltrion.com \"공급업체\" \"양식\""
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=site.celltrion.com%20%22%EA%B3%B5%EA%B8%89%EC%97%85%EC%B2%B4%22%20%22%EC%96%91%EC%8B%9D%22"
+      ],
+      "observed_official_urls": [],
+      "result": "해당 공식 도메인 검색에서 공개 빈 RA/품질 파일을 확보하지 못함. 공개 양식 자체의 부재를 단정하지 않음."
+    },
+    {
+      "company": "Terumo",
+      "queries": [
+        "\"supplier change\" form filetype:pdf pharma"
+      ],
+      "search_urls": [
+        "https://www.google.com/search?q=%22supplier%20change%22%20form%20filetype%3Apdf%20pharma"
+      ],
+      "observed_official_urls": [
+        "https://www.terumomedical.com/en-us/support/08-1TFORM-04-Supplier-Change-Notification-Form.pdf"
+      ],
+      "result": "공식 의료기기 변경통지 1종 확보. 의약품 회사 전용 RA 폼으로 분류하지 않음."
+    }
+  ],
+  "summary": {
+    "researched_companies": 8,
+    "downloaded_corporate_public_blank_forms": 3,
+    "unique_sha256": 3,
+    "parsed_all_pages": 21,
+    "partial_fill_verified_forms": 1,
+    "registered_fields": 33,
+    "blocked_preserve_signature_forms": 1,
+    "pending_mapping_or_word_forms": 1,
+    "full_form_filled": 0,
+    "private_internal_template_verified": 0,
+    "actual_reference_name_cross_fill_fields": 3,
+    "legal_compliance_certified": 0
+  },
+  "excluded_types": [
+    "완료 ESG/CDP/사업 보고서",
+    "승인 완료 제품정보",
+    "공통 정부법정서식",
+    "제삼자 업로드/합성 템플릿"
+  ],
+  "limits": [
+    "공개 기업 양식만 조사함. 한국 직원 사용 여부·사내 비공개 양식과의 동일성은 검증하지 않음.",
+    "현재 접속한 공식 파일의 인쇄 버전과 회사 사내 최신 버전은 다를 수 있음.",
+    "다른 기업 제품명을 Roche 서식에 입력한 벤치마크는 실제 공급·고객·변경 관계를 증명하지 않음."
+  ],
+  "validation": {
+    "pytest_command": ".venv/Scripts/python.exe -m pytest -q tests/test_ra_corporate_forms.py",
+    "passed": 8,
+    "failed": 0,
+    "seconds": 5.89,
+    "paid_model_calls": 0,
+    "full_form_submission_certified": false
+  }
+}

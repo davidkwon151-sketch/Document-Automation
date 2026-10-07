@@ -1,0 +1,88 @@
+{
+  "format": "hwpx",
+  "fields": [
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[1]/hp:run[2]/hp:tbl/hp:tr[7]/hp:tc",
+      "label": "이의신청 내용",
+      "kind": "hwpx_cell",
+      "value_key": "이의신청 내용",
+      "suggested_mapping": "이의신청 내용",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 100,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[1]/hp:run[2]/hp:tbl/hp:tr[11]/hp:tc",
+      "label": "결정 내용",
+      "kind": "hwpx_cell",
+      "value_key": "결정 내용",
+      "suggested_mapping": "결정 내용",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 100,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[1]/hp:run[2]/hp:tbl/hp:tr[12]/hp:tc[2]",
+      "label": "공개 일시",
+      "kind": "hwpx_cell",
+      "value_key": "공개 일시",
+      "suggested_mapping": "공개 일시",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "hwpx:Contents/section0.xml:/hs:sec/hp:p[1]/hp:run[2]/hp:tbl/hp:tr[12]/hp:tc[4]",
+      "label": "공개 장소",
+      "kind": "hwpx_cell",
+      "value_key": "공개 장소",
+      "suggested_mapping": "공개 장소",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함",
+    "행정기관의 결정·인용·기각·직인을 AI가 결정하지 않음. 기관 담당자가 근거를 확인해야 함",
+    "실제 제출 전 미등록 날짜·서명·동의·선택 항목과 기관의 최신 양식을 직접 확인해야 함. 등록 필드는 전체 법적 완결성을 인증하지 않음"
+  ],
+  "supported": true,
+  "source_sha256": "e8a1812bd8ce339f55a56a5df8b919a4ed92c204af1750476ee97333676b5872",
+  "schema_version": 1,
+  "entry_id": "spo-632990",
+  "title": "이의신청(인용¸ 부분 인용¸ 기각¸ 각하)결정 통지서.hwpx",
+  "resource_kind": "blank_form",
+  "source_url": "https://www.spo.go.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000632990&fileSn=0",
+  "source_page": "https://www.spo.go.kr/site/seoul/ex/openForm/infoOpenFormList.do",
+  "source_filename": "spo-632990.hwpx",
+  "source_kind": "public_form",
+  "verification": {
+    "structure": "verified",
+    "visual_source": "HWPX XML 표 구조와 원본 텍스트 미리보기 대조. native HWP 렌더 대기",
+    "native_output": "pending",
+    "coverage": "selected_input_fields",
+    "checked_at": "2026-10-03",
+    "native_output_reason": "한글 자동화 보안 모듈 미등록으로 원본 프로그램 렌더를 검증하지 못함. XML·출력값 검사는 통과함"
+  },
+  "demo_values": {
+    "이의신청 내용": "제출금지 시험 정보임",
+    "결정 내용": "제출금지 시험 정보임",
+    "공개 일시": "제출금지 시험 정보임",
+    "공개 장소": "제출금지 시험 정보임"
+  },
+  "demo_notice": "호환 검증용 가짜 정보임. 실제 제출용이 아니며 자동으로 적용하지 않음",
+  "submission_ready": false
+}

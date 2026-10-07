@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-02T17:20:00.367058+00:00",
+  "basis": "공식 기업·공공기관에서 직접 관찰한 공개 다운로드만 등록함. 비공개 사내양식 전수 호환을 뜻하지 않음.",
+  "companies": [
+    {
+      "id": "nc",
+      "name": "엔씨",
+      "official_url": "https://corporate.nc.com/",
+      "aliases": [
+        "엔씨소프트",
+        "NCSOFT",
+        "NC"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 판교 R&D센터",
+        "kind": "office",
+        "source_url": "https://about.ncsoft.com/news/article/news_update_260312_2"
+      },
+      "documents": [
+        {
+          "id": "nc_esg_2024",
+          "title": "NC ESG PLAYBOOK 2024 영문",
+          "source_url": "https://static-brand.ncsoft.com/ncsoft/m/_resource/download/esg/NCSOFT_ESG%20PLAYBOOK%202024_EN.pdf",
+          "format": "PDF",
+          "source_page": "https://static-brand.ncsoft.com/ncsoft/m/_resource/download/esg/NCSOFT_ESG%20PLAYBOOK%202024_EN.pdf",
+          "filename": "nc_esg_2024.pdf",
+          "year": 2024,
+          "affiliate": "엔씨",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "엔씨",
+          "group": null,
+          "allowed_hosts": [
+            "static-brand.ncsoft.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "283a4a89dc0406e721c31d748016fc0c517942cb97d58e5edf4c0c5978c9eb7d",
+          "size_bytes": 47905818,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://static-brand.ncsoft.com/ncsoft/m/_resource/download/esg/NCSOFT_ESG%20PLAYBOOK%202024_EN.pdf",
+          "page_count": 87,
+          "first_page_excerpt": "NCSOFT SUSTAINABILITY REPORT\n",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "nhn",
+      "name": "NHN",
+      "official_url": "https://nhn.com/",
+      "aliases": [
+        "엔에이치엔"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 대왕판교로 645번길 16 NHN 플레이뮤지엄",
+        "kind": "office",
+        "source_url": "https://www.nhn.com/ko_/ir/meeting/2024/NHN_IR_PT_Feb_2024_KOR.pdf"
+      },
+      "documents": [
+        {
+          "id": "nhn_esg_2025",
+          "title": "NHN ESG Report 2025",
+          "source_url": "https://static.nhnent.com/static/site/corp/pdf/esg/ko/NHN_ESGReport_2025_KOR.pdf",
+          "format": "PDF",
+          "source_page": "https://inside.nhn.com/news/951",
+          "filename": "nhn_esg_2025.pdf",
+          "year": 2025,
+          "affiliate": "NHN",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "NHN",
+          "group": null,
+          "allowed_hosts": [
+            "static.nhnent.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "73edfae3860f445b77237b97f9757d02ebdc3dd836c7e507314ca4b05cc6bee2",
+          "size_bytes": 30427944,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://static.nhnent.com/static/site/corp/pdf/esg/ko/NHN_ESGReport_2025_KOR.pdf",
+          "page_count": 123,
+          "first_page_excerpt": "\u0013\u0016\n4645\"*/\"#*-*5:\u0001\n3&1035\u0001\n\u0013\u0011\n8&\"7*/(\u0001/&8\u00014645\"*/\"#*-*5:\nࢲ",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "nexon",
+      "name": "넥슨코리아",
+      "official_url": "https://company.nexon.com/",
+      "aliases": [
+        "넥슨",
+        "NEXON"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [
+        {
+          "id": "nexon_contribution_2022",
+          "title": "넥슨코리아 사회공헌 백서 2022",
+          "source_url": "https://ssl.nexon.com/s2/corporation/NXK/01company/Contribution2022/NEXON_Contribution_2022.pdf",
+          "format": "PDF",
+          "source_page": "https://ssl.nexon.com/s2/corporation/NXK/01company/Contribution2022/NEXON_Contribution_2022.pdf",
+          "filename": "nexon_contribution_2022.pdf",
+          "year": 2022,
+          "affiliate": "넥슨코리아",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "넥슨코리아",
+          "group": null,
+          "allowed_hosts": [
+            "ssl.nexon.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "6c9578c9776ee715b917b3f9f0a054e694f3ab350546b3db971a768db7685d27",
+          "size_bytes": 12096814,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://ssl.nexon.com/s2/corporation/NXK/01company/Contribution2022/NEXON_Contribution_2022.pdf",
+          "page_count": 74,
+          "first_page_excerpt": "NEXON USER EMPLOYEE SOCIETY",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "ahnlab",
+      "name": "안랩",
+      "official_url": "https://company.ahnlab.com/",
+      "aliases": [
+        "AhnLab"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 판교역로 220",
+        "kind": "office",
+        "source_url": "https://www.ahnlab.com/ko/etc/sitemap"
+      },
+      "documents": [
+        {
+          "id": "ahnlab_company_profile",
+          "title": "안랩 회사·제품 소개 공개 자료",
+          "source_url": "https://image.ahnlab.com/img_upload/product/2312222109060201.pdf",
+          "format": "PDF",
+          "source_page": "https://image.ahnlab.com/img_upload/product/2312222109060201.pdf",
+          "filename": "ahnlab_company_profile.pdf",
+          "year": null,
+          "affiliate": "안랩",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "안랩",
+          "group": null,
+          "allowed_hosts": [
+            "image.ahnlab.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": null,
+          "size_bytes": null,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "failed",
+          "download_error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1006)>",
+          "compatibility_status": "unavailable",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "no_verified_public_form",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "hancom",
+      "name": "한컴",
+      "official_url": "https://www.hancom.com/",
+      "aliases": [
+        "한글과컴퓨터"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 대왕판교로644번길 49 한컴타워 10층",
+        "kind": "office",
+        "source_url": "https://support.hancom.com/"
+      },
+      "documents": [
+        {
+          "id": "hancom_typing_parent_proxy",
+          "title": "한컴타자 학생 계정 일괄 가입 학부모 위임장",
+          "source_url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/11d7f6e9-f925-4630-a9c6-77cf65c77344/0867489e-5b41-43ca-acf6-f61d01e3605f/%ED%95%9C%EC%BB%B4%ED%83%80%EC%9E%90_%ED%95%99%EC%83%9D%EA%B3%84%EC%A0%95_%EC%9D%BC%EA%B4%84_%EA%B0%80%EC%9E%85%EC%9D%84_%EC%9C%84%ED%95%9C_%ED%95%99%EB%B6%80%EB%AA%A8_%EC%9C%84%EC%9E%84%EC%9E%A5.hwp",
+          "format": "HWP",
+          "source_page": "https://support.hancom.com/4e332cfe-73f5-4b4a-8c79-f6e2d9831633",
+          "filename": "hancom_typing_parent_proxy.hwp",
+          "year": null,
+          "affiliate": "한컴",
+          "resource_kind": "blank_form",
+          "source_kind": "public_form",
+          "use_classification": "company_public_submission",
+          "owner": "한컴",
+          "group": null,
+          "allowed_hosts": [
+            "prod-files-secure.s3.us-west-2.amazonaws.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": null,
+          "size_bytes": null,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "login_required",
+          "download_error": "HTTP Error 403: Forbidden",
+          "compatibility_status": "unavailable",
+          "original_directory": "data/public_templates/tech"
+        },
+        {
+          "id": "hancom_typing_accounts",
+          "title": "한컴타자 계정 생성 양식 v2.2",
+          "source_url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/11d7f6e9-f925-4630-a9c6-77cf65c77344/7dbe4ea9-df3c-48ff-b2c5-71038a3b2a87/%ED%95%9C%EC%BB%B4%ED%83%80%EC%9E%90_%EA%B3%84%EC%A0%95%EC%83%9D%EC%84%B1%EC%96%91%EC%8B%9D_v.2.2.xlsx",
+          "format": "XLSX",
+          "source_page": "https://support.hancom.com/4e332cfe-73f5-4b4a-8c79-f6e2d9831633",
+          "filename": "hancom_typing_accounts.xlsx",
+          "year": null,
+          "affiliate": "한컴",
+          "resource_kind": "blank_form",
+          "source_kind": "public_form",
+          "use_classification": "company_public_submission",
+          "owner": "한컴",
+          "group": null,
+          "allowed_hosts": [
+            "prod-files-secure.s3.us-west-2.amazonaws.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": null,
+          "size_bytes": null,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "login_required",
+          "download_error": "HTTP Error 403: Forbidden",
+          "compatibility_status": "unavailable",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "no_verified_public_form",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "neowiz",
+      "name": "네오위즈",
+      "official_url": "https://www.neowiz.com/",
+      "aliases": [
+        "NEOWIZ"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 대왕판교로645번길 14 네오위즈 판교타워",
+        "kind": "office",
+        "source_url": "https://www.neowiz.com/kr/aboutus"
+      },
+      "documents": [
+        {
+          "id": "neowiz_ir_4q2023",
+          "title": "네오위즈 2023년 4분기 실적 발표",
+          "source_url": "https://cdn.neowiz.com/neowiz/files/investors/508647576924.4Q23_NWZ_PPT_KR.pdf",
+          "format": "PDF",
+          "source_page": "https://cdn.neowiz.com/neowiz/files/investors/508647576924.4Q23_NWZ_PPT_KR.pdf",
+          "filename": "neowiz_ir_4q2023.pdf",
+          "year": 2023,
+          "affiliate": "네오위즈",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "네오위즈",
+          "group": null,
+          "allowed_hosts": [
+            "cdn.neowiz.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "0c05b532f2b7092d4abd800979c4419a265e31e98e9d52d7fb4417d21e9bf45d",
+          "size_bytes": 1708737,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://cdn.neowiz.com/neowiz/files/investors/508647576924.4Q23_NWZ_PPT_KR.pdf",
+          "page_count": 13,
+          "first_page_excerpt": "2023년\u00004분기\u0000및\u0000연간\u0000실적발표\n2024.\u00002.\u000014\n",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "wemade",
+      "name": "위메이드",
+      "official_url": "https://www.wemade.com/",
+      "aliases": [
+        "WEMADE"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 대왕판교로644번길 49 위메이드타워",
+        "kind": "hq",
+        "source_url": "https://kind.krx.co.kr/external/2026/03/19/001216/20260319005036/11011.htm"
+      },
+      "documents": [
+        {
+          "id": "wemade_esg_2022",
+          "title": "위메이드 지속가능경영 보고서 2022",
+          "source_url": "https://file.wemade.com/homepage/upload/20230718090053252_2022%20WEMADE%20REPORT_KOR_H.pdf",
+          "format": "PDF",
+          "source_page": "https://file.wemade.com/homepage/upload/20230718090053252_2022%20WEMADE%20REPORT_KOR_H.pdf",
+          "filename": "wemade_esg_2022.pdf",
+          "year": 2022,
+          "affiliate": "위메이드",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "위메이드",
+          "group": null,
+          "allowed_hosts": [
+            "file.wemade.com"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "c68403b50d426f9d037d36907b684d776b54259b2b93ccd345ce1b2630e4198f",
+          "size_bytes": 19010132,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://file.wemade.com/homepage/upload/20230718090053252_2022%20WEMADE%20REPORT_KOR_H.pdf",
+          "page_count": 84,
+          "first_page_excerpt": "WEMADE \nSUSTAINABILITY \nREPORT 2022\n2022 위메이드 지속가능경영보고서",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "smilegate",
+      "name": "스마일게이트",
+      "official_url": "https://www.smilegate.com/",
+      "aliases": [
+        "Smilegate"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 판교역로 220 쏠리드스페이스 5층",
+        "kind": "office",
+        "source_url": "https://careers.smilegate.com/"
+      },
+      "documents": [
+        {
+          "id": "smilegate_foundation_2017",
+          "title": "스마일게이트 희망스튜디오 ANNUAL REPORT 2017",
+          "source_url": "https://static2.smilegatefoundation.org/upload/20231121/1700549660016.pdf",
+          "format": "PDF",
+          "source_page": "https://static2.smilegatefoundation.org/upload/20231121/1700549660016.pdf",
+          "filename": "smilegate_foundation_2017.pdf",
+          "year": 2017,
+          "affiliate": "스마일게이트 희망스튜디오",
+          "resource_kind": "layout_reference",
+          "source_kind": "published_report",
+          "use_classification": "reference_report",
+          "owner": "스마일게이트",
+          "group": null,
+          "allowed_hosts": [
+            "static2.smilegatefoundation.org"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "7bd54b14123de5caa4e69502de761c22061bfda91398aa5dea99d2e8d3903a5c",
+          "size_bytes": 5684488,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임. 게시 파일 경로의 2023년 날짜 대신 본문에서 확인한 보고서 연도 2017을 기록함.",
+          "download_status": "verified",
+          "final_url": "https://static2.smilegatefoundation.org/upload/20231121/1700549660016.pdf",
+          "page_count": 29,
+          "first_page_excerpt": "스마일게이트 희망스튜디오\nANNUAL REPORT\n2017",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "layout_reference",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "deepx",
+      "name": "딥엑스",
+      "official_url": "https://deepx.ai/",
+      "aliases": [
+        "DEEPX"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "5F, 20 Pangyoyeok-ro 241beon-gil, Seongnam-si, Gyeonggi-do, 13494",
+        "kind": "hq",
+        "source_url": "https://deepx.ai/contact-us/general-inquiry/"
+      },
+      "documents": [],
+      "status": "portal_only",
+      "notes": "개발자 NDA 웹 신청을 확인함. 로그인·이메일 확인이 필요한 등록을 진행하거나 다운로드 서식으로 변환하지 않음.",
+      "public_portal_url": "https://developer.deepx.ai/register/"
+    },
+    {
+      "id": "skplanet",
+      "name": "SK플래닛",
+      "official_url": "https://www.skplanet.com/",
+      "aliases": [
+        "SK planet"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 판교로 264 The Planet",
+        "kind": "office",
+        "source_url": "https://www.planetad.co.kr/"
+      },
+      "documents": [],
+      "status": "no_verified_public_form",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    },
+    {
+      "id": "kakao",
+      "name": "카카오",
+      "official_url": "https://www.kakaocorp.com/",
+      "aliases": [
+        "Kakao"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [],
+      "status": "no_verified_public_form",
+      "notes": "기업집단 카탈로그에 있는 공개 ESG/지속가능 보고서를 참조함. 작성용 빈 양식으로 중복 등록하지 않음.",
+      "related_enterprise_catalog_group": "카카오"
+    },
+    {
+      "id": "naver",
+      "name": "네이버",
+      "official_url": "https://www.navercorp.com/",
+      "aliases": [
+        "NAVER"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [],
+      "status": "no_verified_public_form",
+      "notes": "기업집단 카탈로그에 있는 공개 ESG/지속가능 보고서를 참조함. 작성용 빈 양식으로 중복 등록하지 않음.",
+      "related_enterprise_catalog_group": "네이버"
+    },
+    {
+      "id": "ncai",
+      "name": "엔씨에이아이",
+      "official_url": "https://nc-ai.com/",
+      "aliases": [
+        "NC AI"
+      ],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "verified",
+        "address": "경기도 성남시 분당구 대왕판교로644번길 12 NC R&D센터",
+        "kind": "office",
+        "source_url": "https://nc-ai.com/ko/company"
+      },
+      "documents": [],
+      "status": "no_verified_public_form",
+      "notes": "공개 사내 기안양식은 확인하지 못함. 소재지 확인과 개별 서식 호환 검증은 별개임."
+    }
+  ],
+  "startup_programs": [
+    {
+      "id": "gbsa-pangyo-global",
+      "name": "판교 글로벌 스타트업 육성 AC 2026",
+      "official_url": "https://www.bizinfo.go.kr/",
+      "aliases": [],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [
+        {
+          "id": "pangyo_global_application_2026",
+          "title": "다운로드",
+          "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747431&fileSn=0",
+          "format": "HWP",
+          "source_page": "https://www.bizinfo.go.kr/biz/bizb/selectBIZB200Detail.do?condition=&cpage=16&keyword=&mvnEntrprsRcritPblancId=MVNP_000000000000210&rows=10",
+          "filename": "pangyo_global_application_2026.hwp",
+          "year": 2026,
+          "affiliate": "판교 글로벌 스타트업 육성 AC 2026",
+          "resource_kind": "blank_form",
+          "source_kind": "public_form",
+          "use_classification": "startup_submission",
+          "owner": "판교 글로벌 스타트업 육성 AC 2026",
+          "group": null,
+          "allowed_hosts": [
+            "www.bizinfo.go.kr"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "b350b05fe54b262cfddf0ce824708efc65e7581da7de940322aa897ee58f299f",
+          "size_bytes": 190976,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000747431&fileSn=0",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "verified_public_form",
+      "notes": "공식 공개 지원사업 제출 서식이며 회사 사내 기안양식이 아님. 모집 시기와 자격 요건을 공고에서 다시 확인해야 함.",
+      "organization": "경기도경제과학진흥원"
+    },
+    {
+      "id": "gbsa-pangyo-inbest",
+      "name": "판교 스타트업 투자교류회 In-Best 2026",
+      "official_url": "https://www.kvca.or.kr/",
+      "aliases": [],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [
+        {
+          "id": "pangyo_inbest_application_2026",
+          "title": "붙임 1. [공고문 및 신청서] 2026 판교 스타트업 투자교류회(In-Best 판교).hwp",
+          "source_url": "https://www.kvca.or.kr/files/download.html?a_gb=board&a_cd=5&file=7303_1_1781671944.hwp&name=%EB%B6%99%EC%9E%84+1.+%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8+%EB%B0%8F+%EC%8B%A0%EC%B2%AD%EC%84%9C%5D+2026+%ED%8C%90%EA%B5%90+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%ED%88%AC%EC%9E%90%EA%B5%90%EB%A5%98%ED%9A%8C%28In-Best+%ED%8C%90%EA%B5%90%29.hwp",
+          "format": "HWP",
+          "source_page": "https://www.kvca.or.kr/Program/board/listbody.html?a_cd=5&a_gb=board&a_item=0&po_no=7303&sm=3_1",
+          "filename": "pangyo_inbest_application_2026.hwp",
+          "year": 2026,
+          "affiliate": "판교 스타트업 투자교류회 In-Best 2026",
+          "resource_kind": "blank_form",
+          "source_kind": "public_form",
+          "use_classification": "startup_submission",
+          "owner": "판교 스타트업 투자교류회 In-Best 2026",
+          "group": null,
+          "allowed_hosts": [
+            "www.kvca.or.kr"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": "5f3a8dce2ce72c56ae5649b950cdf2cb3925babf1e14a463b558e69d01ca08f8",
+          "size_bytes": 117760,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "verified",
+          "final_url": "https://www.kvca.or.kr/files/download.html?a_gb=board&a_cd=5&file=7303_1_1781671944.hwp&name=%EB%B6%99%EC%9E%84+1.+%5B%EA%B3%B5%EA%B3%A0%EB%AC%B8+%EB%B0%8F+%EC%8B%A0%EC%B2%AD%EC%84%9C%5D+2026+%ED%8C%90%EA%B5%90+%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85+%ED%88%AC%EC%9E%90%EA%B5%90%EB%A5%98%ED%9A%8C%28In-Best+%ED%8C%90%EA%B5%90%29.hwp",
+          "compatibility_status": "unverified",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "verified_public_form",
+      "notes": "공식 공개 지원사업 제출 서식이며 회사 사내 기안양식이 아님. 모집 시기와 자격 요건을 공고에서 다시 확인해야 함.",
+      "organization": "경기도경제과학진흥원"
+    },
+    {
+      "id": "gbsa-paju-prestar",
+      "name": "파주 Pre-Star 기업 육성사업 2026",
+      "official_url": "https://egbiz.or.kr/",
+      "aliases": [],
+      "internal_forms_status": "unknown",
+      "location": {
+        "status": "unknown"
+      },
+      "documents": [
+        {
+          "id": "paju_prestar_forms_2026",
+          "title": "2. 단위과제별 운영기준(해당 과제만 지원).pdf [1 MB]",
+          "source_url": "https://egbiz.or.kr/component/file/ND_fileDownload.do?q_fileSn=1321161&q_fileId=0c3a0891-2958-475a-a93a-67f819f9b303",
+          "format": "HWPX",
+          "source_page": "https://egbiz.or.kr/sp/supportPrjDtl.do?bizCyclId=PD000000055592&listUrl=supportPrjCatList",
+          "filename": "paju_prestar_forms_2026.hwpx",
+          "year": 2026,
+          "affiliate": "파주 Pre-Star 기업 육성사업 2026",
+          "resource_kind": "blank_form",
+          "source_kind": "public_form",
+          "use_classification": "startup_submission",
+          "owner": "파주 Pre-Star 기업 육성사업 2026",
+          "group": null,
+          "allowed_hosts": [
+            "egbiz.or.kr"
+          ],
+          "company_internal": false,
+          "checked_at": "2026-10-02T17:20:00.367058+00:00",
+          "sha256": null,
+          "size_bytes": null,
+          "license": {
+            "status": "unknown",
+            "redistribution_permitted": false,
+            "usage": "공개 원본 열람·내부 검토용. 원본 재배포 권한은 확인하지 않음."
+          },
+          "notes": "원본 다운로드와 서식 기입 호환 검증은 별개임. 오래된 보고서는 해당 연도 참고 자료임.",
+          "download_status": "failed",
+          "download_error": "Office/ZIP 원본 서명이 일치하지 않음",
+          "compatibility_status": "unavailable",
+          "original_directory": "data/public_templates/tech"
+        }
+      ],
+      "status": "no_verified_public_form",
+      "notes": "공식 공개 지원사업 제출 서식이며 회사 사내 기안양식이 아님. 모집 시기와 자격 요건을 공고에서 다시 확인해야 함. 판교 소재만으로 신청 자격을 충족하는 사업이 아님.",
+      "organization": "경기도경제과학진흥원",
+      "eligible_region": "파주시"
+    }
+  ],
+  "limits": [
+    "공개 원본의 열람/다운로드만 확인했으며 모든 항목 기입과 실제 뷰어의 서식 유지 검증은 별도로 수행해야 함.",
+    "주소가 미확인인 기업을 판교 본사 기업으로 추정하지 않음.",
+    "기입용 지원사업 서식은 사내 보고/품의 양식으로 분류하지 않음."
+  ]
+}

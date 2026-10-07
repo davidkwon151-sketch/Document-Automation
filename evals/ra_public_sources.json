@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-02T18:53:22.133437+00:00",
+  "scope": "서로 다른 EU 판매허가권자 3개사의 공식 공개 제품정보 PDF 스냅샷. 국내 허가·신청 및 법정 적합성 검증과 구분함.",
+  "jurisdictions": [
+    "EU"
+  ],
+  "source_count": 3,
+  "company_count": 3,
+  "fact_count": 14,
+  "model_training_performed": false,
+  "live_llm_evaluated": false,
+  "sources": [
+    {
+      "id": "ra-public-herzuma",
+      "title": "Herzuma 150 mg powder for concentrate for solution for infusion — EMA Product information",
+      "source_page": "https://www.ema.europa.eu/en/medicines/human/EPAR/herzuma",
+      "source_url": "https://www.ema.europa.eu/en/documents/product-information/herzuma-epar-product-information_en.pdf",
+      "filename": "herzuma_official_product_information.pdf",
+      "path": "data/ra_public_validation/herzuma_official_product_information.pdf",
+      "sha256": "9f873e041e3f46ca853bb9b05370bfe1f604ed302ee39c6cc4cfb909d2574c1d",
+      "size_bytes": 780314,
+      "checked_at": "2026-10-02T18:46:01.206468+00:00",
+      "resource_kind": "published_product_information",
+      "jurisdiction": "EU",
+      "page_count": 66,
+      "format": "PDF",
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/herzuma-epar-product-information_en.pdf",
+      "company": {
+        "name": "Celltrion Healthcare Hungary Kft.",
+        "role": "marketing_authorisation_holder",
+        "exact_quote": "Celltrion Healthcare Hungary Kft.",
+        "page": 32,
+        "role_heading_page": 31
+      },
+      "product_name": "Herzuma",
+      "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion",
+      "facts": [
+        {
+          "field_key": "제품명",
+          "source_field_label": "제품명",
+          "value": "Herzuma 150 mg powder for concentrate for solution for infusion",
+          "exact_quote": "Herzuma 150 mg powder for concentrate for solution for infusion",
+          "page": 2,
+          "role": "product_name",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion"
+        },
+        {
+          "field_key": "성상",
+          "source_field_label": "성상",
+          "value": "White to pale yellow lyophilised powder.",
+          "exact_quote": "White to pale yellow lyophilised powder.",
+          "page": 2,
+          "role": "pharmaceutical_appearance",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "source_field_label": "사용기간",
+          "value": "Unopened vial\n\n6 years.",
+          "exact_quote": "Unopened vial\n\n6 years.",
+          "page": 29,
+          "role": "unopened_vial_shelf_life",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion"
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "The recommended initial loading dose is 8 mg/kg body weight. The recommended maintenance dose\nat three-weekly intervals is 6 mg/kg body weight, beginning three weeks after the loading dose.",
+          "exact_quote": "The recommended initial loading dose is 8 mg/kg body weight. The recommended maintenance dose\nat three-weekly intervals is 6 mg/kg body weight, beginning three weeks after the loading dose.",
+          "page": 4,
+          "role": "adult_metastatic_breast_cancer_three_weekly_loading_and_maintenance",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion",
+          "clinical_scope": {
+            "section": "4.2",
+            "population": "adult",
+            "indication": "HER2-positive metastatic breast cancer",
+            "regimen": "three-weekly",
+            "loading_dose": "8 mg/kg body weight",
+            "maintenance_dose": "6 mg/kg body weight",
+            "maintenance_start": "three weeks after loading dose",
+            "heading_page": 3,
+            "heading_exact_quote": "Metastatic breast cancer\n\nThree-weekly schedule"
+          },
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        }
+      ],
+      "source_page_product_information_last_updated": "2026-08-28",
+      "version_label": "EMA product information page last updated 2026-08-28",
+      "scope": {
+        "intended_use": "공개 원문 사실·수치 대조와 양식 기입 검증용",
+        "product_variant": "Herzuma 150 mg powder for concentrate for solution for infusion",
+        "product_scope": "선택 제형은 150 mg 바이알임. 같은 PDF의 420 mg 바이알, 재구성·희석 뒤 안정성, 주간·3주 간격과 초기·유지 용량을 혼합하지 않음.",
+        "foreign_authorisation_only": true,
+        "korean_authorisation_verified": false,
+        "submission_ready": false,
+        "regulatory_compliance_certified": false,
+        "company_role_scope": "PDF의 EU 판매허가권자(MAH)만 확인함. 한국 신청인·수입자·개발사·제조소로 바꾸어 해석하지 않음."
+      },
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "model_training_performed": false,
+      "live_llm_evaluated": false
+    },
+    {
+      "id": "ra-public-benepali",
+      "title": "Benepali 25 mg solution for injection in pre-filled syringe — EMA Product information",
+      "source_page": "https://www.ema.europa.eu/en/medicines/human/EPAR/benepali",
+      "source_url": "https://www.ema.europa.eu/en/documents/product-information/benepali-epar-product-information_en.pdf",
+      "filename": "benepali_official_product_information.pdf",
+      "path": "data/ra_public_validation/benepali_official_product_information.pdf",
+      "sha256": "62c9f068db2eb1b811fc96c10d8562f9a2a0386d14b3c38c47fdc0c4aa0680f3",
+      "size_bytes": 1154747,
+      "checked_at": "2026-10-02T18:46:01.781382+00:00",
+      "resource_kind": "published_product_information",
+      "jurisdiction": "EU",
+      "page_count": 136,
+      "format": "PDF",
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/benepali-epar-product-information_en.pdf",
+      "company": {
+        "name": "Samsung Bioepis NL B.V.",
+        "role": "marketing_authorisation_holder",
+        "exact_quote": "Samsung Bioepis NL B.V.",
+        "page": 31,
+        "role_heading_page": 31
+      },
+      "product_name": "Benepali",
+      "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe",
+      "facts": [
+        {
+          "field_key": "제품명",
+          "source_field_label": "제품명",
+          "value": "Benepali 25 mg solution for injection in pre-filled syringe",
+          "exact_quote": "Benepali 25 mg solution for injection in pre-filled syringe",
+          "page": 2,
+          "role": "product_name",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "source_field_label": "원료약품 및 분량",
+          "value": "Each pre-filled syringe contains 25 mg of etanercept.",
+          "exact_quote": "Each pre-filled syringe contains 25 mg of etanercept.",
+          "page": 2,
+          "role": "active_substance_per_pre_filled_syringe",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "source_field_label": "사용기간",
+          "value": "3 years",
+          "exact_quote": "3 years",
+          "page": 30,
+          "role": "shelf_life",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe"
+        },
+        {
+          "field_key": "효능 효과",
+          "value": "Benepali in combination with methotrexate is indicated for the treatment of moderate to severe active\nrheumatoid arthritis in adults when the response to disease-modifying antirheumatic drugs, including\nmethotrexate (unless contraindicated), has been inadequate.",
+          "exact_quote": "Benepali in combination with methotrexate is indicated for the treatment of moderate to severe active\nrheumatoid arthritis in adults when the response to disease-modifying antirheumatic drugs, including\nmethotrexate (unless contraindicated), has been inadequate.",
+          "page": 2,
+          "role": "adult_rheumatoid_arthritis_inadequate_dmard_response_combination_therapy",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe",
+          "clinical_scope": {
+            "section": "4.1",
+            "population": "adults",
+            "indication": "moderate to severe active rheumatoid arthritis",
+            "combination": "methotrexate",
+            "condition": "inadequate response to disease-modifying antirheumatic drugs, including methotrexate unless contraindicated"
+          },
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "Rheumatoid arthritis\n25 mg etanercept administered twice weekly is the recommended dose. Alternatively, 50 mg\nadministered once weekly has been shown to be safe and effective (see section 5.1).",
+          "exact_quote": "Rheumatoid arthritis\n25 mg etanercept administered twice weekly is the recommended dose. Alternatively, 50 mg\nadministered once weekly has been shown to be safe and effective (see section 5.1).",
+          "page": 3,
+          "role": "adult_rheumatoid_arthritis_twice_weekly_primary_and_once_weekly_alternative",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe",
+          "clinical_scope": {
+            "section": "4.2",
+            "population": "adults",
+            "indication": "rheumatoid arthritis",
+            "primary_regimen": "25 mg twice weekly",
+            "alternative_regimen": "50 mg once weekly",
+            "variant_rule": "선택25mg 시린지의 주2회 권장 용법과 50mg 주1회 대안을 구분함. 두 용량을 한 주사·한 횟수로 합치거나 직접 환산하지 않음."
+          },
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        }
+      ],
+      "source_page_product_information_last_updated": "2025-12-01",
+      "version_label": "EMA product information page last updated 2025-12-01",
+      "scope": {
+        "intended_use": "공개 원문 사실·수치 대조와 양식 기입 검증용",
+        "product_variant": "Benepali 25 mg solution for injection in pre-filled syringe",
+        "product_scope": "선택 제형은 25 mg 프리필드시린지임. 같은 PDF의 50 mg 시린지·펜과 적용 대상·체중·용량 규정을 혼합하지 않음.",
+        "foreign_authorisation_only": true,
+        "korean_authorisation_verified": false,
+        "submission_ready": false,
+        "regulatory_compliance_certified": false,
+        "company_role_scope": "PDF의 EU 판매허가권자(MAH)만 확인함. 한국 신청인·수입자·개발사·제조소로 바꾸어 해석하지 않음."
+      },
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "model_training_performed": false,
+      "live_llm_evaluated": false
+    },
+    {
+      "id": "ra-public-keppra",
+      "title": "Keppra 250 mg film-coated tablets — EMA Product information",
+      "source_page": "https://www.ema.europa.eu/en/medicines/human/EPAR/keppra",
+      "source_url": "https://www.ema.europa.eu/en/documents/product-information/keppra-epar-product-information_en.pdf",
+      "filename": "keppra_official_product_information.pdf",
+      "path": "data/ra_public_validation/keppra_official_product_information.pdf",
+      "sha256": "0c9c2dbe2cf9e6cd5c8f5c1f489027f4a1e9204a5531ad8b866e3bc0e64b2e72",
+      "size_bytes": 1061458,
+      "checked_at": "2026-10-02T18:46:43.240804+00:00",
+      "resource_kind": "published_product_information",
+      "jurisdiction": "EU",
+      "page_count": 170,
+      "format": "PDF",
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/keppra-epar-product-information_en.pdf",
+      "company": {
+        "name": "UCB Pharma SA",
+        "role": "marketing_authorisation_holder",
+        "exact_quote": "UCB Pharma SA",
+        "page": 17,
+        "role_heading_page": 17
+      },
+      "product_name": "Keppra",
+      "product_variant": "Keppra 250 mg film-coated tablets",
+      "facts": [
+        {
+          "field_key": "제품명",
+          "source_field_label": "제품명",
+          "value": "Keppra 250 mg film-coated tablets",
+          "exact_quote": "Keppra 250 mg film-coated tablets",
+          "page": 2,
+          "role": "product_name",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Keppra 250 mg film-coated tablets"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "source_field_label": "원료약품 및 분량",
+          "value": "Each film-coated tablet contains 250 mg levetiracetam.",
+          "exact_quote": "Each film-coated tablet contains 250 mg levetiracetam.",
+          "page": 2,
+          "role": "active_substance_per_film_coated_tablet",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Keppra 250 mg film-coated tablets"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "source_field_label": "사용기간",
+          "value": "3 years.",
+          "exact_quote": "3 years.",
+          "page": 17,
+          "role": "shelf_life",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Keppra 250 mg film-coated tablets"
+        },
+        {
+          "field_key": "효능 효과",
+          "value": "Keppra is indicated as monotherapy in the treatment of partial onset seizures with or without\nsecondary generalisation in adults and adolescents from 16 years of age with newly diagnosed\nepilepsy.",
+          "exact_quote": "Keppra is indicated as monotherapy in the treatment of partial onset seizures with or without\nsecondary generalisation in adults and adolescents from 16 years of age with newly diagnosed\nepilepsy.",
+          "page": 2,
+          "role": "newly_diagnosed_epilepsy_partial_onset_monotherapy_age_16_plus",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Keppra 250 mg film-coated tablets",
+          "clinical_scope": {
+            "section": "4.1",
+            "population": "adults and adolescents from 16 years of age",
+            "indication": "partial onset seizures with or without secondary generalisation",
+            "condition": "newly diagnosed epilepsy",
+            "therapy": "monotherapy"
+          },
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more\n\nThe initial therapeutic dose is 500 mg twice daily. This dose can be started on the first day of\ntreatment. However, a lower initial dose of 250 mg twice daily may be given based on physician\nassessment of seizure reduction versus potential side effects. This can be increased to 500 mg twice\ndaily after two weeks.",
+          "exact_quote": "Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more\n\nThe initial therapeutic dose is 500 mg twice daily. This dose can be started on the first day of\ntreatment. However, a lower initial dose of 250 mg twice daily may be given based on physician\nassessment of seizure reduction versus potential side effects. This can be increased to 500 mg twice\ndaily after two weeks.",
+          "page": 2,
+          "role": "adult_and_adolescent_50kg_plus_initial_dose_physician_lower_dose_then_two_week_increase",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "Keppra 250 mg film-coated tablets",
+          "clinical_scope": {
+            "section": "4.2",
+            "population": "Adults (≥18 years) and adolescents (12 to 17 years) weighing 50 kg or more",
+            "initial_regimen": "500 mg twice daily",
+            "conditional_lower_initial_regimen": "250 mg twice daily based on physician assessment",
+            "increase": "500 mg twice daily after two weeks",
+            "variant_rule": "250mg 정제 함량과 투여1회용량을 구분함. 정제 개수·소아 용량을 임의 계산하거나 변경하지 않음."
+          },
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        }
+      ],
+      "source_page_product_information_last_updated": "2026-04-01",
+      "version_label": "EMA product information page last updated 2026-04-01",
+      "scope": {
+        "intended_use": "공개 원문 사실·수치 대조와 양식 기입 검증용",
+        "product_variant": "Keppra 250 mg film-coated tablets",
+        "product_scope": "선택 제형은 250 mg 필름코팅정임. 같은 PDF의 500·750·1000 mg 정제, 경구액, 정맥주사 제형 및 소아·성인 용량을 혼합하지 않음.",
+        "foreign_authorisation_only": true,
+        "korean_authorisation_verified": false,
+        "submission_ready": false,
+        "regulatory_compliance_certified": false,
+        "company_role_scope": "PDF의 EU 판매허가권자(MAH)만 확인함. 한국 신청인·수입자·개발사·제조소로 바꾸어 해석하지 않음."
+      },
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "model_training_performed": false,
+      "live_llm_evaluated": false
+    }
+  ],
+  "domestic_search_attempts": [
+    {
+      "source_page": "https://www.celltrionph.com/ko-kr/product/introducedetail?modify_key=34",
+      "result": "공식 제품 HTML 관찰. 다운로드 PDF 링크는 확인하지 못함. EU EMA PDF로 대체함."
+    },
+    {
+      "source_page": "https://www.samsungbioepis.com/kr/about/about01.do",
+      "result": "공식 기업 소개·제품 포트폴리오를 관찰함. 제품별 국내 허가 PDF는 확보하지 못해 EMA PDF를 사용함."
+    },
+    {
+      "source_url": "https://www.ucbkorea.co.kr/sites/default/files/2023-08/master-pi-Keppra-iv-ko_0.pdf",
+      "result": "검색에 노출된 공식 국내 PDF 직접 URL이 실제 HTTP 404를 반환함. URL을 추정·수정하지 않고 EMA 현행 제품정보 PDF를 사용함."
+    }
+  ],
+  "limitations": [
+    "page는 PDF의 1부터 시작하는 실제 페이지 번호임. 선택 인용은 줄바꿈·공백만 정규화해 해당 페이지 원문과 대조함.",
+    "EMA 게시글의 업데이트 날짜는 지침·국내 별지 서식 시행일이나 대한민국 품목 허가일이 아님.",
+    "선택 제품의 제형·함량·희석 단계·대상군을 보존해야 하며 원자료에 없는 신청인 개인정보·서명·제조소를 생성하지 않음.",
+    "다운로드·원문 인용 대조는 공개 원자료 검증임. 모델 학습·실제 API 정확도·허가 제출 적합성을 인증하지 않음.",
+    "선택 사실은 원문 문장을 완전하게 보존함. 양식 입력칸을 초과하면 임의 요약·절단 대신 넘침 경고·첨부 또는 사용자 검토가 필요함."
+  ]
+}

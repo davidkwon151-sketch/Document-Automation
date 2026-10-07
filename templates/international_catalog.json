@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-03T04:42:00.295719+00:00",
+  "basis": "공식 공개 작성용 제출 서식 8개. 신규 RA 시험 의뢰 3개는 확인된 14칸만 등록함. 비공개 사내 전수 호환·제출 적합성은 미검증임.",
+  "documents": [
+    {
+      "owner": "Siemens Healthineers",
+      "title": "Product Datasheet (form sheet C) (docx) 0.1 MB",
+      "source_page": "https://www.siemens-healthineers.com/business-opportunities/suppliers/download-center",
+      "source_url": "https://marketing.webassets.siemens-healthineers.com/6044a4a1e1b3f2fc/f1cfe5d01f41/siemens-healthineers-business-opportunities-Form_C_V05_EN.docx",
+      "format": "DOCX",
+      "sha256": "fa78b5f7e900043b3c7d0ea4e63f0e4d65f56af0b9a0d2baa6b556f9d0bfe9fb",
+      "size_bytes": 35754,
+      "checked_at": "2026-10-02T17:34:39.907435+00:00",
+      "id": "international_siemens_form_c_en",
+      "filename": "international_siemens_form_c_en.docx",
+      "company": "Siemens Healthineers",
+      "affiliate": "Siemens Healthineers",
+      "company_aliases": [
+        "지멘스 헬시니어스"
+      ],
+      "allowed_hosts": [
+        "marketing.webassets.siemens-healthineers.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/international",
+      "language": "en",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 34,
+        "render_mode": null,
+        "warnings": [
+          "양식 보호를 유지하며 활성화된 빈 FORMTEXT 결과만 입력함. 일반 본문·선택상자는 변경하지 않음",
+          "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함"
+        ],
+        "source_sha256": "fa78b5f7e900043b3c7d0ea4e63f0e4d65f56af0b9a0d2baa6b556f9d0bfe9fb"
+      }
+    },
+    {
+      "owner": "Siemens Healthineers",
+      "title": "Product Datasheet (form sheet C) (German) (docx) 0.1 MB",
+      "source_page": "https://www.siemens-healthineers.com/business-opportunities/suppliers/download-center",
+      "source_url": "https://marketing.webassets.siemens-healthineers.com/cf13e0bcffcd90ab/15a37aa9d1f3/siemens-healthineers-business-opportunities-Form_C_V05_DE.docx",
+      "format": "DOCX",
+      "sha256": "5a4675d87a170896ae1aa3810d2164a520765ccea0bdfdebd77ddc63d9d7ba84",
+      "size_bytes": 31317,
+      "checked_at": "2026-10-02T17:34:39.936618+00:00",
+      "id": "international_siemens_form_c_de",
+      "filename": "international_siemens_form_c_de.docx",
+      "company": "Siemens Healthineers",
+      "affiliate": "Siemens Healthineers",
+      "company_aliases": [
+        "지멘스 헬시니어스"
+      ],
+      "allowed_hosts": [
+        "marketing.webassets.siemens-healthineers.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/international",
+      "language": "de",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 34,
+        "render_mode": null,
+        "warnings": [
+          "양식 보호를 유지하며 활성화된 빈 FORMTEXT 결과만 입력함. 일반 본문·선택상자는 변경하지 않음",
+          "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함"
+        ],
+        "source_sha256": "5a4675d87a170896ae1aa3810d2164a520765ccea0bdfdebd77ddc63d9d7ba84"
+      }
+    },
+    {
+      "owner": "Robert Bosch GmbH",
+      "title": "Supplier Diversity Form USA (for Minority owned Suppliers)",
+      "source_page": "https://www.bosch.com/company/supply-chain/information-for-business-partners/",
+      "source_url": "https://assets.bosch.com/media/global/bosch_group/purchasing_and_logistics/information_for_business_partners/supplier-diversity-form-usa.xlsx",
+      "format": "XLSX",
+      "sha256": "f110149b3199cbeb92b9200779a7cedcf206302d3298f40230892e4c3979056e",
+      "size_bytes": 50227,
+      "checked_at": "2026-10-02T17:34:39.998842+00:00",
+      "id": "international_bosch_diversity_us",
+      "filename": "international_bosch_diversity_us.xlsx",
+      "company": "Robert Bosch GmbH",
+      "affiliate": "Robert Bosch GmbH",
+      "company_aliases": [
+        "보쉬",
+        "Bosch"
+      ],
+      "allowed_hosts": [
+        "assets.bosch.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/international",
+      "language": "en",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함. 미국 사업의 자격을 충족한 공급업체만 해당하며 제출은 업체 등록을 보장하지 않음.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 826,
+        "render_mode": null,
+        "warnings": [
+          "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함"
+        ],
+        "source_sha256": "f110149b3199cbeb92b9200779a7cedcf206302d3298f40230892e4c3979056e"
+      }
+    },
+    {
+      "owner": "Robert Bosch GmbH",
+      "title": "Change Proposal Form — CPF",
+      "source_page": "https://www.bosch.com/company/supply-chain/information-for-business-partners/",
+      "source_url": "https://assets.bosch.com/media/global/bosch_group/purchasing_and_logistics/information_for_business_partners/downloads/quality_docs/specific_regulations/change-proposal-form.pptx",
+      "format": "PPTX",
+      "sha256": "8807db0414e9ea983a13353d4d6144bc9b98f22230ee32119e184f6a8b3caeb4",
+      "size_bytes": 1190308,
+      "checked_at": "2026-10-02T17:34:40.038604+00:00",
+      "id": "international_bosch_change_proposal",
+      "filename": "international_bosch_change_proposal.pptx",
+      "company": "Robert Bosch GmbH",
+      "affiliate": "Robert Bosch GmbH",
+      "company_aliases": [
+        "보쉬",
+        "Bosch"
+      ],
+      "allowed_hosts": [
+        "assets.bosch.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/international",
+      "language": "en",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 42,
+        "render_mode": null,
+        "warnings": [
+          "슬라이드 크기·글꼴·표·테마·그림은 보존함. 기입 분량에 따른 넘침은 PowerPoint에서 확인해야 함"
+        ],
+        "source_sha256": "8807db0414e9ea983a13353d4d6144bc9b98f22230ee32119e184f6a8b3caeb4"
+      }
+    },
+    {
+      "owner": "Howmet Aerospace",
+      "title": "Supplier Request Form",
+      "source_page": "https://www.howmet.com/wp-content/uploads/sites/3/2023/05/SupplierRequestForm.pdf",
+      "source_url": "https://www.howmet.com/wp-content/uploads/sites/3/2023/05/SupplierRequestForm.pdf",
+      "format": "PDF",
+      "sha256": "9219e7f0d83a60977567568ce23f0d71572ea2ee7f6d8085b0c004fdb3ab9bc3",
+      "size_bytes": 120628,
+      "checked_at": "2026-10-02T17:34:41.164365+00:00",
+      "id": "international_howmet_supplier_request",
+      "filename": "international_howmet_supplier_request.pdf",
+      "company": "Howmet Aerospace",
+      "affiliate": "Howmet Aerospace",
+      "company_aliases": [
+        "하우멧",
+        "Howmet"
+      ],
+      "allowed_hosts": [
+        "www.howmet.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/international",
+      "language": "en",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함. 본문 버전 2020-04-17. 내부 승인/서명란을 포함하며 현재 적용 여부를 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 0,
+        "render_mode": "overlay",
+        "warnings": [
+          "정적·스캔 PDF의 원본 페이지 위에 입력함. 자동 제안 영역을 확인하거나 입력 영역을 지정해야 함"
+        ],
+        "source_sha256": "9219e7f0d83a60977567568ce23f0d71572ea2ee7f6d8085b0c004fdb3ab9bc3"
+      }
+    },
+    {
+      "id": "corporate_ra_pace_single_lot",
+      "owner": "Pace Life Sciences",
+      "company": "Pace Life Sciences",
+      "affiliate": "Pace Life Sciences",
+      "company_aliases": [
+        "페이스 생명과학"
+      ],
+      "title": "RA 시험 의뢰 — Single Lot",
+      "filename": "corporate_ra_pace_single_lot.pdf",
+      "format": "PDF",
+      "language": "en",
+      "source_page": "https://www.pacelabs.com/life-sciences/submit-a-sample/",
+      "source_url": "https://6835044.fs1.hubspotusercontent-na1.net/hubfs/6835044/Certifications%20and%20Forms/PLS/Forms/ARF%20-%20General%20Single%20Lot.pdf",
+      "allowed_hosts": [
+        "6835044.fs1.hubspotusercontent-na1.net"
+      ],
+      "sha256": "55a70a0c086616bae9f8ba5d2b6731a72ee9d8e58054fa478191c8dfb1d0c94f",
+      "size_bytes": 337191,
+      "checked_at": "2026-10-03T04:16:08.449492+00:00",
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "registered_partial_fields",
+      "original_directory": "data/public_templates/ra_extended",
+      "domain": "pharmaceutical_ra",
+      "ra_workflow": "testing_support",
+      "profile_id": "corporate_ra_pace_single_lot",
+      "version_label": "No printed revision date verified",
+      "current_version_verified": false,
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본의 검토·작성용. 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 외부 시험의뢰 양식의 확인된 입력칸만 등록함. 사내 양식이나 전체 제출 완료를 인증하지 않음. 실제 신청인·시료·시험·서명은 사용자가 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 5,
+        "render_mode": "acroform",
+        "warnings": [
+          "PDF 입력칸의 배경·테두리·크기를 유지함. 입력 문자를 표시할 수 있는 한글 TTF 글꼴을 내장하며 부족한 문자는 동봉 글꼴을 사용해 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함"
+        ],
+        "source_sha256": "55a70a0c086616bae9f8ba5d2b6731a72ee9d8e58054fa478191c8dfb1d0c94f",
+        "canonical_field_count": 55,
+        "full_form_filled": false
+      },
+      "link_observation": "Direct PDF link observed on official source_page; CDN is used only through that observed link."
+    },
+    {
+      "id": "corporate_ra_pace_rtp_guidance",
+      "owner": "Pace Life Sciences",
+      "company": "Pace Life Sciences",
+      "affiliate": "Pace Life Sciences",
+      "company_aliases": [
+        "페이스 생명과학"
+      ],
+      "title": "RA 시험 의뢰 — RTP 및 작성 안내",
+      "filename": "corporate_ra_pace_rtp_guidance.pdf",
+      "format": "PDF",
+      "language": "en",
+      "source_page": "https://www.pacelabs.com/life-sciences/submit-a-sample/",
+      "source_url": "https://6835044.fs1.hubspotusercontent-na1.net/hubfs/6835044/Certifications%20and%20Forms/PLS/Forms/RTP-ARF%20%2B%20Guidance.pdf",
+      "allowed_hosts": [
+        "6835044.fs1.hubspotusercontent-na1.net"
+      ],
+      "sha256": "f640eb738c1362b93f45ff947e00c5f0069a360e13e3aff9f84a0e094200a988",
+      "size_bytes": 475336,
+      "checked_at": "2026-10-03T04:16:08.750104+00:00",
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "registered_partial_fields",
+      "original_directory": "data/public_templates/ra_extended",
+      "domain": "pharmaceutical_ra",
+      "ra_workflow": "testing_support",
+      "profile_id": "corporate_ra_pace_rtp_guidance",
+      "version_label": "No printed revision date verified; file contains guidance plus two numbered form pages",
+      "current_version_verified": false,
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본의 검토·작성용. 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 외부 시험의뢰 양식의 확인된 입력칸만 등록함. 사내 양식이나 전체 제출 완료를 인증하지 않음. 실제 신청인·시료·시험·서명은 사용자가 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 4,
+        "render_mode": "acroform",
+        "warnings": [
+          "PDF 입력칸의 배경·테두리·크기를 유지함. 입력 문자를 표시할 수 있는 한글 TTF 글꼴을 내장하며 부족한 문자는 동봉 글꼴을 사용해 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함",
+          "Project Title의 원본 Calibri 자원이 없어 기입 범위에서 제외함. 다른 업무 칸만 기입함."
+        ],
+        "source_sha256": "f640eb738c1362b93f45ff947e00c5f0069a360e13e3aff9f84a0e094200a988",
+        "canonical_field_count": 92,
+        "full_form_filled": false
+      },
+      "link_observation": "Direct PDF link observed on official source_page; CDN is used only through that observed link."
+    },
+    {
+      "id": "corporate_ra_cambrex_durham",
+      "owner": "Cambrex",
+      "company": "Cambrex",
+      "affiliate": "Cambrex",
+      "company_aliases": [
+        "캠브렉스"
+      ],
+      "title": "RA 시료 시험 의뢰 — Durham",
+      "filename": "corporate_ra_cambrex_durham.pdf",
+      "format": "PDF",
+      "language": "en",
+      "source_page": "https://www.cambrex.com/forms-and-certificates/",
+      "source_url": "https://www.cambrex.com/wp-content/uploads/2023/05/cambrex-durham-sample-submission-form.pdf",
+      "allowed_hosts": [
+        "www.cambrex.com"
+      ],
+      "sha256": "1924b6a90f7b4eff84891df2e0e4a4c02aeb46332b6e4a76ae864c720fefd2c1",
+      "size_bytes": 266321,
+      "checked_at": "2026-10-03T04:16:54.091351+00:00",
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "registered_partial_fields",
+      "original_directory": "data/public_templates/ra_extended",
+      "domain": "pharmaceutical_ra",
+      "ra_workflow": "testing_support",
+      "profile_id": "corporate_ra_cambrex_durham",
+      "version_label": "FRM03446.02; Effective date: 30Dec2025; printed 12/30/2025 10:06 am",
+      "current_version_verified": false,
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본의 검토·작성용. 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 외부 시험의뢰 양식의 확인된 입력칸만 등록함. 사내 양식이나 전체 제출 완료를 인증하지 않음. 실제 신청인·시료·시험·서명은 사용자가 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 5,
+        "render_mode": "acroform",
+        "warnings": [
+          "PDF 입력칸의 배경·테두리·크기를 유지함. 입력 문자를 표시할 수 있는 한글 TTF 글꼴을 내장하며 부족한 문자는 동봉 글꼴을 사용해 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함"
+        ],
+        "source_sha256": "1924b6a90f7b4eff84891df2e0e4a4c02aeb46332b6e4a76ae864c720fefd2c1",
+        "canonical_field_count": 78,
+        "full_form_filled": false
+      },
+      "link_observation": "Direct PDF link observed on official source_page; CDN is used only through that observed link."
+    }
+  ]
+}
+

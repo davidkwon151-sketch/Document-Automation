@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "basis": {
+    "scope": "기획·재무·일상 품의·산업 품질에 관련된 공식 공개 외부 제출 양식과 완성 보고서",
+    "internal_company_forms_verified": false,
+    "all_company_compatibility_certified": false,
+    "counting": "사무 카탈로그 11개 원본·11개 고유 SHA. Bosch 1개는 기존 국제 카탈로그 재사용으로 신규 원본은 10개임."
+  },
+  "checked_at": "2026-10-02T18:30:39.781699+00:00",
+  "workflows": {
+    "office_planning": "기획·결과 보고",
+    "financial_report": "재무·금융 보고",
+    "daily_approval": "일상 품의·구매·지출",
+    "industrial_quality": "산업 품질·변경관리"
+  },
+  "documents": [
+    {
+      "id": "office_hanbat_plan_2026",
+      "title": "2026 한밭대 캡스톤디자인 세부 계획서",
+      "format": "HWPX",
+      "workflows": [
+        "office_planning"
+      ],
+      "publisher": "국립한밭대학교 반도체특성화교육사업단",
+      "organization": "국립한밭대학교 반도체특성화교육사업단",
+      "filename": "office_hanbat_plan_2026.hwpx",
+      "source_page": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000001565/view.do?mno=&nttId=B000000169673So6zM3r",
+      "source_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=0",
+      "allowed_hosts": [
+        "www.hanbat.ac.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 하반기 공고 첨부 / 2026-09-02",
+      "publication_date": "2026-09-02",
+      "application_deadline": "2026-11-13",
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "source_download_expression": "javascript:fn_egov_downFile('FILE_000000199724Im0','0')",
+      "eligibility_scope": "해당 캡스톤디자인 과목 참여 확정 팀 대상임. 일반 기업 신청용이 아님.",
+      "sha256": "d25144e049eab18460d5c9caf44c0dcffa642042c50b9a4b5f83cc9b65e9b0ab",
+      "size_bytes": 28611,
+      "download_status": "verified",
+      "final_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=0",
+      "content_disposition": "attachment; filename=\"\"2. 2026Ã«ÂÂ Ã«Â°ÂÃ«ÂÂÃ¬Â²Â´Ã­ÂÂ¹Ã¬ÂÂ±Ã­ÂÂÃªÂµÂÃ¬ÂÂ¡Ã¬ÂÂ°ÃªÂµÂ¬Ã¬ÂÂ Ã¬ÂºÂ¡Ã¬ÂÂ¤Ã­ÂÂ¤Ã«ÂÂÃ¬ÂÂÃ¬ÂÂ¸ Ã¬ÂÂ¸Ã«Â¶Â ÃªÂ³ÂÃ­ÂÂÃ¬ÂÂ.hwpx\"\"",
+      "owner": "국립한밭대학교 반도체특성화교육사업단",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_hanbat_purchase_2026",
+      "title": "2026 한밭대 캡스톤디자인 재료비 사용 신청서(구매)",
+      "format": "HWPX",
+      "workflows": [
+        "daily_approval"
+      ],
+      "publisher": "국립한밭대학교 반도체특성화교육사업단",
+      "organization": "국립한밭대학교 반도체특성화교육사업단",
+      "filename": "office_hanbat_purchase_2026.hwpx",
+      "source_page": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000001565/view.do?mno=&nttId=B000000169673So6zM3r",
+      "source_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=1",
+      "allowed_hosts": [
+        "www.hanbat.ac.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 하반기 공고 첨부 / 2026-09-02",
+      "publication_date": "2026-09-02",
+      "application_deadline": "2026-11-13",
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "source_download_expression": "javascript:fn_egov_downFile('FILE_000000199724Im0','1')",
+      "eligibility_scope": "해당 캡스톤디자인 과목 참여 확정 팀 대상임. 일반 기업 신청용이 아님.",
+      "sha256": "90e6216b613ca8b34323bf184b9fd8188c7506e8aa66c7f018b3cea22bc12894",
+      "size_bytes": 56034,
+      "download_status": "verified",
+      "final_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=1",
+      "content_disposition": "attachment; filename=\"\"3. 2026Ã«ÂÂ Ã«Â°ÂÃ«ÂÂÃ¬Â²Â´Ã­ÂÂ¹Ã¬ÂÂ±Ã­ÂÂÃªÂµÂÃ¬ÂÂ¡Ã¬ÂÂ°ÃªÂµÂ¬Ã¬ÂÂ Ã¬ÂºÂ¡Ã¬ÂÂ¤Ã­ÂÂ¤Ã«ÂÂÃ¬ÂÂÃ¬ÂÂ¸ Ã¬ÂÂ¬Ã«Â£ÂÃ«Â¹Â Ã¬ÂÂ¬Ã¬ÂÂ© Ã¬ÂÂ Ã¬Â²Â­Ã¬ÂÂ(ÃªÂµÂ¬Ã«Â§Â¤).hwpx\"\"",
+      "owner": "국립한밭대학교 반도체특성화교육사업단",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_hanbat_process_2026",
+      "title": "2026 한밭대 캡스톤디자인 재료비 사용 신청서(공정) 및 결과보고서",
+      "format": "HWPX",
+      "workflows": [
+        "daily_approval"
+      ],
+      "publisher": "국립한밭대학교 반도체특성화교육사업단",
+      "organization": "국립한밭대학교 반도체특성화교육사업단",
+      "filename": "office_hanbat_process_2026.hwpx",
+      "source_page": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000001565/view.do?mno=&nttId=B000000169673So6zM3r",
+      "source_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=2",
+      "allowed_hosts": [
+        "www.hanbat.ac.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 하반기 공고 첨부 / 2026-09-02",
+      "publication_date": "2026-09-02",
+      "application_deadline": "2026-11-13",
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "source_download_expression": "javascript:fn_egov_downFile('FILE_000000199724Im0','2')",
+      "eligibility_scope": "해당 캡스톤디자인 과목 참여 확정 팀 대상임. 일반 기업 신청용이 아님.",
+      "sha256": "bfec3ce60933085c074a200ebf8847d93ab0ab023aee27f5c2fc694bce498e1d",
+      "size_bytes": 48905,
+      "download_status": "verified",
+      "final_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=2",
+      "content_disposition": "attachment; filename=\"\"4. 2026Ã«ÂÂ Ã«Â°ÂÃ«ÂÂÃ¬Â²Â´Ã­ÂÂ¹Ã¬ÂÂ±Ã­ÂÂÃªÂµÂÃ¬ÂÂ¡Ã¬ÂÂ°ÃªÂµÂ¬Ã¬ÂÂ Ã¬ÂºÂ¡Ã¬ÂÂ¤Ã­ÂÂ¤Ã«ÂÂÃ¬ÂÂÃ¬ÂÂ¸ Ã¬ÂÂ¬Ã«Â£ÂÃ«Â¹Â Ã¬ÂÂ¬Ã¬ÂÂ© Ã¬ÂÂ Ã¬Â²Â­Ã¬ÂÂ(ÃªÂ³ÂµÃ¬Â Â), ÃªÂ²Â°ÃªÂ³Â¼Ã«Â³Â´ÃªÂ³Â Ã¬ÂÂ.hwpx\"\"",
+      "owner": "국립한밭대학교 반도체특성화교육사업단",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_hanbat_expert_2026",
+      "title": "2026 한밭대 캡스톤디자인 전문가 활용비 신청서",
+      "format": "HWPX",
+      "workflows": [
+        "daily_approval"
+      ],
+      "publisher": "국립한밭대학교 반도체특성화교육사업단",
+      "organization": "국립한밭대학교 반도체특성화교육사업단",
+      "filename": "office_hanbat_expert_2026.hwpx",
+      "source_page": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000001565/view.do?mno=&nttId=B000000169673So6zM3r",
+      "source_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=3",
+      "allowed_hosts": [
+        "www.hanbat.ac.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 하반기 공고 첨부 / 2026-09-02",
+      "publication_date": "2026-09-02",
+      "application_deadline": "2026-11-13",
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "source_download_expression": "javascript:fn_egov_downFile('FILE_000000199724Im0','3')",
+      "eligibility_scope": "해당 캡스톤디자인 과목 참여 확정 팀 대상임. 일반 기업 신청용이 아님.",
+      "sha256": "156f2c89b6faed82c1de2d5b92708ca8c96da545de850604ffa2d2727cb1a691",
+      "size_bytes": 42157,
+      "download_status": "verified",
+      "final_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=3",
+      "content_disposition": "attachment; filename=\"\"5. 2026Ã«ÂÂ Ã«Â°ÂÃ«ÂÂÃ¬Â²Â´Ã­ÂÂ¹Ã¬ÂÂ±Ã­ÂÂÃªÂµÂÃ¬ÂÂ¡Ã¬ÂÂ°ÃªÂµÂ¬Ã¬ÂÂ Ã¬ÂºÂ¡Ã¬ÂÂ¤Ã­ÂÂ¤Ã«ÂÂÃ¬ÂÂÃ¬ÂÂ¸ Ã¬Â ÂÃ«Â¬Â¸ÃªÂ°Â Ã­ÂÂÃ¬ÂÂ©Ã«Â¹Â Ã¬ÂÂ Ã¬Â²Â­Ã¬ÂÂ.hwpx\"\"",
+      "owner": "국립한밭대학교 반도체특성화교육사업단",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_hanbat_report_2026",
+      "title": "2026 한밭대 캡스톤디자인 결과보고서",
+      "format": "HWPX",
+      "workflows": [
+        "office_planning"
+      ],
+      "publisher": "국립한밭대학교 반도체특성화교육사업단",
+      "organization": "국립한밭대학교 반도체특성화교육사업단",
+      "filename": "office_hanbat_report_2026.hwpx",
+      "source_page": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000001565/view.do?mno=&nttId=B000000169673So6zM3r",
+      "source_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=4",
+      "allowed_hosts": [
+        "www.hanbat.ac.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 하반기 공고 첨부 / 2026-09-02",
+      "publication_date": "2026-09-02",
+      "application_deadline": "2026-12-14",
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "source_download_expression": "javascript:fn_egov_downFile('FILE_000000199724Im0','4')",
+      "eligibility_scope": "해당 캡스톤디자인 과목 참여 확정 팀 대상임. 일반 기업 신청용이 아님.",
+      "sha256": "1c21fb7d589e43f55fa124225bfa88d1d2d2c15f9e3e9b9fa30af73c197f2c7e",
+      "size_bytes": 45576,
+      "download_status": "verified",
+      "final_url": "https://www.hanbat.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000199724Im0&fileSn=4",
+      "content_disposition": "attachment; filename=\"\"6. 2026Ã«ÂÂ Ã«Â°ÂÃ«ÂÂÃ¬Â²Â´Ã­ÂÂ¹Ã¬ÂÂ±Ã­ÂÂÃªÂµÂÃ¬ÂÂ¡Ã¬ÂÂ°ÃªÂµÂ¬Ã¬ÂÂ Ã¬ÂºÂ¡Ã¬ÂÂ¤Ã­ÂÂ¤Ã«ÂÂÃ¬ÂÂÃ¬ÂÂ¸ ÃªÂ²Â°ÃªÂ³Â¼Ã«Â³Â´ÃªÂ³Â Ã¬ÂÂ.hwpx\"\"",
+      "owner": "국립한밭대학교 반도체특성화교육사업단",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_kgrowth_forms_hwp_2026",
+      "title": "2026 국민성장펀드 지역전용 분야 위탁운용사 선정 제출서류·서식 (HWP)",
+      "format": "HWP",
+      "workflows": [
+        "financial_report"
+      ],
+      "publisher": "한국성장금융투자운용",
+      "organization": "한국성장금융투자운용",
+      "filename": "office_kgrowth_forms_hwp_2026.hwp",
+      "source_page": "https://www.kgrowth.or.kr/notice_view.asp?idx=1042&page=1&str_type=1&tab=1",
+      "source_url": "https://www.kgrowth.or.kr/down_file.asp?idx=1042&SelType=Notice1",
+      "allowed_hosts": [
+        "www.kgrowth.or.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026-06-01 재업로드 수정본",
+      "publication_date": "2026-06-01",
+      "application_deadline": null,
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "eligibility_scope": "해당 위탁운용사 선정 공고용 제출서식임. 일반 회사 재무공시 양식이 아님.",
+      "session_page": "https://www.kgrowth.or.kr/notice_view.asp?idx=1042&page=1&str_type=1&tab=1",
+      "sha256": "d1363aba10ac14cde1cf15d058d5772de62894ab2a35506b4dc4891d7bcb436c",
+      "size_bytes": 127488,
+      "download_status": "verified",
+      "final_url": "https://www.kgrowth.or.kr/down_file.asp?idx=1042&SelType=Notice1",
+      "content_disposition": "attachment; filename=(¾ç½Ä1) 2026 ±¹¹Î¼ºÀåÆÝµå(°£Á¢ÅõÀÚºÐ¾ß)-Áö¿ªÀü¿ë ºÐ¾ß À§Å¹¿î¿ë»ç ¼±Á¤ Á¦Ãâ¼­·ù ¹× ¼­½Ä(ÇÑ±ÛÆÄÀÏ)_Àç¾÷·Îµå.hwp",
+      "owner": "한국성장금융투자운용",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_kgrowth_forms_xlsx_2026",
+      "title": "2026 국민성장펀드 지역전용 분야 위탁운용사 선정 제출서류·서식 (XLSX)",
+      "format": "XLSX",
+      "workflows": [
+        "financial_report"
+      ],
+      "publisher": "한국성장금융투자운용",
+      "organization": "한국성장금융투자운용",
+      "filename": "office_kgrowth_forms_xlsx_2026.xlsx",
+      "source_page": "https://www.kgrowth.or.kr/notice_view.asp?idx=1042&page=1&str_type=1&tab=1",
+      "source_url": "https://www.kgrowth.or.kr/down_file.asp?idx=1042&SelType=Notice2",
+      "allowed_hosts": [
+        "www.kgrowth.or.kr"
+      ],
+      "resource_kind": "blank_form",
+      "source_kind": "public_form",
+      "use_classification": "public_submission",
+      "version_label": "2026-06-01 재업로드 수정본",
+      "publication_date": "2026-06-01",
+      "application_deadline": null,
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "eligibility_scope": "해당 위탁운용사 선정 공고용 제출서식임. 일반 회사 재무공시 양식이 아님.",
+      "session_page": "https://www.kgrowth.or.kr/notice_view.asp?idx=1042&page=1&str_type=1&tab=1",
+      "sha256": "005e964adbceaed5d98b0bd1a1aeb3c29f4378b667e1d403581021aec99ab076",
+      "size_bytes": 854902,
+      "download_status": "verified",
+      "final_url": "https://www.kgrowth.or.kr/down_file.asp?idx=1042&SelType=Notice2",
+      "content_disposition": "attachment; filename=(¾ç½Ä2) 2026 ±¹¹Î¼ºÀåÆÝµå(°£Á¢ÅõÀÚºÐ¾ß)-Áö¿ªÀü¿ë ºÐ¾ß À§Å¹¿î¿ë»ç ¼±Á¤ Á¦Ãâ¼­·ù ¹× ¼­½Ä(¿¢¼¿ÆÄÀÏ)_Àç¾÷·Îµå.xlsx",
+      "owner": "한국성장금융투자운용",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_posco_report_2025",
+      "title": "포스코인터내셔널 2025 지속가능경영보고서 (국문)",
+      "format": "PDF",
+      "workflows": [
+        "office_planning"
+      ],
+      "publisher": "포스코인터내셔널",
+      "organization": "포스코인터내셔널",
+      "filename": "office_posco_report_2025.pdf",
+      "source_page": "https://www.poscointl.com/ccReport",
+      "source_url": "https://www.poscointl.com/download/2025%20POSCO%20International%20Sustainability%20Report(KOR)(f).pdf?path=esg",
+      "allowed_hosts": [
+        "www.poscointl.com"
+      ],
+      "resource_kind": "layout_reference",
+      "source_kind": "published_report",
+      "use_classification": "reference_report",
+      "version_label": "공식 사이트 2025 보고서 항목",
+      "publication_date": null,
+      "application_deadline": null,
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:27:47.678280+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "관찰된 공식 원본임. 기관별 대상·최신 개정·서명·필수 첨부 요건을 별도 확인해야 함. 사내 공통 내부 양식으로 인증하지 않음.",
+      "sha256": "bd6e7a212f5102cb9fed373144525a6ff6263928cf9765aa570d95780c018184",
+      "size_bytes": 7546888,
+      "download_status": "verified",
+      "final_url": "https://www.poscointl.com/download/2025%20POSCO%20International%20Sustainability%20Report(KOR)(f).pdf?path=esg",
+      "content_disposition": "attachment;filename=\"\"",
+      "owner": "포스코인터내셔널",
+      "original_directory": "data/public_templates/office",
+      "domain": "office_finance"
+    },
+    {
+      "id": "office_treasury_voucher",
+      "filename": "office_treasury_voucher.pdf",
+      "format": "PDF",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160254269",
+      "source_page": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=009472",
+      "owner": "법제처 국가법령정보센터",
+      "title": "[별지 제13호서식] 지출결의서[일반]",
+      "domain": "office_finance",
+      "office_workflow": "daily_approval",
+      "form_version": "현행 본문 시행 2026-01-02",
+      "rule_effective_date": "2026-01-02",
+      "version_status": "observed_statutory_attachment",
+      "sha256": "55c603d3b0acd1aa2880065f1090d9ca739069725f44ad725f1bc2962a6d9bf5",
+      "size_bytes": 68026,
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "checked_at": "2026-10-03",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 법정 양식. 개별 제출 요건과 최신 개정 여부는 제출 기관에서 확인 필요함."
+      },
+      "legal_compliance_certified": false,
+      "internal_forms_verified": false,
+      "fill_verified": false,
+      "profile_id": "office_treasury_voucher",
+      "full_form_filled": false,
+      "submission_ready": false,
+      "original_directory": "data/public_templates/office",
+      "workflows": [
+        "daily_approval"
+      ],
+      "publisher": "법제처 국가법령정보센터",
+      "organization": "법제처 국가법령정보센터",
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "version_label": "현행 본문 시행 2026-01-02",
+      "use_classification": "statutory_submission",
+      "company_internal": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "application_status": "not_applicable",
+      "compatibility_status": "unverified",
+      "notes": "법제처에서 관찰한 법정 제출 양식. 현행 법령 본문 시행일과 양식 인쇄 개정일은 별도이며 실제 제출 요건을 인증하지 않음.",
+      "profile_verification": {
+        "sample_fill_verified": true,
+        "full_form_filled": false
+      }
+    },
+    {
+      "id": "office_medical_balance",
+      "filename": "office_medical_balance.pdf",
+      "format": "PDF",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=102213095",
+      "source_page": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=009552",
+      "owner": "법제처 국가법령정보센터",
+      "title": "[별지 제1호서식] 재무상태표",
+      "domain": "office_finance",
+      "office_workflow": "financial_report",
+      "form_version": "현행 본문 시행 2021-03-05",
+      "rule_effective_date": "2021-03-05",
+      "version_status": "observed_statutory_attachment",
+      "sha256": "7c352ef38a8d1230c64b7ee5a5c773b75e47171d1f589d0121cbd6ab47695e21",
+      "size_bytes": 34446,
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "checked_at": "2026-10-03",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 법정 양식. 개별 제출 요건과 최신 개정 여부는 제출 기관에서 확인 필요함."
+      },
+      "legal_compliance_certified": false,
+      "internal_forms_verified": false,
+      "fill_verified": false,
+      "profile_id": "office_medical_balance",
+      "full_form_filled": false,
+      "submission_ready": false,
+      "original_directory": "data/public_templates/office",
+      "workflows": [
+        "financial_report"
+      ],
+      "publisher": "법제처 국가법령정보센터",
+      "organization": "법제처 국가법령정보센터",
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "version_label": "현행 본문 시행 2021-03-05",
+      "use_classification": "statutory_submission",
+      "company_internal": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "application_status": "not_applicable",
+      "compatibility_status": "unverified",
+      "notes": "법제처에서 관찰한 법정 제출 양식. 현행 법령 본문 시행일과 양식 인쇄 개정일은 별도이며 실제 제출 요건을 인증하지 않음.",
+      "profile_verification": {
+        "sample_fill_verified": true,
+        "full_form_filled": false
+      }
+    },
+    {
+      "owner": "Robert Bosch GmbH",
+      "title": "Change Proposal Form — CPF",
+      "source_page": "https://www.bosch.com/company/supply-chain/information-for-business-partners/",
+      "source_url": "https://assets.bosch.com/media/global/bosch_group/purchasing_and_logistics/information_for_business_partners/downloads/quality_docs/specific_regulations/change-proposal-form.pptx",
+      "format": "PPTX",
+      "sha256": "8807db0414e9ea983a13353d4d6144bc9b98f22230ee32119e184f6a8b3caeb4",
+      "size_bytes": 1190308,
+      "checked_at": "2026-10-02T17:34:40.038604+00:00",
+      "id": "office_bosch_change_proposal",
+      "filename": "office_bosch_change_proposal.pptx",
+      "company": "Robert Bosch GmbH",
+      "affiliate": "Robert Bosch GmbH",
+      "company_aliases": [
+        "보쉬",
+        "Bosch"
+      ],
+      "allowed_hosts": [
+        "assets.bosch.com"
+      ],
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "company_public_submission",
+      "company_internal": false,
+      "internal_forms_verified": false,
+      "korean_entity_employment_verified": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "original_directory": "data/public_templates/office",
+      "language": "en",
+      "license": {
+        "status": "unknown",
+        "redistribution_permitted": false,
+        "usage": "공식 공개 원본 내부 열람·검토용. 원본 재배포 허용은 확인하지 않음."
+      },
+      "notes": "공개 업무 제출 서식이며 국내 법인 근무 양식이나 비공개 사내양식 전수 호환을 인증하지 않음. 서명·승인·자격은 직접 확인해야 함.",
+      "mapping_analysis": {
+        "supported": true,
+        "field_count": 42,
+        "render_mode": null,
+        "warnings": [
+          "슬라이드 크기·글꼴·표·테마·그림은 보존함. 기입 분량에 따른 넘침은 PowerPoint에서 확인해야 함"
+        ],
+        "source_sha256": "8807db0414e9ea983a13353d4d6144bc9b98f22230ee32119e184f6a8b3caeb4"
+      },
+      "profile_id": "office_bosch_change_proposal",
+      "publisher": "Robert Bosch GmbH",
+      "organization": "Robert Bosch GmbH",
+      "workflows": [
+        "industrial_quality"
+      ],
+      "version_label": "원본 문서 V3.2 / 2024-08-27",
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "application_status": "not_applicable",
+      "reused_from_catalog": "international",
+      "origin_id": "international_bosch_change_proposal",
+      "profile_verification": {
+        "sample_fill_verified": true,
+        "full_form_filled": false
+      },
+      "reused_original_directory": "data/public_templates/international",
+      "domain": "office_finance"
+    }
+  ],
+  "limitations": [
+    "공개 원본 다운로드 확인은 전체 기입·양식 보존·실제 제출 적합성 인증과 별개임.",
+    "대학 및 금융기관의 특정 사업·대상용 서식을 모든 회사 공통 내부 품의서로 간주하지 않음.",
+    "완성된 POSCO 보고서는 레이아웃·표현 참고자료이며 빈 양식으로 기입하지 않음.",
+    "전자서명·직인·개인정보·담당자·동의·법적 책임 항목은 사용자 확인 및 직접 입력이 필요함."
+  ]
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "tagged_actual_protocol_control",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 81,
+      "context_end": 137
+    },
+    "expected_qualified": true
+  },
+  {
+    "name": "tagged_guide_FDA E2F Guideline",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "FDA E2F Guideline\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 45,
+      "context_end": 101
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "tagged_guide_TABLE OF CONTENTS",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "TABLE OF CONTENTS\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 45,
+      "context_end": 101
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "tagged_guide_Sample DSUR",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "Sample DSUR\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 39,
+      "context_end": 95
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "tagged_guide_임상시험 작성 가이드",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "임상시험 작성 가이드\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 39,
+      "context_end": 95
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "missing_sha",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 27,
+      "context_end": 83
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "user_origin_with_regular_filename",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 27,
+      "context_end": 83,
+      "source_origin": "user_input"
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "unknown_page",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": null,
+      "text": "SyntheticDrugA study objectives remain under evaluation.",
+      "context_text": "자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA study objectives remain under evaluation.",
+      "context_start": 27,
+      "context_end": 83
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "missing_exact_context",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA study objectives remain under evaluation."
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "tagged_selected_comparator_other_trial_product",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA is the comparator; SyntheticDrugB is the investigational drug.",
+      "context_text": "자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA is the comparator; SyntheticDrugB is the investigational drug.",
+      "context_start": 27,
+      "context_end": 104
+    },
+    "expected_qualified": false
+  },
+  {
+    "name": "tagged_other_trial_under_protocol_identity",
+    "source": {
+      "filename": "independent-source.pdf",
+      "source_id": "SLiteralIndependent",
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "page": 1,
+      "text": "SyntheticDrugA primary objective in Study OTHER-0001 is exploratory.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\n자료 유형: 임상시험계획서\n항목: 임상시험 목적\nSyntheticDrugA primary objective in Study OTHER-0001 is exploratory.",
+      "context_start": 81,
+      "context_end": 149
+    },
+    "expected_qualified": false
+  }
+]

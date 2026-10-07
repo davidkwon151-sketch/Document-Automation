@@ -1,0 +1,13 @@
+#sales-status{padding:12px 17px;margin:20px 0 26px;background:#eaf3fa;border-left:3px solid #2980bf;border-radius:6px;color:#285372;font-size:14px}
+#sales-status.error{background:#fff0f0;border-color:#bd3b3b;color:#8b2b2b}
+#sales-requests article{border:1px solid var(--line);border-radius:10px;padding:16px;margin:14px 0;background:#fff}
+#sales-requests h3{font-size:16px;margin:0 0 8px}
+#sales-requests .pending{color:#9b5c16;font-weight:700}
+#sales-requests blockquote{border-left:3px solid #a8cde3;background:#f4f9fc;padding:10px 14px;margin:10px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+#sales-requests small{display:block;color:var(--muted);overflow-wrap:anywhere}
+#sales-files>p{font-size:13px;color:var(--muted)}
+#sales-confirmations details{padding:12px;border:1px solid var(--line);border-radius:8px;margin:10px 0}
+#sales-review{padding:14px;margin:20px 0;border-left:3px solid #246c9a;background:#eff6fa}
+#sales-review.error{border-color:#b84141;background:#fff1f1}
+#sales-documents{padding:14px 0}
+#sales-reply{min-height:260px}

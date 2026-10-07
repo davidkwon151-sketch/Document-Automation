@@ -1,0 +1,97 @@
+[
+  {
+    "name": "other_study_same_quote_Study OTHER-0001",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA primary objective in Study OTHER-0001 is exploratory.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\nSyntheticDrugA primary objective in Study OTHER-0001 is exploratory.\n3. Study Design\nOther text",
+      "context_start": 54,
+      "context_end": 122
+    },
+    "kwargs": {
+      "expected_study": "TEST-0001"
+    },
+    "field_label": "임상시험 목적"
+  },
+  {
+    "name": "other_study_same_quote_study OTHER-0001",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA primary objective in study OTHER-0001 is exploratory.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\nSyntheticDrugA primary objective in study OTHER-0001 is exploratory.\n3. Study Design\nOther text",
+      "context_start": 54,
+      "context_end": 122
+    },
+    "kwargs": {
+      "expected_study": "TEST-0001"
+    },
+    "field_label": "임상시험 목적"
+  },
+  {
+    "name": "other_study_same_quote_임상시험 번호: OTHER-0001",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA primary objective in 임상시험 번호: OTHER-0001 is exploratory.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\nSyntheticDrugA primary objective in 임상시험 번호: OTHER-0001 is exploratory.\n3. Study Design\nOther text",
+      "context_start": 54,
+      "context_end": 125
+    },
+    "kwargs": {
+      "expected_study": "TEST-0001"
+    },
+    "field_label": "임상시험 목적"
+  },
+  {
+    "name": "other_product_same_quote_default",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA is the comparator. SyntheticDrugB is the investigational drug.",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\nSyntheticDrugA is the comparator. SyntheticDrugB is the investigational drug.\n3. Study Design\nOther text",
+      "context_start": 54,
+      "context_end": 131
+    },
+    "kwargs": {},
+    "field_label": "임상시험 목적"
+  },
+  {
+    "name": "other_product_explicit_label_default",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA is the comparator.\nProduct name: SyntheticDrugB",
+      "context_text": "Clinical Study Protocol TEST-0001\n2. Study Objectives\nSyntheticDrugA is the comparator.\nProduct name: SyntheticDrugB\n3. Study Design\nOther text",
+      "context_start": 54,
+      "context_end": 116
+    },
+    "kwargs": {},
+    "field_label": "임상시험 목적"
+  },
+  {
+    "name": "dsur_other_period_sentence",
+    "source": {
+      "filename": "independent-synthetic.pdf",
+      "page": 1,
+      "document_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "text": "SyntheticDrugA report data cover 2024-01-01 through 2024-12-31.",
+      "context_text": "Development Safety Update Report\nDSUR number: 4\nReporting period: 2025-01-01 to 2025-12-31\n1. Introduction\nSyntheticDrugA report data cover 2024-01-01 through 2024-12-31.\n2. Worldwide Marketing Approval Status\nOther text",
+      "context_start": 107,
+      "context_end": 170
+    },
+    "kwargs": {
+      "expected_period": [
+        "2025-01-01",
+        "2025-12-31"
+      ]
+    },
+    "field_label": "서론"
+  }
+]

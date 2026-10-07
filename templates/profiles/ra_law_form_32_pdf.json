@@ -1,0 +1,443 @@
+{
+  "format": "pdf",
+  "citation_mode": "sidecar",
+  "fields": [
+    {
+      "id": "ra:제품명 성분명",
+      "label": "제품명 성분명",
+      "kind": "pdf_overlay",
+      "value_key": "제품명 성분명",
+      "suggested_mapping": "제품명 성분명",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 192.0,
+      "y": 96.0,
+      "width": 85.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "evidence_role": "product_name"
+    },
+    {
+      "id": "ra:임상시험 제목",
+      "label": "임상시험 제목",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 제목",
+      "suggested_mapping": "임상시험 제목",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 388.0,
+      "y": 96.0,
+      "width": 114.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 16,
+      "location_verified": true
+    },
+    {
+      "id": "ra:한국 임상시험 승인 연월일",
+      "label": "한국 임상시험 승인 연월일",
+      "kind": "pdf_overlay",
+      "value_key": "한국 임상시험 승인 연월일",
+      "suggested_mapping": "한국 임상시험 승인 연월일",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 192.0,
+      "y": 134.0,
+      "width": 85.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "date",
+        "date_formats": [
+          "YYYY-MM-DD",
+          "YYYY.MM.DD"
+        ]
+      }
+    },
+    {
+      "id": "ra:정기보고 차수",
+      "label": "정기보고 차수",
+      "kind": "pdf_overlay",
+      "value_key": "정기보고 차수",
+      "suggested_mapping": "정기보고 차수",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 192.0,
+      "y": 185.0,
+      "width": 85.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 1
+      }
+    },
+    {
+      "id": "ra:임상시험 승인받은 자 명칭",
+      "label": "임상시험 승인받은 자 명칭",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 승인받은 자 명칭",
+      "suggested_mapping": "임상시험 승인받은 자 명칭",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 192.0,
+      "y": 218.0,
+      "width": 85.0,
+      "height": 22.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true
+    },
+    {
+      "id": "ra:임상시험 승인받은 자 소재지",
+      "label": "임상시험 승인받은 자 소재지",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 승인받은 자 소재지",
+      "suggested_mapping": "임상시험 승인받은 자 소재지",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 388.0,
+      "y": 218.0,
+      "width": 114.0,
+      "height": 22.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 16,
+      "location_verified": true
+    },
+    {
+      "id": "ra:자료 마감 시점",
+      "label": "자료 마감 시점",
+      "kind": "pdf_overlay",
+      "value_key": "자료 마감 시점",
+      "suggested_mapping": "자료 마감 시점",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 192.0,
+      "y": 253.0,
+      "width": 85.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "date",
+        "date_formats": [
+          "YYYY-MM-DD",
+          "YYYY.MM.DD"
+        ]
+      }
+    },
+    {
+      "id": "ra:보고서 제출일",
+      "label": "보고서 제출일",
+      "kind": "pdf_overlay",
+      "value_key": "보고서 제출일",
+      "suggested_mapping": "보고서 제출일",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 388.0,
+      "y": 253.0,
+      "width": 114.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 16,
+      "location_verified": true,
+      "validation": {
+        "type": "date",
+        "date_formats": [
+          "YYYY-MM-DD",
+          "YYYY.MM.DD"
+        ]
+      }
+    },
+    {
+      "id": "ra:누적 투약 임상시험 대상자 수",
+      "label": "누적 투약 임상시험 대상자 수",
+      "kind": "pdf_overlay",
+      "value_key": "누적 투약 임상시험 대상자 수",
+      "suggested_mapping": "누적 투약 임상시험 대상자 수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 315.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "evidence_unit": "명"
+      }
+    },
+    {
+      "id": "ra:허가된 국가",
+      "label": "허가된 국가",
+      "kind": "pdf_overlay",
+      "value_key": "허가된 국가",
+      "suggested_mapping": "허가된 국가",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 355.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음"
+    },
+    {
+      "id": "ra:안전성 종합 평가 요약",
+      "label": "안전성 종합 평가 요약",
+      "kind": "pdf_overlay",
+      "value_key": "안전성 종합 평가 요약",
+      "suggested_mapping": "안전성 종합 평가 요약",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 395.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음"
+    },
+    {
+      "id": "ra:중요한 위해성 요약",
+      "label": "중요한 위해성 요약",
+      "kind": "pdf_overlay",
+      "value_key": "중요한 위해성 요약",
+      "suggested_mapping": "중요한 위해성 요약",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 435.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음"
+    },
+    {
+      "id": "ra:결론",
+      "label": "결론",
+      "kind": "pdf_overlay",
+      "value_key": "결론",
+      "suggested_mapping": "결론",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 475.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음"
+    },
+    {
+      "id": "ra:비고",
+      "label": "비고",
+      "kind": "pdf_overlay",
+      "value_key": "비고",
+      "suggested_mapping": "비고",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 199.0,
+      "y": 515.0,
+      "width": 303.0,
+      "height": 30.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 120,
+      "location_verified": true,
+      "evidence_scope": "해당 임상시험과 보고기간의 승인·DSUR·안전성 원자료에 한정함. 제품 허가정보로 시험 사실을 추론하지 않음"
+    }
+  ],
+  "warnings": [
+    "정적·스캔 PDF의 원본 페이지 위에 입력함. 자동 제안 영역을 확인하거나 입력 영역을 지정해야 함",
+    "원본의 접수·발급란, 생년월일·서명·신청 구분 선택·등록자료 쪽번호·날짜 구분은 자동 기입하지 않음.",
+    "원자료의 전체 명칭·효능·용법·주의사항·안전성 문장을 임의로 줄이지 않음. 칸을 넘는 자료는 별첨 여부와 제출 요건을 담당자가 확인해야 함.",
+    "공개 제품 허가정보로 원료 제조소·DMF 자료·갱신 자격·임상시험 승인·대상자 수·안전성 결론을 생성하거나 인증하지 않음."
+  ],
+  "supported": true,
+  "source_sha256": "1f548888e09b55de1f0c0cc6933ceb8a22ce87055d4b72dcc851973cc27ab9dd",
+  "render_mode": "overlay",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.0,
+      "height": 841.0
+    },
+    {
+      "page": 2,
+      "width": 595.0,
+      "height": 841.0
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "ra_law_form_32_pdf",
+  "source_filename": "ra_law_form_32_20260305.pdf",
+  "resource_kind": "blank_form",
+  "domain": "pharmaceutical_ra",
+  "ra_workflow": "safety_management",
+  "title": "[서식 32] 임상시험용의약품에 대한 정기적인 최신 안전성정보 보고서",
+  "form_number": "32",
+  "law_effective_date": "2026-03-05",
+  "form_version": "총리령 제2100호",
+  "form_printed_revision_date": "2026-03-05",
+  "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000773&lsiSeq=284019&efYd=20260305",
+  "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105611",
+  "checked_at": "2026-10-03",
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "demo_values": {
+    "제품명 성분명": "TEST DRUG",
+    "임상시험 제목": "TEST STUDY",
+    "한국 임상시험 승인 연월일": "2026-01-15",
+    "정기보고 차수": "1",
+    "임상시험 승인받은 자 명칭": "TEST USER",
+    "임상시험 승인받은 자 소재지": "TEST ADDRESS",
+    "자료 마감 시점": "2026-09-30",
+    "보고서 제출일": "2026-10-03",
+    "누적 투약 임상시험 대상자 수": "12",
+    "허가된 국가": "미확인(시험값)\n실제 시험 근거가 필요함",
+    "안전성 종합 평가 요약": "미확인(시험값)\n실제 시험 근거가 필요함",
+    "중요한 위해성 요약": "미확인(시험값)\n실제 시험 근거가 필요함",
+    "결론": "미확인(시험값)\n실제 시험 근거가 필요함",
+    "비고": "미확인(시험값)\n실제 시험 근거가 필요함"
+  },
+  "demo_notice": "가짜 시험값으로 등록 빈 텍스트 칸만 기입한 예시임. 실제 제출용 문서가 아님. 전체 서류나 승인 상태를 증명하지 않음.",
+  "verification": {
+    "native_output": "verified_pdfium",
+    "legal_compliance_certified": false,
+    "scope": "첫 쪽의 등록 텍스트 영역을 실제 렌더로 대조함. 뒤쪽 원본 안내·첨부 목록과 모든 페이지를 보존함.",
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium",
+      "resolution_dpi": 108,
+      "reviewed_pages": [
+        1
+      ],
+      "result_png": "outputs/ra_public_form_qa/ra_law_form_32_fake_filled.png",
+      "scope": "첫 쪽의 등록 시험값만 시각 대조함. 안내문과 표 경계 보존, 시험값이 등록 빈 영역 내에 존재함. 뒤쪽 안내 페이지는 독립검사로 원문 보존을 확인함. 전체 작성·제출 적합성 인증이 아님."
+    }
+  },
+  "validation_evidence": {
+    "source_sha256": "1f548888e09b55de1f0c0cc6933ceb8a22ce87055d4b72dcc851973cc27ab9dd",
+    "source_filename": "ra_law_form_32_20260305.pdf",
+    "scope": "원본 인쇄 라벨과 단위에 근거한 값/관계 검사임. 시험값은 실제 제출용이 아니며 법적 적합성 인증이 아님.",
+    "fields": {
+      "한국 임상시험 승인 연월일": {
+        "printed_labels": [
+          "임상시험 승인 연월일",
+          "(한국)"
+        ],
+        "page": 1,
+        "location": "ra:한국 임상시험 승인 연월일"
+      },
+      "자료 마감 시점": {
+        "printed_labels": [
+          "자료 마감 시점"
+        ],
+        "page": 1,
+        "location": "ra:자료 마감 시점"
+      },
+      "보고서 제출일": {
+        "printed_labels": [
+          "보고날짜",
+          "(보고서 제출일)"
+        ],
+        "page": 1,
+        "location": "ra:보고서 제출일"
+      },
+      "정기보고 차수": {
+        "printed_labels": [
+          "해당 정기보고의 차수",
+          "(번호)"
+        ],
+        "page": 1,
+        "location": "ra:정기보고 차수"
+      },
+      "누적 투약 임상시험 대상자 수": {
+        "printed_labels": [
+          "투약받은 임상시험 대상자 수",
+          "(누적)"
+        ],
+        "page": 1,
+        "location": "ra:누적 투약 임상시험 대상자 수",
+        "evidence_unit": "명",
+        "evidence_unit_scope": "원자료 수치 대조에만 사용하는 명시적 인원 단위임. 원본 칸에 명 단위가 인쇄되었다는 뜻이 아니며 출력은 무단위 정수 그대로 유지함."
+      }
+    },
+    "relations": []
+  }
+}

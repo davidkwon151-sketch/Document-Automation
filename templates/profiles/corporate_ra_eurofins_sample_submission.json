@@ -1,0 +1,215 @@
+{
+  "format": "pdf",
+  "fields": [
+    {
+      "id": "pdf:company",
+      "label": "Company",
+      "kind": "pdf_form",
+      "value_key": "제출 회사",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "company",
+      "original_native_tooltip": "undefined",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 45,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          257.64,
+          508.56,
+          524.64,
+          522.24
+        ]
+      }
+    },
+    {
+      "id": "pdf:sender name/surname",
+      "label": "Sender Name/Surname",
+      "kind": "pdf_form",
+      "value_key": "시료 제출자",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "sender name/surname",
+      "original_native_tooltip": "undefined",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 35,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          257.64,
+          477.36,
+          524.64,
+          490.92
+        ]
+      }
+    },
+    {
+      "id": "pdf:Contact Email Address in cases of request",
+      "label": "Contact Email Address (in cases of request)",
+      "kind": "pdf_form",
+      "value_key": "연락 이메일",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Contact Email Address in cases of request",
+      "original_native_tooltip": "Contact Email Address (in cases of request",
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 55,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          257.64,
+          445.92,
+          524.64,
+          459.6
+        ]
+      }
+    },
+    {
+      "id": "pdf:Sample description1",
+      "label": "Sample Description (Monograph name if applicable) row 1",
+      "kind": "pdf_form",
+      "value_key": "제품명",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "original_field_name": "Sample description1",
+      "original_native_tooltip": "applicable",
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 90,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 2,
+        "rect": [
+          45.72,
+          335.52,
+          141.12,
+          385.44
+        ]
+      }
+    },
+    {
+      "id": "pdf:notes",
+      "label": "Notes",
+      "kind": "pdf_form",
+      "value_key": "시료 관련 메모",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "original_field_name": "notes",
+      "original_native_tooltip": null,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 180,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          180.323,
+          115.897,
+          526.781,
+          151.962
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "PDF 입력칸의 배경·테두리·크기를 유지함. 한글 표시에는 설치된 한글 TTF 글꼴을 내장하며 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함",
+    "등록한 sender 텍스트 입력칸만 시험함. 전체 필수항목·선택칸·서명·첨부요건·실제 시료 라벨 일치는 미평가함."
+  ],
+  "supported": true,
+  "source_sha256": "91cec1cc881ca4466c969a4e707ce7589bebd61a1723a9b4f54742f6e3676905",
+  "render_mode": "acroform",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.32,
+      "height": 841.92
+    },
+    {
+      "page": 2,
+      "width": 841.92,
+      "height": 595.32
+    },
+    {
+      "page": 3,
+      "width": 595.32,
+      "height": 841.92
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "corporate_ra_eurofins_sample_submission",
+  "source_filename": "eurofins_public_form.pdf",
+  "source_path": "data/public_templates/ra_cross_company/eurofins_public_form.pdf",
+  "resource_kind": "blank_form",
+  "source_kind": "public_form",
+  "corporate_form": true,
+  "company_internal": false,
+  "private_internal_template_verified": false,
+  "company": "Eurofins BioPharma Product Testing Sweden AB",
+  "company_role": "public_form_issuer",
+  "owner": "Eurofins BioPharma Product Testing Sweden AB",
+  "domain": "pharmaceutical_ra",
+  "use_classification": "official_public_pharma_testing_submission",
+  "citation_mode": "sidecar",
+  "checked_at": "2026-10-03",
+  "source_url": "https://cdnmedia.eurofins.com/european-east/media/2854407/ebpt-sweden-sample-submission-form_ifyllbar.pdf",
+  "source_page": "https://cdnmedia.eurofins.com/european-east/media/2854407/ebpt-sweden-sample-submission-form_ifyllbar.pdf",
+  "current_version_verified": false,
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "demo_values": {
+    "제출 회사": "TEST ONLY - NOT FOR SUBMISSION",
+    "시료 제출자": "TEST USER - NOT FOR SUBMISSION",
+    "연락 이메일": "test@example.invalid",
+    "제품명": "TEST SAMPLE - NOT FOR SUBMISSION",
+    "시료 관련 메모": "TEST ONLY - NO SAMPLE SENT"
+  },
+  "demo_notice": "실제 제출용이 아님. 공식 공개 기업 시험/규제지원 양식의 가짜 부분 기입 QA임. 실제 제출·시료 발송·거래·주문·승인·서명·GMP 적합성 주장 아님.",
+  "form_version": "원문 버전 미표기",
+  "real_public_fact_mapping": {
+    "eligible": true,
+    "keys": [
+      "제품명"
+    ],
+    "scope": "제품명 원문 대조 QA만 가능하며 실제 시료·판매·거래 관계를 증명하지 않음"
+  },
+  "profile_verification": {
+    "sample_fill_verified": true,
+    "synthetic_qa": true,
+    "independent_output_check": "passed",
+    "full_submission_ready": false,
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium with native form appearance",
+      "render_scale": 1.5,
+      "original_pages_reviewed": 3,
+      "synthetic_output_pages_reviewed": 3,
+      "real_identity_output_pages_reviewed": 9,
+      "scope": "전체 페이지 PNG 연락시트에서 원문·선택 기입 위치·전체 제품명·잘림/겹침 여부를 확인함. 실제 Acrobat/Office 앱 또는 제출 적합성 검증 아님.",
+      "limitations": [
+        "서명·시험의뢰 결정·실제 시료 라벨 일치·법적 접수 요건은 미평가",
+        "원본 최신 버전 여부와 비공개 내부 양식 여부는 검증하지 않음"
+      ],
+      "source_contact_sheet": "outputs/ra-cross-company/templates/eurofins_source_contact.png",
+      "synthetic_contact_sheet": "outputs/ra-cross-company/templates/eurofins_synthetic_partial_contact.png"
+    },
+    "actual_llm_calls": 0
+  }
+}

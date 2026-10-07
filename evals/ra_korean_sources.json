@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-02T20:19:49.455572+00:00",
+  "scope": "한국어 공식 공개 제품 설명서 2개사의 스냅샷. 한미약품은 문서 발행사, 한국엠에스디는 PDF 인쇄 수입자 역할로 확인함. 현재 국내 허가·변경·제출 적합성 인증은 아님.",
+  "jurisdictions": [
+    "KR"
+  ],
+  "source_count": 2,
+  "company_count": 2,
+  "fact_count": 11,
+  "downloaded_pdf_count": 7,
+  "excluded_pdf_count": 5,
+  "model_training_performed": false,
+  "live_llm_evaluated": false,
+  "sources": [
+    {
+      "id": "ra-kr-hanmiflu-75",
+      "title": "한미플루 캡슐 30mg·45mg·75mg 공통 설명서 — 75mg 선택",
+      "source_page": "https://www.hanmi.co.kr/business/product/finder/detail-1245.hm?prodSeq=1245",
+      "source_url": "https://common.hanmi.co.kr/upfile/ces/product/40bba798-dedc-4ec2-8768-201a152df463.pdf",
+      "final_url": "https://common.hanmi.co.kr/upfile/ces/product/40bba798-dedc-4ec2-8768-201a152df463.pdf",
+      "link_observation": {
+        "label": "제품설명서 다운로드",
+        "method": "공식 제품 페이지 a[href] 직접 관찰"
+      },
+      "publisher": {
+        "name": "한미약품(주)",
+        "official_domain": "hanmi.co.kr"
+      },
+      "company": {
+        "name": "한미약품(주)",
+        "role": "document_publisher",
+        "exact_quote": "한미약품(주)",
+        "page": 2,
+        "role_heading_page": 2,
+        "role_heading_quote": "【제품문의처】",
+        "role_exact_quote": "【제품문의처】  \n한미약품(주) 소비자상담실 : 080-916-9000(수신자요금부담)",
+        "official_domain": "hanmi.co.kr"
+      },
+      "product_name": "한미플루 75mg",
+      "product_variant": "한미플루 75mg",
+      "visual_full_title": "한미플루 캡슐 30mg 45mg 75mg (오셀타미비르)",
+      "visual_full_title_location": {
+        "page": 1,
+        "region": "좌측 상단 제품명 그래픽",
+        "automated_quote_denominator_included": false
+      },
+      "document_revision_date": "2024-09-03",
+      "document_revision_exact_quote": "설명서 개정연월일 : 2024. 09. 03",
+      "document_revision_page": 2,
+      "version_label": "설명서 개정 2024-09-03 / Ver.02059009",
+      "currentness": {
+        "status": "not_verified",
+        "latest_revision_verified": false,
+        "reason": "현재 공식 페이지에서 제공하는 2024-09-03 개정 PDF 스냅샷이며 이후 개정·허가 상태는 조회하지 않음"
+      },
+      "scope": {
+        "intended_use": "한국어 공개 설명서 선택 원문·수치·출력 보존 검증용",
+        "product_variant": "한미플루 75mg",
+        "dosage_form": "경질캡슐제",
+        "strength": "75mg",
+        "product_scope": "30mg·45mg·75mg 공통 PDF에서 75mg 본문 라벨과 해당 성분·성상만 선택함. 표의 소아 체중별 용량은 사용하지 않음.",
+        "name_scope": "본문에서 자동 원문 대조 가능한 75mg 완전 라벨을 선택함. 상단 그래픽 전체 제목은 이미지로 확인했으나 텍스트 인코딩이 일부 깨져 별도 기록함. 허가 제품명 확정은 아님.",
+        "company_role_scope": "공식 게시 도메인과 PDF의 제품문의처 회사명을 확인함. PDF의 제조·판매 역할 표제가 없으므로 제조원·판매원으로 추정하지 않음.",
+        "korean_authorisation_verified": false,
+        "foreign_authorisation_only": false,
+        "submission_ready": false,
+        "regulatory_compliance_certified": false,
+        "missing_requested_fields": [
+          "사용기간: 숫자로 된 유효기간이 PDF에 명시되지 않음"
+        ],
+        "clinical_scope": "선택 용법은 인플루엔자 감염 치료의 성인 및 13세 이상 청소년 문단임. 예방·소아·신장애 조절 용량을 합치지 않음."
+      },
+      "filename": "hanmi_hanmiflu.pdf",
+      "path": "data/ra_public_validation/kr/hanmi_hanmiflu.pdf",
+      "format": "PDF",
+      "sha256": "f419275bc01703dada63d5e56ff6d506d508f10098844db3da2544ddfbd4c4b5",
+      "size_bytes": 720100,
+      "page_count": 2,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "resource_kind": "published_product_information",
+      "jurisdiction": "KR",
+      "language": "ko",
+      "model_training_performed": false,
+      "original_encrypted": false,
+      "public_read_access": {
+        "opened_without_supplied_password": true,
+        "protection_removed": false,
+        "source_reexported": false,
+        "scope": "일반 공개 읽기만 수행함. 암호 제공·보호 해제·원본 수정은 하지 않음"
+      },
+      "live_llm_evaluated": false,
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "facts": [
+        {
+          "field_key": "제품명",
+          "source_field_label": "제품명",
+          "value": "한미플루 75mg",
+          "exact_quote": "한미플루 75mg",
+          "page": 1,
+          "role": "product_name",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "한미플루 75mg"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "source_field_label": "원료약품 및 분량",
+          "value": "한미플루 75mg\n유효성분 : 오셀타미비르(별규) …………………………………………………………… 75mg\n기타 첨가제 : 전호화전분, 캡슐, 크로스카르멜로오스나트륨, 타르타르산, 탤크, 포비돈, \n푸마르산스테아릴나트륨",
+          "exact_quote": "한미플루 75mg\n유효성분 : 오셀타미비르(별규) …………………………………………………………… 75mg\n기타 첨가제 : 전호화전분, 캡슐, 크로스카르멜로오스나트륨, 타르타르산, 탤크, 포비돈, \n푸마르산스테아릴나트륨",
+          "page": 1,
+          "role": "selected_75mg_capsule_complete_composition",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "한미플루 75mg",
+          "complete_selected_paragraph": true,
+          "unit_scope": {
+            "denominator": "1캡슐 중",
+            "heading_page": 1,
+            "heading_exact_quote": "【원료약품의 분량】 1캡슐 중"
+          },
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "성상",
+          "source_field_label": "성상",
+          "value": "흰색 내지 연한 노란색의 가루가 충전된 상부 연노란색, 하부 흰색의 \n경질캡슐제",
+          "exact_quote": "흰색 내지 연한 노란색의 가루가 충전된 상부 연노란색, 하부 흰색의 \n경질캡슐제",
+          "page": 1,
+          "role": "selected_75mg_capsule_pharmaceutical_appearance",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "한미플루 75mg",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "source_field_label": "저장방법",
+          "value": "기밀용기, 실온(1~30℃)보관",
+          "exact_quote": "기밀용기, 실온(1~30℃)보관",
+          "page": 2,
+          "role": "sealed_container_storage_temperature",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "한미플루 75mg",
+          "missing_expiry_duration": true
+        },
+        {
+          "field_key": "용법 용량",
+          "source_field_label": "용법·용량",
+          "value": "1) 성인 및 13세 이상의 청소년 : 오셀타미비르로서 75mg을 1일 2회, 5일간 경구투여 \n한다. 캡슐을 삼키기 어려운 성인 및 13세 이상의 청소년은 이 약 현탁용 분말을 \n이용하여 투약한다.",
+          "exact_quote": "1) 성인 및 13세 이상의 청소년 : 오셀타미비르로서 75mg을 1일 2회, 5일간 경구투여 \n한다. 캡슐을 삼키기 어려운 성인 및 13세 이상의 청소년은 이 약 현탁용 분말을 \n이용하여 투약한다.",
+          "page": 1,
+          "role": "influenza_treatment_adult_and_adolescent_13_plus",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "한미플루 75mg",
+          "complete_selected_paragraph": true,
+          "clinical_scope": {
+            "population": "성인 및 13세 이상의 청소년",
+            "route": "경구",
+            "indication": "인플루엔자 A 및 인플루엔자 B 바이러스 감염증 치료",
+            "regimen": "75mg을 1일 2회, 5일간",
+            "prevention_included": false,
+            "renal_adjustment_included": false,
+            "heading_page": 1,
+            "heading_exact_quote": "1. 인플루엔자 A 및 인플루엔자 B 바이러스 감염증 : 인플루엔자 증상이 발현된 첫째 또는 \n둘째 날에 치료를 시작한다. 이 약은 음식물 섭취와 관계없이 투여할 수 있으며 일부 \n환자에서는 음식물과 함께 복용 시 내약성이 호전될 수 있다."
+          },
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        }
+      ],
+      "visual_review": {
+        "engine": "pypdfium2",
+        "pages": [
+          1,
+          2
+        ],
+        "status": "human_inspected",
+        "scope": "선택 원문과 회사 역할이 있는 전체 페이지를 이미지로 대조함"
+      },
+      "collection_validation": {
+        "sha256_verified": true,
+        "size_verified": true,
+        "page_count_verified": true,
+        "exact_quote_verified_count": 5,
+        "company_name_exact_quote_verified": true,
+        "company_role_exact_quote_verified": true,
+        "document_revision_exact_quote_verified": true,
+        "independent_reader": "pypdf",
+        "production_parser_checked": true,
+        "production_parser_passed_at_collection": false,
+        "production_parser_issue_at_collection": "2단 편집 PDF의 운영 pdfplumber 읽기 순서가 열간 문장을 섞음",
+        "scope": "독립 원문·페이지 판독과 이미지 대조 결과이며 운영 파서·LLM·양식 출력 전체 합격 판정과 구분함"
+      }
+    },
+    {
+      "id": "ra-kr-aerius-5",
+      "title": "에리우스®정 (데스로라타딘(미분화)) — 한국어 제품 설명서",
+      "source_page": "https://www.organon.com/korea/home/",
+      "source_url": "https://www.organon.com/korea/wp-content/uploads/sites/15/2021/06/12_%E2%94%90i%E2%95%95%E2%94%90%E2%88%9E%E2%95%9C%E2%95%91o%CF%84%E2%94%B4n_AERIUS_LPC_20210126.pdf",
+      "final_url": "https://www.organon.com/korea/wp-content/uploads/sites/15/2021/06/12_%E2%94%90i%E2%95%95%E2%94%90%E2%88%9E%E2%95%9C%E2%95%91o%CF%84%E2%94%B4n_AERIUS_LPC_20210126.pdf",
+      "link_observation": {
+        "label": "에리우스®정 (데스로라타딘)",
+        "method": "공식 제품 목록 a[href] 직접 관찰; 원래 href를 URL percent-encoding하여 보존함"
+      },
+      "publisher": {
+        "name": "한국오가논",
+        "official_domain": "organon.com",
+        "scope": "공식 웹 게시사이며 PDF에 인쇄된 과거 수입자와 구분함"
+      },
+      "company": {
+        "name": "한국엠에스디(주)",
+        "role": "importer",
+        "exact_quote": "한국엠에스디(주)",
+        "page": 3,
+        "role_heading_page": 3,
+        "role_heading_quote": "수입자",
+        "role_exact_quote": "수입자 \n한국엠에스디(주)"
+      },
+      "product_name": "에리우스®정 (데스로라타딘(미분화))",
+      "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+      "document_revision_date": "2021-01-26",
+      "document_revision_page": 3,
+      "document_revision_exact_quote": "작성일자   2021 년 01 월 26 일",
+      "version_label": "PDF 작성 2021-01-26",
+      "currentness": {
+        "status": "not_verified",
+        "latest_revision_verified": false,
+        "reason": "현재 한국오가논 공식 게시 링크에서 제공되는 2021-01-26 작성 PDF이며 회사 역할·허가·제품정보의 현재성은 별도 미검증"
+      },
+      "scope": {
+        "intended_use": "한국어 공개 설명서 선택 원문·수치·출력 보존 검증용",
+        "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+        "dosage_form": "정제",
+        "strength": "5 mg",
+        "product_scope": "단일 정제 설명서의 전체 제품명·성분·성상·보관·사용기한 및 성인/12세 이상 용법 문단만 선택함. 106 mg 정제 전체 질량과 5 mg 유효성분 질량을 구분함.",
+        "company_role_scope": "PDF p3 수입자 한국엠에스디(주)의 인쇄 역할만 확인함. 게시사 한국오가논과 구분하며 현재 수입자·제조원·신청인으로 확정하지 않음.",
+        "korean_authorisation_verified": false,
+        "foreign_authorisation_only": false,
+        "submission_ready": false,
+        "regulatory_compliance_certified": false,
+        "missing_requested_fields": [
+          "사용기한은 외부포장 표기라고만 적혀 있으며 숫자로 된 유효기간은 없음"
+        ],
+        "clinical_scope": "성인 및 12세 이상 소아의 경구투여 문단임. 12세 미만·신장애·간장애 용량을 임의 추가하지 않음."
+      },
+      "filename": "organon_aerius.pdf",
+      "path": "data/ra_public_validation/kr/organon_aerius.pdf",
+      "format": "PDF",
+      "sha256": "cb1da99a5dc76172737518ba28d9e8ad62a7fd642859a92d94dd7be9fc09d80c",
+      "size_bytes": 97843,
+      "page_count": 3,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "resource_kind": "published_product_information",
+      "jurisdiction": "KR",
+      "language": "ko",
+      "model_training_performed": false,
+      "original_encrypted": true,
+      "public_read_access": {
+        "opened_without_supplied_password": true,
+        "protection_removed": false,
+        "source_reexported": false,
+        "scope": "일반 공개 읽기만 수행함. 암호 제공·보호 해제·원본 수정은 하지 않음"
+      },
+      "live_llm_evaluated": false,
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "facts": [
+        {
+          "field_key": "제품명",
+          "source_field_label": "제품명",
+          "value": "에리우스®정 \n(데스로라타딘(미분화))",
+          "exact_quote": "에리우스®정 \n(데스로라타딘(미분화))",
+          "page": 1,
+          "role": "product_name",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "source_field_label": "원료약품 및 분량",
+          "value": "이 약 1 정(약 106 mg) 중, \n유효성분: 데스로라타딘(미분화)(별규)...................... 5 mg \n첨가제(타르색소): 청색 2 호 알루미늄레이크 \n기타첨가제: 미결정셀룰로오스, 백납, 오파드라이클리어(YS-1-19025A), 오파드라이 II 파란색(32B10817), 옥수수전분, 인산일수소칼슘이수화물,  \n카르나우바납, 탤크",
+          "exact_quote": "이 약 1 정(약 106 mg) 중, \n유효성분: 데스로라타딘(미분화)(별규)...................... 5 mg \n첨가제(타르색소): 청색 2 호 알루미늄레이크 \n기타첨가제: 미결정셀룰로오스, 백납, 오파드라이클리어(YS-1-19025A), 오파드라이 II 파란색(32B10817), 옥수수전분, 인산일수소칼슘이수화물,  \n카르나우바납, 탤크",
+          "page": 1,
+          "role": "complete_per_tablet_composition",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+          "complete_selected_paragraph": true,
+          "unit_scope": {
+            "denominator": "1 정",
+            "tablet_mass": "약 106 mg",
+            "active_ingredient_mass": "5 mg"
+          },
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "성상",
+          "source_field_label": "성상",
+          "value": "연한 청색의 양면이 볼록한 원형 정제.",
+          "exact_quote": "연한 청색의 양면이 볼록한 원형 정제.",
+          "page": 1,
+          "role": "pharmaceutical_appearance",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "효능 효과",
+          "source_field_label": "효능·효과",
+          "value": "다음 질환의 증상 완화 \n1. 알레르기성 비염  \n2. 만성 특발성 두드러기",
+          "exact_quote": "다음 질환의 증상 완화 \n1. 알레르기성 비염  \n2. 만성 특발성 두드러기",
+          "page": 1,
+          "role": "complete_selected_indications",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "용법 용량",
+          "source_field_label": "용법·용량",
+          "value": "성인 및 12 세 이상의 소아:  \n식사에 관계없이 1 회 1 정 (데스로라타딘으로서 5 mg), 1 일 1 회 경구투여한다",
+          "exact_quote": "성인 및 12 세 이상의 소아:  \n식사에 관계없이 1 회 1 정 (데스로라타딘으로서 5 mg), 1 일 1 회 경구투여한다",
+          "page": 1,
+          "role": "adult_and_child_12_plus_oral_recommended_dose",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+          "complete_selected_paragraph": true,
+          "clinical_scope": {
+            "population": "성인 및 12 세 이상의 소아",
+            "route": "경구",
+            "dose": "1 회 1 정 (데스로라타딘으로서 5 mg)",
+            "frequency": "1 일 1 회",
+            "under_12_included": false
+          },
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "source_field_label": "저장방법·사용기한",
+          "value": "2~30℃보관, 기밀용기 \n \n□ 사용기한 \n외부포장에 표기",
+          "exact_quote": "2~30℃보관, 기밀용기 \n \n□ 사용기한 \n외부포장에 표기",
+          "page": 2,
+          "role": "sealed_container_storage_and_external_pack_expiry",
+          "quote_match": "whitespace_normalized_exact",
+          "product_variant": "에리우스®정 (데스로라타딘(미분화))",
+          "complete_selected_paragraph": true,
+          "missing_expiry_duration": true
+        }
+      ],
+      "visual_review": {
+        "engine": "pypdfium2",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "status": "human_inspected",
+        "scope": "선택 원문과 회사 역할이 있는 전체 페이지를 이미지로 대조함"
+      },
+      "collection_validation": {
+        "sha256_verified": true,
+        "size_verified": true,
+        "page_count_verified": true,
+        "exact_quote_verified_count": 6,
+        "company_name_exact_quote_verified": true,
+        "company_role_exact_quote_verified": true,
+        "document_revision_exact_quote_verified": true,
+        "independent_reader": "pypdf",
+        "production_parser_checked": true,
+        "production_parser_passed_at_collection": false,
+        "production_parser_issue_at_collection": "일반 공개 읽기가 허용되는 원본의 is_encrypted 플래그를 엄격 검사에서 차단함",
+        "scope": "독립 원문·페이지 판독과 이미지 대조 결과이며 운영 파서·LLM·양식 출력 전체 합격 판정과 구분함"
+      }
+    }
+  ],
+  "excluded_sources": [
+    {
+      "filename": "ckd_codening.pdf",
+      "path": "data/ra_public_validation/kr/ckd_codening.pdf",
+      "publisher_candidate": "종근당",
+      "source_page": "https://www.ckdpharm.com/product/productView.do?prodCode=CKD0000087",
+      "source_url": "https://www.ckdpharm.com/downloadCkd.do?attFileNo=41162&saveFileName=9a04b4b2d9bb1d856611c6dbbe0b92c32cb9b6936b46f0a67223c7dd696308ef",
+      "sha256": "232a3d72378e8153de74879990b4e106987ed84a1a774af6f892761d17b99a4e",
+      "size_bytes": 691991,
+      "page_count": 1,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "status": "downloaded_not_evaluation_eligible",
+      "reason": "본문은 추출 가능하나 제품 전체명과 제조/판매 역할 표제의 텍스트 대조가 불완전하여 선택 사실 검증에서 제외함",
+      "company_role_verified": false,
+      "facts_selected": 0
+    },
+    {
+      "filename": "yuhan_cipoten.pdf",
+      "path": "data/ra_public_validation/kr/yuhan_cipoten.pdf",
+      "publisher_candidate": "유한양행 게시 자료",
+      "source_page": "https://www.yuhan.co.kr/__DATA/YH_PRODUCTS/2021/12/%EC%94%A8%ED%8F%AC%ED%85%90_%EC%B2%A8%EB%B6%80%EB%AC%B8%EC%84%9C_211207%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9A%A9.pdf",
+      "source_url": "https://www.yuhan.co.kr/__DATA/YH_PRODUCTS/2021/12/%EC%94%A8%ED%8F%AC%ED%85%90_%EC%B2%A8%EB%B6%80%EB%AC%B8%EC%84%9C_211207%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9A%A9.pdf",
+      "sha256": "b8aca59ab9e8e1eda86eb04176701b56144a7462ee4e9b65332240934d718afa",
+      "size_bytes": 1124758,
+      "page_count": 1,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "status": "downloaded_not_evaluation_eligible",
+      "reason": "이미지 전용 PDF이며 텍스트 추출이 0자임. 확인된 OCR이 없어 평가에서 제외함",
+      "company_role_verified": false,
+      "facts_selected": 0
+    },
+    {
+      "filename": "donga_diomax.pdf",
+      "path": "data/ra_public_validation/kr/donga_diomax.pdf",
+      "publisher_candidate": "동아제약",
+      "source_page": "https://www.dapharm.com/ko/brand/product/DOM600",
+      "source_url": "https://www.dapharm.com/common/s3/download?key=E489C89395B8E43C943F2FDC205A37E0F06ECC15213EFDAED2C9B349FA48E1F16C749850133BA057216518AEB6A3FFEF4112344D26EDC27D&originName=(%E1%84%83%E1%85%B5%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B3)%E1%84%83%E1%85%B5%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A2%E1%86%A8%E1%84%89%E1%85%B3%E1%84%8C%E1%85%A5%E1%86%BC.pdf",
+      "sha256": "bb4edd228b23fd46b4e0817f006799229752ce647c2638cac2eb9c957f1f17e4",
+      "size_bytes": 720057,
+      "page_count": 1,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "status": "downloaded_not_evaluation_eligible",
+      "reason": "이미지 전용 PDF이며 텍스트 추출이 0자임. 확인된 OCR이 없어 평가에서 제외함",
+      "company_role_verified": false,
+      "facts_selected": 0
+    },
+    {
+      "filename": "ildong_lafutidine.pdf",
+      "path": "data/ra_public_validation/kr/ildong_lafutidine.pdf",
+      "publisher_candidate": "일동제약",
+      "source_page": "https://www.ildong.com/kor/product/view.id?prdSeq=3239",
+      "source_url": "https://www.ildong.com/kor/product/download.id?prdSeq=3239",
+      "sha256": "88c9af9505a15d819137fad52dc424fb8b07972046a0cb4f0b9895264f82456e",
+      "size_bytes": 573745,
+      "page_count": 2,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "status": "downloaded_not_evaluation_eligible",
+      "reason": "PDF 폰트 문자 매핑이 깨져 한글 원문·제품명을 자동 대조하지 못함. 확인된 OCR이 없어 평가에서 제외함",
+      "company_role_verified": false,
+      "facts_selected": 0
+    },
+    {
+      "filename": "ildong_exeramin.pdf",
+      "path": "data/ra_public_validation/kr/ildong_exeramin.pdf",
+      "publisher_candidate": "일동제약",
+      "source_page": "https://www.ildong.com/kor/product/view.id?prdSeq=1007",
+      "source_url": "https://www.ildong.com/kor/product/download.id?prdSeq=1007",
+      "sha256": "6c2237b84c02219bdaf0457126bf6c39031f132e6fc6d32d591342853e067042",
+      "size_bytes": 384175,
+      "page_count": 2,
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "status": "downloaded_not_evaluation_eligible",
+      "reason": "PDF 폰트 문자 매핑이 깨져 한글 원문·제품명을 자동 대조하지 못함. 확인된 OCR이 없어 평가에서 제외함",
+      "company_role_verified": false,
+      "facts_selected": 0
+    }
+  ],
+  "download_failures": [
+    {
+      "publisher": "한국애브비",
+      "source_url": "https://www.abbvie.co.kr/content/dam/abbvie-dotcom/kr/documents/hp-pi-ozurdex-2026-02-24.pdf",
+      "status": "http_403",
+      "checked_at": "2026-10-02T20:19:49.455572+00:00",
+      "scope": "공식 검색 결과에서 관찰한 URL의 공개 접근이 거부되어 원본을 확보하지 못함. 접근 제한을 우회하지 않음"
+    }
+  ]
+}

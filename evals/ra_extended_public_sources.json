@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-03T04:28:11.192288+00:00",
+  "scope": "기존 RA 스냅샷과 중복 없는 EU 판매허가권자 2개사의 공식 제품정보; 원문 전체 선택 인용·회사 역할·제품 조건 대조임",
+  "jurisdictions": [
+    "EU"
+  ],
+  "source_count": 2,
+  "company_count": 2,
+  "fact_count": 17,
+  "downloaded_pdf_count": 2,
+  "new_unique_original_count": 2,
+  "reused_sha_count": 0,
+  "source_page_count": 345,
+  "failed_downloads": [],
+  "excluded_sources": [],
+  "model_training_performed": false,
+  "live_llm_evaluated": false,
+  "actual_api_call_count": 0,
+  "human_kpi_observation_count": 0,
+  "sources": [
+    {
+      "source_page": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
+      "source_url": "https://www.ema.europa.eu/en/documents/product-information/ozempic-epar-product-information_en.pdf",
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/ozempic-epar-product-information_en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "filename": "ozempic_ema_product_information.pdf",
+      "path": "data/ra_public_validation/extended/ozempic_ema_product_information.pdf",
+      "sha256": "57219aa6be0c50a4f2cc98001152ec6dcce36b4e4c6ae43650c37f58899b3d2c",
+      "size_bytes": 1400861,
+      "page_count": 143,
+      "checked_at": "2026-10-03T04:19:13.890934+00:00",
+      "source_page_product_information_last_updated": "2026-08-25",
+      "id": "ra-extended-ozempic",
+      "title": "Ozempic 0.25 mg solution for injection in pre-filled pen — EMA Product information",
+      "resource_kind": "published_product_information",
+      "format": "PDF",
+      "jurisdiction": "EU",
+      "product_name": "Ozempic",
+      "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+      "company": {
+        "name": "Novo Nordisk A/S",
+        "role": "marketing_authorisation_holder",
+        "exact_quote": "Novo Nordisk A/S",
+        "page": 29,
+        "role_heading_page": 29,
+        "role_heading_quote": "7. MARKETING AUTHORISATION HOLDER",
+        "role_exact_quote": "7. MARKETING AUTHORISATION HOLDER \n \nNovo Nordisk A/S \nNovo Allé \nDK-2880 Bagsværd \nDenmark"
+      },
+      "version_label": "EMA product information page last updated 2026-08-25",
+      "current_version_verified": false,
+      "currentness": {
+        "status": "official_snapshot_observed",
+        "latest_revision_verified": false,
+        "reason": "게시 페이지의 업데이트 날짜와 관찰한 다운로드만 확인함; 현재 모든 허가 변경 또는 국내 허가 상태 인증이 아님"
+      },
+      "scope": {
+        "intended_use": "공식 원문·페이지·제품 조건·RA 양식의 선택 원문 보존 검증",
+        "foreign_authorisation_only": true,
+        "korean_authorisation_verified": false,
+        "domestic_applicant_inferred": false,
+        "full_submission_ready": false,
+        "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+        "other_variants_combined": false,
+        "dosage_form": "pre-filled pen",
+        "strength": "0.25 mg per dose in 0.19 ml; 2 mg per 1.5 ml pen",
+        "product_scope": "0.25 mg 펜만 선택함. 주사기·다른 함량·8회용 펜의 수치와 혼합하지 않음. 공통 증량 지침은 여러 제품의 치료 과정이며 선택한 0.25 mg 펜 자체가 다른 용량을 전달한다고 추정하지 않음"
+      },
+      "pdf_access": {
+        "is_encrypted": false,
+        "general_text_extraction_permitted": true,
+        "protection_bypass_performed": false
+      },
+      "rights": {
+        "redistribution_permission": "not_verified",
+        "local_use": "validation_snapshot_only",
+        "model_training_performed": false
+      },
+      "facts": [
+        {
+          "field_key": "제품명",
+          "value": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "exact_quote": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "page": 2,
+          "role": "product_name",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "page_text_sha256": "2b998282e39f9ba4aafc6f3afcf83f47d98a92ff2923376f4279a73b4435c90b",
+          "page_content_stream_sha256": "abab8a3c8a0565a451ec498a2f4f58c1c7cf355df775b5ca71c5816ccb372319"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "value": "One ml of solution contains 1.34 mg of semaglutide*. One pre-filled pen contains 2 mg semaglutide* \nin 1.5 ml solution. Each dose contains 0.25 mg of semaglutide in 0.19 ml solution.",
+          "exact_quote": "One ml of solution contains 1.34 mg of semaglutide*. One pre-filled pen contains 2 mg semaglutide* \nin 1.5 ml solution. Each dose contains 0.25 mg of semaglutide in 0.19 ml solution.",
+          "page": 2,
+          "role": "selected_pen_concentration_pen_total_and_per_dose",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "unit_scope": {
+            "per_ml": "1.34 mg",
+            "per_pen": "2 mg in 1.5 ml",
+            "per_dose": "0.25 mg in 0.19 ml",
+            "amount_conversion_performed": false
+          },
+          "heading_exact_quote": "Pre-filled pen\n \nOzempic 0.25 mg solution for injection",
+          "composition_footnote": {
+            "page": 3,
+            "exact_quote": "*Human glucagon-like peptide-1 (GLP-1) analogue produced in Saccharomyces cerevisiae cells by \nrecombinant DNA technology."
+          },
+          "page_text_sha256": "2b998282e39f9ba4aafc6f3afcf83f47d98a92ff2923376f4279a73b4435c90b",
+          "page_content_stream_sha256": "abab8a3c8a0565a451ec498a2f4f58c1c7cf355df775b5ca71c5816ccb372319"
+        },
+        {
+          "field_key": "성상",
+          "value": "Clear and colourless or almost colourless, isotonic solution; pH=7.4.",
+          "exact_quote": "Clear and colourless or almost colourless, isotonic solution; pH=7.4.",
+          "page": 3,
+          "role": "pharmaceutical_appearance",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": "선택 펜의 3. PHARMACEUTICAL FORM 공통 성상",
+          "page_text_sha256": "a3be781ccca7cc7195417514c09709efb0e190a53f86897d54c3928c6ad6c5e3",
+          "page_content_stream_sha256": "0c0e3646eee697bf2d9eaa154e4be501aceacdd84756ce0f3b9bed6c03325a44"
+        },
+        {
+          "field_key": "효능 효과",
+          "value": "Ozempic is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus \nas an adjunct to diet and exercise \n \n• as monothera py when metformin is considered inappropriate due to intolerance or \ncontraindications \n \n• in addition to other medicinal products for the treatment of diabetes. \n \nFor trial results with respect to combinations, effects on glycaemic control, cardiovascular disease and \nkidney events and the populations studied, see sections 4.4, 4.5 and 5.1.",
+          "exact_quote": "Ozempic is indicated for the treatment of adults with insufficiently controlled type 2 diabetes mellitus \nas an adjunct to diet and exercise \n \n• as monothera py when metformin is considered inappropriate due to intolerance or \ncontraindications \n \n• in addition to other medicinal products for the treatment of diabetes. \n \nFor trial results with respect to combinations, effects on glycaemic control, cardiovascular disease and \nkidney events and the populations studied, see sections 4.4, 4.5 and 5.1.",
+          "page": 3,
+          "role": "adult_type_2_diabetes_indication_with_metformin_condition",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "clinical_scope": {
+            "section": "4.1",
+            "population": "adults",
+            "indication": "type 2 diabetes mellitus",
+            "adjunct": "diet and exercise",
+            "monotherapy_condition": "metformin inappropriate due to intolerance or contraindications",
+            "other_indications_selected": false
+          },
+          "page_text_sha256": "a3be781ccca7cc7195417514c09709efb0e190a53f86897d54c3928c6ad6c5e3",
+          "page_content_stream_sha256": "0c0e3646eee697bf2d9eaa154e4be501aceacdd84756ce0f3b9bed6c03325a44"
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "The starting dose is 0.25 mg semaglutide once weekly. After 4 weeks the dose should be increased to \n0.5 mg once weekly. After at least 4 weeks with a dose of 0.5 mg once weekly, the dose can be \nincreased to 1 mg once weekly to further improve glycaemic control. After at least 4 weeks with a \ndose of 1 mg once weekly, the dose can be increased to 2 mg once weekly to further improve \nglycaemic control. \n \nSemaglutide 0.25 mg is not a maintenance dose. Weekly doses higher than 2 mg are not \nrecommended.",
+          "exact_quote": "The starting dose is 0.25 mg semaglutide once weekly. After 4 weeks the dose should be increased to \n0.5 mg once weekly. After at least 4 weeks with a dose of 0.5 mg once weekly, the dose can be \nincreased to 1 mg once weekly to further improve glycaemic control. After at least 4 weeks with a \ndose of 1 mg once weekly, the dose can be increased to 2 mg once weekly to further improve \nglycaemic control. \n \nSemaglutide 0.25 mg is not a maintenance dose. Weekly doses higher than 2 mg are not \nrecommended.",
+          "page": 3,
+          "role": "adult_starting_and_stepwise_escalation_not_maintenance_025",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "clinical_scope": {
+            "section": "4.2",
+            "population": "adults",
+            "starting": "0.25 mg once weekly",
+            "first_escalation": "after 4 weeks to 0.5 mg once weekly",
+            "later_escalations": "after at least 4 weeks at each current dose; if needed to improve glycaemic control",
+            "not_maintenance": "0.25 mg",
+            "upper_weekly_limit": "2 mg",
+            "selected_pen_can_deliver_all_regimen_strengths_inferred": false
+          },
+          "page_text_sha256": "a3be781ccca7cc7195417514c09709efb0e190a53f86897d54c3928c6ad6c5e3",
+          "page_content_stream_sha256": "0c0e3646eee697bf2d9eaa154e4be501aceacdd84756ce0f3b9bed6c03325a44"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "value": "Store in a refrigerator (2 °C–8 °C). Keep away from the cooling element. \nDo not freeze Ozempic. \n \nPre-filled pen \n \nKeep the pen cap on in order to protect from light.  \n \nFor storage conditions after first opening of the medicinal product, see section 6.3.",
+          "exact_quote": "Store in a refrigerator (2 °C–8 °C). Keep away from the cooling element. \nDo not freeze Ozempic. \n \nPre-filled pen \n \nKeep the pen cap on in order to protect from light.  \n \nFor storage conditions after first opening of the medicinal product, see section 6.3.",
+          "page": 27,
+          "role": "selected_prefilled_pen_refrigerated_storage_not_frozen_light_protection",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "section": "6.4",
+            "state": "before first use",
+            "container": "pre-filled pen",
+            "after_first_opening_scope_inferred": false
+          },
+          "page_text_sha256": "250f6f0aedd013f678674d0aab9ded9e083ae6ad323983b55b61e64a5fcbf46f",
+          "page_content_stream_sha256": "a67ec699dc3f6fbe43a9ff521cfa25d4d136ab6e3d399b52fb88f03a4460ebb0"
+        },
+        {
+          "field_key": "사용기간",
+          "value": "Pre-filled pen \n \nBefore first use \n \n3 years",
+          "exact_quote": "Pre-filled pen \n \nBefore first use \n \n3 years",
+          "page": 27,
+          "role": "prefilled_pen_before_first_use_shelf_life",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "state": "before first use",
+            "duration": "3 years"
+          },
+          "page_text_sha256": "250f6f0aedd013f678674d0aab9ded9e083ae6ad323983b55b61e64a5fcbf46f",
+          "page_content_stream_sha256": "a67ec699dc3f6fbe43a9ff521cfa25d4d136ab6e3d399b52fb88f03a4460ebb0"
+        },
+        {
+          "field_key": "개봉 후 사용기간",
+          "value": "Ozempic 0.25 mg, 0.5 mg, 1 mg and 2 mg (4 dose pens) \n6 weeks",
+          "exact_quote": "Ozempic 0.25 mg, 0.5 mg, 1 mg and 2 mg (4 dose pens) \n6 weeks",
+          "page": 27,
+          "role": "selected_four_dose_pen_in_use_shelf_life",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "state": "after first opening",
+            "container": "4 dose pen",
+            "duration": "6 weeks",
+            "eight_dose_pen_shelf_life_selected": false
+          },
+          "page_text_sha256": "250f6f0aedd013f678674d0aab9ded9e083ae6ad323983b55b61e64a5fcbf46f",
+          "page_content_stream_sha256": "a67ec699dc3f6fbe43a9ff521cfa25d4d136ab6e3d399b52fb88f03a4460ebb0"
+        },
+        {
+          "field_key": "개봉 후 보관방법",
+          "value": "Store below 30 °C or in a refrigerator (2 °C–8 °C). Do not freeze Ozempic. Keep the pen cap on when \nthe pen is not in use in order to protect it from light.",
+          "exact_quote": "Store below 30 °C or in a refrigerator (2 °C–8 °C). Do not freeze Ozempic. Keep the pen cap on when \nthe pen is not in use in order to protect it from light.",
+          "page": 27,
+          "role": "prefilled_pen_after_first_opening_temperature_not_frozen_light_protection",
+          "product_variant": "Ozempic 0.25 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "section": "6.3",
+            "state": "after first opening",
+            "container": "pre-filled pen",
+            "temperature": "below 30 °C or refrigerated 2 °C–8 °C",
+            "freeze_prohibited": true,
+            "pen_cap_for_light_protection": true
+          },
+          "page_text_sha256": "250f6f0aedd013f678674d0aab9ded9e083ae6ad323983b55b61e64a5fcbf46f",
+          "page_content_stream_sha256": "a67ec699dc3f6fbe43a9ff521cfa25d4d136ab6e3d399b52fb88f03a4460ebb0"
+        }
+      ],
+      "page_evidence": [
+        {
+          "page": 2,
+          "extracted_text_sha256": "2b998282e39f9ba4aafc6f3afcf83f47d98a92ff2923376f4279a73b4435c90b",
+          "decoded_content_stream_sha256": "abab8a3c8a0565a451ec498a2f4f58c1c7cf355df775b5ca71c5816ccb372319"
+        },
+        {
+          "page": 3,
+          "extracted_text_sha256": "a3be781ccca7cc7195417514c09709efb0e190a53f86897d54c3928c6ad6c5e3",
+          "decoded_content_stream_sha256": "0c0e3646eee697bf2d9eaa154e4be501aceacdd84756ce0f3b9bed6c03325a44"
+        },
+        {
+          "page": 27,
+          "extracted_text_sha256": "250f6f0aedd013f678674d0aab9ded9e083ae6ad323983b55b61e64a5fcbf46f",
+          "decoded_content_stream_sha256": "a67ec699dc3f6fbe43a9ff521cfa25d4d136ab6e3d399b52fb88f03a4460ebb0"
+        },
+        {
+          "page": 29,
+          "extracted_text_sha256": "213187dd63a46aad48be14fcf5f5cc8184f290675a5a14e8d95b48adaf6f2733",
+          "decoded_content_stream_sha256": "089ec5d03e81b3bbbd170ee4ebe2dd46ee5bafc5adb218d048a8fbbdfec4e781"
+        }
+      ],
+      "page_hash_scope": "pypdf decoded page content stream + extracted UTF-8 text; not a standalone PDF or a native-layout certificate"
+    },
+    {
+      "source_page": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
+      "source_url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "filename": "mounjaro_ema_product_information.pdf",
+      "path": "data/ra_public_validation/extended/mounjaro_ema_product_information.pdf",
+      "sha256": "8d75eff2f10bd886e04a9cae39b5a53d6eea8dc5f9d2d23738f4b6def2646875",
+      "size_bytes": 3673021,
+      "page_count": 202,
+      "checked_at": "2026-10-03T04:19:18.726064+00:00",
+      "source_page_product_information_last_updated": "2026-09-21",
+      "id": "ra-extended-mounjaro",
+      "title": "Mounjaro 2.5 mg solution for injection in pre-filled pen — EMA Product information",
+      "resource_kind": "published_product_information",
+      "format": "PDF",
+      "jurisdiction": "EU",
+      "product_name": "Mounjaro",
+      "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+      "company": {
+        "name": "Eli Lilly Nederland B.V.",
+        "role": "marketing_authorisation_holder",
+        "exact_quote": "Eli Lilly Nederland B.V.",
+        "page": 43,
+        "role_heading_page": 43,
+        "role_heading_quote": "7. MARKETING AUTHORISATION HOLDER",
+        "role_exact_quote": "7. MARKETING AUTHORISATION HOLDER \n \nEli Lilly Nederland B.V., Orteliuslaan 1000, 3528 BD Utrecht, The Netherlands."
+      },
+      "version_label": "EMA product information page last updated 2026-09-21",
+      "current_version_verified": false,
+      "currentness": {
+        "status": "official_snapshot_observed",
+        "latest_revision_verified": false,
+        "reason": "게시 페이지의 업데이트 날짜와 관찰한 다운로드만 확인함; 현재 모든 허가 변경 또는 국내 허가 상태 인증이 아님"
+      },
+      "scope": {
+        "intended_use": "공식 원문·페이지·제품 조건·RA 양식의 선택 원문 보존 검증",
+        "foreign_authorisation_only": true,
+        "korean_authorisation_verified": false,
+        "domestic_applicant_inferred": false,
+        "full_submission_ready": false,
+        "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+        "other_variants_combined": false,
+        "dosage_form": "single-dose pre-filled pen",
+        "strength": "2.5 mg in 0.5 ml (5 mg/ml)",
+        "product_scope": "2.5 mg 단회용 펜만 선택함. 같은 함량의 바이알·다회용 KwikPen의 0.6 ml/2.4 ml·30일 사용조건과 혼합하지 않음. 증량 지침은 치료 과정이며 2.5 mg 펜을 유지 용량 5~15 mg 펜으로 바꾸지 않음"
+      },
+      "pdf_access": {
+        "is_encrypted": false,
+        "general_text_extraction_permitted": true,
+        "protection_bypass_performed": false
+      },
+      "rights": {
+        "redistribution_permission": "not_verified",
+        "local_use": "validation_snapshot_only",
+        "model_training_performed": false
+      },
+      "facts": [
+        {
+          "field_key": "제품명",
+          "value": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "exact_quote": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "page": 2,
+          "role": "product_name",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "page_text_sha256": "3057a4ee97aa16a2ae87203fbdeee2e75b6d8cbb2b4767c90525084a53dadcdc",
+          "page_content_stream_sha256": "6910d1ac72ce0e4dec97ff50bfead0d9c281c40b2e4b15c90b913d22b7372894"
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "value": "Each pre-filled pen contains 2.5 mg of tirzepatide in 0.5 ml solution (5 mg/ml).",
+          "exact_quote": "Each pre-filled pen contains 2.5 mg of tirzepatide in 0.5 ml solution (5 mg/ml).",
+          "page": 2,
+          "role": "single_dose_prefilled_pen_amount_volume_and_concentration",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "unit_scope": {
+            "per_pen": "2.5 mg in 0.5 ml",
+            "concentration": "5 mg/ml",
+            "kwikpen_per_dose_volume_selected": false,
+            "amount_conversion_performed": false
+          },
+          "heading_exact_quote": "Pre-filled pen, single-dose",
+          "page_text_sha256": "3057a4ee97aa16a2ae87203fbdeee2e75b6d8cbb2b4767c90525084a53dadcdc",
+          "page_content_stream_sha256": "6910d1ac72ce0e4dec97ff50bfead0d9c281c40b2e4b15c90b913d22b7372894"
+        },
+        {
+          "field_key": "성상",
+          "value": "Clear, colourless to slightly yellow solution.",
+          "exact_quote": "Clear, colourless to slightly yellow solution.",
+          "page": 3,
+          "role": "pharmaceutical_appearance",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "page_text_sha256": "4d51d70aa5562eb9c19d762b9c15e70a2e86702726bbf26833f391ae2a79dd18",
+          "page_content_stream_sha256": "4ffc6d34b39994d7146d38051b8d5e6bd65e2d683ea997c1486bf4f313458cb5"
+        },
+        {
+          "field_key": "효능 효과",
+          "value": "Mounjaro is indicated for the treatment of adults, adolescents and children aged 10 years and above \nwith insufficiently controlled type 2 diabetes mellitus as an adjunct to diet and exercise  \n• as monotherapy when metformin is considered inappropriate due to intolerance or \ncontraindications \n• in addition to other medicinal products for the treatment of diabetes.  \n \nFor study results with respect to combinations, effects on glycaemic control, the populations studied, \nand cardiovascular events see sections 4.4, 4.5 and 5.1.",
+          "exact_quote": "Mounjaro is indicated for the treatment of adults, adolescents and children aged 10 years and above \nwith insufficiently controlled type 2 diabetes mellitus as an adjunct to diet and exercise  \n• as monotherapy when metformin is considered inappropriate due to intolerance or \ncontraindications \n• in addition to other medicinal products for the treatment of diabetes.  \n \nFor study results with respect to combinations, effects on glycaemic control, the populations studied, \nand cardiovascular events see sections 4.4, 4.5 and 5.1.",
+          "page": 4,
+          "role": "type_2_diabetes_age_10_and_above_with_metformin_condition",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "clinical_scope": {
+            "section": "4.1",
+            "population": "adults, adolescents and children aged 10 years and above",
+            "indication": "type 2 diabetes mellitus",
+            "adjunct": "diet and exercise",
+            "monotherapy_condition": "metformin inappropriate due to intolerance or contraindications",
+            "weight_management_indication_selected": false
+          },
+          "page_text_sha256": "1180f4b1003ceb960c1e3f8f75bdf05f41f4b5195289ba871cc81aeb105e227f",
+          "page_content_stream_sha256": "b6e2c37ee12598db31960db4788f26994be3f0824b015cf29ebd9e02edfb47a9"
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "The starting dose of tirzepatide is 2.5 mg once weekly. After 4 weeks, the dose should be increased to \n5 mg once weekly. If needed, dose increases can be made in 2.5 mg increments after a minimum of \n4 weeks on the current dose.  \n \nAdults \n \nThe recommended maintenance doses are 5 mg, 10 mg and 15 mg. \n \nThe maximum dose is 15 mg once weekly.  \n \nPaediatric population aged 10 years and above (treatment of type 2 diabetes mellitus) \n \nThe recommended maintenance doses are 5 mg and 10 mg. \n \nThe maximum dose is 10 mg once weekly.",
+          "exact_quote": "The starting dose of tirzepatide is 2.5 mg once weekly. After 4 weeks, the dose should be increased to \n5 mg once weekly. If needed, dose increases can be made in 2.5 mg increments after a minimum of \n4 weeks on the current dose.  \n \nAdults \n \nThe recommended maintenance doses are 5 mg, 10 mg and 15 mg. \n \nThe maximum dose is 15 mg once weekly.  \n \nPaediatric population aged 10 years and above (treatment of type 2 diabetes mellitus) \n \nThe recommended maintenance doses are 5 mg and 10 mg. \n \nThe maximum dose is 10 mg once weekly.",
+          "page": 4,
+          "role": "starting_and_escalation_with_distinct_adult_and_paediatric_maintenance_limits",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "clinical_scope": {
+            "section": "4.2",
+            "starting": "2.5 mg once weekly",
+            "first_escalation": "after 4 weeks to 5 mg once weekly",
+            "later_escalations": "if needed, 2.5 mg increments after a minimum of 4 weeks on current dose",
+            "adult_maintenance": [
+              "5 mg",
+              "10 mg",
+              "15 mg"
+            ],
+            "adult_maximum": "15 mg once weekly",
+            "paediatric_population": "aged 10 years and above for type 2 diabetes mellitus",
+            "paediatric_maintenance": [
+              "5 mg",
+              "10 mg"
+            ],
+            "paediatric_maximum": "10 mg once weekly",
+            "selected_pen_can_deliver_all_regimen_strengths_inferred": false
+          },
+          "page_text_sha256": "1180f4b1003ceb960c1e3f8f75bdf05f41f4b5195289ba871cc81aeb105e227f",
+          "page_content_stream_sha256": "b6e2c37ee12598db31960db4788f26994be3f0824b015cf29ebd9e02edfb47a9"
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "value": "Store in a refrigerator (2 ºC – 8 ºC). \nDo not freeze. \n \nPre-filled pen, single-dose; vial, single-dose \n \nStore in original package in order to protect from light.",
+          "exact_quote": "Store in a refrigerator (2 ºC – 8 ºC). \nDo not freeze. \n \nPre-filled pen, single-dose; vial, single-dose \n \nStore in original package in order to protect from light.",
+          "page": 42,
+          "role": "single_dose_pen_refrigerated_storage_not_frozen_original_package",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "section": "6.4",
+            "container": "single-dose pre-filled pen",
+            "kwikpen_storage_selected": false
+          },
+          "page_text_sha256": "fadca326afda07bdefae15a4a2064f9ad55d31a8bbad328a824f9d549f43fbe0",
+          "page_content_stream_sha256": "f5976351ad2f50b15b5bcfb869b32a3d88e361dee91653713ab1aa45979f619b"
+        },
+        {
+          "field_key": "사용기간",
+          "value": "Pre-filled pen, single-dose; vial, single-dose \n \nBefore use  \n2 years",
+          "exact_quote": "Pre-filled pen, single-dose; vial, single-dose \n \nBefore use  \n2 years",
+          "page": 42,
+          "role": "single_dose_pen_before_use_shelf_life",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "state": "before use",
+            "duration": "2 years",
+            "kwikpen_shelf_life_selected": false
+          },
+          "page_text_sha256": "fadca326afda07bdefae15a4a2064f9ad55d31a8bbad328a824f9d549f43fbe0",
+          "page_content_stream_sha256": "f5976351ad2f50b15b5bcfb869b32a3d88e361dee91653713ab1aa45979f619b"
+        },
+        {
+          "field_key": "냉장 외 보관기간",
+          "value": "Mounjaro can be stored unrefrigerated for up to 21 cumulative days at a temperature below 30 ºC and \nthen the pre-filled pen or vial must be discarded.",
+          "exact_quote": "Mounjaro can be stored unrefrigerated for up to 21 cumulative days at a temperature below 30 ºC and \nthen the pre-filled pen or vial must be discarded.",
+          "page": 42,
+          "role": "single_dose_pen_unrefrigerated_cumulative_limit_then_discard",
+          "product_variant": "Mounjaro 2.5 mg solution for injection in pre-filled pen",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "overflow_policy": "preserve_in_annex_or_block_without_truncation",
+          "condition_scope": {
+            "container": "single-dose pre-filled pen",
+            "duration": "21 cumulative days",
+            "temperature": "below 30 ºC",
+            "discard_required": true,
+            "kwikpen_after_first_use_30_day_limit_selected": false
+          },
+          "page_text_sha256": "fadca326afda07bdefae15a4a2064f9ad55d31a8bbad328a824f9d549f43fbe0",
+          "page_content_stream_sha256": "f5976351ad2f50b15b5bcfb869b32a3d88e361dee91653713ab1aa45979f619b"
+        }
+      ],
+      "page_evidence": [
+        {
+          "page": 2,
+          "extracted_text_sha256": "3057a4ee97aa16a2ae87203fbdeee2e75b6d8cbb2b4767c90525084a53dadcdc",
+          "decoded_content_stream_sha256": "6910d1ac72ce0e4dec97ff50bfead0d9c281c40b2e4b15c90b913d22b7372894"
+        },
+        {
+          "page": 3,
+          "extracted_text_sha256": "4d51d70aa5562eb9c19d762b9c15e70a2e86702726bbf26833f391ae2a79dd18",
+          "decoded_content_stream_sha256": "4ffc6d34b39994d7146d38051b8d5e6bd65e2d683ea997c1486bf4f313458cb5"
+        },
+        {
+          "page": 4,
+          "extracted_text_sha256": "1180f4b1003ceb960c1e3f8f75bdf05f41f4b5195289ba871cc81aeb105e227f",
+          "decoded_content_stream_sha256": "b6e2c37ee12598db31960db4788f26994be3f0824b015cf29ebd9e02edfb47a9"
+        },
+        {
+          "page": 42,
+          "extracted_text_sha256": "fadca326afda07bdefae15a4a2064f9ad55d31a8bbad328a824f9d549f43fbe0",
+          "decoded_content_stream_sha256": "f5976351ad2f50b15b5bcfb869b32a3d88e361dee91653713ab1aa45979f619b"
+        },
+        {
+          "page": 43,
+          "extracted_text_sha256": "b31066356385243696f3c471d536fae5c816f5741970b9ff15f8f621c4e1af63",
+          "decoded_content_stream_sha256": "d44607c2234ab7a3f1f2bfb25985c7a1daae0332f036ff3477d9999bc0098c48"
+        }
+      ],
+      "page_hash_scope": "pypdf decoded page content stream + extracted UTF-8 text; not a standalone PDF or a native-layout certificate"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="RA와 해외영업·해외사업개발의 원자료를 근거로 문서와 이메일을 작성하는 직무별 작업실">
+  <meta name="theme-color" content="#123047">
+  <title>문서 표준화 AI AGENT · 직무별 작업실</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="site-header"><div class="wrap header-inner">
+    <a class="brand" href="#main"><img src="assets/mark.svg" width="32" height="32" alt=""><span>문서 표준화 <b>AI AGENT</b></span></a>
+    <nav aria-label="페이지 메뉴"><a href="#how">사용 방법</a><a href="#proof">검증 범위</a><a href="claude.html">AI 연결 안내</a></nav>
+    <a class="header-action" href="#workspaces">작업실 선택 <span aria-hidden="true">↗</span></a>
+  </div></header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">직무별 원자료 기반 문서 자동화</p><h1 id="hero-title">자료가 있으면,<br><span>직무에 맞는 문서로.</span></h1>
+        <p class="lead">RA 문서와 해외영업·해외사업개발의 이메일·거래 문서를 각각의 작업실에서 작성합니다. 출처와 누락을 확인하고 결과를 검토할 수 있습니다.</p>
+        <div class="hero-actions"><a class="button primary" href="workspace">RA 문서 만들기 <span aria-hidden="true">→</span></a><a class="button secondary" href="sales">바이어 이메일 회신 <span aria-hidden="true">→</span></a></div>
+        <p class="hero-note">공유용 HTML 페이지는 로그인 없이 누구나 볼 수 있습니다. 문서 작업은 보호된 작업실에서 진행합니다.</p>
+      </div>
+      <aside class="start-card" aria-label="시작 전에 준비할 것"><div class="card-top"><span class="status-dot" aria-hidden="true"></span><span>시작 전에 준비할 것</span></div>
+        <ol><li><b>받은 요청 또는 작성 양식</b><span>이메일 · DOCX · HWP/HWPX · XLSX · PDF</span></li><li><b>답변·기입의 근거 자료</b><span>문서 · 표 · 텍스트 · 사진/스캔</span></li><li><b>검토할 담당자</b><span>원문·거래조건·서명/동의는 직접 확인</span></li></ol>
+        <p>원문 기입은 AI 키 없이 가능합니다. 새로운 이메일 문장 작성·사진 자동 읽기에는 본인의 Gemini API 키가 필요합니다.</p>
+      </aside>
+    </section>
+    <section id="workspaces" class="wrap section" aria-labelledby="workspaces-title"><div class="section-heading"><p class="eyebrow">CHOOSE YOUR WORKSPACE</p><h2 id="workspaces-title">업무에 맞는 작업실 선택</h2><p>현재 실행 가능한 두 직무를 분리했습니다. 공통 문서 작업실은 별도 검증을 마친 뒤 열 예정입니다.</p></div><div class="cap-grid"><article><span>01 / RA</span><h3>제약·약품 RA</h3><p>CTD·DMF, 공식 양식 기입, 변경 대비와 HWP 변환을 진행합니다.</p><a class="inline-action" href="workspace">RA 작업실 열기 →</a></article><article><span>02 / GLOBAL</span><h3>해외영업·해외사업개발</h3><p>바이어·파트너 문의에 근거를 연결해 회신하고 견적·무역 문서를 작성합니다.</p><a class="inline-action" href="sales">해외영업 작업실 열기 →</a></article><article><span>03 / PLANNED</span><h3>공통 보고서·기안</h3><p>직무와 무관한 양식용 작업실을 검증 후 제공할 계획입니다.</p></article></div></section>
+    <section id="how" class="wrap section" aria-labelledby="how-title"><div class="section-heading"><p class="eyebrow">HOW IT WORKS</p><h2 id="how-title">문서 작성은 세 단계</h2><p>한 화면에서 순서대로 진행합니다.</p></div>
+      <ol class="flow"><li><span class="number">01</span><h3>양식·자료 업로드</h3><p>내 양식과 기존·신규 자료를 올리고 작성할 제품과 입력칸을 선택합니다.</p></li><li><span class="number">02</span><h3>원문 확인·작성</h3><p>출처가 연결된 기입 후보를 확인하거나 Gemini·Claude로 새 문장을 작성합니다.</p></li><li><span class="number">03</span><h3>검수·다운로드</h3><p>출처·수치·필수칸과 저장 위치를 점검하고 문서와 근거 기록을 받습니다.</p></li></ol>
+    </section>
+    <section class="wrap section capabilities" aria-labelledby="cap-title"><div class="section-heading"><p class="eyebrow">RA WORKFLOWS</p><h2 id="cap-title">필요한 문서부터 시작하세요</h2></div>
+      <div class="cap-grid"><article><span>01 / 일상 기입</span><h3>회사·기관 양식 채우기</h3><p>원자료 항목과 양식 입력칸을 연결해 원문을 기입합니다.</p></article><article><span>02 / 품질자료</span><h3>CTD·DMF 검토 초안</h3><p>확인된 DMF 절과 2.3.S/3.2.S 입력칸을 연결하고 누락을 표시합니다.</p></article><article><span>03 / 변경·변환</span><h3>변경 대비표·HWP 변환</h3><p>확인된 차이를 양식에 옮기고 HWP를 HWPX 사본으로 변환합니다.</p></article></div>
+      <a class="inline-action" href="workspace">작업실에서 시작하기 <span aria-hidden="true">→</span></a>
+    </section>
+    <section id="proof" class="wrap section evidence" aria-labelledby="proof-title"><div class="section-heading"><p class="eyebrow">VERIFY BEFORE USE</p><h2 id="proof-title">검증 범위와 사용 조건</h2><p>시험 결과와 실제 업무 적용 범위를 구분해 확인할 수 있습니다.</p></div>
+      <div class="fact-strip"><p><strong>4,601</strong><span>전체 자동 테스트 통과 · 1건 건너뜀</span></p><p><strong>3종</strong><span>HWP 원본 변환·배치 대조</span></p><p><strong>미측정</strong><span>실제 담당자 수정 비율</span></p></div>
+      <p class="scope-note">현재 PC가 켜져 있어야 외부 작업실의 파일 처리와 다운로드가 작동합니다. AI 작성에는 모델 연결이 필요합니다. 자동 검수 통과가 법정 제출 적합성이나 사람 검토를 대신하지 않습니다.</p>
+      <details class="disclosure"><summary>실제 화면과 기능별 검증 내용 보기</summary><div class="disclosure-body">
+        <div class="tabs" role="tablist" aria-label="작업 화면 선택"><button id="tab-auto" role="tab" aria-controls="panel-auto" aria-selected="true" tabindex="0">자동 기입</button><button id="tab-fill" role="tab" aria-controls="panel-fill" aria-selected="false" tabindex="-1">공식 양식</button><button id="tab-compare" role="tab" aria-controls="panel-compare" aria-selected="false" tabindex="-1">변경 대비</button><button id="tab-hwp" role="tab" aria-controls="panel-hwp" aria-selected="false" tabindex="-1">HWP 변환</button></div>
+        <article id="panel-auto" role="tabpanel" aria-labelledby="tab-auto" class="preview-panel"><div><h3>데이터로 자동 기입</h3><p>선택한 5칸의 합성 자료 기입·저장 후 독립 검수와 Word 1쪽 출력을 확인했습니다. 원문 기입 시험이며 실제 모델 생성은 아닙니다.</p><p class="small">이 평가에서 실제 모델 생성은 수행하지 않았습니다. 현재 Gemini 작성에는 사용자의 API 키가 필요합니다.</p></div><a href="assets/auto-workspace.png" target="_blank" rel="noopener"><img src="assets/auto-workspace.png" width="626" height="668" alt="원자료를 양식에 자동 기입하는 RA 작업실 화면" loading="lazy"><span>화면 확대 ↗</span></a></article>
+        <article id="panel-fill" role="tabpanel" aria-labelledby="tab-fill" class="preview-panel" hidden><div><h3>공식 양식 기입</h3><p>원문과 출처 위치를 확인한 뒤 선택한 칸에 적용합니다. 공개 회사 자료 3건 중 2건은 기입·독립 검수에 성공했고 1건은 PDF 추출 권한으로 보류했습니다.</p></div><a href="assets/workspace.jpg" target="_blank" rel="noopener"><img src="assets/workspace.jpg" width="1280" height="720" alt="RA 공식 양식 기입 화면" loading="lazy"><span>화면 확대 ↗</span></a></article>
+        <article id="panel-compare" role="tabpanel" aria-labelledby="tab-compare" class="preview-panel" hidden><div><h3>변경 전후 대비표</h3><p>제품·제형·함량을 대조하고 확인된 차이와 제공된 사유를 공식 3행 대비표에 옮깁니다. 합성 시험에서 등록 18칸 중 14칸을 기입해 검수했습니다.</p></div><a href="assets/comparison.jpg" target="_blank" rel="noopener"><img src="assets/comparison.jpg" width="1280" height="720" alt="RA 변경 전후 자료 대조 화면" loading="lazy"><span>화면 확대 ↗</span></a></article>
+        <article id="panel-hwp" role="tabpanel" aria-labelledby="tab-hwp" class="preview-panel" hidden><div><h3>HWP → HWPX</h3><p>원본을 덮어쓰지 않고 설치된 한글로 변환합니다. 검증한 RA 고유 원본 3종의 한글 출력 총 5쪽 배치를 대조했습니다.</p></div><a href="assets/hwp.jpg" target="_blank" rel="noopener"><img src="assets/hwp.jpg" width="1280" height="720" alt="HWP에서 HWPX로 변환하는 화면" loading="lazy"><span>화면 확대 ↗</span></a></article>
+        <p class="small">공개 화면은 미리보기입니다. 실제 업로드·작성·다운로드는 <a href="workspace">보호된 작업실</a>에서 실행합니다.</p>
+      </div></details>
+      <details class="disclosure"><summary>검증 기록과 남은 과제 보기</summary><div class="disclosure-body audit-grid"><div><h3>확인한 내용</h3><p>2026-10-07 전체 pytest 4,601 통과 · 1 건너뜀 · 실패 0 · 오류 0. 공식 RA 업무 등록 11종, 선정 입력 위치 284칸은 전체 법정 입력칸의 분모가 아닙니다. 원문 기입 성공 양식의 실제 기입은 각각 제품명 1칸 / 등록 16칸입니다.</p><p>합성 자동 기입 결과는 <a href="assets/auto-result.png" target="_blank" rel="noopener">Word 출력 보기 ↗</a>에서 확인할 수 있습니다. 해외영업 문서 4종은 프로젝트 제작 예제이며 실제 사용 빈도 순위는 측정하지 않았습니다.</p></div><div><h3>남은 확인</h3><p>이 평가의 실제 RA 모델 생성 성공 0건, 실제 담당자 관측 0건입니다. 해외영업 Gemini 실제 작성도 시간 초과로 성공을 확인하지 못했습니다. AI 초안 대비 사용자 수정 비율과 초안→최종 시간은 미측정입니다. 실제 CTD/eCTD 제출 적합성, 변경허가 업무 완결성과 담당자 검토도 별도로 확인해야 합니다.</p><a href="assets/validation.json" download>검증 요약 JSON 다운로드 ↓</a></div></div></details>
+    </section>
+    <section id="guide" class="wrap section guide" aria-labelledby="guide-title"><div><p class="eyebrow">TRY WITH YOUR DATA</p><h2 id="guide-title">빈 입력 틀로 시험해 보세요</h2><p>이 파일에는 제품 사실·개인정보가 없습니다. 실제 근거를 기입한 뒤 작업실에 첨부하세요.</p></div><div class="downloads"><a href="assets/ra_workflow_input_blank.csv" download>일괄 기입용 CSV 받기 <span aria-hidden="true">↓</span></a><a href="assets/ra_change_input_blank.txt" download>변경 비교용 TXT 받기 <span aria-hidden="true">↓</span></a></div></section>
+  </main>
+  <footer class="wrap"><strong>문서 표준화 AI AGENT</strong><span>RA · 해외영업 별도 시험 작업실</span><a href="claude.html">AI 연결 안내</a></footer>
+  <noscript><p class="wrap">스크립트가 꺼져 있어 화면 탭을 전환할 수 없습니다. <a href="workspace">작업실 열기</a>는 사용할 수 있습니다.</p></noscript>
+</body>
+</html>

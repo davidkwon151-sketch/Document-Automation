@@ -1,0 +1,41 @@
+{
+  "source_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04162470/Prot_000.pdf",
+  "original_sha256": "52c3066161ceee95cf4ecfea4656a81c36260bfcdb8e645ee669c8c9694d8007",
+  "original_page_count": 68,
+  "selected_original_pages": {
+    "8": {
+      "excerpt_sha256": "d6685f340a63ed4405dbc3f5f1f03b6b51c9ea760ac6dfdd05c95a1315f9f289",
+      "source_page_index_zero_based": 7,
+      "parsed_block_count": 1,
+      "requires_verification": false,
+      "content_stream_sha256": "f324f543b76a5e1d410dd3fe6fe257d1d80b0ae5075b860970ee9a5b28efd3fc",
+      "fixture_file": "public-protocol-page-8.pdf"
+    },
+    "17": {
+      "excerpt_sha256": "99292ef0f06b0a0f0578d23c0b6a2d2779d0b6908e34e7e5d3cb70c5989d7736",
+      "source_page_index_zero_based": 16,
+      "parsed_block_count": 1,
+      "requires_verification": false,
+      "content_stream_sha256": "de627dcf8f2d0916eec3e8586a3798e00d6776b4332976014446a4550f1fccb7",
+      "fixture_file": "public-protocol-page-17.pdf"
+    },
+    "31": {
+      "excerpt_sha256": "7b5c994b66d887b33b9421bb6a35141e86ea2fef1d21b1e63eb1a0af473b2ae2",
+      "source_page_index_zero_based": 30,
+      "parsed_block_count": 1,
+      "requires_verification": false,
+      "content_stream_sha256": "2edd2191b13c546b85120ab20d2972da0636cf11b63ceb867077e699d5a46b99",
+      "fixture_file": "public-protocol-page-31.pdf"
+    }
+  },
+  "full_document_parsed": false,
+  "actual_llm_requests": 0,
+  "com_requests": 0,
+  "source_download_requests": 1,
+  "fixture_scope": "Three selected exact pages; the full 68-page original is not included or parsed by these tests.",
+  "source_download_required_for_tests": false,
+  "actual_model_evaluation": false,
+  "original_to_excerpt_content_stream_verified": true,
+  "preparation_http_downloads": 1,
+  "offline_test_http_requests": 0
+}

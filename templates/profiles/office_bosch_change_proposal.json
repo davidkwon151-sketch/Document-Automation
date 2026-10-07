@@ -1,0 +1,79 @@
+{
+  "format": "pptx",
+  "fields": [
+    {
+      "id": "pptx:ppt/slides/slide2.xml:/p:sld/p:cSld/p:spTree/p:graphicFrame[1]/a:graphic/a:graphicData/a:tbl/a:tr[2]/a:tc[2]/a:txBody",
+      "label": "변경제안 발의자 성명",
+      "kind": "pptx_cell",
+      "value_key": "변경제안 발의자 성명",
+      "suggested_mapping": "변경제안 발의자 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "slide": 2,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 40,
+      "location_verified": true
+    },
+    {
+      "id": "pptx:ppt/slides/slide2.xml:/p:sld/p:cSld/p:spTree/p:graphicFrame[1]/a:graphic/a:graphicData/a:tbl/a:tr[4]/a:tc[2]/a:txBody",
+      "label": "변경제안 작성일자",
+      "kind": "pptx_cell",
+      "value_key": "변경제안 작성일자",
+      "suggested_mapping": "변경제안 작성일자",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "slide": 2,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 40,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "슬라이드 크기·글꼴·표·테마·그림은 보존함. 기입 분량에 따른 넘침은 PowerPoint에서 확인해야 함",
+    "법정·공식 공개 작성 서식이며 모든 회사의 비공개 내부 품의 양식 인증이 아님.",
+    "실제 제출·승인 결과가 아님. 금액·기간·통화·연결/별도 구분과 추가 첨부는 원자료와 담당자의 확인이 필요함.",
+    "예산 합계·의사결정·승인·서명·계좌·현재/전기 날짜는 자동 계산하거나 생성하지 않음.",
+    "Bosch 직원 작성 전용인 2쪽 발의자 성명·작성일자만 등록함. 감독자 승인·서명, 위험 예시와 변경 이력은 보존함. 품질 변경 승인이나 전체 제안서 완성이 아님."
+  ],
+  "supported": true,
+  "source_sha256": "8807db0414e9ea983a13353d4d6144bc9b98f22230ee32119e184f6a8b3caeb4",
+  "schema_version": 1,
+  "entry_id": "office_bosch_change_proposal",
+  "source_filename": "international_bosch_change_proposal.pptx",
+  "resource_kind": "blank_form",
+  "domain": "office_finance",
+  "office_workflow": "industrial_quality",
+  "title": "Bosch Change Proposal Form V3.2 (변경 제안 발의자 정보)",
+  "source_page": "https://www.bosch.com/company/supply-chain/information-for-business-partners/",
+  "source_url": "https://assets.bosch.com/media/global/bosch_group/purchasing_and_logistics/information_for_business_partners/downloads/quality_docs/specific_regulations/change-proposal-form.pptx",
+  "form_version": "원본 문서 V3.2 / 2024-08-27",
+  "version_status": "observed_official_public_download",
+  "checked_at": "2026-10-03",
+  "demo_values": {
+    "변경제안 발의자 성명": "TEST USER (NOT FOR SUBMISSION)",
+    "변경제안 작성일자": "TEST-0"
+  },
+  "full_form_filled": false,
+  "submission_ready": false,
+  "attachments_review_required": true,
+  "demo_notice": "가짜 시험값으로 지정 빈칸만 기입한 예시임. 실제 제출용 문서가 아님. 전체 항목과 첨부는 직접 확인해야 함.",
+  "verification": {
+    "native_output": "verified_powerpoint_pdf",
+    "legal_compliance_certified": false,
+    "scope": "등록된 빈 텍스트 위치만 검증함. 승인·서명·계좌·선택은 자동 기입하지 않음",
+    "visual_qa": {
+      "status": "passed",
+      "engine": "Microsoft PowerPoint COM PDF save + PDFium",
+      "original_pages": 12,
+      "output_pages": 12,
+      "pages_observed": [
+        2
+      ],
+      "scope": "실제 변경된 2쪽의 발의자 2칸을 원본과 대조함. 승인·서명칸은 빈 원본을 유지함. 다른 11쪽은 ZIP 부품 동일성과 페이지 수만 확인함"
+    }
+  }
+}

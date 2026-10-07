@@ -1,0 +1,100 @@
+{
+  "project": "문서 표준화 AI AGENT",
+  "snapshot_date": "2026-10-04",
+  "page_scope": "공유용 화면·사용법·검증 기록; 보호된 외부 시험 작업실은 현재 PC 연결이 필요",
+  "latest_overall_pytest": {
+    "date": "2026-10-07",
+    "passed": 4601,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0,
+    "warnings": 9,
+    "elapsed_seconds": 946.57,
+    "evidence": "이 작업의 전체 pytest -q 터미널 실행"
+  },
+  "registered_workflows": 11,
+  "reused_official_originals": 11,
+  "registered_selected_input_locations": 284,
+  "pytest": {
+    "passed": 4261,
+    "skipped": 1,
+    "failures": 0,
+    "errors": 0,
+    "warnings": 3,
+    "elapsed_seconds": 261.5,
+    "parallel_processes": 4,
+    "evidence_run": "ra-auto-final-8e21"
+  },
+  "real_public_source_trial": {
+    "attempts": 3,
+    "fill_and_independent_check_success": 2,
+    "permission_deferred": 1,
+    "filled_fields_per_successful_form": 1,
+    "registered_fields_per_successful_form": 16,
+    "field": "제품명",
+    "human_confirmation": "scripted QA assumption",
+    "submission_ready": false
+  },
+  "native_hwp_conversion": {
+    "unique_ra_originals": 3,
+    "compared_native_pdf_pages": 5,
+    "scope": "검증한 원본의 배치·문구·픽셀 대조; 모든 HWP 양식 보장 아님"
+  },
+  "actual_ra_model_generation_successes_in_this_trial": 0,
+  "observed_human_kpi_runs": 0,
+  "user_edit_ratio": null,
+  "draft_to_final_seconds": null,
+  "actual_boss_rejections": null,
+  "limits": [
+    "전체 기업·기관 양식 전수 호환 미검증",
+    "법정 제출 적합성 미인증",
+    "원문 기입·합성 시험과 실제 AI 작성 품질 구분",
+    "실제 변경 사유·첨부·보완답변·CTD/eCTD 전문 업무 검증 필요"
+  ],
+  "ra_change_trial": {
+    "data_kind": "synthetic",
+    "official_original": true,
+    "used_rows": 3,
+    "filled_fields": 14,
+    "registered_fields": 18,
+    "independent_readback": 14,
+    "rendered_pages": 1,
+    "submission_ready": false,
+    "actual_model_generation": false
+  },
+  "global_trial": {
+    "data_kind": "synthetic",
+    "document_examples": 4,
+    "company_official_forms": false,
+    "native_word_pages": 4,
+    "selected_fields": 48,
+    "native_checked_fields": 28,
+    "native_ambiguous_fields": 20,
+    "frequency_rank_measured": false,
+    "actual_model_generation": false
+  },
+  "multimodal": {
+    "office_text": true,
+    "photos_and_scans": "exact text requires original review",
+    "image_ocr_default": false,
+    "ocr_model_quality_measured": false,
+    "audio_video": false
+  },
+  "ra_auto_trial": {
+    "data_kind": "synthetic",
+    "filled_fields": 5,
+    "target_fields": 5,
+    "independent_readback": 5,
+    "native_word_pages": 1,
+    "actual_model_generation": false,
+    "actual_employee_observations": 0,
+    "submission_ready": false,
+    "output_preview_sha256": "9bed3955db70041507dec7b57e59f47a5cdd7c5dc92c6c2bd6b2d5d780dfdd49",
+    "workspace_preview_sha256": "54d44b286b53c378eb0562cb12b096ff709dffd71e2b31fe39b839d94f98ea73"
+  },
+  "actual_ai_connection": {
+    "status": "blocked",
+    "kind": "quota",
+    "actual_ra_draft_evaluation": false
+  }
+}

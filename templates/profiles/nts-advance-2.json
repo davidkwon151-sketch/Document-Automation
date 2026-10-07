@@ -1,0 +1,104 @@
+{
+  "format": "docx",
+  "fields": [
+    {
+      "id": "docx:word/document.xml:/w:document/w:body/w:tbl/w:tr[3]/w:tc[2]",
+      "label": "신청인 상호(법인명)",
+      "kind": "docx_cell",
+      "value_key": "신청인 상호(법인명)",
+      "suggested_mapping": "신청인 상호(법인명)",
+      "required": true,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "docx:word/document.xml:/w:document/w:body/w:tbl/w:tr[3]/w:tc[4]",
+      "label": "신청인 성명(대표자)",
+      "kind": "docx_cell",
+      "value_key": "신청인 성명(대표자)",
+      "suggested_mapping": "신청인 성명(대표자)",
+      "required": true,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "docx:word/document.xml:/w:document/w:body/w:tbl/w:tr[3]/w:tc[6]",
+      "label": "신청인 사업자등록번호(생년월일)",
+      "kind": "docx_cell",
+      "value_key": "신청인 사업자등록번호(생년월일)",
+      "suggested_mapping": "신청인 사업자등록번호(생년월일)",
+      "required": true,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "docx:word/document.xml:/w:document/w:body/w:tbl/w:tr[4]/w:tc[2]",
+      "label": "신청인 사업장(주소)",
+      "kind": "docx_cell",
+      "value_key": "신청인 사업장(주소)",
+      "suggested_mapping": "신청인 사업장(주소)",
+      "required": true,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "docx:word/document.xml:/w:document/w:body/w:tbl/w:tr[4]/w:tc[4]",
+      "label": "대리인 전화번호(휴대전화)",
+      "kind": "docx_cell",
+      "value_key": "대리인 전화번호(휴대전화)",
+      "suggested_mapping": "대리인 전화번호(휴대전화)",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함",
+    "원문 체크 기호·서명·날짜·주소 내부의 공백은 자동 선택하지 않음. 신청인의 직접 입력과 최신 기관 서식 확인이 필요함",
+    "실제 제출 전 미등록 날짜·서명·동의·선택 항목과 기관의 최신 양식을 직접 확인해야 함. 등록 필드는 전체 법적 완결성을 인증하지 않음"
+  ],
+  "supported": true,
+  "source_sha256": "1673ccbd945df75a0fc277d31dce800bc68f1a592cc7832c5bf71da814ce0cdc",
+  "schema_version": 1,
+  "entry_id": "nts-advance-2",
+  "title": "세법해석 사전답변 신청대상 검토표",
+  "resource_kind": "blank_form",
+  "source_url": "https://kids.nts.go.kr/comm/nttFileDownload.do?fileKey=94e45a494b05eb6c5242b10380e90d7e",
+  "source_page": "https://kids.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7831&mi=2537",
+  "source_filename": "nts-advance-2.docx",
+  "source_kind": "public_form",
+  "verification": {
+    "structure": "verified",
+    "visual_source": "Word 원본 렌더와 DOCX 실제 blank 표 셀을 대조함",
+    "native_output": "verified_word",
+    "coverage": "selected_input_fields",
+    "checked_at": "2026-10-03",
+    "rendered_pages": 2,
+    "visual_output": "가짜 정보로 채운 출력의 원본 글꼴·표·구획·표시값을 페이지 이미지로 확인함. 본 프로필이 등록한 입력값 길이에서만 확인함",
+    "source_and_output_page_counts_equal": true
+  },
+  "demo_values": {
+    "신청인 상호(법인명)": "시험법인",
+    "신청인 성명(대표자)": "시험홍길동",
+    "신청인 사업자등록번호(생년월일)": "시험용 번호",
+    "신청인 사업장(주소)": "시험법인",
+    "대리인 전화번호(휴대전화)": "000-0000-0000"
+  },
+  "demo_notice": "호환 검증용 가짜 정보임. 실제 제출용이 아니며 자동으로 적용하지 않음",
+  "submission_ready": false
+}

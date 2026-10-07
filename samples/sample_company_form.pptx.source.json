@@ -1,0 +1,24 @@
+{
+  "synthetic": true,
+  "submission_ready": false,
+  "format": "PPTX",
+  "generator": "Microsoft PowerPoint desktop COM",
+  "source_sha256": "0cb9967714d85d1c437c557acf424e107a6a2caf5601c033026a1202c6384ece",
+  "notice": "제출 금지 기능 검증용 가상 회사 양식임",
+  "native_verification": {
+    "application": "Microsoft PowerPoint",
+    "date": "2026-10-03",
+    "source_slides": 2,
+    "filled_slides": 2,
+    "read_only": true,
+    "with_window": false,
+    "pdf_text_values_present": true,
+    "images_inspected": true,
+    "unchanged_slide2_pixels_identical": true,
+    "scope": "짧은 시험값으로 제목·표3행·본문3줄·작성자·빈텍스트상자 확인"
+  },
+  "limitations": [
+    "차트·SmartArt·그림 자체는 보존하며 텍스트를 자동 기입하지 않음",
+    "본문 분량이 원본 입력칸을 넘으면 PowerPoint에서 검토가 필요함"
+  ]
+}

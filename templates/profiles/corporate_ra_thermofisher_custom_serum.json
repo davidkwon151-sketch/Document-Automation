@@ -1,0 +1,188 @@
+{
+  "format": "pdf",
+  "fields": [
+    {
+      "id": "pdf:Text1",
+      "label": "COMPANY NAME",
+      "kind": "pdf_form",
+      "value_key": "의뢰 회사",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Text1",
+      "original_native_tooltip": null,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 45,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          38.9496,
+          627.593,
+          301.118,
+          647.037
+        ]
+      }
+    },
+    {
+      "id": "pdf:Contact Name",
+      "label": "CONTACT NAME",
+      "kind": "pdf_form",
+      "value_key": "의뢰 연락 담당자",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Contact Name",
+      "original_native_tooltip": null,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 40,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          314.153,
+          593.124,
+          575.753,
+          611.524
+        ]
+      }
+    },
+    {
+      "id": "pdf:Request Date",
+      "label": "REQUEST DATE",
+      "kind": "pdf_form",
+      "value_key": "의뢰 날짜",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "original_field_name": "Request Date",
+      "original_native_tooltip": null,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 10,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          451.689,
+          695.449,
+          585.325,
+          712.867
+        ]
+      }
+    },
+    {
+      "id": "pdf:Customization Notes",
+      "label": "CUSTOMIZATION NOTES",
+      "kind": "pdf_form",
+      "value_key": "맞춤 혈청 요청 설명",
+      "suggested_mapping": null,
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "original_field_name": "Customization Notes",
+      "original_native_tooltip": null,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 160,
+      "author_role": "sender",
+      "location_evidence": {
+        "page": 1,
+        "rect": [
+          203.508,
+          54.947,
+          575.4,
+          113.929
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "PDF 입력칸의 배경·테두리·크기를 유지함. 한글 표시에는 설치된 한글 TTF 글꼴을 내장하며 글꼴이 달라질 수 있음. 장문 넘침은 자동 검사함",
+    "등록한 sender 텍스트 입력칸만 시험함. 전체 필수항목·선택칸·서명·첨부요건·실제 시료 라벨 일치는 미평가함.",
+    "혈청·바이오생산 요청 전용임. EMA 의약품 정보의 교차기입은 범위 불일치로 하지 않음."
+  ],
+  "supported": true,
+  "source_sha256": "c7e2e2eee4343f60e847b72f42a69e2d579d6a8de3e047989d506ee5b307ae1d",
+  "render_mode": "acroform",
+  "pages": [
+    {
+      "page": 1,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 2,
+      "width": 612.0,
+      "height": 792.0
+    },
+    {
+      "page": 3,
+      "width": 612.0,
+      "height": 792.0
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "corporate_ra_thermofisher_custom_serum",
+  "source_filename": "thermofisher_public_form.pdf",
+  "source_path": "data/public_templates/ra_cross_company/thermofisher_public_form.pdf",
+  "resource_kind": "blank_form",
+  "source_kind": "public_form",
+  "corporate_form": true,
+  "company_internal": false,
+  "private_internal_template_verified": false,
+  "company": "Thermo Fisher Scientific / Gibco",
+  "company_role": "public_form_issuer",
+  "owner": "Thermo Fisher Scientific / Gibco",
+  "domain": "pharmaceutical_ra",
+  "use_classification": "official_public_bioproduction_regulatory_sourcing_request",
+  "citation_mode": "sidecar",
+  "checked_at": "2026-10-03",
+  "source_url": "https://documents.thermofisher.com/TFS-Assets/LSG/brochures/gibco-custom-serum-request.pdf",
+  "source_page": "https://documents.thermofisher.com/TFS-Assets/LSG/brochures/gibco-custom-serum-request.pdf",
+  "current_version_verified": false,
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "demo_values": {
+    "의뢰 회사": "TEST ONLY - NOT FOR SUBMISSION",
+    "의뢰 연락 담당자": "TEST USER - NOT FOR SUBMISSION",
+    "의뢰 날짜": "2026-10-03",
+    "맞춤 혈청 요청 설명": "TEST ONLY - NO ORDER OR REGULATORY CLAIM"
+  },
+  "demo_notice": "실제 제출용이 아님. 공식 공개 기업 시험/규제지원 양식의 가짜 부분 기입 QA임. 실제 제출·시료 발송·거래·주문·승인·서명·GMP 적합성 주장 아님.",
+  "form_version": "FRM0022460",
+  "real_public_fact_mapping": {
+    "eligible": false,
+    "keys": [],
+    "scope": "제품명 원문 대조 QA만 가능하며 실제 시료·판매·거래 관계를 증명하지 않음"
+  },
+  "profile_verification": {
+    "sample_fill_verified": true,
+    "synthetic_qa": true,
+    "independent_output_check": "passed",
+    "full_submission_ready": false,
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium with native form appearance",
+      "render_scale": 1.5,
+      "original_pages_reviewed": 3,
+      "synthetic_output_pages_reviewed": 3,
+      "real_identity_output_pages_reviewed": 0,
+      "scope": "전체 페이지 PNG 연락시트에서 원문·선택 기입 위치·전체 제품명·잘림/겹침 여부를 확인함. 실제 Acrobat/Office 앱 또는 제출 적합성 검증 아님.",
+      "limitations": [
+        "서명·시험의뢰 결정·실제 시료 라벨 일치·법적 접수 요건은 미평가",
+        "원본 최신 버전 여부와 비공개 내부 양식 여부는 검증하지 않음"
+      ],
+      "source_contact_sheet": "outputs/ra-cross-company/templates/thermofisher_source_contact.png",
+      "synthetic_contact_sheet": "outputs/ra-cross-company/templates/thermofisher_synthetic_partial_contact.png"
+    },
+    "actual_llm_calls": 0
+  }
+}

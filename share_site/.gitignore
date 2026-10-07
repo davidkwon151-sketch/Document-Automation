@@ -1,0 +1,4 @@
+.sites-runtime/
+.env
+.env.*
+*.log

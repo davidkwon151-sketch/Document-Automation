@@ -1,0 +1,2917 @@
+{
+  "format": "pdf",
+  "fields": [
+    {
+      "id": "ra:임상시험실시기관 명칭",
+      "label": "임상시험실시기관 명칭",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험실시기관 명칭",
+      "suggested_mapping": "임상시험실시기관 명칭",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 146.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:임상시험실시기관 주소",
+      "label": "임상시험실시기관 주소",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험실시기관 주소",
+      "suggested_mapping": "임상시험실시기관 주소",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 46,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 176.0,
+      "width": 322.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료기관 종별",
+      "label": "의료기관 종별",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 종별",
+      "suggested_mapping": "의료기관 종별",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 206.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료기관 전문분야",
+      "label": "의료기관 전문분야",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 전문분야",
+      "suggested_mapping": "의료기관 전문분야",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 420.0,
+      "y": 206.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료기관 법인구분",
+      "label": "의료기관 법인구분",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 법인구분",
+      "suggested_mapping": "의료기관 법인구분",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 236.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료급여기관 구분",
+      "label": "의료급여기관 구분",
+      "kind": "pdf_overlay",
+      "value_key": "의료급여기관 구분",
+      "suggested_mapping": "의료급여기관 구분",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 420.0,
+      "y": 236.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료기관 진료과목수",
+      "label": "의료기관 진료과목수",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 진료과목수",
+      "suggested_mapping": "의료기관 진료과목수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 266.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:의료기관 수련구분",
+      "label": "의료기관 수련구분",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 수련구분",
+      "suggested_mapping": "의료기관 수련구분",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 420.0,
+      "y": 266.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:의료기관 병상수",
+      "label": "의료기관 병상수",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 병상수",
+      "suggested_mapping": "의료기관 병상수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 296.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:의료기관 기타",
+      "label": "의료기관 기타",
+      "kind": "pdf_overlay",
+      "value_key": "의료기관 기타",
+      "suggested_mapping": "의료기관 기타",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 420.0,
+      "y": 296.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음"
+    },
+    {
+      "id": "ra:IRB 패널수",
+      "label": "IRB 패널수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 패널수",
+      "suggested_mapping": "IRB 패널수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 15,
+      "location_verified": true,
+      "page": 1,
+      "x": 210.0,
+      "y": 390.0,
+      "width": 111.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:IRB 정규심의주기",
+      "label": "IRB 정규심의주기",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 정규심의주기",
+      "suggested_mapping": "IRB 정규심의주기",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 14,
+      "location_verified": true,
+      "page": 1,
+      "x": 420.0,
+      "y": 390.0,
+      "width": 100.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "display_unit": "주",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "number",
+        "unit": "주",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:임상시험실시기관 대표자 성명",
+      "label": "임상시험실시기관 대표자 성명",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험실시기관 대표자 성명",
+      "suggested_mapping": "임상시험실시기관 대표자 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 29,
+      "location_verified": true,
+      "page": 1,
+      "x": 270.0,
+      "y": 548.0,
+      "width": 208.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:담당자 성명 앞쪽",
+      "label": "담당자 성명 앞쪽",
+      "kind": "pdf_overlay",
+      "value_key": "담당자 성명",
+      "suggested_mapping": "담당자 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 32,
+      "location_verified": true,
+      "page": 1,
+      "x": 283.0,
+      "y": 567.0,
+      "width": 250.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:담당자 전화번호",
+      "label": "담당자 전화번호",
+      "kind": "pdf_overlay",
+      "value_key": "담당자 전화번호",
+      "suggested_mapping": "담당자 전화번호",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 33,
+      "location_verified": true,
+      "page": 1,
+      "x": 301.0,
+      "y": 585.0,
+      "width": 232.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:담당자 성명 뒤쪽",
+      "label": "담당자 성명 뒤쪽",
+      "kind": "pdf_overlay",
+      "value_key": "담당자 성명",
+      "suggested_mapping": "담당자 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 32,
+      "location_verified": true,
+      "page": 2,
+      "x": 262.0,
+      "y": 711.0,
+      "width": 270.0,
+      "height": 11.0,
+      "font_size": 7.0
+    },
+    {
+      "id": "ra:IRB 과학계 위원 전체 인원",
+      "label": "IRB 과학계 위원 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 과학계 위원 전체 인원",
+      "suggested_mapping": "IRB 과학계 위원 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 220.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 과학계",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 과학계 위원 교육이수 인원",
+      "label": "IRB 과학계 위원 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 과학계 위원 교육이수 인원",
+      "suggested_mapping": "IRB 과학계 위원 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 277.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 과학계",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 비과학계 위원 전체 인원",
+      "label": "IRB 비과학계 위원 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 비과학계 위원 전체 인원",
+      "suggested_mapping": "IRB 비과학계 위원 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 332.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 비과학계",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 비과학계 위원 교육이수 인원",
+      "label": "IRB 비과학계 위원 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 비과학계 위원 교육이수 인원",
+      "suggested_mapping": "IRB 비과학계 위원 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 389.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 비과학계",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 외부이해관계없는 위원 전체 인원",
+      "label": "IRB 외부이해관계없는 위원 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 외부이해관계없는 위원 전체 인원",
+      "suggested_mapping": "IRB 외부이해관계없는 위원 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 444.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 외부이해관계없는",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 외부이해관계없는 위원 교육이수 인원",
+      "label": "IRB 외부이해관계없는 위원 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 외부이해관계없는 위원 교육이수 인원",
+      "suggested_mapping": "IRB 외부이해관계없는 위원 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 1,
+      "x": 500.0,
+      "y": 447.0,
+      "width": 24.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 외부이해관계없는",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 의사 전체 인원",
+      "label": "시험책임자 의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 의사 전체 인원",
+      "suggested_mapping": "시험책임자 의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 252.0,
+      "y": 109.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 의사 교육이수 인원",
+      "label": "시험책임자 의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 의사 교육이수 인원",
+      "suggested_mapping": "시험책임자 의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 297.0,
+      "y": 109.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 의사 전체 인원",
+      "label": "시험담당자 의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 의사 전체 인원",
+      "suggested_mapping": "시험담당자 의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 464.0,
+      "y": 109.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 의사 교육이수 인원",
+      "label": "시험담당자 의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 의사 교육이수 인원",
+      "suggested_mapping": "시험담당자 의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 509.0,
+      "y": 109.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 치과의사 전체 인원",
+      "label": "시험책임자 치과의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 치과의사 전체 인원",
+      "suggested_mapping": "시험책임자 치과의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 252.0,
+      "y": 135.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "치과의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 치과의사 교육이수 인원",
+      "label": "시험책임자 치과의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 치과의사 교육이수 인원",
+      "suggested_mapping": "시험책임자 치과의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 297.0,
+      "y": 135.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "치과의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 치과의사 전체 인원",
+      "label": "시험담당자 치과의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 치과의사 전체 인원",
+      "suggested_mapping": "시험담당자 치과의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 464.0,
+      "y": 135.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "치과의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 치과의사 교육이수 인원",
+      "label": "시험담당자 치과의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 치과의사 교육이수 인원",
+      "suggested_mapping": "시험담당자 치과의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 509.0,
+      "y": 135.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "치과의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 한의사 전체 인원",
+      "label": "시험책임자 한의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 한의사 전체 인원",
+      "suggested_mapping": "시험책임자 한의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 252.0,
+      "y": 161.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "한의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험책임자 한의사 교육이수 인원",
+      "label": "시험책임자 한의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험책임자 한의사 교육이수 인원",
+      "suggested_mapping": "시험책임자 한의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 297.0,
+      "y": 161.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험책임자",
+      "qualification": "한의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 한의사 전체 인원",
+      "label": "시험담당자 한의사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 한의사 전체 인원",
+      "suggested_mapping": "시험담당자 한의사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 464.0,
+      "y": 161.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "한의사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:시험담당자 한의사 교육이수 인원",
+      "label": "시험담당자 한의사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "시험담당자 한의사 교육이수 인원",
+      "suggested_mapping": "시험담당자 한의사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 509.0,
+      "y": 161.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "investigator_role": "시험담당자",
+      "qualification": "한의사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:CRC 정규직 전체 인원",
+      "label": "CRC 정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "CRC 정규직 전체 인원",
+      "suggested_mapping": "CRC 정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 252.0,
+      "y": 188.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "CRC",
+      "employment": "정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:CRC 정규직 교육이수 인원",
+      "label": "CRC 정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "CRC 정규직 교육이수 인원",
+      "suggested_mapping": "CRC 정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 297.0,
+      "y": 188.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "CRC",
+      "employment": "정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:QA 정규직 전체 인원",
+      "label": "QA 정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "QA 정규직 전체 인원",
+      "suggested_mapping": "QA 정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 464.0,
+      "y": 188.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "QA",
+      "employment": "정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:QA 정규직 교육이수 인원",
+      "label": "QA 정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "QA 정규직 교육이수 인원",
+      "suggested_mapping": "QA 정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 509.0,
+      "y": 188.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "QA",
+      "employment": "정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:CRC 비정규직 전체 인원",
+      "label": "CRC 비정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "CRC 비정규직 전체 인원",
+      "suggested_mapping": "CRC 비정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 252.0,
+      "y": 216.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "CRC",
+      "employment": "비정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:CRC 비정규직 교육이수 인원",
+      "label": "CRC 비정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "CRC 비정규직 교육이수 인원",
+      "suggested_mapping": "CRC 비정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 297.0,
+      "y": 216.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "CRC",
+      "employment": "비정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:QA 비정규직 전체 인원",
+      "label": "QA 비정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "QA 비정규직 전체 인원",
+      "suggested_mapping": "QA 비정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 464.0,
+      "y": 216.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "QA",
+      "employment": "비정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:QA 비정규직 교육이수 인원",
+      "label": "QA 비정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "QA 비정규직 교육이수 인원",
+      "suggested_mapping": "QA 비정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 3,
+      "location_verified": true,
+      "page": 2,
+      "x": 509.0,
+      "y": 216.0,
+      "width": 15.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "QA",
+      "employment": "비정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 행정지원 정규직 전체 인원",
+      "label": "IRB 행정지원 정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 행정지원 정규직 전체 인원",
+      "suggested_mapping": "IRB 행정지원 정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 389.0,
+      "y": 244.0,
+      "width": 45.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 행정지원",
+      "employment": "정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 행정지원 정규직 교육이수 인원",
+      "label": "IRB 행정지원 정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 행정지원 정규직 교육이수 인원",
+      "suggested_mapping": "IRB 행정지원 정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 471.0,
+      "y": 244.0,
+      "width": 45.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 행정지원",
+      "employment": "정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 행정지원 비정규직 전체 인원",
+      "label": "IRB 행정지원 비정규직 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 행정지원 비정규직 전체 인원",
+      "suggested_mapping": "IRB 행정지원 비정규직 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 389.0,
+      "y": 272.0,
+      "width": 45.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 행정지원",
+      "employment": "비정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 행정지원 비정규직 교육이수 인원",
+      "label": "IRB 행정지원 비정규직 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 행정지원 비정규직 교육이수 인원",
+      "suggested_mapping": "IRB 행정지원 비정규직 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 471.0,
+      "y": 272.0,
+      "width": 45.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "IRB 행정지원",
+      "employment": "비정규직",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:임상시험센터 행정지원 정규직 인원",
+      "label": "임상시험센터 행정지원 정규직 인원",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험센터 행정지원 정규직 인원",
+      "suggested_mapping": "임상시험센터 행정지원 정규직 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 389.0,
+      "y": 299.0,
+      "width": 128.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "임상시험센터 행정지원",
+      "employment": "정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:임상시험센터 행정지원 비정규직 인원",
+      "label": "임상시험센터 행정지원 비정규직 인원",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험센터 행정지원 비정규직 인원",
+      "suggested_mapping": "임상시험센터 행정지원 비정규직 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 389.0,
+      "y": 326.0,
+      "width": 128.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "임상시험센터 행정지원",
+      "employment": "비정규직",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:임상시험 관리약사 전체 인원",
+      "label": "임상시험 관리약사 전체 인원",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 관리약사 전체 인원",
+      "suggested_mapping": "임상시험 관리약사 전체 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 221.0,
+      "y": 353.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "임상시험 관리약사",
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:임상시험 관리약사 교육이수 인원",
+      "label": "임상시험 관리약사 교육이수 인원",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 관리약사 교육이수 인원",
+      "suggested_mapping": "임상시험 관리약사 교육이수 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 282.0,
+      "y": 353.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "personnel_group": "임상시험 관리약사",
+      "count_role": "교육이수",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:임상시험 기록보관책임자 인원",
+      "label": "임상시험 기록보관책임자 인원",
+      "kind": "pdf_overlay",
+      "value_key": "임상시험 기록보관책임자 인원",
+      "suggested_mapping": "임상시험 기록보관책임자 인원",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 6,
+      "location_verified": true,
+      "page": 2,
+      "x": 433.0,
+      "y": 353.0,
+      "width": 90.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "count_role": "전체",
+      "display_unit": "명",
+      "evidence_scope": "해당 기관·보고기간의 운영·인력 기록. 공개 제품정보로 대체하지 않음",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "명",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 의뢰자주도 1상 시험건수",
+      "label": "IRB 당해년도 승인 의뢰자주도 1상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 의뢰자주도 1상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 의뢰자주도 1상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 409.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "1상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 의뢰자주도 3상 시험건수",
+      "label": "IRB 당해년도 승인 의뢰자주도 3상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 의뢰자주도 3상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 의뢰자주도 3상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 409.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "3상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 의뢰자주도 2상 시험건수",
+      "label": "IRB 당해년도 승인 의뢰자주도 2상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 의뢰자주도 2상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 의뢰자주도 2상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 436.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "2상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 의뢰자주도 4상 시험건수",
+      "label": "IRB 당해년도 승인 의뢰자주도 4상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 의뢰자주도 4상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 의뢰자주도 4상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 436.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "4상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수",
+      "label": "IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 409.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수",
+      "label": "IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수",
+      "suggested_mapping": "IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 436.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "IRB 당해년도 승인",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인비대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 의뢰자주도 1상 시험건수",
+      "label": "진행중 의뢰자주도 1상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 의뢰자주도 1상 시험건수",
+      "suggested_mapping": "진행중 의뢰자주도 1상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 491.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "1상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 의뢰자주도 3상 시험건수",
+      "label": "진행중 의뢰자주도 3상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 의뢰자주도 3상 시험건수",
+      "suggested_mapping": "진행중 의뢰자주도 3상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 491.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "3상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 의뢰자주도 2상 시험건수",
+      "label": "진행중 의뢰자주도 2상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 의뢰자주도 2상 시험건수",
+      "suggested_mapping": "진행중 의뢰자주도 2상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 518.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "2상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 의뢰자주도 4상 시험건수",
+      "label": "진행중 의뢰자주도 4상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 의뢰자주도 4상 시험건수",
+      "suggested_mapping": "진행중 의뢰자주도 4상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 518.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "4상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 연구자주도 식약처승인대상 시험건수",
+      "label": "진행중 연구자주도 식약처승인대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 연구자주도 식약처승인대상 시험건수",
+      "suggested_mapping": "진행중 연구자주도 식약처승인대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 491.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:진행중 연구자주도 식약처승인비대상 시험건수",
+      "label": "진행중 연구자주도 식약처승인비대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "진행중 연구자주도 식약처승인비대상 시험건수",
+      "suggested_mapping": "진행중 연구자주도 식약처승인비대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 518.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "진행중",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인비대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 의뢰자주도 1상 시험건수",
+      "label": "당해년도 종료 의뢰자주도 1상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 의뢰자주도 1상 시험건수",
+      "suggested_mapping": "당해년도 종료 의뢰자주도 1상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 572.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "1상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 의뢰자주도 3상 시험건수",
+      "label": "당해년도 종료 의뢰자주도 3상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 의뢰자주도 3상 시험건수",
+      "suggested_mapping": "당해년도 종료 의뢰자주도 3상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 572.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "3상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 의뢰자주도 2상 시험건수",
+      "label": "당해년도 종료 의뢰자주도 2상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 의뢰자주도 2상 시험건수",
+      "suggested_mapping": "당해년도 종료 의뢰자주도 2상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 265.0,
+      "y": 599.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "2상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 의뢰자주도 4상 시험건수",
+      "label": "당해년도 종료 의뢰자주도 4상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 의뢰자주도 4상 시험건수",
+      "suggested_mapping": "당해년도 종료 의뢰자주도 4상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 377.0,
+      "y": 599.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "의뢰자주도",
+      "phase": "4상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 연구자주도 식약처승인대상 시험건수",
+      "label": "당해년도 종료 연구자주도 식약처승인대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 연구자주도 식약처승인대상 시험건수",
+      "suggested_mapping": "당해년도 종료 연구자주도 식약처승인대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 572.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    },
+    {
+      "id": "ra:당해년도 종료 연구자주도 식약처승인비대상 시험건수",
+      "label": "당해년도 종료 연구자주도 식약처승인비대상 시험건수",
+      "kind": "pdf_overlay",
+      "value_key": "당해년도 종료 연구자주도 식약처승인비대상 시험건수",
+      "suggested_mapping": "당해년도 종료 연구자주도 식약처승인비대상 시험건수",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 5,
+      "location_verified": true,
+      "page": 2,
+      "x": 488.0,
+      "y": 599.0,
+      "width": 35.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "value_type": "integer",
+      "minimum": 0,
+      "trial_state": "당해년도 종료",
+      "sponsor_kind": "연구자주도",
+      "approval_scope": "식약처승인비대상",
+      "display_unit": "건",
+      "evidence_scope": "해당 기관·보고기간의 임상시험 목록",
+      "validation": {
+        "type": "integer",
+        "min": 0,
+        "unit": "건",
+        "unit_location": "label"
+      }
+    }
+  ],
+  "warnings": [
+    "정적·스캔 PDF의 원본 페이지 위에 입력함. 자동 제안 영역을 확인하거나 입력 영역을 지정해야 함",
+    "보고기간·실시기관 지정일·IRB 구성일·작성일의 년월일 구분 칸은 직접 수동 확인·기입해야 함.",
+    "기관 EMR·IRB 구분·전자시스템의 정적 선택칸과 서명·인은 자동 처리하지 않음.",
+    "명·건·주를 원본 그대로 유지함. 전체/교육이수 및 승인/진행/종료·1~4상·연구자주도 승인구분을 합산하거나 교환하지 않음.",
+    "등록하지 않은 특수 배치 칸과 첨부자료는 수동 확인이 필요함. 숫자의 정수·기관별 합계 및 날짜 유효성은 담당자가 확인해야 함.",
+    "칸을 넘는 전체 원문은 기본적으로 차단함. 임의 축약·잘라내기·자동 별첨을 하지 않음. 별첨 사용 및 제출 요건을 별도로 확인해야 함.",
+    "필수 여부 false는 부분 기입 도구의 설정임. 법정 필수 제출항목이 선택사항임을 의미하지 않음."
+  ],
+  "supported": true,
+  "source_sha256": "31364d5e8264a8914e0f6d190be84ab95276d60f0dbd0fe1f4f376ec241ad591",
+  "render_mode": "overlay",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.0,
+      "height": 841.0
+    },
+    {
+      "page": 2,
+      "width": 595.0,
+      "height": 841.0
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "ra_law_form_32_2_pdf",
+  "source_filename": "ra_law_form_32_2_20260305.pdf",
+  "resource_kind": "blank_form",
+  "domain": "pharmaceutical_ra",
+  "ra_workflow": "clinical_trial",
+  "title": "[서식 32의 2] 임상시험 실시상황 보고서(임상시험실시기관의 장)",
+  "form_number": "32_2",
+  "law_effective_date": "2026-03-05",
+  "form_version": "총리령 제2100호",
+  "form_printed_revision_date": "2016-10-28",
+  "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000775&lsiSeq=284019&efYd=20260305",
+  "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105619",
+  "checked_at": "2026-10-03",
+  "citation_mode": "sidecar",
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "demo_values": {
+    "임상시험실시기관 명칭": "시험값(제출금지)",
+    "임상시험실시기관 주소": "시험값(제출금지)",
+    "의료기관 종별": "시험값(제출금지)",
+    "의료기관 전문분야": "시험값(제출금지)",
+    "의료기관 법인구분": "시험값(제출금지)",
+    "의료급여기관 구분": "시험값(제출금지)",
+    "의료기관 진료과목수": "1",
+    "의료기관 수련구분": "시험값(제출금지)",
+    "의료기관 병상수": "1",
+    "의료기관 기타": "시험값(제출금지)",
+    "IRB 패널수": "1",
+    "IRB 정규심의주기": "4",
+    "임상시험실시기관 대표자 성명": "시험값(제출금지)",
+    "담당자 성명": "시험값(제출금지)",
+    "담당자 전화번호": "TEST-000",
+    "IRB 과학계 위원 전체 인원": "3",
+    "IRB 과학계 위원 교육이수 인원": "2",
+    "IRB 비과학계 위원 전체 인원": "3",
+    "IRB 비과학계 위원 교육이수 인원": "2",
+    "IRB 외부이해관계없는 위원 전체 인원": "3",
+    "IRB 외부이해관계없는 위원 교육이수 인원": "2",
+    "시험책임자 의사 전체 인원": "3",
+    "시험책임자 의사 교육이수 인원": "2",
+    "시험담당자 의사 전체 인원": "3",
+    "시험담당자 의사 교육이수 인원": "2",
+    "시험책임자 치과의사 전체 인원": "3",
+    "시험책임자 치과의사 교육이수 인원": "2",
+    "시험담당자 치과의사 전체 인원": "3",
+    "시험담당자 치과의사 교육이수 인원": "2",
+    "시험책임자 한의사 전체 인원": "3",
+    "시험책임자 한의사 교육이수 인원": "2",
+    "시험담당자 한의사 전체 인원": "3",
+    "시험담당자 한의사 교육이수 인원": "2",
+    "CRC 정규직 전체 인원": "3",
+    "CRC 정규직 교육이수 인원": "2",
+    "QA 정규직 전체 인원": "3",
+    "QA 정규직 교육이수 인원": "2",
+    "CRC 비정규직 전체 인원": "3",
+    "CRC 비정규직 교육이수 인원": "2",
+    "QA 비정규직 전체 인원": "3",
+    "QA 비정규직 교육이수 인원": "2",
+    "IRB 행정지원 정규직 전체 인원": "3",
+    "IRB 행정지원 정규직 교육이수 인원": "2",
+    "IRB 행정지원 비정규직 전체 인원": "3",
+    "IRB 행정지원 비정규직 교육이수 인원": "2",
+    "임상시험센터 행정지원 정규직 인원": "3",
+    "임상시험센터 행정지원 비정규직 인원": "3",
+    "임상시험 관리약사 전체 인원": "3",
+    "임상시험 관리약사 교육이수 인원": "2",
+    "임상시험 기록보관책임자 인원": "3",
+    "IRB 당해년도 승인 의뢰자주도 1상 시험건수": "1",
+    "IRB 당해년도 승인 의뢰자주도 3상 시험건수": "1",
+    "IRB 당해년도 승인 의뢰자주도 2상 시험건수": "1",
+    "IRB 당해년도 승인 의뢰자주도 4상 시험건수": "1",
+    "IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수": "1",
+    "IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수": "1",
+    "진행중 의뢰자주도 1상 시험건수": "1",
+    "진행중 의뢰자주도 3상 시험건수": "1",
+    "진행중 의뢰자주도 2상 시험건수": "1",
+    "진행중 의뢰자주도 4상 시험건수": "1",
+    "진행중 연구자주도 식약처승인대상 시험건수": "1",
+    "진행중 연구자주도 식약처승인비대상 시험건수": "1",
+    "당해년도 종료 의뢰자주도 1상 시험건수": "1",
+    "당해년도 종료 의뢰자주도 3상 시험건수": "1",
+    "당해년도 종료 의뢰자주도 2상 시험건수": "1",
+    "당해년도 종료 의뢰자주도 4상 시험건수": "1",
+    "당해년도 종료 연구자주도 식약처승인대상 시험건수": "1",
+    "당해년도 종료 연구자주도 식약처승인비대상 시험건수": "1"
+  },
+  "demo_notice": "가짜 시험값으로 관찰한 빈 텍스트 칸만 기입한 예시임. 실제 제출용이 아니며 전체 서류 작성·승인·법적 적합성을 증명하지 않음.",
+  "verification": {
+    "native_output": "verified_pdfium",
+    "legal_compliance_certified": false,
+    "scope": "원본 모든 쪽의 등록 빈 텍스트 칸에 시험값을 기입함. 미지원 선택칸·날짜·서명과 첨부자료는 수동 확인 대상임.",
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium",
+      "resolution_dpi": 108,
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "result_pngs": [
+        "outputs/ra_clinical_foreign_profile_qa/form_32_2_filled_page1.png",
+        "outputs/ra_clinical_foreign_profile_qa/form_32_2_filled_page2.png"
+      ],
+      "scope": "원본과 기입 결과의 모든 페이지를 108dpi PDFium PNG로 직접 관찰함. 표 경계·안내·인쇄 단위·선택칸을 보존하며 시험값이 지정한 빈 영역에 존재함. 법적 적합성이나 전체 제출 준비 인증이 아님."
+    }
+  },
+  "constraints": {
+    "relations": [
+      {
+        "kind": "less_equal",
+        "left": "IRB 과학계 위원 교육이수 인원",
+        "right": "IRB 과학계 위원 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "IRB 비과학계 위원 교육이수 인원",
+        "right": "IRB 비과학계 위원 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "IRB 외부이해관계없는 위원 교육이수 인원",
+        "right": "IRB 외부이해관계없는 위원 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험책임자 의사 교육이수 인원",
+        "right": "시험책임자 의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험담당자 의사 교육이수 인원",
+        "right": "시험담당자 의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험책임자 치과의사 교육이수 인원",
+        "right": "시험책임자 치과의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험담당자 치과의사 교육이수 인원",
+        "right": "시험담당자 치과의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험책임자 한의사 교육이수 인원",
+        "right": "시험책임자 한의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "시험담당자 한의사 교육이수 인원",
+        "right": "시험담당자 한의사 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "CRC 정규직 교육이수 인원",
+        "right": "CRC 정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "QA 정규직 교육이수 인원",
+        "right": "QA 정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "CRC 비정규직 교육이수 인원",
+        "right": "CRC 비정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "QA 비정규직 교육이수 인원",
+        "right": "QA 비정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "IRB 행정지원 정규직 교육이수 인원",
+        "right": "IRB 행정지원 정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "IRB 행정지원 비정규직 교육이수 인원",
+        "right": "IRB 행정지원 비정규직 전체 인원"
+      },
+      {
+        "kind": "less_equal",
+        "left": "임상시험 관리약사 교육이수 인원",
+        "right": "임상시험 관리약사 전체 인원"
+      }
+    ]
+  },
+  "validation_evidence": {
+    "source_sha256": "31364d5e8264a8914e0f6d190be84ab95276d60f0dbd0fe1f4f376ec241ad591",
+    "source_filename": "ra_law_form_32_2_20260305.pdf",
+    "scope": "원본 인쇄 라벨과 단위에 근거한 값/관계 검사임. 시험값은 실제 제출용이 아니며 법적 적합성 인증이 아님.",
+    "fields": {
+      "의료기관 진료과목수": {
+        "printed_labels": [
+          "진료과목수"
+        ],
+        "page": 1,
+        "location": "ra:의료기관 진료과목수"
+      },
+      "의료기관 병상수": {
+        "printed_labels": [
+          "병상수"
+        ],
+        "page": 1,
+        "location": "ra:의료기관 병상수"
+      },
+      "IRB 패널수": {
+        "printed_labels": [
+          "패널수"
+        ],
+        "page": 1,
+        "location": "ra:IRB 패널수"
+      },
+      "IRB 과학계 위원 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 과학계 위원 전체 인원"
+      },
+      "IRB 과학계 위원 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 과학계 위원 교육이수 인원"
+      },
+      "IRB 비과학계 위원 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 비과학계 위원 전체 인원"
+      },
+      "IRB 비과학계 위원 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 비과학계 위원 교육이수 인원"
+      },
+      "IRB 외부이해관계없는 위원 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 외부이해관계없는 위원 전체 인원"
+      },
+      "IRB 외부이해관계없는 위원 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 1,
+        "location": "ra:IRB 외부이해관계없는 위원 교육이수 인원"
+      },
+      "시험책임자 의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 의사 전체 인원"
+      },
+      "시험책임자 의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 의사 교육이수 인원"
+      },
+      "시험담당자 의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 의사 전체 인원"
+      },
+      "시험담당자 의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 의사 교육이수 인원"
+      },
+      "시험책임자 치과의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 치과의사 전체 인원"
+      },
+      "시험책임자 치과의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 치과의사 교육이수 인원"
+      },
+      "시험담당자 치과의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 치과의사 전체 인원"
+      },
+      "시험담당자 치과의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 치과의사 교육이수 인원"
+      },
+      "시험책임자 한의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 한의사 전체 인원"
+      },
+      "시험책임자 한의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험책임자 한의사 교육이수 인원"
+      },
+      "시험담당자 한의사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 한의사 전체 인원"
+      },
+      "시험담당자 한의사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:시험담당자 한의사 교육이수 인원"
+      },
+      "CRC 정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:CRC 정규직 전체 인원"
+      },
+      "CRC 정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:CRC 정규직 교육이수 인원"
+      },
+      "QA 정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:QA 정규직 전체 인원"
+      },
+      "QA 정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:QA 정규직 교육이수 인원"
+      },
+      "CRC 비정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:CRC 비정규직 전체 인원"
+      },
+      "CRC 비정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:CRC 비정규직 교육이수 인원"
+      },
+      "QA 비정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:QA 비정규직 전체 인원"
+      },
+      "QA 비정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:QA 비정규직 교육이수 인원"
+      },
+      "IRB 행정지원 정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:IRB 행정지원 정규직 전체 인원"
+      },
+      "IRB 행정지원 정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:IRB 행정지원 정규직 교육이수 인원"
+      },
+      "IRB 행정지원 비정규직 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:IRB 행정지원 비정규직 전체 인원"
+      },
+      "IRB 행정지원 비정규직 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:IRB 행정지원 비정규직 교육이수 인원"
+      },
+      "임상시험센터 행정지원 정규직 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:임상시험센터 행정지원 정규직 인원"
+      },
+      "임상시험센터 행정지원 비정규직 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:임상시험센터 행정지원 비정규직 인원"
+      },
+      "임상시험 관리약사 전체 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:임상시험 관리약사 전체 인원"
+      },
+      "임상시험 관리약사 교육이수 인원": {
+        "printed_labels": [
+          "교육",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:임상시험 관리약사 교육이수 인원"
+      },
+      "임상시험 기록보관책임자 인원": {
+        "printed_labels": [
+          "총",
+          "명"
+        ],
+        "page": 2,
+        "location": "ra:임상시험 기록보관책임자 인원"
+      },
+      "IRB 당해년도 승인 의뢰자주도 1상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 의뢰자주도 1상 시험건수"
+      },
+      "IRB 당해년도 승인 의뢰자주도 3상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 의뢰자주도 3상 시험건수"
+      },
+      "IRB 당해년도 승인 의뢰자주도 2상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 의뢰자주도 2상 시험건수"
+      },
+      "IRB 당해년도 승인 의뢰자주도 4상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 의뢰자주도 4상 시험건수"
+      },
+      "IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 연구자주도 식약처승인대상 시험건수"
+      },
+      "IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:IRB 당해년도 승인 연구자주도 식약처승인비대상 시험건수"
+      },
+      "진행중 의뢰자주도 1상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 의뢰자주도 1상 시험건수"
+      },
+      "진행중 의뢰자주도 3상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 의뢰자주도 3상 시험건수"
+      },
+      "진행중 의뢰자주도 2상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 의뢰자주도 2상 시험건수"
+      },
+      "진행중 의뢰자주도 4상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 의뢰자주도 4상 시험건수"
+      },
+      "진행중 연구자주도 식약처승인대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 연구자주도 식약처승인대상 시험건수"
+      },
+      "진행중 연구자주도 식약처승인비대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:진행중 연구자주도 식약처승인비대상 시험건수"
+      },
+      "당해년도 종료 의뢰자주도 1상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 의뢰자주도 1상 시험건수"
+      },
+      "당해년도 종료 의뢰자주도 3상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 의뢰자주도 3상 시험건수"
+      },
+      "당해년도 종료 의뢰자주도 2상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 의뢰자주도 2상 시험건수"
+      },
+      "당해년도 종료 의뢰자주도 4상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 의뢰자주도 4상 시험건수"
+      },
+      "당해년도 종료 연구자주도 식약처승인대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 연구자주도 식약처승인대상 시험건수"
+      },
+      "당해년도 종료 연구자주도 식약처승인비대상 시험건수": {
+        "printed_labels": [
+          "건"
+        ],
+        "page": 2,
+        "location": "ra:당해년도 종료 연구자주도 식약처승인비대상 시험건수"
+      },
+      "IRB 정규심의주기": {
+        "printed_labels": [
+          "정규심의 주기",
+          "주"
+        ],
+        "page": 1,
+        "location": "ra:IRB 정규심의주기"
+      }
+    },
+    "relations": [
+      {
+        "index": 0,
+        "page": 1,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 1,
+        "page": 1,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 2,
+        "page": 1,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 3,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 4,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 5,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 6,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 7,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 8,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 9,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 10,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 11,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 12,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 13,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 14,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      },
+      {
+        "index": 15,
+        "page": 2,
+        "printed_labels": [
+          "총",
+          "교육",
+          "명"
+        ],
+        "reason": "같은 행의 교육이수 인원은 전체 인원의 부분집합임. 다른 직군/위원 분류는 합산하지 않음."
+      }
+    ]
+  }
+}

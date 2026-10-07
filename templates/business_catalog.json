@@ -1,0 +1,776 @@
+{
+  "schema_version": 1,
+  "basis": "공식 기관의 공고와 관찰된 첨부 버튼에서 수집한 외부 제출 양식 및 구분된 참고자료임. 현재 모집·지원 자격·전체 기입·사내 양식 확보를 인증하지 않음",
+  "checked_at": "2026-10-02T18:19:49.951803+00:00",
+  "workflows": {
+    "trade_sales": "해외영업·수출",
+    "overseas_business": "해외사업·진출",
+    "government_grant": "정부지원사업",
+    "rd_project": "국가 연구개발사업"
+  },
+  "documents": [
+    {
+      "id": "business_mss_allinone_plan_2026",
+      "canonical_form_id": "business_mss_allinone_plan_2026",
+      "title": "2026 제조창업 제품화 올인원팩 사업계획서",
+      "format": "HWPX",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부",
+      "organization": "중소벤처기업부",
+      "filename": "business_mss_allinone_plan_2026.hwpx",
+      "source_page": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=1067431&cbIdx=310&parentSeq=1067431",
+      "source_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1067431&cbIdx=310&streFileNm=9319d66e-5bf5-426c-8fa6-fe91aa482063.hwpx",
+      "allowed_hosts": [
+        "www.mss.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-04-17",
+      "publication_date": "2026-04-17",
+      "application_deadline": "2026-05-11",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "4b176e86219ae0023a3450ee104bc26aa91f5d0802840922a3f93964658e8111",
+      "size_bytes": 75956,
+      "download_status": "verified",
+      "final_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1067431&cbIdx=310&streFileNm=9319d66e-5bf5-426c-8fa6-fe91aa482063.hwpx",
+      "content_disposition": "attachment; filename=\"%28%EB%B6%99%EC%9E%841%29_%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C_%EC%96%91%EC%8B%9D.hwpx\""
+    },
+    {
+      "id": "business_mss_advisor_2026",
+      "canonical_form_id": "business_mss_advisor_2026",
+      "title": "2026 충남 기업성장 어드바이저 참가 신청서",
+      "format": "HWPX",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "충남지방중소벤처기업청",
+      "organization": "충남지방중소벤처기업청",
+      "filename": "business_mss_advisor_2026.hwpx",
+      "source_page": "https://www.mss.go.kr/site/chungnam/ex/bbs/View.do?bcIdx=1068456&cbIdx=315&parentSeq=1068456",
+      "source_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1068456&cbIdx=315&streFileNm=0a8f54d0-f677-4053-a5da-e061421be353.hwpx",
+      "allowed_hosts": [
+        "www.mss.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 게시 2026-05-21",
+      "publication_date": "2026-05-21",
+      "application_deadline": "2026-06-19",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "f21173079ac1a9367fefbf83240fabe8c38f394ee4b00943a3ced6a7e16e0bd7",
+      "size_bytes": 57079,
+      "download_status": "verified",
+      "final_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1068456&cbIdx=315&streFileNm=0a8f54d0-f677-4053-a5da-e061421be353.hwpx",
+      "content_disposition": "attachment; filename=\"%EB%B6%99%EC%9E%84._2026%EB%85%84_%EA%B8%B0%EC%97%85%EC%84%B1%EC%9E%A5_%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80_%EC%B0%B8%EA%B0%80_%EC%8B%A0%EC%B2%AD%EC%84%9C.hwpx\""
+    },
+    {
+      "id": "business_mss_india_application_2026",
+      "canonical_form_id": "business_mss_india_application_2026",
+      "title": "2026 경기북부 인도 유통망 입점 참가신청서",
+      "format": "XLSX",
+      "workflows": [
+        "trade_sales",
+        "overseas_business",
+        "government_grant"
+      ],
+      "publisher": "경기지방중소벤처기업청 / KOTRA",
+      "organization": "경기지방중소벤처기업청 / KOTRA",
+      "filename": "business_mss_india_application_2026.xlsx",
+      "source_page": "https://www.mss.go.kr/site/gyeonggi/ex/bbs/View.do?bcIdx=1070654&cbIdx=247",
+      "source_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1070654&cbIdx=247&streFileNm=c8da750c-e231-41a4-a2bd-4892e2fe5ff9.xlsx",
+      "allowed_hosts": [
+        "www.mss.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-08-21",
+      "publication_date": "2026-08-21",
+      "application_deadline": "2026-08-31",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "6f266e73f63c886bca970f4296dfcd83f4e6516ae562a480eaf58978b1a8b6d2",
+      "size_bytes": 32374,
+      "download_status": "verified",
+      "final_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1070654&cbIdx=247&streFileNm=c8da750c-e231-41a4-a2bd-4892e2fe5ff9.xlsx",
+      "content_disposition": "attachment; filename=\"2026%EB%85%84_%EA%B2%BD%EA%B8%B0%EB%B6%81%EB%B6%80_%EC%9D%B8%EB%8F%84_%EC%9C%A0%ED%86%B5%EB%A7%9D_%EC%9E%85%EC%A0%90_%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85_%EC%B0%B8%EA%B0%80%EC%8B%A0%EC%B2%AD%EC%84%9C.xlsx\""
+    },
+    {
+      "id": "business_mss_india_forms_2026",
+      "canonical_form_id": "business_mss_india_forms_2026",
+      "title": "2026 경기북부 인도 유통망 진출 공고·신청 및 소개서 서식",
+      "format": "HWPX",
+      "workflows": [
+        "trade_sales",
+        "overseas_business",
+        "government_grant"
+      ],
+      "publisher": "경기지방중소벤처기업청",
+      "organization": "경기지방중소벤처기업청",
+      "filename": "business_mss_india_forms_2026.hwpx",
+      "source_page": "https://www.mss.go.kr/site/gyeonggi/ex/bbs/View.do?bcIdx=1070654&cbIdx=247",
+      "source_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1070654&cbIdx=247&streFileNm=dfbd555d-b63c-4bee-bb86-c08247eb96dd.hwpx",
+      "allowed_hosts": [
+        "www.mss.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-08-21",
+      "publication_date": "2026-08-21",
+      "application_deadline": "2026-08-31",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "includes_notice": true,
+      "sha256": "b9fe1adc7b1259b09dc1f82a4946d79c462ae14fd71d7afa1ee0fc2e40065cfe",
+      "size_bytes": 94592,
+      "download_status": "verified",
+      "final_url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1070654&cbIdx=247&streFileNm=dfbd555d-b63c-4bee-bb86-c08247eb96dd.hwpx",
+      "content_disposition": "attachment; filename=\"%EA%B2%BD%EA%B8%B0%EC%A4%91%EA%B8%B0%EC%B2%AD%2C_%EA%B2%BD%EA%B8%B0%EB%B6%81%EB%B6%80_%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85_%EC%9D%B8%EB%8F%84_%EC%98%A8%EB%9D%BC%EC%9D%B8_%EC%9C%A0%ED%86%B5%EB%A7%9D_%EC%A7%84%EC%B6%9C_%EA%B3%B5%EA%B3%A0%EB%AC%B8.hwpx\""
+    },
+    {
+      "id": "business_kotra_hydrogen_2026",
+      "canonical_form_id": "business_kotra_hydrogen_2026",
+      "title": "2026 네덜란드 WHS 연계 수소 파트너링 상담회 신청서",
+      "format": "HWP",
+      "workflows": [
+        "trade_sales",
+        "overseas_business"
+      ],
+      "publisher": "KOTRA",
+      "organization": "KOTRA",
+      "filename": "business_kotra_hydrogen_2026.hwp",
+      "source_page": "https://www.kotra.or.kr/subList/20000020753/subhome/bizAply/selectBizMntInfoDetail.do?cpbizYn=N&dtlBizMntNo=26CN0EF",
+      "source_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202605110000095879&fileSn=0",
+      "allowed_hosts": [
+        "www.kotra.or.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 WHS 상담회 공고 첨부 / 게시일 미확인",
+      "publication_date": null,
+      "application_deadline": "2026-05-15",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "27366b597100b2dedf570c94fb5164175d84fbd65f31f70685692b1c782e9abe",
+      "size_bytes": 52736,
+      "download_status": "verified",
+      "final_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202605110000095879&fileSn=0",
+      "content_disposition": "attachment; filename=\"ì ì²­ì_íê¸ìì.hwp\""
+    },
+    {
+      "id": "business_kotra_usedcars_2026",
+      "canonical_form_id": "business_kotra_usedcars_2026",
+      "title": "2026 2차 중고자동차·부품 수출상담회 참가신청서",
+      "format": "XLSX",
+      "workflows": [
+        "trade_sales",
+        "overseas_business"
+      ],
+      "publisher": "KOTRA",
+      "organization": "KOTRA",
+      "filename": "business_kotra_usedcars_2026.xlsx",
+      "source_page": "https://www.kotra.or.kr/subList/20000020753/subhome/bizAply/selectBizMntInfoDetail.do?cpbizYn=N&dtlBizMntNo=26CN0G8",
+      "source_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202605260000097568&fileSn=1",
+      "allowed_hosts": [
+        "www.kotra.or.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 2차 공고 첨부 / 게시일 미확인",
+      "publication_date": null,
+      "application_deadline": "2026-08-12",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "6eaac14a9d090f903ea109794dbe302caedecb7fe655724bd617b90f6de1e32e",
+      "size_bytes": 18650,
+      "download_status": "verified",
+      "final_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202605260000097568&fileSn=1",
+      "content_disposition": "attachment; filename=\"26ë ì¤ê³ ì°¨ êµ­ë´ê¸°ì ì°¸ê°ì ì²­ì(ê¸°ìëª).xlsx\""
+    },
+    {
+      "id": "business_iris_honam_agreement_2026",
+      "canonical_form_id": "business_iris_honam_agreement_2026",
+      "title": "2026 호남권 지역자율 R&D 협약시 제출 서식모음",
+      "format": "HWP",
+      "workflows": [
+        "rd_project",
+        "government_grant"
+      ],
+      "publisher": "과학기술정보통신부 / 연구개발특구진흥재단 / 호남권 지역자율 R&D 사업단",
+      "organization": "과학기술정보통신부 / 연구개발특구진흥재단 / 호남권 지역자율 R&D 사업단",
+      "filename": "business_iris_honam_agreement_2026.hwp",
+      "source_page": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024160",
+      "source_url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=G3jRUruo8GjN4rTpdHem2Q%3D%3D&atchFileId=TY0uHPNbGOY%2B6QNOjajcYw%3D%3D",
+      "allowed_hosts": [
+        "www.iris.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-09-11",
+      "publication_date": "2026-09-11",
+      "application_deadline": "2026-10-12",
+      "year": 2026,
+      "application_status": "not_assessed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "13636af7152770aaddef820ea6f8912215901ce6c695e53e837cfbd8af2bd494",
+      "size_bytes": 701952,
+      "download_status": "verified",
+      "final_url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=G3jRUruo8GjN4rTpdHem2Q%3D%3D&atchFileId=TY0uHPNbGOY%2B6QNOjajcYw%3D%3D",
+      "content_disposition": "attachment; filename=\"%28%ED%98%91%EC%95%BD%EC%8B%9C%29%20%EC%84%9C%EC%8B%9D%EB%AA%A8%EC%9D%8C%28%ED%98%91%EC%95%BD%EC%8B%9C%20%EC%A0%9C%EC%B6%9C%EC%84%9C%EB%A5%98%29.hwp\""
+    },
+    {
+      "id": "business_iris_quantum_forms_2026",
+      "canonical_form_id": "business_iris_quantum_forms_2026",
+      "title": "2026 양자정보과학 리더급 연구역량강화 별첨자료 서식",
+      "format": "HWP",
+      "workflows": [
+        "rd_project"
+      ],
+      "publisher": "과학기술정보통신부 / 한국연구재단",
+      "organization": "과학기술정보통신부 / 한국연구재단",
+      "filename": "business_iris_quantum_forms_2026.hwp",
+      "source_page": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022977&ancmPrg=ancmPre",
+      "source_url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=i5Vt5rGCI2kbJTXev6DQpA%3D%3D&atchFileId=LbKwEf3HSUhEobd7wyulIw%3D%3D",
+      "allowed_hosts": [
+        "www.iris.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-07-08",
+      "publication_date": "2026-07-08",
+      "application_deadline": "2026-07-27",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "355c16807848df880997ce1849d94098237469d890ab6ef7a58673bf302141e5",
+      "size_bytes": 307200,
+      "download_status": "verified",
+      "final_url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=i5Vt5rGCI2kbJTXev6DQpA%3D%3D&atchFileId=LbKwEf3HSUhEobd7wyulIw%3D%3D",
+      "content_disposition": "attachment; filename=\"%28%EB%B6%99%EC%9E%842%29%20%EB%B3%84%EC%B2%A8%EC%9E%90%EB%A3%8C%20%EC%84%9C%EC%8B%9D.hwp\""
+    },
+    {
+      "id": "business_kosmes_carbon_forms_2026",
+      "canonical_form_id": "business_kosmes_carbon_forms_2026",
+      "title": "2026 탄소중립 설비투자 원가계산기관 신청서·사업계획서",
+      "format": "HWP",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업진흥공단",
+      "organization": "중소벤처기업진흥공단",
+      "filename": "business_kosmes_carbon_forms_2026.hwp",
+      "source_page": "https://esg.kosmes.or.kr/esgplatform/board/board13View.do?idx=1326",
+      "source_url": "https://esg.kosmes.or.kr/download.act?type=board13&main_idx=1326&sub_idx=2&save=20260401-09-58-15-390--1638292061.hwp",
+      "allowed_hosts": [
+        "esg.kosmes.or.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-04-01",
+      "publication_date": "2026-04-01",
+      "application_deadline": "2026-04-22",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "2ac38c76fd4ee844e050a7c8a7a6c8d36d6168ef9d94e1ba0dc6736d78713690",
+      "size_bytes": 84992,
+      "download_status": "verified",
+      "final_url": "https://esg.kosmes.or.kr/download.act?type=board13&main_idx=1326&sub_idx=2&save=20260401-09-58-15-390--1638292061.hwp",
+      "content_disposition": "attachment; filename=\"2026ë ì¤ìê¸°ì íìì¤ë¦½ ì¤ë¹í¬ì ì§ì ìê°ê³ì°ê¸°ê´ ëª¨ì§ ì ì²­ì, ì¬ìê³íì ë± ìì.hwp\"; filename*=UTF-8''2026%EB%85%84%20%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85%20%ED%83%84%EC%86%8C%EC%A4%91%EB%A6%BD%20%EC%84%A4%EB%B9%84%ED%88%AC%EC%9E%90%20%EC%A7%80%EC%9B%90%20%EC%9B%90%EA%B0%80%EA%B3%84%EC%82%B0%EA%B8%B0%EA%B4%80%20%EB%AA%A8%EC%A7%91%20%EC%8B%A0%EC%B2%AD%EC%84%9C%2C%20%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D%EC%84%9C%20%EB%93%B1%20%EC%96%91%EC%8B%9D.hwp"
+    },
+    {
+      "id": "business_smartfactory_plan_2026",
+      "canonical_form_id": "business_smartfactory_plan_2026",
+      "title": "2026 농산업 스마트공장 구축지원 사업계획서",
+      "format": "HWPX",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "organization": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "filename": "business_smartfactory_plan_2026.hwpx",
+      "source_page": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118739",
+      "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=0",
+      "allowed_hosts": [
+        "www.bizinfo.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-02-23",
+      "publication_date": "2026-02-23",
+      "application_deadline": "2026-04-09",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "c7b729a24489ff4f4005e230ee88618536ea5e92240af622d13e0d8a5f209c42",
+      "size_bytes": 1107117,
+      "download_status": "verified",
+      "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=0",
+      "content_disposition": "attachment; filename=\"(ë¶ì2)2026ëë ë¶ì²íìí(ëì°ìë¶ì¼) ì¤ë§í¸ê³µì¥ êµ¬ì¶ì§ìì¬ì ì¬ìê³íì(ìµì¢).hwpx\""
+    },
+    {
+      "id": "business_smartfactory_selfcheck_2026",
+      "canonical_form_id": "business_smartfactory_selfcheck_2026",
+      "title": "2026 농산업 도입기업 스마트공장 수준 자가진단표",
+      "format": "XLSX",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "organization": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "filename": "business_smartfactory_selfcheck_2026.xlsx",
+      "source_page": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118739",
+      "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=1",
+      "allowed_hosts": [
+        "www.bizinfo.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-02-23",
+      "publication_date": "2026-02-23",
+      "application_deadline": "2026-04-09",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "50d26aa764b1e4251712b2849667bfb5ccfd957a3e94603127c68a5a28580353",
+      "size_bytes": 13972,
+      "download_status": "verified",
+      "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=1",
+      "content_disposition": "attachment; filename=\"(ë¶ì2-1)ëìê¸°ì ì¤ë§í¸ê³µì¥ ìì¤ ìê°ì§ë¨í.xlsx\""
+    },
+    {
+      "id": "business_smartfactory_consent_2026",
+      "canonical_form_id": "business_smartfactory_consent_2026",
+      "title": "2026 농산업 중소기업 빅데이터 정보활용동의서",
+      "format": "HWP",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "organization": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "filename": "business_smartfactory_consent_2026.hwp",
+      "source_page": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118739",
+      "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=2",
+      "allowed_hosts": [
+        "www.bizinfo.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-02-23",
+      "publication_date": "2026-02-23",
+      "application_deadline": "2026-04-09",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "8ff0d8d65954793388e8ca5428e0ad9bcc18ab2ed35588fb63796fe397fbbe67",
+      "size_bytes": 76288,
+      "download_status": "verified",
+      "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=2",
+      "content_disposition": "attachment; filename=\"(ë¶ì2-2)ì¤ìê¸°ì ë¹ë°ì´í° íë«í¼ ì ë³´íì©ëìì(ëìê³µê¸ ê³µíµ)_ìëªë°ì¤ìºí íê° íì¼ë¡ ìë¡ë.hwp\""
+    },
+    {
+      "id": "business_smartfactory_budget_2026",
+      "canonical_form_id": "business_smartfactory_budget_2026",
+      "title": "2026 농산업 SW개발비 사업비 산출내역서",
+      "format": "XLSX",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "organization": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "filename": "business_smartfactory_budget_2026.xlsx",
+      "source_page": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118739",
+      "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=3",
+      "allowed_hosts": [
+        "www.bizinfo.go.kr"
+      ],
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "public_submission",
+      "version_label": "2026년 공고 첨부 원본 / 2026-02-23",
+      "publication_date": "2026-02-23",
+      "application_deadline": "2026-04-09",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "f5dc2df2ece09520a84171f1a4fbcc23dbee9396f61fded0efaf8b12e9d95231",
+      "size_bytes": 63495,
+      "download_status": "verified",
+      "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=3",
+      "content_disposition": "attachment; filename=\"(ë¶ì2-3)(SWê°ë°ë¹)26ëë ì¬ìë¹ ì°ì¶ë´ì­ì_ê¸°ìëª.xlsx\""
+    },
+    {
+      "id": "business_smartfactory_guide_2026",
+      "canonical_form_id": "business_smartfactory_guide_2026",
+      "title": "2026 농산업 스마트제조혁신 지원사업 원가계산 가이드",
+      "format": "PDF",
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "organization": "중소벤처기업부 / 한국농어촌공사 / 기업마당",
+      "filename": "business_smartfactory_guide_2026.pdf",
+      "source_page": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000118739",
+      "source_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=4",
+      "allowed_hosts": [
+        "www.bizinfo.go.kr"
+      ],
+      "source_kind": "public_guide",
+      "resource_kind": "layout_reference",
+      "use_classification": "reference_guidance",
+      "version_label": "2026년 공고 첨부 원본 / 2026-02-23",
+      "publication_date": "2026-02-23",
+      "application_deadline": "2026-04-09",
+      "year": 2026,
+      "application_status": "closed",
+      "checked_at": "2026-10-02T18:18:36.032776+00:00",
+      "company_internal": false,
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "compatibility_status": "unverified",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "notes": "공식 외부 제출 또는 참고자료 원본임. 공고별 최신 양식·자격·모집기간·직인 및 필수 첨부를 별도 확인해야 함.",
+      "sha256": "4719e983c644aac0706a4afc82d3ca0db1080010f31eb7fabb947b53c000d9b0",
+      "size_bytes": 70899,
+      "download_status": "verified",
+      "final_url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000744332&fileSn=4",
+      "content_disposition": "attachment; filename=\"(ë¶ì2-4)2026ë ì¤ë§í¸ì ì¡°íì  ì§ìì¬ì ìê°ê³ì° ê°ì´ë.pdf\""
+    },
+    {
+      "id": "business_kotra_digital_2026",
+      "title": "2026 KOTRA 방산 디지털로드쇼 발표 스크립트 양식",
+      "filename": "business_kotra_digital_2026.docx",
+      "format": "DOCX",
+      "source_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202608240000107016&fileSn=1",
+      "source_page": "https://www.kotra.or.kr/subList/20000020753/subhome/bizAply/selectBizMntInfoDetail.do?cpbizYn=N&dtlBizMntNo=26PC016",
+      "owner": "KOTRA",
+      "sha256": "105a6bd0abdf2b4b2231cbf7129f3bf3cce3247907b334bb3751b54b4be00827",
+      "size_bytes": 18984,
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "business_workflow": "trade_sales",
+      "domain": "business_support",
+      "profile_id": "business_kotra_digital_2026",
+      "form_version": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "version_status": "observed_notice_attachment",
+      "checked_at": "2026-10-03",
+      "application_deadline": "2026-09-07",
+      "deadline_status": "expired",
+      "allowed_hosts": [
+        "www.kotra.or.kr"
+      ],
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "fill_verified": false,
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "workflows": [
+        "trade_sales"
+      ],
+      "publisher": "KOTRA",
+      "organization": "KOTRA",
+      "canonical_form_id": "business_kotra_digital_2026",
+      "version_label": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "publication_date": null,
+      "year": 2026,
+      "application_status": "closed",
+      "use_classification": "public_submission",
+      "company_internal": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "profile_verification": {
+        "profile_id": "business_kotra_digital_2026",
+        "sample_fill_verified": true,
+        "full_form_filled": false,
+        "native_visual_qa": "see_profile_evidence"
+      },
+      "compatibility_status": "profile_available"
+    },
+    {
+      "id": "business_kotra_salesforce_2026",
+      "title": "2026 KOTRA 일본 Salesforce 피칭사업 참가신청서",
+      "filename": "business_kotra_salesforce_2026.xlsx",
+      "format": "XLSX",
+      "source_url": "https://www.kotra.or.kr/kmodule/file/fileDown.do?storFileId=BM202605220000097358&fileSn=0",
+      "source_page": "https://www.kotra.or.kr/subList/20000020753/subhome/bizAply/selectBizMntInfoDetail.do?cpbizYn=N&dtlBizMntNo=26CN0FW",
+      "owner": "KOTRA 도쿄무역관",
+      "sha256": "48d1a8918ce6d4a775f8fc05b69f9a57621f694a3b7ea998b5c95ec54fe339eb",
+      "size_bytes": 13913,
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "business_workflow": "overseas_business",
+      "domain": "business_support",
+      "profile_id": "business_kotra_salesforce_2026",
+      "form_version": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "version_status": "observed_notice_attachment",
+      "checked_at": "2026-10-03",
+      "application_deadline": "2026-06-19",
+      "deadline_status": "expired",
+      "allowed_hosts": [
+        "www.kotra.or.kr"
+      ],
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "fill_verified": false,
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "workflows": [
+        "overseas_business"
+      ],
+      "publisher": "KOTRA 도쿄무역관",
+      "organization": "KOTRA 도쿄무역관",
+      "canonical_form_id": "business_kotra_salesforce_2026",
+      "version_label": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "publication_date": null,
+      "year": 2026,
+      "application_status": "closed",
+      "use_classification": "public_submission",
+      "company_internal": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "profile_verification": {
+        "profile_id": "business_kotra_salesforce_2026",
+        "sample_fill_verified": true,
+        "full_form_filled": false,
+        "native_visual_qa": "see_profile_evidence"
+      },
+      "compatibility_status": "profile_available"
+    },
+    {
+      "id": "business_startup_2026",
+      "title": "2026 초기창업패키지 일반형 사업계획서",
+      "filename": "business_startup_2026.docx",
+      "format": "DOCX",
+      "source_url": "https://sssf.seoultech.ac.kr/storage/stsfa/bbs/57917/20BE5684845B4D7B8E7556E3CA93282A_.docx",
+      "source_page": "https://sssf.seoultech.ac.kr/community/notice/?bidx=844338&bnum=57917&cate=7&do=view&profboardidx=0",
+      "owner": "서울과학기술대학교 창업지원단 / 창업진흥원",
+      "sha256": "7defedeaaf2c47a0127db784d3ded6a04efc2e9b236e47b91c073209eefc0d9f",
+      "size_bytes": 204234,
+      "download_status": "verified",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "business_workflow": "government_grant",
+      "domain": "business_support",
+      "profile_id": "business_startup_2026",
+      "form_version": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "version_status": "observed_notice_attachment",
+      "checked_at": "2026-10-03",
+      "application_deadline": null,
+      "deadline_status": "unknown",
+      "allowed_hosts": [
+        "sssf.seoultech.ac.kr"
+      ],
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "fill_verified": false,
+      "full_form_filled": false,
+      "submission_ready": false,
+      "legal_compliance_certified": false,
+      "workflows": [
+        "government_grant"
+      ],
+      "publisher": "서울과학기술대학교 창업지원단 / 창업진흥원",
+      "organization": "서울과학기술대학교 창업지원단 / 창업진흥원",
+      "canonical_form_id": "business_startup_2026",
+      "version_label": "2026 공고 첨부 원본 / 확인일 2026-10-03",
+      "publication_date": null,
+      "year": 2026,
+      "application_status": "not_assessed",
+      "use_classification": "public_submission",
+      "company_internal": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "profile_verification": {
+        "profile_id": "business_startup_2026",
+        "sample_fill_verified": true,
+        "full_form_filled": false,
+        "native_visual_qa": "see_profile_evidence"
+      },
+      "compatibility_status": "profile_available"
+    }
+  ],
+  "limits": [
+    "개별 공고 원본의 최신성·현재 모집 여부를 제출 전 재확인해야 함",
+    "국가 R&D HWP 서식모음은 원본 보존했으며 현대형식 변환·모든 항목 기입 미검증",
+    "원본 재배포 조건은 미평가임"
+  ]
+}

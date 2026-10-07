@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-03T01:51:24.017443+00:00",
+  "scope": "한국어 국내 제약사 2개사의 공식 공개 설명서 선택 원문 검증용 스냅샷. 동국제약 제조원과 종근당 문서 발행사 역할을 분리함. 국내 현재 허가·신청인·전체 제출 적합성 인증이 아님",
+  "jurisdictions": [
+    "KR"
+  ],
+  "source_count": 2,
+  "company_count": 2,
+  "fact_count": 9,
+  "downloaded_pdf_count": 8,
+  "excluded_pdf_count": 6,
+  "model_training_performed": false,
+  "live_llm_evaluated": false,
+  "sources": [
+    {
+      "id": "ra-kr-additional-actimin",
+      "title": "액티민주사(푸르설티아민염산염) 공개 설명서",
+      "company": {
+        "name": "동국제약(주)",
+        "role": "manufacturer",
+        "exact_quote": "동국제약(주)",
+        "page": 2,
+        "role_heading_page": 2,
+        "role_heading_quote": "제 조 원",
+        "role_exact_quote": "▪제 조 원:\t동국제약(주)\t충청북도 진천군 광혜원면 용소2길\t33-19",
+        "official_domain": "dkpharm.co.kr"
+      },
+      "publisher": {
+        "name": "동국제약(주)",
+        "official_domain": "dkpharm.co.kr"
+      },
+      "source_page": "https://www.dkpharm.co.kr/product/view.php?idx=82",
+      "source_url": "https://www.dkpharm.co.kr/library/download_prod.php?idx=82",
+      "final_url": "https://www.dkpharm.co.kr/library/download_prod.php?idx=82",
+      "filename": "dongkook_actimin.pdf",
+      "path": "data/ra_public_validation/additional/dongkook_actimin.pdf",
+      "sha256": "69fb4da106fc8a4854c8e0488c3e9616406360efa4e39f4f9a0992478079f72b",
+      "size_bytes": 92095,
+      "page_count": 2,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "resource_kind": "public_product_information",
+      "jurisdiction": "KR",
+      "product_name": "액티민주사",
+      "product_variant": "액티민주사",
+      "document_revision_date": "2021-04-20",
+      "version_label": "PDF에 인쇄된 설명서 개정 2021-04-20",
+      "current_version_verified": false,
+      "currentness": {
+        "status": "not_verified",
+        "latest_revision_verified": false,
+        "reason": "공식 페이지의 다운로드 스냅샷이며 현재 국내 허가·변경사항·최신 개정 여부는 별도 미검증"
+      },
+      "scope": {
+        "intended_use": "공식 한국어 원자료의 선택 원문·수치·출력 보존 검증용",
+        "korean_authorisation_verified": false,
+        "domestic_applicant_inferred": false,
+        "full_submission_ready": false,
+        "dosage_form": "앰플주사제",
+        "strength": "1mL 중 푸르설티아민염산염 5.46mg(푸르설티아민으로서 5mg)",
+        "name_scope": "원본 전면의 브랜드 제품명 전체를 사용함. 괄호 성분명은 별도 표제 문구이며 법정 허가 제품명 확인은 수행하지 않음",
+        "shared_strengths": false,
+        "expiry_duration_inferred": false
+      },
+      "pdf_access": {
+        "is_encrypted": false,
+        "general_text_extraction_permitted": true,
+        "protection_bypass_performed": false
+      },
+      "rights": {
+        "redistribution_permission": "not_verified",
+        "local_use": "validation_snapshot_only",
+        "model_training_performed": false
+      },
+      "visual_review": {
+        "engine": "pypdfium2",
+        "pages": [
+          1,
+          2
+        ],
+        "status": "human_inspected",
+        "scope": "전체 원본 페이지의 선택 문구·함량·성상·회사 역할을 PNG로 직접 대조함"
+      },
+      "visual_full_title": "액티민주사 (푸르설티아민염산염)",
+      "visual_full_title_location": {
+        "page": 1,
+        "region": "전면 상단 표제",
+        "automated_quote_denominator_included": false
+      },
+      "document_revision_exact_quote": "설명서 최종 개정 연월일\t:\t2021.\t04.\t20",
+      "document_revision_page": 2,
+      "facts": [
+        {
+          "field_key": "제품명",
+          "value": "액티민주사",
+          "exact_quote": "액티민주사",
+          "page": 1,
+          "role": "product_name",
+          "product_variant": "액티민주사",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "value": "[원료약품 및 그 분량] 1mL\t중,\n▪유효성분:\t푸르설티아민염산염(KP)\t………………………\t5.46mg(푸르설티아민으로서\t5mg)\t\t\t\t\t\t\t\t\n▪기타첨가제:\t수산화나트륨,\t염산,\t주사용수,\t포도당",
+          "exact_quote": "[원료약품 및 그 분량] 1mL\t중,\n▪유효성분:\t푸르설티아민염산염(KP)\t………………………\t5.46mg(푸르설티아민으로서\t5mg)\t\t\t\t\t\t\t\t\n▪기타첨가제:\t수산화나트륨,\t염산,\t주사용수,\t포도당",
+          "page": 1,
+          "role": "complete_single_formulation_per_ml_composition",
+          "product_variant": "액티민주사",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "unit_scope": {
+            "denominator": "1mL",
+            "active_salt_mass": "5.46mg",
+            "active_base_mass": "5mg",
+            "ampoule_volume": "10밀리리터",
+            "ampoule_total_mass_calculated": false
+          }
+        },
+        {
+          "field_key": "성상",
+          "value": "무색 또는 미황색의 액이 든 갈색 앰플주사제",
+          "exact_quote": "무색 또는 미황색의 액이 든 갈색 앰플주사제",
+          "page": 1,
+          "role": "pharmaceutical_appearance",
+          "product_variant": "액티민주사",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "용법 용량",
+          "value": "푸르설티아민으로서 보통 성인\t1일\t5~100mg을 피하,\t근육내 또는 정맥내 주사한다.\n증상에 따라 적절히 증감한다.",
+          "exact_quote": "푸르설티아민으로서 보통 성인\t1일\t5~100mg을 피하,\t근육내 또는 정맥내 주사한다.\n증상에 따라 적절히 증감한다.",
+          "page": 1,
+          "role": "complete_adult_injection_dose_and_adjustment_condition",
+          "product_variant": "액티민주사",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "clinical_scope": {
+            "population": "성인",
+            "route": "피하, 근육내 또는 정맥내",
+            "frequency": "1일",
+            "dose_range": "5~100mg",
+            "adjustment_condition_preserved": true
+          }
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "value": "차광밀봉용기,\t실온(1~30℃)보관",
+          "exact_quote": "차광밀봉용기,\t실온(1~30℃)보관",
+          "page": 2,
+          "role": "storage_condition_without_inferred_expiry",
+          "product_variant": "액티민주사",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "missing_expiry_duration": true
+        }
+      ],
+      "collection_validation": {
+        "sha256_verified": true,
+        "size_verified": true,
+        "page_count_verified": true,
+        "exact_quote_verified_count": 5,
+        "company_name_exact_quote_verified": true,
+        "company_role_exact_quote_verified": true,
+        "production_parser_result": {
+          "source_id": "ra-kr-additional-actimin",
+          "passed": true,
+          "page_count": 2,
+          "table_count": 0,
+          "fact_count": 5,
+          "seconds": 0.10762360000080662,
+          "original_unchanged": true
+        }
+      },
+      "link_observation": {
+        "method": "공식 제품 페이지의 다운로드 href 또는 버튼 data값과 공식 JS 클릭 경로를 직접 관찰",
+        "label": "환자용 사용 설명서 다운로드",
+        "page_snapshot_path": "data/ra_public_validation/additional/dongkook_actimin.html",
+        "page_snapshot_sha256": "de31520a286c5322da742669a5cd90f0c3c824137c8d5c6593c9000c47c7060d",
+        "checked_at": "2026-10-03T01:51:24.017443+00:00"
+      }
+    },
+    {
+      "id": "ra-kr-additional-rosulod-5",
+      "title": "로수로드정 5mg·10mg·20mg 공통 설명서 — 5mg 단일 선택",
+      "company": {
+        "name": "종근당",
+        "role": "document_publisher",
+        "exact_quote": "종근당",
+        "page": 2,
+        "role_heading_page": 2,
+        "role_heading_quote": "종근당 인터넷 홈페이지",
+        "role_exact_quote": "이 첨부문서 작성일자(2025.08.14)이후 변경된 내용은 종근당 인터넷 홈페이지(www.ckdpharm.com)나\n소비자 상담전화(080-6776-080)를 통해 확인할 수 있습니다.",
+        "official_domain": "ckdpharm.com"
+      },
+      "publisher": {
+        "name": "종근당",
+        "official_domain": "ckdpharm.com"
+      },
+      "source_page": "https://ckdpharm.com/product/productView.do?prodCode=CKD0000300",
+      "source_url": "https://ckdpharm.com/downloadCkd.do?attFileNo=39741&saveFileName=3ebfa274a6afd054b98634ddd7bc3bc37a63f46600f02bce6c1ecbdbe74ed93b",
+      "final_url": "https://ckdpharm.com/downloadCkd.do?attFileNo=39741&saveFileName=3ebfa274a6afd054b98634ddd7bc3bc37a63f46600f02bce6c1ecbdbe74ed93b",
+      "filename": "ckd_rosulod.pdf",
+      "path": "data/ra_public_validation/additional/ckd_rosulod.pdf",
+      "sha256": "db440db7a72d82f10202b1d99e35fe98037dfe2955842b9794bd805d77b66506",
+      "size_bytes": 531735,
+      "page_count": 2,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "resource_kind": "public_product_information",
+      "jurisdiction": "KR",
+      "product_name": "로수로드정 5mg",
+      "product_variant": "로수로드정 5mg",
+      "document_revision_date": "2025-08-14",
+      "version_label": "PDF에 인쇄된 설명서 개정 2025-08-14",
+      "current_version_verified": false,
+      "currentness": {
+        "status": "not_verified",
+        "latest_revision_verified": false,
+        "reason": "공식 페이지의 다운로드 스냅샷이며 현재 국내 허가·변경사항·최신 개정 여부는 별도 미검증"
+      },
+      "scope": {
+        "intended_use": "공식 한국어 원자료의 선택 원문·수치·출력 보존 검증용",
+        "korean_authorisation_verified": false,
+        "domestic_applicant_inferred": false,
+        "full_submission_ready": false,
+        "dosage_form": "필름코팅정제",
+        "strength": "5mg(로수바스타틴으로서)",
+        "name_scope": "공통 PDF 본문에 인쇄된 5mg 전체 함량 라벨을 선택함. 법정 허가명 표제 확인으로 확대하지 않음",
+        "shared_strengths": true,
+        "selected_strength": "5mg",
+        "excluded_strengths": [
+          "10mg",
+          "20mg"
+        ],
+        "product_scope": "5mg의 원료분량·첨가제 전체 블록과 5mg 성상만 선택하며 다른 두 함량·임상시험 표·투여 유지량을 혼합하지 않음",
+        "manufacturer_or_domestic_applicant_inferred": false,
+        "expiry_duration_inferred": false
+      },
+      "pdf_access": {
+        "is_encrypted": false,
+        "general_text_extraction_permitted": true,
+        "protection_bypass_performed": false
+      },
+      "rights": {
+        "redistribution_permission": "not_verified",
+        "local_use": "validation_snapshot_only",
+        "model_training_performed": false
+      },
+      "visual_review": {
+        "engine": "pypdfium2",
+        "pages": [
+          1,
+          2
+        ],
+        "status": "human_inspected",
+        "scope": "전체 원본 페이지의 선택 문구·함량·성상·회사 역할을 PNG로 직접 대조함"
+      },
+      "document_revision_exact_quote": "이 첨부문서 작성일자(2025.08.14)",
+      "document_revision_page": 2,
+      "facts": [
+        {
+          "field_key": "제품명",
+          "value": "로수로드정 5mg",
+          "exact_quote": "로수로드정 5mg",
+          "page": 1,
+          "role": "product_name",
+          "product_variant": "로수로드정 5mg",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "원료약품 및 분량",
+          "value": "<로수로드정 5mg>1정 중 유효성분 : 로수바스타틴칼슘(EP) 5.20mg(로수바스타틴으로서 5mg), 동물유래성분 : 유당\n수화물(소, 우유), 기타첨가제 : 미결정셀룰로오스, 산화티탄, 스테아르산마그네슘, 인산칼슘, 카르나우바납, 크로스포비돈, 트리아세틴, \n황색산화철, 히프로멜로오스",
+          "exact_quote": "<로수로드정 5mg>1정 중 유효성분 : 로수바스타틴칼슘(EP) 5.20mg(로수바스타틴으로서 5mg), 동물유래성분 : 유당\n수화물(소, 우유), 기타첨가제 : 미결정셀룰로오스, 산화티탄, 스테아르산마그네슘, 인산칼슘, 카르나우바납, 크로스포비돈, 트리아세틴, \n황색산화철, 히프로멜로오스",
+          "page": 1,
+          "role": "complete_selected_5mg_tablet_composition_and_excipients",
+          "product_variant": "로수로드정 5mg",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "unit_scope": {
+            "denominator": "1정",
+            "active_salt_mass": "5.20mg",
+            "active_base_mass": "5mg"
+          }
+        },
+        {
+          "field_key": "성상",
+          "value": "<로수로드정 5mg> 노란색의 원형 필름코팅정제",
+          "exact_quote": "<로수로드정 5mg> 노란색의 원형 필름코팅정제",
+          "page": 1,
+          "role": "selected_5mg_pharmaceutical_appearance",
+          "product_variant": "로수로드정 5mg",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true
+        },
+        {
+          "field_key": "저장방법 및 유효기간",
+          "value": "기밀용기에 넣어 실온(1~30℃)에 보관하십시오.",
+          "exact_quote": "기밀용기에 넣어 실온(1~30℃)에 보관하십시오.",
+          "page": 2,
+          "role": "shared_tablet_storage_without_inferred_expiry",
+          "product_variant": "로수로드정 5mg",
+          "quote_match": "whitespace_normalized_exact",
+          "complete_selected_paragraph": true,
+          "missing_expiry_duration": true
+        }
+      ],
+      "collection_validation": {
+        "sha256_verified": true,
+        "size_verified": true,
+        "page_count_verified": true,
+        "exact_quote_verified_count": 4,
+        "company_name_exact_quote_verified": true,
+        "company_role_exact_quote_verified": true,
+        "production_parser_result": {
+          "source_id": "ra-kr-additional-rosulod-5",
+          "passed": true,
+          "page_count": 2,
+          "table_count": 3,
+          "fact_count": 4,
+          "seconds": 0.5414785999964806,
+          "original_unchanged": true
+        }
+      },
+      "link_observation": {
+        "method": "공식 제품 페이지의 다운로드 href 또는 버튼 data값과 공식 JS 클릭 경로를 직접 관찰",
+        "label": "설명서1",
+        "page_snapshot_path": "data/ra_public_validation/additional/ckd_rosulod.html",
+        "page_snapshot_sha256": "f367cf801f98812d9679256fba40c61f6ef381750d6f8129898b4c5fb01f466f",
+        "checked_at": "2026-10-03T01:51:24.017443+00:00",
+        "handler_source_url": "https://www.ckdpharm.com/js/pc/apps/product/productView.js",
+        "handler_snapshot_path": "data/ra_public_validation/additional/ckd_productView.js",
+        "handler_snapshot_sha256": "f3c5750249be09bcfebd8c2221429fe1ed6e466f84bcecf19c385f218d895bd3"
+      }
+    }
+  ],
+  "excluded_sources": [
+    {
+      "filename": "boryung_duricef.pdf",
+      "path": "data/ra_public_validation/additional/boryung_duricef.pdf",
+      "sha256": "c398cbf3a47d3bc19909bc96ceb0ef87a0de1a9627bbe8d238e31ab84e1044b5",
+      "size_bytes": 2045356,
+      "page_count": 2,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "이미지 전용 2쪽, 텍스트 0자로 확인된 OCR 없이 평가 불가",
+      "facts_selected": 0,
+      "source_page": "https://pharm.boryung.co.kr/product/search_detail.do?SEQ=382",
+      "source_url": "https://pharm.boryung.co.kr/file/download.do?SEQ=27088",
+      "final_url": "https://pharm.boryung.co.kr/file/download.do?SEQ=27088"
+    },
+    {
+      "filename": "jw_sante_cool.pdf",
+      "path": "data/ra_public_validation/additional/jw_sante_cool.pdf",
+      "sha256": "a05b09a18ed17a0b991e4c35e437fe30601828c5bf94e6ba67aed10211bc4f24",
+      "size_bytes": 1102613,
+      "page_count": 1,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "이미지 전용 1쪽, 텍스트 0자로 평가 불가",
+      "facts_selected": 0,
+      "source_page": "https://m.jw-pharma.co.kr/mobile/pharma/ko/product/m_brand_sap.jsp",
+      "source_url": "https://m.jw-pharma.co.kr/cmm/FileDown.jsp?fileId=171228162858594V6Y01",
+      "final_url": "https://m.jw-pharma.co.kr/cmm/FileDown.jsp?fileId=171228162858594V6Y01"
+    },
+    {
+      "filename": "jw_sante_coolhi.pdf",
+      "path": "data/ra_public_validation/additional/jw_sante_coolhi.pdf",
+      "sha256": "ac56855475d09ec2ef5cead2dfeb12d95f596e108acee1cbd74dfae528ce278b",
+      "size_bytes": 334334,
+      "page_count": 1,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "이미지 전용 1쪽, 텍스트 0자로 평가 불가",
+      "facts_selected": 0,
+      "source_page": "https://m.jw-pharma.co.kr/mobile/pharma/ko/product/m_brand_sap.jsp",
+      "source_url": "https://m.jw-pharma.co.kr/cmm/FileDown.jsp?fileId=171228162858594V6Y02",
+      "final_url": "https://m.jw-pharma.co.kr/cmm/FileDown.jsp?fileId=171228162858594V6Y02"
+    },
+    {
+      "filename": "dongkook_senseon.pdf",
+      "path": "data/ra_public_validation/additional/dongkook_senseon.pdf",
+      "sha256": "ad57a7ba698ed12a62a9557df9a0ce27173b8ab88d3c52fcd742b25b5a7e83b1",
+      "size_bytes": 2728916,
+      "page_count": 3,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "본문의 용량·숫자·날짜가 U+FFFD 문자로 손상되어 수치 대조 불가",
+      "facts_selected": 0,
+      "source_page": "https://www.dkpharm.co.kr/product/view.php?idx=294",
+      "source_url": "https://www.dkpharm.co.kr/library/download_prod.php?idx=294",
+      "final_url": "https://www.dkpharm.co.kr/library/download_prod.php?idx=294"
+    },
+    {
+      "filename": "ckd_zespan.pdf",
+      "path": "data/ra_public_validation/additional/ckd_zespan.pdf",
+      "sha256": "f1789f9cd4f1a3452795663468b4218679ce0d6404f9e7071e203a09fd01d1ac",
+      "size_bytes": 510521,
+      "page_count": 1,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "제품명 브랜드 표제가 그래픽으로만 표시되어 read_source의 전체 제품명 텍스트 대조 불가",
+      "facts_selected": 0,
+      "source_page": "https://www.ckdpharm.com/product/productView.do?legacyProdCode=177151A",
+      "source_url": "https://www.ckdpharm.com/downloadCkd.do?attFileNo=36879&saveFileName=cae65b8a0be92ad2fcce7cce51faf1a6345994a30dadac7c3b956d202123b403",
+      "final_url": "https://www.ckdpharm.com/downloadCkd.do?attFileNo=36879&saveFileName=cae65b8a0be92ad2fcce7cce51faf1a6345994a30dadac7c3b956d202123b403"
+    },
+    {
+      "filename": "ckd_omps.pdf",
+      "path": "data/ra_public_validation/additional/ckd_omps.pdf",
+      "sha256": "1a7c38780e96556537a5ac9300e3ca949aeb15e4af61fb8997caab94b3118c1d",
+      "size_bytes": 518289,
+      "page_count": 2,
+      "checked_at": "2026-10-03T01:51:24.017443+00:00",
+      "status": "downloaded_not_selected_for_evaluation",
+      "reason": "같은 종근당 추가 후보로 내려받았으나 회사별 한 자료만 선택하며 선택 사실 미주석",
+      "facts_selected": 0,
+      "source_page": "https://ckdpharm.com/product/productView.do?prodCode=CKD0000319",
+      "source_url": "https://ckdpharm.com/downloadCkd.do?attFileNo=36833&saveFileName=4e903f3eca59e96a3ffbea1f87e2be6e13bf27eef7216a4fda0d48fc6ec0b329",
+      "final_url": "https://ckdpharm.com/downloadCkd.do?attFileNo=36833&saveFileName=4e903f3eca59e96a3ffbea1f87e2be6e13bf27eef7216a4fda0d48fc6ec0b329"
+    }
+  ],
+  "download_failures": [
+    {
+      "source_url": "https://www.yuhan.co.kr/__DATA/YH_PRODUCTS/2024/9/%EB%94%94%EC%98%A4%EC%82%B4%ED%83%84%EC%A0%95_hp%EC%B2%A8%EB%B6%80%EB%AC%B8%EC%84%9C_CY442417_11.pdf",
+      "final_url": "https://www.yuhan.co.kr/error/",
+      "status": "not_pdf_html_error_page",
+      "size_bytes": 1042,
+      "path": "data/ra_public_validation/additional/yuhan_diosartan_error.html",
+      "reason": "공식 검색 결과의 PDF URL은 현재 HTML 오류 페이지로 반환됨; PDF로 집계하지 않음",
+      "checked_at": "2026-10-03T01:51:24.017443+00:00"
+    },
+    {
+      "source_url": "https://www.daewonpharm.com/upload/2022_07_14_092733.pdf",
+      "status": "http_404",
+      "reason": "공식 검색 결과의 PDF는 현재 404로 원본 미확보",
+      "checked_at": "2026-10-03T01:51:24.017443+00:00"
+    }
+  ],
+  "limits": [
+    "법정 제품명·현재 국내 허가와 최신 설명서 여부는 별도 미확인임",
+    "유효기간의 개월·년 값이 선택 원문에 없어 저장방법만 인용하고 사용기간은 임의 생성하지 않음",
+    "종근당은 공식 게시 발행사만 확인하며 제조자·판매자·신청인으로 추정하지 않음",
+    "다운로드한 원본은 검증용 로컬 스냅샷이며 모델 훈련·Git 재배포용이 아님"
+  ]
+}

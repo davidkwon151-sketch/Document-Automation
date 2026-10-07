@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "dataset_name": "인천상공회의소 FY2024 전국 매출1000대 중 인천38개 기업",
+    "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+    "source_owner": "인천상공회의소",
+    "fiscal_year": 2024,
+    "accounting_basis": "unknown",
+    "financial_sector": "unknown",
+    "universe": "전국 매출1000대 기업 중 인천 소재38개 기업; 상장·비상장/금융 포함 세부 기준은 공개 보고서에 명시되지 않음",
+    "ranking_definition": "2025-04-05까지 공시된 사업·감사보고서 기반 한국1000대기업상세자료집(2025)의 FY2024 매출 순위. 본사·지사 매출 합산. 연결/별도 기준은 명시되지 않음",
+    "revenue_unit": "KRW_million",
+    "verification_status": "source_checked",
+    "verification_origin": "verified_public_source",
+    "checked_at": "2026-10-02T16:47:18.562475+00:00",
+    "coverage": "partial",
+    "expected_count": 1000,
+    "source_attachment_url": "https://incheon.korcham.net/file/dext5uploaddata/2026/260128%20%28%EB%B3%B4%EA%B3%A0%EC%84%9C%29%20%EA%B5%AD%EB%82%B4%20%EB%A7%A4%EC%B6%9C%EA%B8%B0%EC%A4%80%201000%EB%8C%80%20%EA%B8%B0%EC%97%85%20%EC%A4%91%20%EC%9D%B8%EC%B2%9C%EC%A7%80%EC%97%AD%20%EA%B8%B0%EC%97%85%20%EB%B3%80%ED%99%94.pdf",
+    "latest_fiscal_year_coverage": {
+      "2025": "unknown"
+    },
+    "limitations": [
+      "전국1000개가 아닌38개 부분 목록임",
+      "공개 순위/매출 외 계열사 소속은 추정하지 않음",
+      "FY2025 전국1000개 기업명·순위·매출 전수 원본 미확보; 출처 확인된 라이선스CSV/JSON 입력 필요",
+      "기업 등록은 양식 호환 검증을 의미하지 않음"
+    ]
+  },
+  "companies": [
+    {
+      "rank": 33,
+      "name": "현대제철(주)",
+      "affiliate": null,
+      "revenue": "18617622",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 42,
+      "name": "한국지엠(주)",
+      "affiliate": null,
+      "revenue": "14377105",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 61,
+      "name": "SK인천석유화학(주)",
+      "affiliate": null,
+      "revenue": "10728379",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 143,
+      "name": "(주)셀트리온",
+      "affiliate": null,
+      "revenue": "3709214",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 160,
+      "name": "삼성바이오로직스(주)",
+      "affiliate": null,
+      "revenue": "3497146",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 166,
+      "name": "에이치디현대인프라코어(주)",
+      "affiliate": null,
+      "revenue": "3405693",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 187,
+      "name": "제이셋스태츠칩팩코리아(유)",
+      "affiliate": null,
+      "revenue": "2994085",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 211,
+      "name": "(주)경신",
+      "affiliate": null,
+      "revenue": "2700718",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 230,
+      "name": "디엘건설(주)",
+      "affiliate": null,
+      "revenue": "2469179",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 305,
+      "name": "동서식품(주)",
+      "affiliate": null,
+      "revenue": "1786494",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 356,
+      "name": "삼성바이오에피스(주)",
+      "affiliate": null,
+      "revenue": "1527678",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 368,
+      "name": "두산밥캣코리아(주)",
+      "affiliate": null,
+      "revenue": "1491106",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 431,
+      "name": "(주)에이치엘클레무브",
+      "affiliate": null,
+      "revenue": "1245960",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 436,
+      "name": "(유)스태츠칩팩코리아",
+      "affiliate": null,
+      "revenue": "1229519",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 439,
+      "name": "한국단자공업(주)",
+      "affiliate": null,
+      "revenue": "1224303",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 457,
+      "name": "(주)바바리안모터스",
+      "affiliate": null,
+      "revenue": "1143137",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 460,
+      "name": "(주)인천약품",
+      "affiliate": null,
+      "revenue": "1128749",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 475,
+      "name": "엘티메탈(주)(구.희성금속)",
+      "affiliate": null,
+      "revenue": "1100035",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 489,
+      "name": "(주)동진쎄미켐",
+      "affiliate": null,
+      "revenue": "1071085",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 496,
+      "name": "대한제당(주)",
+      "affiliate": null,
+      "revenue": "1048886",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 551,
+      "name": "인천도시가스(주)",
+      "affiliate": null,
+      "revenue": "943613",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 578,
+      "name": "(주)비에스한양",
+      "affiliate": null,
+      "revenue": "890274",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 645,
+      "name": "(주)엠씨넥스",
+      "affiliate": null,
+      "revenue": "779771",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 685,
+      "name": "지엠아시아퍼시픽지역본부(주)",
+      "affiliate": null,
+      "revenue": "732538",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 693,
+      "name": "진흥기업(주)",
+      "affiliate": null,
+      "revenue": "726191",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 749,
+      "name": "(주)풍전비철",
+      "affiliate": null,
+      "revenue": "676036",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 808,
+      "name": "(주)대한솔루션",
+      "affiliate": null,
+      "revenue": "618746",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 849,
+      "name": "(주)SIMPAC",
+      "affiliate": null,
+      "revenue": "585780",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 884,
+      "name": "한미반도체(주)",
+      "affiliate": null,
+      "revenue": "555547",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 902,
+      "name": "(주)파라다이스세가사미",
+      "affiliate": null,
+      "revenue": "539340",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 905,
+      "name": "(주)토비스",
+      "affiliate": null,
+      "revenue": "537573",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 918,
+      "name": "공항철도(주)",
+      "affiliate": null,
+      "revenue": "532052",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 920,
+      "name": "(주)디씨알이",
+      "affiliate": null,
+      "revenue": "531769",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 928,
+      "name": "핸즈코퍼레이션(주)",
+      "affiliate": null,
+      "revenue": "527401",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 934,
+      "name": "지엠테크니컬센터코리아(주)",
+      "affiliate": null,
+      "revenue": "523982",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 969,
+      "name": "대한사료(주)",
+      "affiliate": null,
+      "revenue": "506788",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 977,
+      "name": "대주중공업(주)",
+      "affiliate": null,
+      "revenue": "502342",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    },
+    {
+      "rank": 986,
+      "name": "(주)동보",
+      "affiliate": null,
+      "revenue": "496457",
+      "year": 2024,
+      "source_url": "https://incheon.korcham.net/front/board/boardContentsView.do?boardId=51229&contId=124664&menuId=10240",
+      "source_location": "보고서 인쇄 p.4 / PDF p.5 표4 2024년 전국순위·매출액 열",
+      "source_document_sha256": "14c0f67a6ac0a2a37388008d83405f4a3c51488bf7f23ba6ce74066e442d9d89"
+    }
+  ]
+}

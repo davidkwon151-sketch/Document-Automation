@@ -1,0 +1,251 @@
+{
+  "format": "xlsx",
+  "fields": [
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:A9",
+      "label": "순번",
+      "kind": "xlsx_cell",
+      "value_key": "순번",
+      "suggested_mapping": "순번",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 3,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:B9",
+      "label": "성명",
+      "kind": "xlsx_cell",
+      "value_key": "성명",
+      "suggested_mapping": "성명",
+      "required": true,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 8,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:C9",
+      "label": "작품 제목",
+      "kind": "xlsx_cell",
+      "value_key": "작품 제목",
+      "suggested_mapping": "작품 제목",
+      "required": true,
+      "input_required": false,
+      "confidence": 1.0,
+      "input_mode": "source_grounded",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:D9",
+      "label": "참가부문",
+      "kind": "xlsx_cell",
+      "value_key": "참가부문",
+      "suggested_mapping": "참가부문",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 12,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:E9",
+      "label": "지역",
+      "kind": "xlsx_cell",
+      "value_key": "지역",
+      "suggested_mapping": "지역",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 3,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:F9",
+      "label": "학교명",
+      "kind": "xlsx_cell",
+      "value_key": "학교명",
+      "suggested_mapping": "학교명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 15,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:G9",
+      "label": "학년",
+      "kind": "xlsx_cell",
+      "value_key": "학년",
+      "suggested_mapping": "학년",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 2,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 1
+      },
+      "narrative_style_required": false
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:H9",
+      "label": "성별",
+      "kind": "xlsx_cell",
+      "value_key": "성별",
+      "suggested_mapping": "성별",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 1,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:I9",
+      "label": "생년월일",
+      "kind": "xlsx_cell",
+      "value_key": "생년월일",
+      "suggested_mapping": "생년월일",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 10,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:J9",
+      "label": "본인 연락처",
+      "kind": "xlsx_cell",
+      "value_key": "본인 연락처",
+      "suggested_mapping": "본인 연락처",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:K9",
+      "label": "보호자 연락처",
+      "kind": "xlsx_cell",
+      "value_key": "보호자 연락처",
+      "suggested_mapping": "보호자 연락처",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:L9",
+      "label": "참가자 이메일",
+      "kind": "xlsx_cell",
+      "value_key": "참가자 이메일",
+      "suggested_mapping": "참가자 이메일",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 30,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:M9",
+      "label": "지도교사",
+      "kind": "xlsx_cell",
+      "value_key": "지도교사",
+      "suggested_mapping": "지도교사",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 8,
+      "location_verified": true
+    },
+    {
+      "id": "xlsx:xl/worksheets/sheet1.xml:N9",
+      "label": "지도교사 연락처",
+      "kind": "xlsx_cell",
+      "value_key": "지도교사 연락처",
+      "suggested_mapping": "지도교사 연락처",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "input_mode": "user_provided",
+      "max_chars": 14,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "인접 항목명으로 제안한 매핑은 확인이 필요함. 입력 길이에 따른 페이지·행 높이·셀 넘침은 원본 프로그램에서 확인해야 함",
+    "대회 종료 후 참고용 예시 양식임. 실제 모집·접수에 사용하는 서식으로 표시하지 않음",
+    "기존 예시 이름·전화번호는 사용자 입력값으로 가져오지 않고 그대로 보존함",
+    "실제 제출 전 미등록 날짜·서명·동의·선택 항목과 기관의 최신 양식을 직접 확인해야 함. 등록 필드는 전체 법적 완결성을 인증하지 않음"
+  ],
+  "supported": true,
+  "source_sha256": "5c74c1d022bbfd3fbe370640fc196ff046013227b5ed7a4049d1f7c2d613dad5",
+  "schema_version": 1,
+  "entry_id": "history-competition-2026",
+  "title": "제24회 우리역사바로알기 대회 참가 신청서",
+  "resource_kind": "blank_form",
+  "source_url": "https://www.history.go.kr/download?id=000000042300",
+  "source_page": "https://www.history.go.kr/board/boardList.do?action=&category=&condition=&groupId=000000000303&itemId=&itemIndex=&keyword=&menuId=000000000493&page=1&pageId=000000000013&rowPerPage=10&searchKeyword=&totalCount=0",
+  "source_filename": "history-competition-2026.xlsx",
+  "source_kind": "public_form",
+  "verification": {
+    "structure": "verified",
+    "visual_source": "원본 예시 6~8행을 보존하고 첫 빈 참가자 행인 9행을 매핑함",
+    "native_output": "verified_excel",
+    "coverage": "selected_input_fields",
+    "checked_at": "2026-10-03",
+    "rendered_pages": 1,
+    "visual_output": "가짜 정보로 채운 출력의 원본 글꼴·표·구획·표시값을 페이지 이미지로 확인함. 본 프로필이 등록한 입력값 길이에서만 확인함",
+    "source_and_output_page_counts_equal": true
+  },
+  "demo_values": {
+    "순번": "0",
+    "성명": "시험자",
+    "작품 제목": "제출금지 호환 시험 작품",
+    "참가부문": "시험부문",
+    "지역": "시험",
+    "학교명": "시험학교",
+    "학년": "1",
+    "성별": "X",
+    "생년월일": "00.00.00.",
+    "본인 연락처": "000-0000-0000",
+    "보호자 연락처": "000-0000-0000",
+    "참가자 이메일": "test@example.invalid",
+    "지도교사": "시험교사",
+    "지도교사 연락처": "000-0000-0000"
+  },
+  "demo_notice": "호환 검증용 가짜 정보임. 실제 제출용이 아니며 자동으로 적용하지 않음",
+  "submission_ready": false,
+  "validation_evidence": {
+    "source_sha256": "5c74c1d022bbfd3fbe370640fc196ff046013227b5ed7a4049d1f7c2d613dad5",
+    "source_filename": "history-competition-2026.xlsx",
+    "scope": "원본 인쇄 라벨과 단위에 근거한 값/관계 검사임. 시험값은 실제 제출용이 아니며 법적 적합성 인증이 아님.",
+    "fields": {
+      "학년": {
+        "printed_labels": [
+          "학년"
+        ],
+        "page": null,
+        "location": "시트1 G5 라벨 / G9 입력셀; G6:G8 예시의 정수 학년"
+      }
+    },
+    "relations": []
+  }
+}

@@ -1,0 +1,973 @@
+{
+  "format": "pdf",
+  "fields": [
+    {
+      "id": "ra:제조업소명",
+      "label": "제조업소명",
+      "kind": "pdf_overlay",
+      "value_key": "제조업소명",
+      "suggested_mapping": "제조업소명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 126.0,
+      "y": 151.0,
+      "width": 183.3,
+      "height": 15.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 26,
+      "location_verified": true
+    },
+    {
+      "id": "ra:대표자",
+      "label": "대표자",
+      "kind": "pdf_overlay",
+      "value_key": "대표자",
+      "suggested_mapping": "대표자",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 363.3,
+      "y": 151.0,
+      "width": 168.7,
+      "height": 15.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 24,
+      "location_verified": true
+    },
+    {
+      "id": "ra:제조소 소재지",
+      "label": "제조소 소재지",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 소재지",
+      "suggested_mapping": "제조소 소재지",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 143.0,
+      "y": 176.0,
+      "width": 389.0,
+      "height": 15.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 55,
+      "location_verified": true
+    },
+    {
+      "id": "ra:제조부서 책임자",
+      "label": "제조부서 책임자",
+      "kind": "pdf_overlay",
+      "value_key": "제조부서 책임자",
+      "suggested_mapping": "제조부서 책임자",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 154.0,
+      "y": 201.0,
+      "width": 156.3,
+      "height": 15.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 22,
+      "location_verified": true
+    },
+    {
+      "id": "ra:품질 보증부서 책임자",
+      "label": "품질 보증부서 책임자",
+      "kind": "pdf_overlay",
+      "value_key": "품질 보증부서 책임자",
+      "suggested_mapping": "품질 보증부서 책임자",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 443.3,
+      "y": 201.0,
+      "width": 88.69999999999999,
+      "height": 15.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true
+    },
+    {
+      "id": "ra:제조소 작업소 면적",
+      "label": "제조소 작업소 면적",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 작업소 면적",
+      "suggested_mapping": "제조소 작업소 면적",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 214.0,
+      "y": 227.0,
+      "width": 96.30000000000001,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "unit": "㎡",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:제조소 보관소 면적",
+      "label": "제조소 보관소 면적",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 보관소 면적",
+      "suggested_mapping": "제조소 보관소 면적",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 362.3,
+      "y": 227.0,
+      "width": 169.7,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "unit": "㎡",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:제조소 시험실 면적",
+      "label": "제조소 시험실 면적",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 시험실 면적",
+      "suggested_mapping": "제조소 시험실 면적",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 214.0,
+      "y": 250.0,
+      "width": 96.30000000000001,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "unit": "㎡",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:제조소 기타 부대시설 면적",
+      "label": "제조소 기타 부대시설 면적",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 기타 부대시설 면적",
+      "suggested_mapping": "제조소 기타 부대시설 면적",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 410.3,
+      "y": 250.0,
+      "width": 121.69999999999999,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "unit": "㎡",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:제조소 합계 면적",
+      "label": "제조소 합계 면적",
+      "kind": "pdf_overlay",
+      "value_key": "제조소 합계 면적",
+      "suggested_mapping": "제조소 합계 면적",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 208.0,
+      "y": 272.0,
+      "width": 324.0,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 12,
+      "location_verified": true,
+      "validation": {
+        "type": "number",
+        "unit": "㎡",
+        "unit_location": "label",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:작업인원 제조부서",
+      "label": "작업인원 제조부서",
+      "kind": "pdf_overlay",
+      "value_key": "작업인원 제조부서",
+      "suggested_mapping": "작업인원 제조부서",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 247.0,
+      "y": 318.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 4,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:작업인원 품질 보증부서",
+      "label": "작업인원 품질 보증부서",
+      "kind": "pdf_overlay",
+      "value_key": "작업인원 품질 보증부서",
+      "suggested_mapping": "작업인원 품질 보증부서",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 400.0,
+      "y": 318.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 4,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:작업인원 기타",
+      "label": "작업인원 기타",
+      "kind": "pdf_overlay",
+      "value_key": "작업인원 기타",
+      "suggested_mapping": "작업인원 기타",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 247.0,
+      "y": 357.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 4,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:작업인원 합계",
+      "label": "작업인원 합계",
+      "kind": "pdf_overlay",
+      "value_key": "작업인원 합계",
+      "suggested_mapping": "작업인원 합계",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 400.0,
+      "y": 357.0,
+      "width": 29.0,
+      "height": 10.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 4,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "min": 0
+      }
+    },
+    {
+      "id": "ra:신청 세부 제조방법 1",
+      "label": "신청 세부 제조방법 1",
+      "kind": "pdf_overlay",
+      "value_key": "신청 세부 제조방법 1",
+      "suggested_mapping": "신청 세부 제조방법 1",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 177.0,
+      "y": 415.0,
+      "width": 355.0,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 50,
+      "location_verified": true
+    },
+    {
+      "id": "ra:신청 세부 제조방법 2",
+      "label": "신청 세부 제조방법 2",
+      "kind": "pdf_overlay",
+      "value_key": "신청 세부 제조방법 2",
+      "suggested_mapping": "신청 세부 제조방법 2",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 177.0,
+      "y": 435.0,
+      "width": 355.0,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 50,
+      "location_verified": true
+    },
+    {
+      "id": "ra:신청 세부 제조방법 3",
+      "label": "신청 세부 제조방법 3",
+      "kind": "pdf_overlay",
+      "value_key": "신청 세부 제조방법 3",
+      "suggested_mapping": "신청 세부 제조방법 3",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 177.0,
+      "y": 454.0,
+      "width": 355.0,
+      "height": 12.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 50,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 1 항목",
+      "label": "변경 1 항목",
+      "kind": "pdf_overlay",
+      "value_key": "변경 1 항목",
+      "suggested_mapping": "변경 1 항목",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 64.0,
+      "y": 533.0,
+      "width": 99.69999999999999,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 1 적합판정 사항",
+      "label": "변경 1 적합판정 사항",
+      "kind": "pdf_overlay",
+      "value_key": "변경 1 적합판정 사항",
+      "suggested_mapping": "변경 1 적합판정 사항",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 175.7,
+      "y": 533.0,
+      "width": 100.30000000000001,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 1 변경 신청사항",
+      "label": "변경 1 변경 신청사항",
+      "kind": "pdf_overlay",
+      "value_key": "변경 1 변경 신청사항",
+      "suggested_mapping": "변경 1 변경 신청사항",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 288.0,
+      "y": 533.0,
+      "width": 138.10000000000002,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 19,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 1 사유",
+      "label": "변경 1 사유",
+      "kind": "pdf_overlay",
+      "value_key": "변경 1 사유",
+      "suggested_mapping": "변경 1 사유",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 438.1,
+      "y": 533.0,
+      "width": 95.89999999999998,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 13,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 2 항목",
+      "label": "변경 2 항목",
+      "kind": "pdf_overlay",
+      "value_key": "변경 2 항목",
+      "suggested_mapping": "변경 2 항목",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 64.0,
+      "y": 554.0,
+      "width": 99.69999999999999,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 2 적합판정 사항",
+      "label": "변경 2 적합판정 사항",
+      "kind": "pdf_overlay",
+      "value_key": "변경 2 적합판정 사항",
+      "suggested_mapping": "변경 2 적합판정 사항",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 175.7,
+      "y": 554.0,
+      "width": 100.30000000000001,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 14,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 2 변경 신청사항",
+      "label": "변경 2 변경 신청사항",
+      "kind": "pdf_overlay",
+      "value_key": "변경 2 변경 신청사항",
+      "suggested_mapping": "변경 2 변경 신청사항",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 288.0,
+      "y": 554.0,
+      "width": 138.10000000000002,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 19,
+      "location_verified": true
+    },
+    {
+      "id": "ra:변경 2 사유",
+      "label": "변경 2 사유",
+      "kind": "pdf_overlay",
+      "value_key": "변경 2 사유",
+      "suggested_mapping": "변경 2 사유",
+      "required": false,
+      "input_required": false,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 438.1,
+      "y": 554.0,
+      "width": 95.89999999999998,
+      "height": 13.0,
+      "font_size": 7.0,
+      "input_mode": "source_grounded",
+      "narrative_style_required": false,
+      "max_chars": 13,
+      "location_verified": true
+    },
+    {
+      "id": "ra:신청 연도",
+      "label": "신청 연도",
+      "kind": "pdf_overlay",
+      "value_key": "신청 연도",
+      "suggested_mapping": "신청 연도",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 382.0,
+      "y": 615.0,
+      "width": 29.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 4,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "unit": "년",
+        "unit_location": "label",
+        "min": 1,
+        "max": 9999
+      }
+    },
+    {
+      "id": "ra:신청 월",
+      "label": "신청 월",
+      "kind": "pdf_overlay",
+      "value_key": "신청 월",
+      "suggested_mapping": "신청 월",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 440.0,
+      "y": 615.0,
+      "width": 25.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 2,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "unit": "월",
+        "unit_location": "label",
+        "min": 1,
+        "max": 12
+      }
+    },
+    {
+      "id": "ra:신청 일",
+      "label": "신청 일",
+      "kind": "pdf_overlay",
+      "value_key": "신청 일",
+      "suggested_mapping": "신청 일",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 494.0,
+      "y": 615.0,
+      "width": 25.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 2,
+      "location_verified": true,
+      "validation": {
+        "type": "integer",
+        "unit": "일",
+        "unit_location": "label",
+        "min": 1,
+        "max": 31
+      }
+    },
+    {
+      "id": "ra:신청인 기재 성명",
+      "label": "신청인 기재 성명",
+      "kind": "pdf_overlay",
+      "value_key": "신청인 기재 성명",
+      "suggested_mapping": "신청인 기재 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 266.0,
+      "y": 628.0,
+      "width": 207.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 29,
+      "location_verified": true
+    },
+    {
+      "id": "ra:담당자 성명",
+      "label": "담당자 성명",
+      "kind": "pdf_overlay",
+      "value_key": "담당자 성명",
+      "suggested_mapping": "담당자 성명",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 290.0,
+      "y": 641.0,
+      "width": 242.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 34,
+      "location_verified": true
+    },
+    {
+      "id": "ra:담당자 전화번호",
+      "label": "담당자 전화번호",
+      "kind": "pdf_overlay",
+      "value_key": "담당자 전화번호",
+      "suggested_mapping": "담당자 전화번호",
+      "required": false,
+      "input_required": true,
+      "confidence": 1.0,
+      "page": 1,
+      "x": 311.0,
+      "y": 654.0,
+      "width": 221.0,
+      "height": 11.0,
+      "font_size": 7.0,
+      "input_mode": "user_provided",
+      "narrative_style_required": false,
+      "max_chars": 24,
+      "location_verified": true
+    }
+  ],
+  "warnings": [
+    "정적·스캔 PDF의 원본 페이지 위에 입력함. 자동 제안 영역을 확인하거나 입력 영역을 지정해야 함",
+    "신원·담당자·허가 식별자·선택·서명·날짜는 사용자 확인 없이 생성하지 않음. 등록된 날짜 칸도 직접 입력값만 기입함.",
+    "출처 ID는 별도 기록으로 보관함. 원자료 수치·단위·전체 설명을 줄이거나 환산하지 않으며 기본값에서 칸을 넘는 내용은 차단함.",
+    "등록되지 않은 항목: 적합판정·변경적합판정 선택 / 접수번호·접수일·발급일 / 서명 또는 인 / 뒤쪽 첨부서류 작성·충족 여부 / 인쇄된 합계의 자동 계산 없음 / 신청 구분·세부 제형 또는 제조방법의 고시상 적용 여부 확인",
+    "자동 기입·독립 출력 검사·시각 검수 통과는 전체 서류 작성, 첨부서류 충족, GMP 적합판정 또는 법적 제출 적합성 인증이 아님."
+  ],
+  "supported": true,
+  "source_sha256": "6922009eb882894e2878810256e62db0b2555849c34726ced2c78cd4bc5a7ae2",
+  "render_mode": "overlay",
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.0,
+      "height": 841.0
+    },
+    {
+      "page": 2,
+      "width": 595.0,
+      "height": 841.0
+    }
+  ],
+  "coordinate_system": "1쪽부터, 페이지 좌상단 원점, 포인트(72pt/in)",
+  "schema_version": 1,
+  "entry_id": "ra_law_form_82_pdf",
+  "source_filename": "ra_law_form_82_20260305.pdf",
+  "resource_kind": "blank_form",
+  "domain": "pharmaceutical_ra",
+  "ra_workflow": "gmp",
+  "title": "[서식 82] 원료의약품 제조 및 품질관리기준(적합판정, 변경적합판정) 신청서",
+  "form_number": "82",
+  "law_effective_date": "2026-03-05",
+  "form_version": "총리령 제2100호",
+  "form_printed_revision_date": "2024. 12. 30.",
+  "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000939&lsiSeq=284019&efYd=20260305",
+  "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162106161",
+  "checked_at": "2026-10-02T18:07:20.278295+00:00",
+  "citation_mode": "sidecar",
+  "submission_ready": false,
+  "full_form_filled": false,
+  "attachments_review_required": true,
+  "legal_compliance_certified": false,
+  "mandatory_requirements_verified": false,
+  "unsupported_fields": [
+    "적합판정·변경적합판정 선택",
+    "접수번호·접수일·발급일",
+    "서명 또는 인",
+    "뒤쪽 첨부서류 작성·충족 여부",
+    "인쇄된 합계의 자동 계산 없음",
+    "신청 구분·세부 제형 또는 제조방법의 고시상 적용 여부 확인"
+  ],
+  "demo_notice": "등록 칸의 배치 확인을 위한 가짜 시험값임. 실제 제출용 문서가 아니며 승인·적합판정·안전성을 증명하지 않음.",
+  "verification": {
+    "native_output": "verified_pdfium",
+    "legal_compliance_certified": false,
+    "scope": "등록 빈 영역의 가짜 시험값 기입을 모든 페이지의 PDFium PNG로 시각 대조하고 독립 출력 검수로 원본 텍스트·페이지·입력 영역 밖 배치를 확인함. 실제 제출·적합판정·안전성 인증이 아님.",
+    "visual_qa": {
+      "status": "passed",
+      "renderer": "PDFium",
+      "resolution_dpi": 108,
+      "reviewed_pages": [
+        1,
+        2
+      ],
+      "result_pngs": [
+        "outputs/ra_gmp_rmp_profile_qa/ra_law_form_82_pdf_fake_filled_p1.png",
+        "outputs/ra_gmp_rmp_profile_qa/ra_law_form_82_pdf_fake_filled_p2.png"
+      ],
+      "scope": "모든 원본·출력 페이지를 실제 PNG로 확인함. 시험값 위치·글자 표시·표 경계·뒤쪽 안내문을 대조함. 실제 사용자 값이나 제출 적합성 인증이 아님."
+    }
+  },
+  "demo_values": {
+    "제조업소명": "시험값",
+    "대표자": "시험값",
+    "제조소 소재지": "시험값",
+    "제조부서 책임자": "시험값",
+    "품질 보증부서 책임자": "시험값",
+    "제조소 작업소 면적": "12.50",
+    "제조소 보관소 면적": "8.25",
+    "제조소 시험실 면적": "3.75",
+    "제조소 기타 부대시설 면적": "5.50",
+    "제조소 합계 면적": "30.00",
+    "작업인원 제조부서": "4",
+    "작업인원 품질 보증부서": "2",
+    "작업인원 기타": "1",
+    "작업인원 합계": "7",
+    "신청 세부 제조방법 1": "시험값",
+    "신청 세부 제조방법 2": "시험값",
+    "신청 세부 제조방법 3": "시험값",
+    "변경 1 항목": "시험값",
+    "변경 1 적합판정 사항": "시험값",
+    "변경 1 변경 신청사항": "시험값",
+    "변경 1 사유": "시험값",
+    "변경 2 항목": "시험값",
+    "변경 2 적합판정 사항": "시험값",
+    "변경 2 변경 신청사항": "시험값",
+    "변경 2 사유": "시험값",
+    "신청 연도": "2026",
+    "신청 월": "10",
+    "신청 일": "3",
+    "신청인 기재 성명": "시험값",
+    "담당자 성명": "시험값",
+    "담당자 전화번호": "000-0000-0000"
+  },
+  "source_license": {
+    "status": "not_assessed",
+    "redistribution_permitted": false
+  },
+  "constraints": {
+    "relations": [
+      {
+        "kind": "sum",
+        "total": "제조소 합계 면적",
+        "parts": [
+          "제조소 작업소 면적",
+          "제조소 보관소 면적",
+          "제조소 시험실 면적",
+          "제조소 기타 부대시설 면적"
+        ],
+        "tolerance": 0
+      },
+      {
+        "kind": "sum",
+        "total": "작업인원 합계",
+        "parts": [
+          "작업인원 제조부서",
+          "작업인원 품질 보증부서",
+          "작업인원 기타"
+        ],
+        "tolerance": 0
+      },
+      {
+        "kind": "calendar_date",
+        "year": "신청 연도",
+        "month": "신청 월",
+        "day": "신청 일"
+      }
+    ]
+  },
+  "validation_evidence": {
+    "source_sha256": "6922009eb882894e2878810256e62db0b2555849c34726ced2c78cd4bc5a7ae2",
+    "source_filename": "ra_law_form_82_20260305.pdf",
+    "scope": "원본 인쇄 라벨과 단위에 근거한 값/관계 검사임. 시험값은 실제 제출용이 아니며 법적 적합성 인증이 아님.",
+    "fields": {
+      "제조소 작업소 면적": {
+        "printed_labels": [
+          "제조소의 면적",
+          "(㎡)",
+          "작업소"
+        ],
+        "page": 1,
+        "location": "ra:제조소 작업소 면적"
+      },
+      "제조소 보관소 면적": {
+        "printed_labels": [
+          "제조소의 면적",
+          "(㎡)",
+          "보관소"
+        ],
+        "page": 1,
+        "location": "ra:제조소 보관소 면적"
+      },
+      "제조소 시험실 면적": {
+        "printed_labels": [
+          "제조소의 면적",
+          "(㎡)",
+          "시험실"
+        ],
+        "page": 1,
+        "location": "ra:제조소 시험실 면적"
+      },
+      "제조소 기타 부대시설 면적": {
+        "printed_labels": [
+          "제조소의 면적",
+          "(㎡)",
+          "그 밖의 부대시설"
+        ],
+        "page": 1,
+        "location": "ra:제조소 기타 부대시설 면적"
+      },
+      "제조소 합계 면적": {
+        "printed_labels": [
+          "제조소의 면적",
+          "(㎡)",
+          "합계"
+        ],
+        "page": 1,
+        "location": "ra:제조소 합계 면적"
+      },
+      "작업인원 제조부서": {
+        "printed_labels": [
+          "작업인원",
+          "제조부서"
+        ],
+        "page": 1,
+        "location": "ra:작업인원 제조부서"
+      },
+      "작업인원 품질 보증부서": {
+        "printed_labels": [
+          "작업인원",
+          "품질(보증)부서"
+        ],
+        "page": 1,
+        "location": "ra:작업인원 품질 보증부서"
+      },
+      "작업인원 기타": {
+        "printed_labels": [
+          "작업인원",
+          "그 밖의 작업인원"
+        ],
+        "page": 1,
+        "location": "ra:작업인원 기타"
+      },
+      "작업인원 합계": {
+        "printed_labels": [
+          "작업인원",
+          "합계"
+        ],
+        "page": 1,
+        "location": "ra:작업인원 합계"
+      },
+      "신청 연도": {
+        "printed_labels": [
+          "년"
+        ],
+        "page": 1,
+        "location": "ra:신청 연도"
+      },
+      "신청 월": {
+        "printed_labels": [
+          "월"
+        ],
+        "page": 1,
+        "location": "ra:신청 월"
+      },
+      "신청 일": {
+        "printed_labels": [
+          "일"
+        ],
+        "page": 1,
+        "location": "ra:신청 일"
+      }
+    },
+    "relations": [
+      {
+        "index": 0,
+        "page": 1,
+        "printed_labels": [
+          "제조소의 면적",
+          "작업소",
+          "보관소",
+          "시험실",
+          "그 밖의 부대시설",
+          "합계"
+        ],
+        "reason": "같은 면적 표의 네 구성항목과 합계"
+      },
+      {
+        "index": 1,
+        "page": 1,
+        "printed_labels": [
+          "작업인원",
+          "제조부서",
+          "품질(보증)부서",
+          "그 밖의 작업인원",
+          "합계"
+        ],
+        "reason": "같은 작업인원 표의 세 구성항목과 합계"
+      },
+      {
+        "index": 2,
+        "page": 1,
+        "printed_labels": [
+          "년",
+          "월",
+          "일"
+        ],
+        "reason": "신청인 위에 같은 신청일의 연/월/일 세 칸이 연속 인쇄됨. 세 정수의 실제 달력 날짜와 윤년을 함께 확인함. 날짜를 추정·변환·자동 수정하지 않음."
+      }
+    ]
+  }
+}

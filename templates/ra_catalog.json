@@ -1,0 +1,949 @@
+{
+  "schema_version": 1,
+  "basis": "공식 현행 별지 목록 및 MFDS 게시 첨부에서 관찰·다운로드한 공개 작성용 서식임. 법적 제출 적합성과 전체 기입 호환을 인증하지 않음",
+  "checked_at": "2026-10-02T18:09:09.433932+00:00",
+  "workflows": {
+    "product_approval": "품목허가·신고",
+    "variation": "변경허가·변경신고",
+    "clinical_trial": "임상시험",
+    "dmf": "원료의약품 등록",
+    "gmp": "GMP",
+    "manufacturing_import": "제조·수입업",
+    "safety_management": "안전성·위해성 관리"
+  },
+  "documents": [
+    {
+      "id": "ra_law_form_1_pdf",
+      "title": "[서식 1] 의약품 제조업(허가, 시설 조건부 허가)신청서",
+      "workflows": [
+        "manufacturing_import"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000707&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "1",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:17.726296+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105383",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_1_20260305.pdf",
+      "sha256": "407e03db7b73e4ee8385a6f867fe223aa7968947b13eb1bd2dc47ac960ba5286",
+      "size_bytes": 75946,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000707&bylSeq=18000707&bylNo=0001&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제1호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C1%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%20%EC%A0%9C%EC%A1%B0%EC%97%85%28%ED%97%88%EA%B0%80%C2%B8%20%EC%8B%9C%EC%84%A4%20%EC%A1%B0%EA%B1%B4%EB%B6%80%20%ED%97%88%EA%B0%80%29%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2022. 12. 7.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제1호서식] <개정 2022. 12. 7.>\n의약품 제조업 [ ]허가\n [ ]시설 조건부 허가 신청서\n접수번호 접수일 발급일 처리기간  25일\n신청인\n제조소의 명칭(법인일 경우 법인 등록번호 :                         )\n제조소의 소재지\n성명 한자 주민등록번호(",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105381",
+          "filename": "ra_law_form_1_20260305.hwp",
+          "format": "HWP",
+          "sha256": "5023e29a3a3818e02557a1049e773422906a605b93ad44d751bc3610f8c2cdb8",
+          "size_bytes": 75264
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_1",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_3_pdf",
+      "title": "[서식 3] 의약품 위탁제조판매업 신고(변경신고)서",
+      "workflows": [
+        "manufacturing_import",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000711&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "3",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:17.726296+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105395",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_3_20260305.pdf",
+      "sha256": "21441ede5ca8abfbfc25c805b15f84f41f46d63c9cd539b314ee4eb559dad02d",
+      "size_bytes": 70127,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000711&bylSeq=18000711&bylNo=0003&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제3호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C3%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%20%EC%9C%84%ED%83%81%EC%A0%9C%EC%A1%B0%ED%8C%90%EB%A7%A4%EC%97%85%20%EC%8B%A0%EA%B3%A0%28%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%29%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2021. 3. 8.",
+      "observed_form_text_excerpt": "[별지 제3호서식] <개정 2021. 3. 8.>\n의약품 위탁제조판매업 신고(변경신고)서\n접수번호 접수일 발급일 처리기간  25일\n신고인\n영업소의 명칭(법인일 경우 법인 등록번호 :                         )\n영업소의 소재지\n성명 한자 주민등록번호(외국인등록번호)\n주소\n안전관리\n책임자\n성명 면허번호\n생",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105393",
+          "filename": "ra_law_form_3_20260305.hwp",
+          "format": "HWP",
+          "sha256": "e824494d673a2c735bc7993a605157d70127929540e2e6e86b239c2a868297f0",
+          "size_bytes": 65024
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_3",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_6_pdf",
+      "title": "[서식 6] [의약품, 의약외품(제조판매, 수입)]품목신고(변경신고)서",
+      "workflows": [
+        "product_approval",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000717&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "6",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:17.726296+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105417",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_6_20260305.pdf",
+      "sha256": "f31ff5a5b5f015b5f73679997e3369d71ed169e15dc3806d9767b89f3e6f63ac",
+      "size_bytes": 67346,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000717&bylSeq=18000717&bylNo=0006&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제6호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C6%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%5B%EC%9D%98%EC%95%BD%ED%92%88%C2%B8%20%EC%9D%98%EC%95%BD%EC%99%B8%ED%92%88%28%EC%A0%9C%EC%A1%B0%ED%8C%90%EB%A7%A4%C2%B8%20%EC%88%98%EC%9E%85%29%5D%ED%92%88%EB%AA%A9%EC%8B%A0%EA%B3%A0%28%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%29%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2025. 2. 21.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제6호서식] <개정 2025. 2. 21.> 의약품 전자민원창구(ezdrug.mfds.go.kr)에서도 \n신청할 수 있습니다.\n[ ]의약품\n[ ]의약외품\n[ ]제조판매\n[ ]수입 품목신고 (변경신고 )서\n ※ 뒤쪽의 제출서류를 읽고 작성하시기 바라며, [  ]에는 해당되는 곳에 √",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105415",
+          "filename": "ra_law_form_6_20260305.hwp",
+          "format": "HWP",
+          "sha256": "ad03eba28869e9087fa3de2842e1c144dd2d2c56cef8feb55b4eddb3e3c9f3d8",
+          "size_bytes": 57344
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_6",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_7_pdf",
+      "title": "[서식 7] 의약품등의 제조업 허가사항 변경허가 신청서",
+      "workflows": [
+        "variation",
+        "manufacturing_import"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000719&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "7",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:17.727271+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105425",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_7_20260305.pdf",
+      "sha256": "38b011b4d89d7877d48d1ced4e799062d3c227852fdfb6a3c138b743e4b9e091",
+      "size_bytes": 49145,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000719&bylSeq=18000719&bylNo=0007&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제7호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C7%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%EB%93%B1%EC%9D%98%20%EC%A0%9C%EC%A1%B0%EC%97%85%20%ED%97%88%EA%B0%80%EC%82%AC%ED%95%AD%20%EB%B3%80%EA%B2%BD%ED%97%88%EA%B0%80%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2021. 3. 8.",
+      "observed_form_text_excerpt": "[별지 제7호서식] <개정 2021. 3. 8.>\n의약품등의 제조업 허가사항 변경허가 신청서\n접수번호 접수일 발급일 처리기간   15일\n신청인\n성명 주민등록번호(외국인등록번호)\n제조(영업)소의 명칭 법인인 경우 법인등록번호\n업허가번호 전화번호\n제조(영업)소의 소재지(우편번호:                )\n변경사항\n항목 ",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105423",
+          "filename": "ra_law_form_7_20260305.hwp",
+          "format": "HWP",
+          "sha256": "f9fb768c72a7b2cb0407d700c5ce76af829bff4685cece8c3cca8a6ff39fcba4",
+          "size_bytes": 45056
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_7",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_7_2_pdf",
+      "title": "[서식 7의 2] (의약품, 의약외품)수입업 신고(변경신고)서",
+      "workflows": [
+        "manufacturing_import",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000721&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "7의2",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:18.309255+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105431",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_7_2_20260305.pdf",
+      "sha256": "7e5ffa8da1dcd1a976e7f426f5bd18b6224474ca2241dc08c445134a45858d4c",
+      "size_bytes": 69230,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000721&bylSeq=18000721&bylNo=0007&bylBrNo=02&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제7호의2서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C7%ED%98%B8%EC%9D%982%EC%84%9C%EC%8B%9D%5D%20%28%EC%9D%98%EC%95%BD%ED%92%88%C2%B8%20%EC%9D%98%EC%95%BD%EC%99%B8%ED%92%88%29%EC%88%98%EC%9E%85%EC%97%85%20%EC%8B%A0%EA%B3%A0%28%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%29%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "not_stated",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제7호의2서식] <개 정 2021. 3. 8.> 의약품 전자민원창구(ezdrug.mfds.go.kr)에서\n도 신청할 수 있습니다.\n[ ] 의약품\n[ ] 의약외품 수입업 신고(변경신고)서\n접수번호 접수일 발급일 처리기간  25일\n신고인\n영업소의 명칭(법인일 경우 법인 등록번호 :  ",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105429",
+          "filename": "ra_law_form_7_2_20260305.hwp",
+          "format": "HWP",
+          "sha256": "fd7a01012e3befc9625b823c42d74d202edcb0906ecddbeedcecb7dca76d93d2",
+          "size_bytes": 73216
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_7_2",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_16_pdf",
+      "title": "[서식 16] 원료의약품(등록신청서, 등록사항 변경등록 신청서)",
+      "workflows": [
+        "dmf",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000741&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "16",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:18.309255+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105507",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_16_20260305.pdf",
+      "sha256": "3aadfa4805162d76e6e17a7186de0e154612220e00141edae35ce0534e667fdf",
+      "size_bytes": 69114,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000741&bylSeq=18000741&bylNo=0016&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제16호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C16%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9B%90%EB%A3%8C%EC%9D%98%EC%95%BD%ED%92%88%28%EB%93%B1%EB%A1%9D%EC%8B%A0%EC%B2%AD%EC%84%9C%C2%B8%20%EB%93%B1%EB%A1%9D%EC%82%AC%ED%95%AD%20%EB%B3%80%EA%B2%BD%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%29%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2024. 12. 30.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제16호서식] <개정 2024. 12. 30.> 의약품 전자민원창구(ezdrug.mfds.go.kr)에서도 \n신청할 수 있습니다.\n원료의약품 [ ]등록신청서\n[ ]등록사항 변경등록 신청서\n ※ [  ]에는 해당되는 곳에 √ 표시를 합니다. (앞쪽)\n접수번호 접수일 발급일 처리기간 ",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105505",
+          "filename": "ra_law_form_16_20260305.hwp",
+          "format": "HWP",
+          "sha256": "78927bf6c687ee33c13359a7dd8c1d5dcebc73110520de0cfb331fe715f11f54",
+          "size_bytes": 65536
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_16",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_20_pdf",
+      "title": "[서식 20] 의약품[제조판매, 수입(품목허가, 품목신고) 갱신 신청서]",
+      "workflows": [
+        "product_approval"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000749&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "20",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:18.818574+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105535",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_20_20260305.pdf",
+      "sha256": "3fc1c9ae99d65d4ade6285f6afb0027db7abb4227ee2f7d74c4874be38931704",
+      "size_bytes": 62548,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000749&bylSeq=18000749&bylNo=0020&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제20호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C20%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%5B%EC%A0%9C%EC%A1%B0%ED%8C%90%EB%A7%A4%C2%B8%20%EC%88%98%EC%9E%85%28%ED%92%88%EB%AA%A9%ED%97%88%EA%B0%80%C2%B8%20%ED%92%88%EB%AA%A9%EC%8B%A0%EA%B3%A0%29%20%EA%B0%B1%EC%8B%A0%20%EC%8B%A0%EC%B2%AD%EC%84%9C%5D%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2023. 10. 25.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제20호서식] <개정 2023. 10. 25.> 의약품 전자민원창구(ezdrug.mfds.go.kr)에서도 \n신청할 수 있습니다.\n의약품 [ ] 제조판매\n[ ] 수입\n[ ] 품 목 허 가\n[ ] 품 목 신 고 갱 신신 청 서\n ※ [  ]에는 해당되는 곳에 √ 표시를 합니다.\n접수",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105533",
+          "filename": "ra_law_form_20_20260305.hwp",
+          "format": "HWP",
+          "sha256": "ef0b4f4203931bc2e64372598208379b5c6bc48403d559b24e6232b5258b65b2",
+          "size_bytes": 60928
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_20",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_32_pdf",
+      "title": "[서식 32] 임상시험용의약품에 대한 정기적인 최신 안전성정보 보고서",
+      "workflows": [
+        "safety_management",
+        "clinical_trial"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000773&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "32",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:19.185238+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105611",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_32_20260305.pdf",
+      "sha256": "1f548888e09b55de1f0c0cc6933ceb8a22ce87055d4b72dcc851973cc27ab9dd",
+      "size_bytes": 63782,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000773&bylSeq=18000773&bylNo=0032&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제32호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C32%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98%EC%9A%A9%EC%9D%98%EC%95%BD%ED%92%88%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%A0%95%EA%B8%B0%EC%A0%81%EC%9D%B8%20%EC%B5%9C%EC%8B%A0%20%EC%95%88%EC%A0%84%EC%84%B1%EC%A0%95%EB%B3%B4%20%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2026. 3. 5.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제32호서식] <개정 2026. 3. 5.>\n임상시험용의약품에 대한 정기적인 최신 안전성정보 보고서\n (앞쪽)\n일반정보\n제품명/성분명 임상시험 제목\n임상시험 승인 연월일\n(한국)\n국내외 최초 임상시험\n계획 승인 연월일\n국내외 최초 품목허가 \n연월일\n해당 정기보고의 차수\n(번호)\n해",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105609",
+          "filename": "ra_law_form_32_20260305.hwp",
+          "format": "HWP",
+          "sha256": "9b0a5af2f6a2f6d008a6e2ecf046db8ed9d5728cb7fbd4418762d9735f78b055",
+          "size_bytes": 45568
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_32",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_32_2_pdf",
+      "title": "[서식 32의 2] 임상시험 실시상황 보고서(임상시험실시기관의 장)",
+      "workflows": [
+        "clinical_trial"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000775&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "32의2",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:19.334056+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105619",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_32_2_20260305.pdf",
+      "sha256": "31364d5e8264a8914e0f6d190be84ab95276d60f0dbd0fe1f4f376ec241ad591",
+      "size_bytes": 84227,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000775&bylSeq=18000775&bylNo=0032&bylBrNo=02&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제32호의2서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C32%ED%98%B8%EC%9D%982%EC%84%9C%EC%8B%9D%5D%20%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98%20%EC%8B%A4%EC%8B%9C%EC%83%81%ED%99%A9%20%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%9E%84%EC%83%81%EC%8B%9C%ED%97%98%EC%8B%A4%EC%8B%9C%EA%B8%B0%EA%B4%80%EC%9D%98%20%EC%9E%A5%29%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2016. 10. \n28.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제32호의2서식] <신설 2016. 10. \n28.>\n의약품 전자민원창구(ezdrug.mfds.go.kr)에서도 \n신청할 수 있습니다.\n임상시험 실시상황 보고서(임상시험실시기관의장)\n (앞쪽)\n보고기간  20  년     월     일 ~  20  년     월     일\n(Ⅰ)\n",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105617",
+          "filename": "ra_law_form_32_2_20260305.hwp",
+          "format": "HWP",
+          "sha256": "8d72fd2a45c77b8a46bd3a6c27668fe9458252f6229daec3c84152db26fc4773",
+          "size_bytes": 21504
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_32_2",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_41_pdf",
+      "title": "[서식 41] 의약품등 사전 검토 신청서",
+      "workflows": [
+        "product_approval"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000815&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "41",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:19.814696+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105751",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_41_20260305.pdf",
+      "sha256": "87f7440088689c4727d67e1913028749b5f4dbdcd311ee3a2f32a602d678f89d",
+      "size_bytes": 57596,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000815&bylSeq=18000815&bylNo=0041&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제41호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C41%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%EB%93%B1%20%EC%82%AC%EC%A0%84%20%EA%B2%80%ED%86%A0%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2023. 10. 25.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제41호서식] <개정 2023. 10. 25.>\n의약품등 사전 검토 신청서\n접수번호 접수일 발급일 처리기간 유의사항 참조\n신청인\n성명 생년월일\n제조(영업)소의 명칭 전화번호\n제조(영업)소의 소재지(우편번호:                )\n제품명\n(코드명)\n주성분\n분류\n사전 검토\n신",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105749",
+          "filename": "ra_law_form_41_20260305.hwp",
+          "format": "HWP",
+          "sha256": "4587b68b39059f44eb584ae63ef513011062b558f2a0bf90256abcc70482f33a",
+          "size_bytes": 60928
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_41",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_57_2_pdf",
+      "title": "[서식 57의 2] 해외제조소 (등록신청서, 변경등록 신청서, 변경신고서)",
+      "workflows": [
+        "manufacturing_import",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000857&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "57의2",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:19.851953+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105887",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_57_2_20260305.pdf",
+      "sha256": "d075e9a91123fcb5148d1d94db1b8454d3fa41c995371d01e9f3e75e3a8fcbd6",
+      "size_bytes": 69492,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000857&bylSeq=18000857&bylNo=0057&bylBrNo=02&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제57호의2서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C57%ED%98%B8%EC%9D%982%EC%84%9C%EC%8B%9D%5D%20%ED%95%B4%EC%99%B8%EC%A0%9C%EC%A1%B0%EC%86%8C%20%28%EB%93%B1%EB%A1%9D%EC%8B%A0%EC%B2%AD%EC%84%9C%C2%B8%20%EB%B3%80%EA%B2%BD%EB%93%B1%EB%A1%9D%20%EC%8B%A0%EC%B2%AD%EC%84%9C%C2%B8%20%EB%B3%80%EA%B2%BD%EC%8B%A0%EA%B3%A0%EC%84%9C%29%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2019. 12. 6.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제57호의2 서\n식] <신설 2019. 12. 6.> \n의약품 전자민원창구(ezdrug.mfds.go.kr)에서도 신청ㆍ신고할 수 있습니다.\n해외제조소\n［ ］등록신청서\n［ ］변경등록 신청서\n［ ］변경신고 서\n※ 색상이 어두운 칸은 신청인이 적지 아니하며, [ ]에는 해당되는 곳에 ",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162105885",
+          "filename": "ra_law_form_57_2_20260305.hwp",
+          "format": "HWP",
+          "sha256": "17d588e1c7b629cd74db8025775ac1d790dfb8619846ce36ba90ef6d43eeb664",
+          "size_bytes": 60928
+        }
+      ],
+      "pages": 1,
+      "canonical_form_id": "ra_law_form_57_2",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_81_pdf",
+      "title": "[서식 81] 의약품 제조 및 품질관리기준(적합판정, 변경적합판정) 신청서",
+      "workflows": [
+        "gmp",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000935&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "81",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:20.143615+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162106143",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_81_20260305.pdf",
+      "sha256": "2413c5c2740ef764c0cad523b3ae47b613e479f0942c62c5c88381a1f74283a6",
+      "size_bytes": 57844,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000935&bylSeq=18000935&bylNo=0081&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제81호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C81%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9D%98%EC%95%BD%ED%92%88%20%EC%A0%9C%EC%A1%B0%20%EB%B0%8F%20%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%A4%80%28%EC%A0%81%ED%95%A9%ED%8C%90%EC%A0%95%C2%B8%20%EB%B3%80%EA%B2%BD%EC%A0%81%ED%95%A9%ED%8C%90%EC%A0%95%29%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2024. 12. 30.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제81호서식] <개정 2024. 12. 30.>\n의약품 제조 및 품질관리기준 [ ]적합판정 신청서[ ]변경적합판정\n※ 뒤쪽의 작성방법을 읽고 작성하시기 바랍니다. (앞쪽)\n접수번호 접수일 발급일 처리기간: 90일\n제조업소명 대표자\n제조소 소재지\n제조부서 책임자 품질(보증)부서 책임",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162106141",
+          "filename": "ra_law_form_81_20260305.hwp",
+          "format": "HWP",
+          "sha256": "4e8e0b374f001e819d624201330a97edfb92e87a0ebec1928769a1074cceda81",
+          "size_bytes": 49664
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_81",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_82_pdf",
+      "title": "[서식 82] 원료의약품 제조 및 품질관리기준(적합판정, 변경적합판정) 신청서",
+      "workflows": [
+        "gmp",
+        "dmf",
+        "variation"
+      ],
+      "source_page": "https://law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000939&lsiSeq=284019&efYd=20260305",
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "form_number": "82",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:07:20.278295+00:00",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162106161",
+      "allowed_hosts": [
+        "law.go.kr"
+      ],
+      "format": "PDF",
+      "filename": "ra_law_form_82_20260305.pdf",
+      "sha256": "6922009eb882894e2878810256e62db0b2555849c34726ced2c78cd4bc5a7ae2",
+      "size_bytes": 52302,
+      "download_status": "verified",
+      "file_metadata_source": "https://law.go.kr/LSW/lsBylContentsInfoR.do?lsiSeq=18000939&bylSeq=18000939&bylNo=0082&bylBrNo=00&bylClsCd=110202&bylEfYd=20260305&lsId=011794&chrClsCd=010202&vSct=&directYn=N",
+      "version_label": "별지 제82호서식 / 현행 본문 시행 2026-03-05",
+      "content_disposition": "attachment; filename=\"%5B%EB%B3%84%EC%A7%80%20%EC%A0%9C82%ED%98%B8%EC%84%9C%EC%8B%9D%5D%20%EC%9B%90%EB%A3%8C%EC%9D%98%EC%95%BD%ED%92%88%20%EC%A0%9C%EC%A1%B0%20%EB%B0%8F%20%ED%92%88%EC%A7%88%EA%B4%80%EB%A6%AC%EA%B8%B0%EC%A4%80%28%EC%A0%81%ED%95%A9%ED%8C%90%EC%A0%95%C2%B8%20%EB%B3%80%EA%B2%BD%EC%A0%81%ED%95%A9%ED%8C%90%EC%A0%95%29%20%EC%8B%A0%EC%B2%AD%EC%84%9C%28%EC%9D%98%EC%95%BD%ED%92%88%20%EB%93%B1%EC%9D%98%20%EC%95%88%EC%A0%84%EC%97%90%20%EA%B4%80%ED%95%9C%20%EA%B7%9C%EC%B9%99%29.hwp\"",
+      "form_revision_observed": "2024. 12. 30.",
+      "observed_form_text_excerpt": "■ 의약품 등의 안전에 관한 규칙 [별지 제82호서식] <개정 2024. 12. 30.>\n원료의약품 제조 및 품질관리기준 [ ]적합판정 신청서[ ]변경적합판정\n※ 뒤쪽의 작성방법을 읽고 작성하시기 바랍니다. (앞쪽) \n접수번호 접수일 발급일 처리기간: 90일\n제조업소명 대표자\n제조소 소재지\n제조부서 책임자 품질(보증)부서",
+      "alternative_originals": [
+        {
+          "source_url": "https://law.go.kr/LSW/flDownload.do?flSeq=162106159",
+          "filename": "ra_law_form_82_20260305.hwp",
+          "format": "HWP",
+          "sha256": "bd786367d58aa50840dd86162c5693b15e5a418e5acc755fb735a50753416609",
+          "size_bytes": 48640
+        }
+      ],
+      "pages": 2,
+      "canonical_form_id": "ra_law_form_82",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_mfds_gmp_english_request",
+      "title": "영문 증명 신청서(세부제형, 품목명 기재 사유서)",
+      "workflows": [
+        "gmp"
+      ],
+      "source_page": "https://www.mfds.go.kr/brd/m_522/view.do?seq=33252",
+      "source_url": "https://www.mfds.go.kr/brd/m_522/down.do?brd_id=plc0123&seq=33252&data_tp=A&file_seq=3",
+      "allowed_hosts": [
+        "www.mfds.go.kr"
+      ],
+      "publisher": "식품의약품안전처",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "format": "HWP",
+      "filename": "ra_mfds_gmp_english_request_20190507.hwp",
+      "sha256": "88d6959f78d672776772cd1d90c52c287a037e59e9c21b627160f2ef82ccea12",
+      "size_bytes": 12800,
+      "download_status": "verified",
+      "checked_at": "2026-10-02T18:08:11.883235+00:00",
+      "version_label": "2019-05-07 게시 첨부3",
+      "published_at": "2019-05-07",
+      "form_number": "첨부3",
+      "rule_name": null,
+      "rule_effective_date": null,
+      "rule_version": null,
+      "form_revision_observed": "not_stated",
+      "legal_compliance_certified": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "applicability_note": "2019년 게시 자료임. 최신 전자민원 서식/발급 요건은 제출기관에 확인해야 함",
+      "canonical_form_id": "ra_mfds_gmp_english_request",
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false
+    },
+    {
+      "id": "ra_law_form_23_pdf",
+      "filename": "ra_law_form_23_20260305.pdf",
+      "format": "PDF",
+      "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000755&lsiSeq=284019&efYd=20260305&directYn=Y",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105553",
+      "form_number": "23",
+      "version": "2026-03-05",
+      "sha256": "8d5c0c37c0830a56e6616acad8cf57fde83958260a0587d3f35def229e0b525c",
+      "size_bytes": 76542,
+      "download_status": "verified",
+      "title": "[서식 23] 임상시험계획 승인(변경승인) 신청서",
+      "workflows": [
+        "clinical_trial",
+        "variation"
+      ],
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "version_label": "별지 제23호서식 / 현행 본문 시행 2026-03-05",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:10:50.951146+00:00",
+      "canonical_form_id": "ra_law_form_23",
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "alternative_originals": [
+        {
+          "id": "ra_law_form_23_hwp",
+          "filename": "ra_law_form_23_20260305.hwp",
+          "format": "HWP",
+          "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000755&lsiSeq=284019&efYd=20260305&directYn=Y",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105551",
+          "form_number": "23",
+          "version": "2026-03-05",
+          "sha256": "735e961a4d414c0f956394cc7c5feddd9da853ad561e29f190a15b03a502f4b7",
+          "size_bytes": 87040,
+          "download_status": "verified"
+        }
+      ],
+      "form_revision_observed": "2024. 10. 4."
+    },
+    {
+      "id": "ra_law_form_4_pdf",
+      "filename": "ra_law_form_4_20260305.pdf",
+      "format": "PDF",
+      "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000713&lsiSeq=284019&efYd=20260305&directYn=Y",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105401",
+      "form_number": "4",
+      "version": "2026-03-05",
+      "sha256": "bb51ef14651e2483d28edd4df27446cbd3d5c4d4cc85d47d0b6fcabbe3efba63",
+      "size_bytes": 87503,
+      "download_status": "verified",
+      "title": "[서식 4] [의약품, 의약외품[제조판매, 수입(품목허가, (시설, 품목) 조건부허가)]]신청서",
+      "workflows": [
+        "product_approval",
+        "manufacturing_import"
+      ],
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "version_label": "별지 제4호서식 / 현행 본문 시행 2026-03-05",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:10:51.013150+00:00",
+      "canonical_form_id": "ra_law_form_4",
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "alternative_originals": [
+        {
+          "id": "ra_law_form_4_hwp",
+          "filename": "ra_law_form_4_20260305.hwp",
+          "format": "HWP",
+          "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000713&lsiSeq=284019&efYd=20260305&directYn=Y",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105399",
+          "form_number": "4",
+          "version": "2026-03-05",
+          "sha256": "3388b54fb534b4ead0239990a4b6e7fd3b8ffaf85b4528ad87bb6dc8cb6146d8",
+          "size_bytes": 124928,
+          "download_status": "verified"
+        }
+      ],
+      "form_revision_observed": "2025. 2. 21."
+    },
+    {
+      "id": "ra_law_form_8_pdf",
+      "filename": "ra_law_form_8_20260305.pdf",
+      "format": "PDF",
+      "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000723&lsiSeq=284019&efYd=20260305&directYn=Y",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105437",
+      "form_number": "8",
+      "version": "2026-03-05",
+      "sha256": "a98077becb15a31555d5f9e307b9a910625cc3e30582d076e54667eccef72ad9",
+      "size_bytes": 58989,
+      "download_status": "verified",
+      "title": "[서식 8] 의약품등(제조판매, 수입) 품목 허가사항 변경허가 신청서",
+      "workflows": [
+        "variation"
+      ],
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "version_label": "별지 제8호서식 / 현행 본문 시행 2026-03-05",
+      "rule_name": "의약품 등의 안전에 관한 규칙",
+      "rule_effective_date": "2026-03-05",
+      "rule_version": "총리령 제2100호",
+      "checked_at": "2026-10-02T18:10:51.055400+00:00",
+      "canonical_form_id": "ra_law_form_8",
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      },
+      "alternative_originals": [
+        {
+          "id": "ra_law_form_8_hwp",
+          "filename": "ra_law_form_8_20260305.hwp",
+          "format": "HWP",
+          "source_page": "https://www.law.go.kr/LSW/lsBylInfoP.do?bylSeq=18000723&lsiSeq=284019&efYd=20260305&directYn=Y",
+          "source_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162105435",
+          "form_number": "8",
+          "version": "2026-03-05",
+          "sha256": "8cfb8bd44a72b42cb0e3554e6de065898127ae0d9a4d4f7bff8a7cbeb0bffe1d",
+          "size_bytes": 54784,
+          "download_status": "verified"
+        }
+      ],
+      "form_revision_observed": "2025. 2. 21."
+    },
+    {
+      "id": "ra_law_rmp_outline_pdf",
+      "canonical_form_id": "ra_law_rmp_outline",
+      "title": "위해성 관리 계획 개요(별표 9의3)",
+      "workflows": [
+        "safety_management",
+        "product_approval"
+      ],
+      "source_page": "https://www.law.go.kr/LSW/flDownload.do?bylClsCd=200201&flNm=%5B%EB%B3%84%ED%91%9C+9%EC%9D%983%5D+%EC%9C%84%ED%95%B4%EC%84%B1+%EA%B4%80%EB%A6%AC+%EA%B3%84%ED%9A%8D+%EA%B0%9C%EC%9A%94%28%EC%A0%9C7%EC%A1%B0%EC%9D%982+%EA%B4%80%EB%A0%A8%29&flSeq=144915301",
+      "source_url": "https://www.law.go.kr/LSW/flDownload.do?bylClsCd=200201&flNm=%5B%EB%B3%84%ED%91%9C+9%EC%9D%983%5D+%EC%9C%84%ED%95%B4%EC%84%B1+%EA%B4%80%EB%A6%AC+%EA%B3%84%ED%9A%8D+%EA%B0%9C%EC%9A%94%28%EC%A0%9C7%EC%A1%B0%EC%9D%982+%EA%B4%80%EB%A0%A8%29&flSeq=144915301",
+      "allowed_hosts": [
+        "www.law.go.kr"
+      ],
+      "publisher": "식품의약품안전처 / 법제처 국가법령정보센터",
+      "source_kind": "public_form",
+      "resource_kind": "blank_form",
+      "use_classification": "regulatory_submission",
+      "format": "PDF",
+      "filename": "ra_law_rmp_outline_annex9_3_observed.pdf",
+      "sha256": "6fc98980af24ec7b8427cbb0760a9c80a255c940e8197e73c6030d15342a9d04",
+      "size_bytes": 71401,
+      "download_status": "verified",
+      "checked_at": "2026-10-02T18:10:51.292046+00:00",
+      "version_label": "관찰 원본 flSeq=144915301 / 최신 고시 소속·시행일 미확인",
+      "form_number": "별표9의3",
+      "form_revision_observed": "not_stated",
+      "rule_name": "의약품의 품목허가·신고·심사 규정",
+      "rule_effective_date": null,
+      "rule_version": null,
+      "applicability_note": "공식 검색에서 관찰한 개요 서식 원본임. 최신 고시의 동일 서식 여부·시행일·제품별 의무자료는 별도로 확인해야 함",
+      "legal_compliance_certified": false,
+      "mandatory_requirements_verified": false,
+      "full_submission_ready": false,
+      "fill_verified": false,
+      "native_visual_qa": "pending",
+      "license": {
+        "status": "not_assessed",
+        "redistribution_permitted": false
+      }
+    }
+  ],
+  "coverage": {
+    "canonical_form_count": 18,
+    "private_company_ctd": "not_acquired",
+    "mandatory_submissions": "not_certified",
+    "native_compatibility": "pending",
+    "distinct_statutory_forms_current_list": 16
+  },
+  "references": [
+    {
+      "title": "의약품 등의 안전에 관한 규칙 현행 본문",
+      "url": "https://law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=011794",
+      "effective_date_observed": "2026-03-05"
+    },
+    {
+      "title": "의약품 품목허가·신고·심사 규정 최신 검색 결과",
+      "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284794",
+      "status": "reference_only_not_downloaded"
+    }
+  ]
+}
