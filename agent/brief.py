@@ -86,6 +86,14 @@ def analyze_brief(instruction: str, client=None, answers: dict | None = None, te
     if not isinstance(questions, list) or any(not isinstance(item, str) for item in questions):
         raise ValueError("질문은 문자열 목록이어야 함")
     brief["부족한 정보"] = list(dict.fromkeys(item.strip() for item in missing if item.strip()))
+    common = (template_profile or {}).get('common_context')
+    if common:
+        internal = common.get('report_type')
+        if internal not in REPORT_TYPES:
+            raise ValueError('공통 문서의 내부 보고서 유형이 잘못됨')
+        brief['보고서 유형'] = internal
+        brief['부족한 정보'] = [item for item in brief['부족한 정보'] if item != '보고서 유형']
+        questions = [item for item in questions if '보고서 유형' not in item]
     kind = (template_profile or {}).get('document_kind', 'report')
     if kind != 'report':
         # Internal API classification stays separate from the explicitly selected form purpose.

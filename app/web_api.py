@@ -31,6 +31,9 @@ from agent.ctd_qos import QOS_S_SECTIONS, prepare_qos_package, propose_dmf_optio
 from agent.ctd_template import fill_ctd_working_template
 from app.form_config import configure_profile, mapping_rows
 from app import ra_auto_service as writer
+from agent.pipeline import run_pipeline, review_result, build_downloads
+from agent.metrics import record_revision
+from templates.common_presets import FORMS as COMMON_FORMS, common_profile, template_path
 from llm.client import LLMClient, LLMError, MCPInferenceClient, PendingInference
 from parsers.extract import ParseError
 from templates.compatibility import analyze_template
@@ -473,6 +476,45 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
             raise HTTPException(409, {'error': 'source_confirmation_required'})
         return sources
 
+    def common_state(request, identifier):
+        directory, lock = job(request, identifier)
+        with lock:
+            state = read(directory)
+            if 'common_form' not in state:
+                raise HTTPException(404, 'job_not_found')
+            if state.get('common_instance') != instance:
+                invalidate(state)
+                state['common_instance'] = instance
+                state['error'] = {'code': 'interrupted', 'message': '서버가 다시 시작되었습니다. 현재 자료로 초안을 다시 작성해 주세요.'}
+                write(directory, state)
+        return directory, lock, state
+
+    def common_binding(state):
+        base = Path(__file__).resolve().parents[1]
+        files = [state['template_path'], *state['source_paths']]
+        return sha256(json.dumps({
+            'form': state['common_form'], 'instruction': state['configuration']['instruction'],
+            'answers': state.get('user_answers', {}), 'intake': state['intake']['fingerprint'],
+            'files': [sha256(Path(path).read_bytes()).hexdigest() for path in files],
+            'profile': state['profile'],
+            'prompts': {path.name: sha256(path.read_bytes()).hexdigest()
+                        for path in sorted((base / 'prompts').glob('*.md'))},
+            'engines': {name: sha256((base / name).read_bytes()).hexdigest() for name in
+                        ('agent/pipeline.py', 'agent/review.py', 'agent/grounding.py',
+                         'templates/compatibility.py', 'llm/client.py')},
+        }, ensure_ascii=False, sort_keys=True).encode()).hexdigest()
+
+    def common_view(state):
+        public = view(state)
+        public['form_type'] = state['common_form']
+        public['form_title'] = COMMON_FORMS[state['common_form']][0]
+        public['template_origin'] = state['common_template_origin']
+        if state.get('result', {}).get('sources'):
+            public['evidence'] = [{key: source.get(key) for key in
+                ('source_id', 'filename', 'page', 'sheet', 'location', 'text', 'document_sha256')}
+                for source in state['result']['sources']]
+        return _clean(public, root)
+
     def ctd_inputs(payload):
         if (not isinstance(payload, dict)
                 or set(payload) != {'product_name', 'product_variant', 'selected_sections'}):
@@ -881,6 +923,161 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
     def upload(request: Request, payload: dict):
         with upload_lock:
             return do_upload(request, payload)
+
+    @app.get('/api/common/forms')
+    def common_forms():
+        return {'forms': [{'id': key, 'title': item[0], 'section_order': item[3],
+                           'template': '프로젝트 예제 양식'} for key, item in COMMON_FORMS.items()]}
+
+    @app.get('/api/common/forms/{form_id}/template')
+    def common_template(form_id: str):
+        path = template_path(form_id)
+        return Response(path.read_bytes(), media_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                        headers={'Content-Disposition': f'attachment; filename="{form_id}.docx"'})
+
+    @app.post('/api/common/jobs')
+    def common_upload(request: Request, payload: dict):
+        if (not isinstance(payload, dict) or set(payload) -
+                {'form_type', 'instruction', 'notes', 'sources', 'template'}):
+            raise ValueError('common_upload')
+        form_id, instruction, notes = payload.get('form_type'), payload.get('instruction'), payload.get('notes', '')
+        if (not isinstance(form_id, str) or form_id not in COMMON_FORMS or not isinstance(instruction, str) or not instruction.strip()
+                or len(instruction) > 10_000 or not isinstance(notes, str) or len(notes) > 20_000):
+            raise ValueError('common_upload')
+        sources = payload.get('sources', [])
+        if not isinstance(sources, list) or len(sources) > (11 if notes.strip() else 12):
+            raise ValueError('common_sources')
+        if notes.strip():
+            sources = [*sources, {'name': '사용자_입력_메모.txt',
+                                 'base64': b64encode(notes.strip().encode('utf-8')).decode()}]
+        if not sources:
+            raise ValueError('common_sources')
+        uploaded = payload.get('template')
+        if uploaded is not None and (not isinstance(uploaded, dict)
+                                     or not isinstance(uploaded.get('name'), str)
+                                     or Path(uploaded['name']).suffix.lower() not in {'.docx', '.hwpx', '.hwp'}):
+            raise ValueError('common_template')
+        path = template_path(form_id)
+        template = uploaded or {'name': path.name, 'base64': b64encode(path.read_bytes()).decode()}
+        with upload_lock:
+            first = do_upload(request, {'template': template, 'sources': sources})
+            directory, lock = job(request, first['job_id'])
+            try:
+                with lock:
+                    state = read(directory)
+                    try:
+                        state['profile'] = common_profile(state['template_path'], form_id)
+                    except ValueError as exc:
+                        raise HTTPException(422, {'error': 'unsupported_template',
+                            'message': '맞춤 양식에는 {{제목}}, {{요약}}, {{본문}} 자리표시자가 각각 한 개 필요합니다.'}) from exc
+                    state['raw_profile'] = state['profile']
+                    state['common_form'] = form_id
+                    state['common_template_origin'] = 'user_uploaded' if uploaded else 'project_example'
+                    state['common_instance'] = instance
+                    state['configuration'] = {'instruction': instruction.strip()}
+                    state['user_answers'] = {}
+                    write(directory, state)
+                    return common_view(state)
+            except BaseException:
+                shutil.rmtree(directory)
+                raise
+
+    @app.get('/api/common/jobs/{identifier}')
+    def common_get(identifier: str, request: Request):
+        directory, lock, _ = common_state(request, identifier)
+        with lock:
+            return common_view(read(directory))
+
+    @app.delete('/api/common/jobs/{identifier}')
+    def common_delete(identifier: str, request: Request):
+        directory, lock, _ = common_state(request, identifier)
+        with lock:
+            ensure_idle(read(directory))
+            shutil.rmtree(directory)
+        return {'deleted': True}
+
+    @app.post('/api/common/jobs/{identifier}/generate')
+    def common_generate(identifier: str, request: Request, payload: dict):
+        directory, lock, _ = common_state(request, identifier)
+        with lock:
+            state = read(directory)
+            ensure_idle(state)
+            sources = configured(state)
+            supplied = payload.get('answers', {})
+            if (not isinstance(supplied, dict) or len(supplied) > 2
+                    or any(not isinstance(k, str) or len(k) > 2000 or not isinstance(v, str)
+                           or len(v) > 10_000 for k, v in supplied.items())):
+                raise ValueError('common_answers')
+            answers = {**state.get('user_answers', {}), **supplied}
+            if len(answers) > 10:
+                raise ValueError('common_answers')
+            key = gemini_key(payload) if client_factory is None else None
+            previous = state.get('result', {}).get('metrics') or state.get('previous_metrics')
+            state['user_answers'] = answers
+            invalidate(state)
+            state.pop('error', None)
+            if previous:
+                state['previous_metrics'] = previous
+            binding = common_binding(state)
+            write(directory, state)
+            def generate_result():
+                result = run_pipeline(state['configuration']['instruction'], source_records=sources,
+                                      answers=answers, client=sales_model_client(key, writing=True),
+                                      template_profile=state['profile'],
+                                      document_kind=state['profile']['document_kind'],
+                                      previous_metrics=previous, semantic_review=True)
+                result['common_binding'] = binding
+                return result
+            return schedule(directory, lock, state, 'common_generate', generate_result, present=common_view)
+
+    @app.post('/api/common/jobs/{identifier}/review')
+    def common_review(identifier: str, request: Request, payload: dict):
+        directory, lock, _ = common_state(request, identifier)
+        with lock:
+            state = read(directory)
+            ensure_idle(state)
+            result = state.get('result')
+            draft = payload.get('draft')
+            if (not result or result.get('common_binding') != common_binding(state)
+                    or not isinstance(draft, dict) or set(draft) != {'제목', '요약', '본문'}
+                    or any(not isinstance(value, str) or len(value) > 100_000 for value in draft.values())):
+                raise ValueError('current_common_draft_required')
+            key = gemini_key(payload) if client_factory is None else None
+            state['previous_metrics'] = result.get('metrics')
+            state.pop('result', None)
+            write(directory, state)
+            def check():
+                checked = review_result(result, draft, client=sales_model_client(key, writing=True))
+                result['draft'], result['review'] = checked['draft'], checked
+                result['status'] = 'needs_revision' if checked['blocking'] else 'ready'
+                if result.get('metrics'):
+                    result['metrics'] = record_revision(result['metrics'], result['draft'])
+                return result
+            return schedule(directory, lock, state, 'common_review', check, present=common_view)
+
+    @app.post('/api/common/jobs/{identifier}/export')
+    def common_export(identifier: str, request: Request, payload: dict):
+        directory, lock, _ = common_state(request, identifier)
+        with lock:
+            state = read(directory)
+            ensure_idle(state)
+            result = state.get('result')
+            if (not result or result.get('status') != 'ready'
+                    or result.get('common_binding') != common_binding(state)):
+                raise HTTPException(409, {'error': 'current_review_required'})
+            template = Path(state['template_path'])
+            outputs = build_downloads(result, confirmed=payload.get('confirmed'),
+                                      template_paths={template.suffix.lower().lstrip('.'): template}, native_review='off')
+            suffix, content = next(iter(outputs.items()))
+            evidence = {'form_type': state['common_form'], 'template_sha256': sha256(template.read_bytes()).hexdigest(),
+                        'sources': result['sources'], 'review': result['review'],
+                        'output_verification': result.get('output_verification'), 'metrics': result.get('metrics')}
+            stream = BytesIO()
+            with ZipFile(stream, 'w', ZIP_DEFLATED) as archive:
+                archive.writestr(f'{state["common_form"]}_draft.{suffix}', content)
+                archive.writestr('출처와_검수기록.json', json.dumps(_clean(evidence, root), ensure_ascii=False, indent=2))
+            return Response(stream.getvalue(), media_type='application/zip',
+                            headers={'Content-Disposition': 'attachment; filename="common_document_package.zip"'})
 
     @app.get('/api/jobs')
     def list_jobs(request: Request):

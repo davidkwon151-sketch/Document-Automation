@@ -91,8 +91,8 @@ export function createWorker(assets) {
     return new Response(response.body,{status:response.status,headers});
    }catch(error){return json({error:'문서 처리 PC에 연결할 수 없습니다. PC와 연결 프로그램이 실행 중인지 확인해 주세요.',code:['gateway_signing','backend_connection'].includes(error.message)?error.message:'guest_session_unavailable'},503);}
   }
-  if((path==='/workspace'||path==='/sales')&&!user)return Response.redirect(url.origin+'/signin-with-chatgpt?return_to='+encodeURIComponent(path),302);
-  const asset=assets[path==='/'?'/index.html':path==='/workspace'?'/workspace.html':path==='/sales'?'/sales.html':path==='/access'?'/access.html':path];
+  if((path==='/workspace'||path==='/sales'||path==='/common')&&!user)return Response.redirect(url.origin+'/signin-with-chatgpt?return_to='+encodeURIComponent(path),302);
+  const asset=assets[path==='/'?'/index.html':path==='/workspace'?'/workspace.html':path==='/sales'?'/sales.html':path==='/common'?'/common.html':path==='/access'?'/access.html':path];
   if(!asset)return json({error:'페이지를 찾을 수 없습니다.'},404);
   const data=Uint8Array.from(atob(asset.data),c=>c.charCodeAt(0));
   return new Response(data,{headers:{...security,'Content-Type':asset.type}});

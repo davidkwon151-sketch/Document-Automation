@@ -19,6 +19,8 @@ template_profile.document_kind/document_context가 있으면 보고서뿐 아니
 
 ## 보고서 유형별 구성
 
+template_profile.common_context가 있으면 선택한 공통 문서 제목과 section_order를 우선함. 상세 규칙은 common_context.guidance를 적용함. 내부 보고서 유형과 실제 양식 이름을 혼동하지 않음.
+
 - 주간업무보고: 결론 → 이번 주 성과 → 진행 현황 → 다음 주 계획과 확인사항 순으로 작성함.
 - 결과보고서: 결론 → 목표 대비 결과 → 근거·주요 성과 → 개선점과 후속 조치 순으로 작성함.
 - 품의서: 승인 요청 → 목적과 필요성 → 예산·일정 근거 → 기대 효과와 확인사항 순으로 작성함.

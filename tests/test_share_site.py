@@ -30,7 +30,7 @@ def test_share_assets_and_anchors_are_complete_and_local():
     for reference in parser.references:
         if reference.startswith("#"):
             assert reference[1:] in parser.ids
-        elif reference in {"workspace", "sales"}:
+        elif reference in {"workspace", "sales", "common"}:
             assert (SITE / (reference + '.html')).is_file()
         else:
             target = (SITE / reference).resolve()
@@ -76,7 +76,7 @@ def test_share_downloads_are_original_blank_templates():
 def test_public_assets_exclude_private_files_and_network_calls():
     expected = {"index.html", "styles.css", "app.js", "assets/mark.svg", "assets/validation.json", "assets/workspace.jpg", "assets/comparison.jpg", "assets/hwp.jpg", "assets/auto-workspace.png", "assets/auto-result.png", "assets/ra_workflow_input_blank.csv", "assets/ra_change_input_blank.txt", "assets/ctd_demo_template.docx", "assets/qos_dmf_demo_template.docx"}
     public = {path.relative_to(SITE).as_posix() for path in SITE.rglob("*") if path.is_file()}
-    assert public == expected | {'workspace.html', 'workspace.css', 'workspace.js', 'sales.html', 'sales.css', 'sales.js', 'access.html', 'access.css', 'access.js', 'claude.html', 'server/index.js', '.openai/hosting.json'}
+    assert public == expected | {'workspace.html', 'workspace.css', 'workspace.js', 'sales.html', 'sales.css', 'sales.js', 'common.html', 'common.css', 'common.js', 'access.html', 'access.css', 'access.js', 'claude.html', 'server/index.js', '.openai/hosting.json'}
     for filename in ("index.html", "app.js", "styles.css", "assets/validation.json"):
         text = (SITE / filename).read_text(encoding="utf-8")
         for forbidden in ("OPENAI_API_KEY", "sk-proj-", "C:\\Users", "Administrator", "fetch(", "XMLHttpRequest", "WebSocket"):
@@ -153,7 +153,7 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert 'id="sales-gemini-key" type="password"' in html
     assert "gemini_api_key:key()" in script
     assert "sessionStorage.setItem('salesJobId'" in script
-    assert "'/sales')&&!user" in worker
+    assert "'/sales'||path==='/common')&&!user" in worker
     assert 'id="sales-trade"' in html and 'id="trade-transaction"' in html
     assert 'id="sales-writing"' in html and 'id="sales-writing" hidden' not in html
     assert 'id="sales-draft" disabled' in html and 'id="trade-propose" class="secondary" disabled' in html
@@ -167,6 +167,16 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert 'trade-final-confirm' in html and 'tradeDirty' in script
     landing = (SITE / 'index.html').read_text(encoding='utf-8')
     assert 'id="workspaces"' in landing and '해외영업·해외사업개발' in landing
-    assert '공통 보고서·기안' in landing and '검증 후 제공' in landing
+    assert '공통 보고서·기안' in landing and 'href="common"' in landing
+    common = (SITE / 'common.html').read_text(encoding='utf-8')
+    script = (SITE / 'common.js').read_text(encoding='utf-8')
+    assert all(f'value="{form}"' in common for form in
+               ('business_trip', 'meeting_minutes', 'weekly_report', 'monthly_report', 'approval'))
+    assert 'id="common-sources"' in common and 'id="common-notes"' in common
+    assert 'id="common-template"' in common and 'id="common-export" disabled' in common
+    assert "common/jobs/'+common.job_id+'/generate" in script
+    assert "common/jobs/'+common.job_id+'/review" in script
+    assert "common/jobs/'+common.job_id+'/export" in script
+    assert 'localStorage' not in script and 'GEMINI_API_KEY=' not in common + script
     for forbidden in ('OPENAI_API_KEY=', 'GEMINI_API_KEY=', 'sk-proj-'):
         assert forbidden not in html + script

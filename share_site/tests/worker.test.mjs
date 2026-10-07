@@ -1,12 +1,13 @@
 import assert from 'node:assert/strict';
 import {createHmac,createHash} from 'node:crypto';
 import {createWorker} from '../worker.mjs';
-const worker=createWorker({'/workspace.html':{data:Buffer.from('workspace').toString('base64'),type:'text/html'},'/sales.html':{data:Buffer.from('sales').toString('base64'),type:'text/html'},'/index.html':{data:Buffer.from('public').toString('base64'),type:'text/html'}});
+const worker=createWorker({'/workspace.html':{data:Buffer.from('workspace').toString('base64'),type:'text/html'},'/sales.html':{data:Buffer.from('sales').toString('base64'),type:'text/html'},'/common.html':{data:Buffer.from('common').toString('base64'),type:'text/html'},'/index.html':{data:Buffer.from('public').toString('base64'),type:'text/html'}});
 const env={RA_GATEWAY_SECRET:'a'.repeat(64),RA_BACKEND_URL:'https://test-backend.invalid'};
 const req=(path,options={})=>new Request('https://site.example'+path,options);
 assert.equal((await worker.fetch(req('/'),env)).status,200);
 assert.equal((await worker.fetch(req('/workspace'),env)).status,302);
 assert.equal((await worker.fetch(req('/sales'),env)).status,302);
+assert.equal((await worker.fetch(req('/common'),env)).status,302);
 assert.equal((await worker.fetch(req('/api/jobs'),env)).status,401);
 assert.equal((await worker.fetch(req('/api/jobs',{method:'POST',headers:{'oai-authenticated-user-id':'u','origin':'https://evil.example','content-type':'application/json'},body:'{}'}),env)).status,403);
 assert.equal((await worker.fetch(req('/api/jobs',{method:'POST',headers:{'oai-authenticated-user-id':'u','content-type':'text/plain'},body:'{}'}),env)).status,415);
