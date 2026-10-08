@@ -1,6 +1,6 @@
 # 문서 표준화 AI AGENT
 
-[해외영업 이메일 회신 30초 데모 영상](docs/demo_sales/buyer_email_demo.mp4) · [입력·출력 예시와 시연 범위](docs/demo_sales/README.md)
+[GitHub에서 바로 보는 해외영업 이메일 회신 데모](docs/demo_sales/README.md) · [고화질 MP4 다운로드](docs/demo_sales/buyer_email_demo.mp4)
 
 자료를 근거로 사내외 양식에 맞는 문서를 작성하는 **문서 표준화 AI AGENT** 프로젝트임. 실제 지원·검증 상태는 개별 양식과 검증 기록에 표시함.
 

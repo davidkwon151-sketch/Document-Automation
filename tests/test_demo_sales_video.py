@@ -4,6 +4,8 @@ from email import policy
 from email.parser import BytesParser
 from pathlib import Path
 
+from PIL import Image
+
 from docs.demo_sales.render import HEIGHT, WIDTH, frame
 
 
@@ -24,3 +26,6 @@ def test_demo_email_reply_and_video_frames():
     assert "NOT SENT" in reply
     assert frame(1).size == frame(28).size == (WIDTH, HEIGHT)
     assert (ROOT / "buyer_email_demo.mp4").stat().st_size > 100_000
+    with Image.open(ROOT / "buyer_email_demo.gif") as preview:
+        assert preview.size == (800, 450)
+        assert preview.n_frames == 150

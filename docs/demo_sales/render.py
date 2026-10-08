@@ -220,6 +220,11 @@ def main() -> None:
         if process.poll() is None:
             process.kill()
     frame(16).save(ROOT / "buyer_email_demo_poster.png")
+    preview = [frame(n / 5).resize((800, 450)).quantize(colors=64, method=2)
+               for n in range(SECONDS * 5)]
+    preview[0].save(ROOT / "buyer_email_demo.gif", save_all=True,
+                    append_images=preview[1:], duration=200, loop=0,
+                    optimize=True, disposal=2)
     print(output)
 
 
