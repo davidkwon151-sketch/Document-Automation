@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node vercel-build.mjs",
+  "outputDirectory": "vercel_output",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/gateway?__route=/api/:path*" },
+    { "source": "/access/redeem", "destination": "/api/gateway?__route=/access/redeem" },
+    { "source": "/access/logout", "destination": "/api/gateway?__route=/access/logout" },
+    { "source": "/oauth/gmail/callback", "destination": "/api/gateway?__route=/oauth/gmail/callback" },
+    { "source": "/claude-mcp", "destination": "/api/gateway?__route=/claude-mcp" },
+    { "source": "/workspace", "destination": "/workspace.html" },
+    { "source": "/sales", "destination": "/sales.html" },
+    { "source": "/common", "destination": "/common.html" },
+    { "source": "/access", "destination": "/access.html" }
+  ]
+}

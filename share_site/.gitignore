@@ -1,4 +1,6 @@
 .sites-runtime/
+vercel_output/
+.vercel/
 .env
 .env.*
 *.log

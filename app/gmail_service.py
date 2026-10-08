@@ -36,6 +36,7 @@ class GmailService:
     def status(self, user):
         connection = self.store.get(user)
         return {'connected': connection is not None,
+                'oauth_configured': self.connector is not None,
                 'address': connection['email'] if connection else None,
                 'automation_enabled': self.ready() and connection is not None,
                 'reason': ('Gmail OAuth 설정이 필요합니다.' if self.connector is None else

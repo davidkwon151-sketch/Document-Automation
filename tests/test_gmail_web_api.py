@@ -77,6 +77,7 @@ def test_gmail_connect_auto_draft_requires_exact_human_confirmation_to_send(tmp_
                                 gmail_connector=google), raise_server_exceptions=False)
     status = call(api, 'GET', '/api/sales/mail/status').json()
     assert status['connected'] is False
+    assert status['oauth_configured'] is True
     connected = call(api, 'POST', '/api/sales/mail/connect', {})
     assert connected.status_code == 200
     state = parse_qs(urlparse(connected.json()['authorization_url']).query)['state'][0]
@@ -111,3 +112,15 @@ def test_gmail_connect_auto_draft_requires_exact_human_confirmation_to_send(tmp_
     assert google.sent == [(snapshot['to'], snapshot['subject'], snapshot['body'])]
     assert call(api, 'POST', route, snapshot).status_code == 422
     assert len(google.sent) == 1
+
+
+def test_gmail_status_reports_missing_oauth_configuration(tmp_path, monkeypatch):
+    for key in ('GMAIL_CLIENT_ID', 'GMAIL_CLIENT_SECRET', 'GMAIL_REDIRECT_URI'):
+        monkeypatch.delenv(key, raising=False)
+    api = TestClient(create_app(root=tmp_path, secret=SECRET, client_factory=Model),
+                     raise_server_exceptions=False)
+    status = call(api, 'GET', '/api/sales/mail/status').json()
+    assert status['connected'] is False
+    assert status['oauth_configured'] is False
+    assert 'OAuth 설정' in status['reason']
+    assert call(api, 'POST', '/api/sales/mail/connect', {}).status_code == 422

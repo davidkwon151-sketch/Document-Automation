@@ -1,0 +1,9 @@
+{
+  "name": "document-standardization-agent-vercel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node vercel-build.mjs",
+    "test": "node --test tests/vercel_gateway.test.mjs"
+  }
+}

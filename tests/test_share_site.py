@@ -170,6 +170,8 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert "sales/jobs/'+sales.job_id+'/supplement" in script
     assert "$('sales-draft').disabled=busy||!prepared" in script
     assert '회신은 보류했습니다' not in script
+    assert 'mailAvailable=status.oauth_configured===true' in script
+    assert "$('mail-connect').disabled=busy||mailBusy||!mailAvailable||mailConnected" in script
     assert 'function updateGates()' in script and 'requested_documents' in script
     assert "/trade/propose'" in script and "/trade/prepare'" in script and "/trade/export'" in script
     assert 'trade-final-confirm' in html and 'tradeDirty' in script
