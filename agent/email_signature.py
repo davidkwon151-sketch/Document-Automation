@@ -88,6 +88,7 @@ def signed_eml(subject, email, fields, logo=None):
             + '</div></body></html>')
     message = EmailMessage()
     message['Subject'] = re.sub(r'[\r\n\x00-\x1f]', ' ', subject)
+    message['X-Unsent'] = '1'
     message.set_content(plain)
     message.add_alternative(html, subtype='html')
     if logo:

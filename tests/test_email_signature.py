@@ -25,6 +25,7 @@ def test_signature_is_added_once_and_logo_is_inline_in_eml():
     message = BytesParser(policy=policy.default).parsebytes(
         signed_eml('Re: Quotation', original, fields(), png()))
     assert message['Subject'] == 'Re: Quotation'
+    assert message['X-Unsent'] == '1'
     assert message['To'] is None and message['From'] is None
     plain = message.get_body(preferencelist=('plain',)).get_content()
     html = message.get_body(preferencelist=('html',)).get_content()
