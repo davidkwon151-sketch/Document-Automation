@@ -1,0 +1,25 @@
+{
+  "capture": "real workspace UI and isolated FastAPI backend",
+  "mode": "deterministic exact-source excerpt filling; no LLM call",
+  "template": "synthetic project example, not an official submission form",
+  "template_sha256": "78be967c9bb4d837fe61e5035310e5278ba3ed8ddcd7db42f436d2612762323e",
+  "source_sha256": {
+    "ctd_demo_batch_formula.txt": "4cfbc0484b0d96971f4b586882a78598c4b61a3fedda00ede80b559440c5f8e6",
+    "ctd_demo_batch_analysis.txt": "492cb0a4fc5f2155987ae135737135c95da03debaf3890b90cfc44806c08b6f3",
+    "ctd_demo_stability.txt": "7b8888b925d54dc2f3949d85f44a0c7f8f99fcbc6584cbefb9a4fb89b9887dff"
+  },
+  "sections": [
+    "3.2.P.3.2",
+    "3.2.P.5.4",
+    "3.2.P.8.3"
+  ],
+  "coverage": "3/3 selected sections",
+  "output_sha256": "50dd680268f0c32a5950c3172486f3cb4208f4cd50823078b98049f5e5628d66",
+  "output_check": "passed",
+  "submission_ready": false,
+  "contains": [
+    "DEMO-B01",
+    "98.7%",
+    "98.2%"
+  ]
+}
