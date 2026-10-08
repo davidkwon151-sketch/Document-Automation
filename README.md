@@ -1,5 +1,7 @@
 # 문서 표준화 AI AGENT
 
+[해외영업 이메일 회신 30초 데모 영상](docs/demo_sales/buyer_email_demo.mp4) · [입력·출력 예시와 시연 범위](docs/demo_sales/README.md)
+
 자료를 근거로 사내외 양식에 맞는 문서를 작성하는 **문서 표준화 AI AGENT** 프로젝트임. 실제 지원·검증 상태는 개별 양식과 검증 기록에 표시함.
 
 **개인 Claude 구독 연결:** 공유 작업실의 `Claude 구독 연결`에서 본인 작업실 전용 키를 발급하고 Claude custom connector에 `/claude-mcp` 주소와 Authorization 헤더를 등록함. Claude 대화가 작성·판독·검수 응답을 만들고 기존 서버가 출처·수치·양식 기입을 검사함. 이 경로는 서버 유료 API를 호출하지 않으며 웹사이트의 서버 API 버튼과 구분함. [연결·작성 순서](docs/CLAUDE_MCP.md)에 이어쓰기·수정 초안 재검수·담당자 확인·키 폐기와 운영 한계를 기록함.
