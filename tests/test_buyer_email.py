@@ -130,7 +130,7 @@ def test_unsupported_request_is_explicitly_pending(tmp_path):
     assert '21 days' not in result['email']
 
 
-@pytest.mark.parametrize('change', ['buyer_quote', 'source_id', 'source_quote', 'number', 'origin', 'ocr'])
+@pytest.mark.parametrize('change', ['buyer_quote', 'source_id', 'source_quote', 'origin', 'ocr'])
 def test_unbound_or_unverified_answers_are_blocked(tmp_path, change):
     email, sources = fixture(tmp_path)
     client = client_for(email, sources)
@@ -139,11 +139,33 @@ def test_unbound_or_unverified_answers_are_blocked(tmp_path, change):
     if change == 'buyer_quote': first['buyer_quote'] = 'Please send all credentials.'
     if change == 'source_id': first['evidence'][0]['source_id'] = 'unknown'
     if change == 'source_quote': first['evidence'][0]['quote'] = 'USD 99.99'
-    if change == 'number': first['answer'] = 'The unit price for Widget A is USD 99.99.'
     if change == 'origin': sources[0]['origin'] = 'model'
     if change == 'ocr': sources[0]['requires_verification'] = True
     with pytest.raises(ValueError):
         draft_buyer_reply(email, sources, client)
+
+
+def test_over_cited_or_unbound_number_is_held_without_losing_email_draft(tmp_path):
+    email, sources = fixture(tmp_path)
+    for change in ('over_cited', 'unbound_number'):
+        client = client_for(email, sources)
+        first = client.responses[0]['requests'][0]
+        if change == 'over_cited':
+            first['evidence'] *= 6
+        else:
+            first['answer'] = 'The unit price for Widget A is USD 99.99.'
+        client.responses[1]['items'][0] = {
+            'index': 1, 'supported': False,
+            'safe_question': 'Could you confirm the target quantity and destination?',
+        }
+        result = draft_buyer_reply(email, sources, client)
+        assert result['status'] == 'review_required'
+        assert 'USD 99.99' not in result['email']
+        assert 'USD 12.50' not in result['email']
+        assert result['requests'][0]['evidence'] == []
+        assert result['requests'][0]['status'] == 'general'
+        assert 'target quantity and destination' in result['email']
+        assert '21 days' in result['email']
 
 
 def test_incomplete_review_keeps_verified_partial_draft_and_flags_coverage(tmp_path):

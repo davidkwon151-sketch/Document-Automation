@@ -107,6 +107,38 @@ def test_hebrew_language_is_accepted_by_protected_sales_api(tmp_path):
     assert call(api, 'POST', route + '/draft', {'language': 'xx'}).status_code == 422
 
 
+def test_over_cited_model_answer_yields_reviewable_reply_instead_of_failed_job(tmp_path):
+    class Model:
+        def generate_json(self, name, payload):
+            if name == 'buyer_email':
+                source = payload['sources'][0]
+                return {'requests': [{'buyer_quote': 'send us the pi',
+                    'answer': 'The unit price is USD 12.50.',
+                    'evidence': [{'source_id': source['source_id'],
+                                  'quote': source['text']}] * 8}]}
+            assert name == 'buyer_email_review'
+            assert payload['requests'][0]['answer'] == ''
+            return {'complete': True, 'items': [{'index': 1, 'supported': False,
+                'safe_question': 'Could you confirm the product and target quantity?'}]}
+    api = TestClient(web_api.create_app(root=tmp_path / 'private', secret=SECRET,
+                     client_factory=Model), raise_server_exceptions=False)
+    created = call(api, 'POST', '/api/sales/jobs', {
+        'email_text': 'send us the pi',
+        'sources': [{'name': 'seller.txt', 'base64': b64encode(b'Unit price: USD 12.50').decode()}],
+    })
+    route = f"/api/sales/jobs/{created.json()['job_id']}"
+    assert call(api, 'POST', route + '/draft', {'language': 'en'}).status_code == 202
+    for _ in range(100):
+        view = call(api, 'GET', route).json()
+        if view['status'] != 'processing':
+            break
+        time.sleep(.02)
+    assert view['status'] == 'review_required'
+    assert view['error'] is None
+    assert 'confirm the product and target quantity' in view['result']['email']
+    assert 'USD 12.50' not in view['result']['email']
+
+
 def test_review_progress_is_visible_while_model_is_still_running(tmp_path):
     reviewing = threading.Event()
     release = threading.Event()

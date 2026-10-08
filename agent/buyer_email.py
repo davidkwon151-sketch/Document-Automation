@@ -185,11 +185,15 @@ def draft_buyer_reply(email, sources, client, *, language='en', tone='profession
         evidence = item.get('evidence', [])
         if (not isinstance(quote, str) or not quote.strip() or quote not in email['body']
                 or quote in seen or not isinstance(answer, str) or len(answer) > 1200
-                or not isinstance(evidence, list) or len(evidence) > 5):
+                or not isinstance(evidence, list)):
             raise ValueError('요청 원문·답변·출처 범위를 대조할 수 없음')
         seen.add(quote)
         bound = []
-        for proof in evidence:
+        # A model can over-cite a long upload. Never publish an answer whose
+        # evidence exceeds the review limit; keep the request as pending instead
+        # of failing the whole email job.
+        over_cited = len(evidence) > 5
+        for proof in ([] if over_cited else evidence):
             if not isinstance(proof, dict):
                 raise ValueError('출처 연결 형식이 잘못됨')
             source = source_map.get(proof.get('source_id'))
@@ -202,11 +206,15 @@ def draft_buyer_reply(email, sources, client, *, language='en', tone='profession
                           'document_sha256': source['document_sha256'],
                           'origin': source.get('origin', 'file')})
         answer = answer.strip()
+        if over_cited:
+            answer, bound = '', []
         if not bound and answer and not _safe_general(answer):
             answer = ''
         if answer and any(token not in ('\n'.join(p['quote'] for p in bound) or quote)
                                   for token in _numbers(answer)):
-            raise ValueError('답변 수치가 연결한 원자료 인용에 없음')
+            # Reject the unsupported sentence, while allowing other requests
+            # and the independent coverage review to produce a usable draft.
+            answer, bound = '', []
         items.append({'index': number, 'buyer_quote': quote, 'answer': answer,
                       'evidence': bound, 'status': ('draft' if bound else 'general')
                       if answer else 'needs_confirmation'})
