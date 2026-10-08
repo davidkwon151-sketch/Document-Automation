@@ -7,6 +7,8 @@ from pathlib import Path
 from PIL import Image
 
 from docs.demo_sales.render import HEIGHT, WIDTH, frame
+from docs.demo_sales.render_live import SECONDS as LIVE_SECONDS, TIMELINE
+import json
 
 
 ROOT = Path(__file__).resolve().parents[1] / "docs" / "demo_sales"
@@ -29,3 +31,20 @@ def test_demo_email_reply_and_video_frames():
     with Image.open(ROOT / "buyer_email_demo.gif") as preview:
         assert preview.size == (800, 450)
         assert preview.n_frames == 150
+
+
+def test_live_demo_is_real_ui_capture_with_fictional_evidence_and_no_key():
+    assert LIVE_SECONDS == 82 and TIMELINE[0][0] == 0 and TIMELINE[-1][1] == 82
+    assert (ROOT / "buyer_email_live_demo.mp4").stat().st_size > 100_000
+    with Image.open(ROOT / "buyer_email_live_preview.gif") as preview:
+        assert preview.size == (800, 450)
+        assert 14 <= preview.n_frames <= 16  # GIF optimizer merges identical frames.
+    provenance = json.loads((ROOT / "capture" / "provenance.json").read_text(encoding="utf-8"))
+    assert provenance["live_gemini"] is True
+    assert provenance["model"] == "gemini-3.5-flash"
+    source = (ROOT / "sample_company_facts.txt").read_text(encoding="utf-8")
+    reply = (ROOT / "sample_live_reply_draft.txt").read_text(encoding="utf-8")
+    for fact in ("500", "USD 95", "21 calendar days", "DAP Dallas, TX (Incoterms 2020)"):
+        assert fact in source and fact in reply
+    assert "[Your name]" in reply
+    assert len(list((ROOT / "capture").glob("[0-9][0-9][0-9].png"))) == 14
