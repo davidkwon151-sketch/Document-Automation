@@ -42,3 +42,21 @@ test('route tampering and missing server configuration fail closed', async () =>
   assert.equal((await handleGatewayRequest(new Request(route('/other/path'), { headers }), env)).status, 404);
   assert.equal((await handleGatewayRequest(new Request(route('/api/sales/mail/status'), { headers }), {})).status, 503);
 });
+
+test('Gmail callback preserves code and state without a browser session', async () => {
+  const originalFetch = globalThis.fetch;
+  let forwarded;
+  globalThis.fetch = async (url, options) => {
+    forwarded = { url, headers: options.headers };
+    return new Response('linked', { headers: { 'content-type': 'text/html' } });
+  };
+  try {
+    const response = await handleGatewayRequest(new Request(
+      `${route('/oauth/gmail/callback')}&code=test-code&state=test-state`), env);
+    assert.equal(response.status, 200);
+    assert.equal(forwarded.url, 'https://backend.example.test/api/sales/mail/oauth/callback?code=test-code&state=test-state');
+    assert.equal(forwarded.headers['X-RA-User'], 'oauth:callback');
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
