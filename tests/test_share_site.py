@@ -74,7 +74,7 @@ def test_share_downloads_are_original_blank_templates():
 
 
 def test_public_assets_exclude_private_files_and_network_calls():
-    expected = {"index.html", "styles.css", "app.js", "assets/mark.svg", "assets/validation.json", "assets/workspace.jpg", "assets/comparison.jpg", "assets/hwp.jpg", "assets/auto-workspace.png", "assets/auto-result.png", "assets/ra_workflow_input_blank.csv", "assets/ra_change_input_blank.txt", "assets/ctd_demo_template.docx", "assets/qos_dmf_demo_template.docx"}
+    expected = {"index.html", "styles.css", "app.js", "assets/mark.svg", "assets/validation.json", "assets/workspace.jpg", "assets/comparison.jpg", "assets/hwp.jpg", "assets/auto-workspace.png", "assets/auto-result.png", "assets/sales-workflow-v2.png", "assets/ra_workflow_input_blank.csv", "assets/ra_change_input_blank.txt", "assets/ctd_demo_template.docx", "assets/qos_dmf_demo_template.docx"}
     public = {path.relative_to(SITE).as_posix() for path in SITE.rglob("*") if path.is_file()}
     assert public == expected | {'workspace.html', 'workspace.css', 'workspace.js', 'sales.html', 'sales.css', 'sales.js', 'common.html', 'common.css', 'common.js', 'access.html', 'access.css', 'access.js', 'claude.html', 'server/index.js', '.openai/hosting.json'}
     for filename in ("index.html", "app.js", "styles.css", "assets/validation.json"):
@@ -196,7 +196,9 @@ def test_sales_workspace_visual_flow_is_accessible_and_responsive():
     html = (SITE / 'sales.html').read_text(encoding='utf-8')
     css = (SITE / 'sales.css').read_text(encoding='utf-8')
     script = (SITE / 'sales.js').read_text(encoding='utf-8')
-    assert 'class="sales-hero"' in html and 'class="hero-visual" aria-hidden="true"' in html
+    assert 'class="sales-hero"' in html and 'class="hero-art" aria-hidden="true"' in html
+    assert 'src="/assets/sales-workflow-v2.png" alt=""' in html
+    assert (SITE / 'assets' / 'sales-workflow-v2.png').is_file()
     assert all(f'data-flow="{step}"' in html for step in ('intake', 'evidence', 'writing', 'trade'))
     assert all(f'id="{target}"' in html for target in ('sales-intake', 'sales-evidence', 'sales-writing', 'sales-trade'))
     assert 'class="icon-library" aria-hidden="true"' in html
