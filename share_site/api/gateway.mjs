@@ -25,4 +25,4 @@ export async function handleGatewayRequest(request, env = process.env) {
   return worker.fetch(forwarded, env);
 }
 
-export default { fetch: handleGatewayRequest };
+export default { fetch(request) { return handleGatewayRequest(request, process.env); } };

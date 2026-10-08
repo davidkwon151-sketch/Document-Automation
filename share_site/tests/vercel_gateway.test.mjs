@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { handleGatewayRequest } from '../api/gateway.mjs';
+import gateway, { handleGatewayRequest } from '../api/gateway.mjs';
 
 const base = 'https://document-standardization.vercel.app/api/gateway';
 const route = (path) => `${base}?__route=${encodeURIComponent(path)}`;
@@ -41,6 +41,29 @@ test('route tampering and missing server configuration fail closed', async () =>
   assert.equal((await handleGatewayRequest(new Request(`${base}?__route=/api/a&__route=/api/b`, { headers }), env)).status, 404);
   assert.equal((await handleGatewayRequest(new Request(route('/other/path'), { headers }), env)).status, 404);
   assert.equal((await handleGatewayRequest(new Request(route('/api/sales/mail/status'), { headers }), {})).status, 503);
+});
+
+test('Vercel entrypoint reads server environment rather than its runtime context', async () => {
+  const originalFetch = globalThis.fetch;
+  const previousUrl = process.env.RA_BACKEND_URL;
+  const previousSecret = process.env.RA_GATEWAY_SECRET;
+  process.env.RA_BACKEND_URL = env.RA_BACKEND_URL;
+  process.env.RA_GATEWAY_SECRET = env.RA_GATEWAY_SECRET;
+  globalThis.fetch = async () => Response.json({ connected: true });
+  try {
+    const session = 'a'.repeat(43);
+    const response = await gateway.fetch(new Request(route('/api/sales/mail/status'), {
+      headers: { cookie: `__Host-ra-session=${session}` },
+    }), {});
+    assert.equal(response.status, 200);
+    assert.deepEqual(await response.json(), { connected: true });
+  } finally {
+    globalThis.fetch = originalFetch;
+    if (previousUrl === undefined) delete process.env.RA_BACKEND_URL;
+    else process.env.RA_BACKEND_URL = previousUrl;
+    if (previousSecret === undefined) delete process.env.RA_GATEWAY_SECRET;
+    else process.env.RA_GATEWAY_SECRET = previousSecret;
+  }
 });
 
 test('Gmail callback preserves code and state without a browser session', async () => {
