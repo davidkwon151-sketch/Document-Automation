@@ -308,8 +308,8 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
         # source/review checks; use Flash for customer-facing writing.
         return client_factory() if client_factory is not None else LLMClient(
             provider='gemini', api_key=key,
-            model='gemini-3.5-flash' if writing else 'gemini-3.5-flash-lite',
-            timeout=30, max_retries=0)
+            model='gemini-3.6-flash' if writing else 'gemini-3.5-flash-lite',
+            timeout=30, max_retries=1)
     hwp_url = hwp_url or os.environ.get('RA_HWP_WORKER_URL')
     hwp_token = hwp_token or os.environ.get('RA_HWP_WORKER_TOKEN')
     app = FastAPI(title='문서 표준화 AI AGENT', docs_url=None, redoc_url=None, openapi_url=None)

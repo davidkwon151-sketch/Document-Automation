@@ -1,0 +1,25 @@
+{
+  "capture": "actual Gemini API via the sales workspace",
+  "source": "fictional demo company facts",
+  "source_sha256": "a957d072c1413334908c15bb167f67206cb4ab1a36f8b3fb3b62470ab9ccf1a4",
+  "responses": [
+    {
+      "language": "en",
+      "model": "gemini-3.6-flash",
+      "fictional_input_sha256": "d2b50788a72711e27459bbfbe44fee71a6dfaedcd0e620d9fe3f8b8b4d4dae08",
+      "reply_sha256": "b98e3ce6dbccf73f56df276d9da002d83620394d36a83432e15de26aaae6f5c1"
+    },
+    {
+      "language": "es",
+      "model": "gemini-3.6-flash",
+      "fictional_input_sha256": "b9cf0c15e78fcd8533efaf711d230853a604f5559284aea1328cdbd18039fbf4",
+      "reply_sha256": "80a5eefab0f9f235e7a20e2de51b7b1ade9ec9e1af76cadc7686c3c06baa8c89"
+    },
+    {
+      "language": "he",
+      "model": "gemini-3.6-flash",
+      "fictional_input_sha256": "515bcd7bb1ea819c5e4777b334b617b6cfbf9f6ed42c26b7b3b5d3cf3923da73",
+      "reply_sha256": "f73b534f9184d74ba4edc2f6e59684752cbab6c15fba8c01c1443d5b33662587"
+    }
+  ]
+}

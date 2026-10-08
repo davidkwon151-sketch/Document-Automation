@@ -1,5 +1,13 @@
 # 해외영업 이메일 회신: 실제 작업실·Gemini 데모
 
+**[영어·스페인어·히브리어 실제 모델 회신 영상 (약 1분 31초)](buyer_email_multilingual_live_demo.mp4)** · [짧은 미리보기](buyer_email_multilingual_live_preview.gif) · [녹화 출처 기록](multilingual_live_provenance.json)
+
+![영어·스페인어·히브리어 실제 모델 회신 데모](buyer_email_multilingual_live_preview.gif)
+
+새 영상은 세 건의 독립적인 가상 바이어 문의를 실제 해외영업 작업실에 입력하고, 각 언어를 선택해 **Gemini 3.6 Flash의 실제 API 응답**으로 초안을 생성한 화면을 편집함. 영어 메일은 [영어](sample_live_reply_en.txt)로, 스페인어 메일은 [스페인어](sample_live_reply_es.txt)로, 히브리어 메일은 [히브리어](sample_live_reply_he.txt)로 회신함. 각각 가상 회사 원자료의 가격·납기·배송 조건을 연결하고 독립 검수를 통과한 결과만 담음. API 키 입력 영역은 가렸으며 이메일은 발송하지 않았음. 화면 캡처의 일부 구간을 편집한 영상으로, 실제 모델 처리 속도나 실사용 정확도·사람 수정률을 나타내지 않음. 녹화 당시 작업실의 안내 문구에는 이전 모델명인 `3.5 Flash`가 남아 있었으나 실제 API 요청 모델은 `3.6 Flash`였고, 화면 문구를 수정함.
+
+재현은 `python -m docs.demo_sales.record_multilang`로 실제 모델 호출·화면 캡처를 수행하고, `python -m docs.demo_sales.render_multilang`로 영상을 생성함. 가상 원자료는 [sample_company_facts.txt](sample_company_facts.txt)이며, 실제 거래 조건이 아님. GIF는 GitHub 페이지에서 바로 재생되고 전체 MP4는 위 링크에서 열 수 있음.
+
 **[1분 22초 전체 영상 보기·다운로드](buyer_email_live_demo.mp4)** · [실제 모델 출력 초안](sample_live_reply_draft.txt) · [가상 바이어 메일](sample_buyer_email.eml) · [가상 회사 원자료](sample_company_facts.txt)
 
 ![실제 해외영업 작업실과 Gemini 작성 결과의 16초 미리보기](buyer_email_live_preview.gif)

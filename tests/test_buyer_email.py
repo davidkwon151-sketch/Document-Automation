@@ -5,7 +5,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from agent.buyer_email import REPLY_LANGUAGES, draft_buyer_reply, parse_buyer_email, requested_documents
+from agent.buyer_email import REPLY_LANGUAGES, _numbers, draft_buyer_reply, parse_buyer_email, requested_documents
 from agent.multimodal_intake import collect_multimodal, generation_sources
 from app.buyer_email_ui import link_trade_sources
 
@@ -53,6 +53,10 @@ def test_requested_trade_documents_are_visible_without_model():
     email = parse_buyer_email('Please send a quotation and packing list for Widget A.')
     assert requested_documents(email) == ['proforma_invoice', 'packing_list']
     assert requested_documents(parse_buyer_email('Could you confirm availability?')) == []
+
+
+def test_numeric_check_excludes_sentence_punctuation_but_keeps_grouped_amounts():
+    assert _numbers('Model SC-100, costs USD 1,250 per unit.') == ['100', '1,250']
 
 
 def test_grounded_reply_and_trade_document_handoff(tmp_path):

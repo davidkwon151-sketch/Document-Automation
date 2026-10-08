@@ -97,7 +97,7 @@ def _fingerprint(value):
 
 
 def _numbers(text):
-    return re.findall(r'(?<![\w])\d[\d,]*(?:\.\d+)?(?:\s*(?:%|USD|EUR|KRW|kg|g|mg|mL|L|pcs|days?))?', text, re.I)
+    return re.findall(r'(?<![\w])\d(?:\d|,(?=\d))*(?:\.\d+)?(?:\s*(?:%|USD|EUR|KRW|kg|g|mg|mL|L|pcs|days?))?', text, re.I)
 
 
 def _safe_general(answer):
