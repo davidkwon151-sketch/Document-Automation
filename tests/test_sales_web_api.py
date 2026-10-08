@@ -1,5 +1,7 @@
 """Protected buyer-email workflow with actual parser and mock model calls."""
 from base64 import b64encode
+from email import policy
+from email.parser import BytesParser
 from hashlib import sha256
 import json
 import threading
@@ -108,6 +110,56 @@ def test_review_progress_is_visible_while_model_is_still_running(tmp_path):
             {'quote': 'Could you share a quotation?', 'source_count': 0}]
     finally:
         release.set()
+
+
+def test_card_extraction_and_signed_eml_are_tenant_scoped_and_unsent(tmp_path):
+    from PIL import Image
+    image = BytesIO()
+    Image.new('RGB', (90, 35), 'navy').save(image, format='PNG')
+    class Model:
+        def read_image_json(self, data, *, mime, prompt_name):
+            assert mime == 'image/png' and prompt_name == 'email_signature_card'
+            return {'name': 'Kim', 'title': 'Manager', 'company': 'Example Co.',
+                    'phone': '+82 2 1234 5678', 'email': 'kim@example.test'}
+        def generate_json(self, name, payload):
+            if name == 'buyer_email':
+                return {'opening': 'Thank you for your message.',
+                        'closing': 'Kind regards,\n[Your name]',
+                        'requests': [{'buyer_quote': 'Could you share a quotation?',
+                                      'answer': 'Could you confirm the quantity?', 'evidence': []}]}
+            return {'complete': True, 'email_prose_supported': True,
+                    'items': [{'index': 1, 'supported': True}]}
+    root = tmp_path / 'private'
+    api = TestClient(web_api.create_app(root=root, secret=SECRET, client_factory=Model),
+                     raise_server_exceptions=False)
+    card = {'name': 'card.png', 'base64': b64encode(image.getvalue()).decode()}
+    scan = call(api, 'POST', '/api/sales/signature/read',
+                {'card': card, 'gemini_api_key': 'test-key-only'})
+    assert scan.status_code == 200 and scan.json()['candidate']['name'] == 'Kim'
+    created = call(api, 'POST', '/api/sales/jobs',
+                   {'email_text': 'Could you share a quotation?', 'sources': []})
+    assert created.status_code == 200
+    identifier = created.json()['job_id']
+    route = f'/api/sales/jobs/{identifier}'
+    assert call(api, 'POST', route + '/draft', {'language': 'en'}).status_code == 202
+    for _ in range(100):
+        view = call(api, 'GET', route).json()
+        if view['status'] != 'processing':
+            break
+        time.sleep(.02)
+    assert view['status'] == 'review_required'
+    fields = scan.json()['candidate']
+    payload = {'fields': fields, 'logo': {'name': 'logo.png',
+               'base64': b64encode(image.getvalue()).decode()}, 'confirmed': True}
+    assert call(api, 'POST', route + '/signed-eml', payload, user='seller-B').status_code == 404
+    assert call(api, 'POST', route + '/signed-eml', {**payload, 'confirmed': False}).status_code != 200
+    response = call(api, 'POST', route + '/signed-eml', payload)
+    assert response.status_code == 200 and response.headers['content-type'].startswith('message/rfc822')
+    message = BytesParser(policy=policy.default).parsebytes(response.content)
+    assert 'Kim' in message.get_body(preferencelist=('plain',)).get_content()
+    assert message['To'] is None and message['From'] is None
+    assert any(part.get_content_maintype() == 'image' for part in message.walk())
+    assert not list(root.rglob('card.png')) and not list(root.rglob('logo.png'))
 
 
 def test_email_only_and_followup_text_or_file_redraft_in_same_job(tmp_path):

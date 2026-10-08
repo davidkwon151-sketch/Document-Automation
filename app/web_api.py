@@ -24,6 +24,7 @@ import httpx
 from agent.multimodal_intake import (collect_multimodal, append_multimodal_intake, confirm_intake,
                                      generation_sources, SUPPORTED_SUFFIXES)
 from agent.buyer_email import parse_buyer_email, draft_buyer_reply, requested_documents
+from agent.email_signature import card_candidate, signed_eml
 from agent.global_workflows import (blank_global_input, create_global_template,
                                     export_global_workflow, prepare_global_workflow, propose_global_bindings)
 from agent.ctd import CTD_SECTIONS, prepare_ctd_package
@@ -790,6 +791,34 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
                                           language=language, tone=tone,
                                           user_notes=state.get('user_notes', []), progress=progress),
                 present=sales_view)
+
+    @app.post('/api/sales/signature/read')
+    def sales_signature_read(request: Request, payload: dict):
+        if not isinstance(payload, dict) or set(payload) != {'card', 'gemini_api_key'}:
+            raise ValueError('signature_card')
+        _, image = _upload(payload['card'], {'.png', '.jpg', '.jpeg'})
+        if len(image) > 5_000_000:
+            raise ValueError('signature_card_size')
+        key = gemini_key(payload) if client_factory is None else None
+        return {'candidate': card_candidate(image, sales_model_client(key))}
+
+    @app.post('/api/sales/jobs/{identifier}/signed-eml')
+    def sales_signed_eml(identifier: str, request: Request, payload: dict):
+        directory, lock = sales_job(request, identifier)
+        with lock:
+            state = read(directory)
+            ensure_idle(state)
+            if (not isinstance(payload, dict) or set(payload) - {'fields', 'logo', 'confirmed'}
+                    or payload.get('confirmed') is not True or not state.get('result')):
+                raise ValueError('signature_confirmation')
+            logo = None
+            if payload.get('logo') is not None:
+                _, logo = _upload(payload['logo'], {'.png', '.jpg', '.jpeg'})
+            content = signed_eml(state['result']['subject'], state['result']['email'],
+                                 payload.get('fields'), logo)
+            return Response(content=content, media_type='message/rfc822', headers={
+                'Content-Disposition': 'attachment; filename="buyer_reply_signed.eml"',
+                'Cache-Control': 'no-store'})
 
     @app.post('/api/sales/jobs/{identifier}/trade/propose')
     def sales_trade_propose(identifier: str, request: Request, payload: dict):
