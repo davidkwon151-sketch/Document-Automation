@@ -1,6 +1,6 @@
 # 문서 표준화 AI AGENT
 
-[GitHub에서 바로 보는 해외영업 이메일 회신 데모](docs/demo_sales/README.md) · [실제 Gemini 작성 1분 22초 MP4](docs/demo_sales/buyer_email_live_demo.mp4)
+[GitHub에서 보는 발표 자료](docs/prezi/README.md) · [Prezi 원본 발표](https://prezi.com/craft/room/qooL8Ebq7TjeTamKQoBjjg?referral_token=47dSrRlnB3FN) · [해외영업 이메일 회신 데모](docs/demo_sales/README.md) · [실제 Gemini 작성 1분 22초 MP4](docs/demo_sales/buyer_email_live_demo.mp4)
 
 자료를 근거로 사내외 양식에 맞는 문서를 작성하는 **문서 표준화 AI AGENT** 프로젝트임. 실제 지원·검증 상태는 개별 양식과 검증 기록에 표시함.
 

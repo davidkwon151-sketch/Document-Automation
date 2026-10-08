@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문서 표준화 AI AGENT — 발표 자료 사본</title>
+  <style>
+    :root{font-family:Arial,"Malgun Gothic",sans-serif;color:#17324d;background:#eef5ff;--blue:#1469f4;--pale:#eef5ff}
+    *{box-sizing:border-box}body{margin:0}.deck{min-height:100dvh;display:grid;place-items:center;padding:10px 10px 72px}
+    .slide{display:none;position:relative;overflow:hidden;width:min(100%,1280px);min-height:calc(100dvh - 92px);padding:clamp(26px,3vw,48px);background:#fff;border-radius:34px;box-shadow:0 24px 80px #1c62b322}
+    .slide.active{display:flex;flex-direction:column;justify-content:center}.slide::after{content:"";position:absolute;width:36%;aspect-ratio:1;border:3px solid #e9f2ff;border-radius:50%;right:-13%;top:-25%;pointer-events:none}
+    .eyebrow{color:var(--blue);font-size:clamp(13px,1.4vw,18px);font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+    h1,h2,p{margin:0}h1{font-size:clamp(38px,5.5vw,78px);line-height:1.14;letter-spacing:-.05em}h2{font-size:clamp(30px,4vw,54px);line-height:1.2;letter-spacing:-.04em}.lead{max-width:900px;margin-top:22px;font-size:clamp(17px,2vw,26px);line-height:1.5;color:#3d5872}.small{font-size:clamp(12px,1.2vw,16px);color:#526b84;line-height:1.5}.foot{margin-top:auto;padding-top:20px}.blue{color:var(--blue)}
+    .orb{display:grid;place-items:center;text-align:center;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;line-height:1.35;flex:none}.orb.pale{background:#e9f2ff;color:#17324d}.orb.outline{background:#fff;color:var(--blue);border:3px solid #cfe2ff}
+    .map{position:relative;height:350px;margin-top:18px}.map .center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:230px;height:230px;font-size:26px;z-index:2}.map .satellite{position:absolute;width:150px;height:150px;font-size:19px}.map .a{top:0;left:15%}.map .b{top:0;right:15%}.map .c{bottom:0;left:15%}.map .d{bottom:0;right:15%}.map::before,.map::after{content:"";position:absolute;left:23%;right:23%;top:50%;border-top:2px solid #b9d4fb;transform:rotate(29deg)}.map::after{transform:rotate(-29deg)}
+    .row{display:flex;gap:clamp(14px,3vw,50px);align-items:center;justify-content:space-around;margin:40px 0;flex-wrap:wrap}.stat{width:clamp(178px,21vw,270px);height:clamp(178px,21vw,270px);padding:28px;flex-direction:column;font-size:clamp(18px,1.7vw,24px)}.stat strong{font-size:clamp(42px,4.5vw,68px)}.caption{max-width:260px;text-align:center;font-size:clamp(13px,1.3vw,17px);line-height:1.45}
+    .path{display:flex;align-items:center;justify-content:space-between;gap:6px;margin:40px 0 30px}.path .orb{width:clamp(105px,13vw,170px);height:clamp(105px,13vw,170px);padding:15px;font-size:clamp(15px,1.6vw,22px)}.line{flex:1;border-top:3px solid #cfe2ff;min-width:12px}.note{align-self:center;text-align:center;max-width:980px}.language-count{font-size:clamp(110px,19vw,260px);line-height:1;color:var(--blue);font-weight:800}.languages{font-size:clamp(18px,2.2vw,30px);line-height:1.9;max-width:780px;text-align:center}.screens{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:25px}.screen{margin:0}.screen img{display:block;width:100%;height:clamp(200px,24vw,320px);object-fit:contain;background:var(--pale);border-radius:22px;padding:16px}.screen figcaption{margin-top:12px;text-align:center;font-weight:800;font-size:clamp(14px,1.5vw,19px)}
+    .rings{display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap;margin:46px auto}.rings .orb{width:clamp(150px,17vw,225px);height:clamp(150px,17vw,225px);padding:20px;font-size:clamp(17px,1.9vw,25px)}.pill{padding:12px 22px;border:2px solid #d5e5fb;border-radius:999px;color:#24517c;font-weight:700}.checks{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:18px}.kpis .orb{width:clamp(160px,20vw,250px);height:clamp(160px,20vw,250px);padding:24px;font-size:clamp(18px,2vw,27px)}.kpis .orb:nth-child(2){transform:translateY(-28px)}
+    nav{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);display:flex;align-items:center;gap:16px;border:1px solid #d2e3fb;background:#ffffffed;border-radius:999px;padding:8px 12px;box-shadow:0 8px 30px #1c62b322;z-index:4}nav button{min-width:44px;min-height:44px;border:0;border-radius:50%;background:var(--blue);color:#fff;font-size:23px;cursor:pointer}nav button:disabled{opacity:.3;cursor:default}nav button:focus-visible,a:focus-visible{outline:3px solid #ffba40;outline-offset:3px}#counter{min-width:56px;text-align:center;font-weight:800}a{color:#0757d4}a:hover{text-decoration-thickness:3px}
+    @media(max-width:700px){.deck{padding:10px 10px 76px}.slide{min-height:calc(100dvh - 90px);padding:26px 22px;border-radius:20px}.map{height:470px}.map .center{width:155px;height:155px;font-size:20px}.map .satellite{width:112px;height:112px;font-size:14px}.map .a,.map .c{left:0}.map .b,.map .d{right:0}.row{margin:25px 0;gap:12px}.stat{width:138px;height:138px;padding:12px;font-size:14px}.stat strong{font-size:36px}.caption{display:none}.path{display:grid;grid-template-columns:1fr 1fr;justify-items:center;margin:24px 0}.path .orb{width:112px;height:112px}.line{display:none}.screens{grid-template-columns:1fr}.screen img{height:180px}.rings{gap:12px;margin:22px 0}.rings .orb{width:125px;height:125px;font-size:15px}.kpis .orb:nth-child(2){transform:none}.lead{margin-top:12px}}
+    @media(prefers-reduced-motion:no-preference){.slide.active{animation:arrive .35s ease-out}@keyframes arrive{from{opacity:.25;transform:scale(.96)}to{opacity:1;transform:scale(1)}}}
+  </style>
+</head>
+<body>
+<main class="deck" aria-live="polite">
+  <section class="slide active" id="slide-0" aria-label="개요">
+    <span class="eyebrow">Document Standardization AI Agent</span><h1>글로벌 이메일 자동화</h1>
+    <div class="map" aria-label="발표의 네 구역"><div class="orb center">받은 문의를<br>회신 초안으로</div><div class="orb pale satellite a">프로젝트 소개</div><div class="orb pale satellite b">문제점과 현황</div><div class="orb pale satellite c">핵심 워크플로</div><div class="orb pale satellite d">보안과 과제</div></div>
+    <p class="small">Prezi 원본의 내용을 바탕으로 만든 GitHub 보관용 HTML 사본 · 화살표 키 또는 아래 버튼으로 이동</p>
+  </section>
+  <section class="slide" id="slide-1" aria-label="제목"><span class="eyebrow">01 / The starting point</span><h1>문서 표준화 AI AGENT:<br><span class="blue">글로벌 이메일 자동화</span></h1><p class="lead">바이어의 문의를 이해하고, 검토 가능한 회신 초안을 빠르게 작성함</p><p class="small foot">2026. 10. 08 · 가상 거래 자료를 사용한 시연</p></section>
+  <section class="slide" id="slide-2" aria-label="문제"><span class="eyebrow">02 / The problem</span><h2>매일 반복되는 이메일과 문서 작업</h2><div class="row"><div><div class="orb stat"><strong>3h+</strong>이메일 확인</div><p class="caption">Adobe 2019년 미국 성인 조사</p></div><div><div class="orb pale stat"><strong>65.4%</strong>보고서 스트레스</div><p class="caption">사람인 2021년 국내 직장인 조사</p></div><div><div class="orb outline stat"><strong>35%</strong>보고서 작성 시간</div><p class="caption">같은 사람인 조사에서 응답한 평균 업무시간</p></div></div><p class="small foot">출처: <a href="https://blog.adobe.com/en/publish/2019/09/08/if-you-think-email-is-dead-think-again">Adobe Email Usage Study (2019)</a> · <a href="https://www.saramin.co.kr/zf_user/help/live/view?category=10&amp;idx=108415&amp;listType=news&amp;list_idx=313&amp;menu=1&amp;page=16">사람인 보고서 스트레스 조사 (2021)</a>. 두 조사는 조사대상과 시기가 다름.</p></section>
+  <section class="slide" id="slide-3" aria-label="작업 흐름"><span class="eyebrow">03 / What works now</span><h2>받은 메일에서 검토 후 발송까지</h2><div class="path"><div class="orb">받은 메일<br>확인</div><i class="line"></i><div class="orb pale">요청<br>분석</div><i class="line"></i><div class="orb">검토용<br>초안</div><i class="line"></i><div class="orb pale">담당자 확인<br>후 발송</div></div><p class="lead note">Gmail OAuth·서버 실행 중 약 60초 간격 확인·검토 후 발송 코드와 모의 테스트 구현</p><p class="small foot">실제 Google 계정 연결은 설정 대기 상태임.</p></section>
+  <section class="slide" id="slide-4" aria-label="언어 지원"><span class="eyebrow">04 / Global communication</span><h2>회신 언어의 선택지를 넓힘</h2><div class="row"><div class="language-count" aria-label="10개 언어">10</div><p class="languages">한국어 · English · 中文(简体)<br>Español · Français · Deutsch<br>العربية · Português · 日本語 · עברית</p></div><p class="small foot">10개 언어의 회신 선택 기능임. 각 언어의 실무 품질은 별도 검증이 필요함.</p></section>
+  <section class="slide" id="slide-5" aria-label="초안 생성"><span class="eyebrow">05 / Grounded drafting</span><h2>원문에서 검토 가능한 초안으로</h2><div class="path"><div class="orb pale">이메일·자료<br>입력</div><i class="line"></i><div class="orb">맥락<br>분석</div><i class="line"></i><div class="orb pale">근거<br>연결</div><i class="line"></i><div class="orb">초안<br>작성</div><i class="line"></i><div class="orb pale">누락<br>검수</div></div><p class="lead note">선택적으로 제공한 자료의 출처를 연결해 검토용 회신을 작성함</p><p class="small foot">정확도와 사람의 실제 수정량은 사용자 검증이 필요함.</p></section>
+  <section class="slide" id="slide-6" aria-label="실제 프로젝트 화면"><span class="eyebrow">06 / Live product view</span><h2>실제 프로젝트 작업실 화면</h2><div class="screens"><figure class="screen"><img src="../demo_sales/capture/005.png" alt="가상 바이어 문의를 입력한 실제 작업실 화면"><figcaption>① 바이어 문의 입력과 분석</figcaption></figure><figure class="screen"><img src="../demo_sales/capture/013.png" alt="실제 Gemini 모델 호출로 작성한 영문 회신 초안 화면"><figcaption>② Gemini 모델로 생성된 초안</figcaption></figure></div><p class="small foot">가상 거래 자료 · 실제 Gemini 3.5 Flash 호출 · 미발송 · <a href="../demo_sales/buyer_email_live_demo.mp4">82초 데모 영상</a></p></section>
+  <section class="slide" id="slide-7" aria-label="발송 승인"><span class="eyebrow">07 / Human in control</span><h2>AI가 제안하고, 담당자가 확정함</h2><div class="rings"><div class="orb pale">AI 초안<br>생성</div><div class="orb">담당자<br>검토</div><div class="orb pale">명시적<br>발송 확정</div></div><p class="lead note">실제 발송은 담당자가 수신인·제목·본문을 확인한 뒤 실행하도록 설계함</p></section>
+  <section class="slide" id="slide-8" aria-label="보안과 검증"><span class="eyebrow">08 / Security boundary</span><h2>보안 설계와 남은 검증</h2><div class="rings"><div class="orb">보안 설계</div><div><div class="checks"><span class="pill">사용자별 작업공간 분리</span><span class="pill">연결 토큰 암호화 저장</span><span class="pill">담당자 명시적 발송 승인</span></div><div class="checks"><span class="pill">위협 모델링 필요</span><span class="pill">침투 시험 필요</span><span class="pill">회사 보안 검토 필요</span></div></div></div><p class="small foot">현재 설계를 공격 내성이나 법적 적합성의 인증으로 표시하지 않음.</p></section>
+  <section class="slide" id="slide-9" aria-label="다음 단계"><span class="eyebrow">09 / What to measure</span><h2>다음 단계: 실제 사용자 검증</h2><div class="row kpis"><div class="orb">KPI 01<br>초안 수정<br>비율</div><div class="orb">KPI 02<br>초안→최종<br>시간</div><div class="orb">KPI 03<br>재작업<br>횟수</div></div><p class="lead note">초안의 완성도는 실제 사용자가 수정한 양으로 판단함</p><p class="small foot">현재 실사용 성과 수치는 미측정. <a href="https://prezi.com/craft/room/qooL8Ebq7TjeTamKQoBjjg?referral_token=47dSrRlnB3FN">줌 전환이 있는 Prezi 원본 보기</a></p></section>
+</main>
+<nav aria-label="발표 이동"><button id="previous" type="button" aria-label="이전 장면">‹</button><span id="counter">0 / 9</span><button id="next" type="button" aria-label="다음 장면">›</button></nav>
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  const counter=document.getElementById('counter');
+  const previous=document.getElementById('previous');
+  const next=document.getElementById('next');
+  let current=0;
+  function show(index){
+    current=Math.max(0,Math.min(index,slides.length-1));
+    slides.forEach((slide,i)=>{slide.classList.toggle('active',i===current);slide.setAttribute('aria-hidden',String(i!==current));});
+    counter.textContent=`${current} / ${slides.length-1}`;
+    previous.disabled=current===0;next.disabled=current===slides.length-1;
+    history.replaceState(null,'',`#slide-${current}`);
+  }
+  previous.addEventListener('click',()=>show(current-1));
+  next.addEventListener('click',()=>show(current+1));
+  document.addEventListener('keydown',event=>{if(['ArrowRight','PageDown',' '].includes(event.key)){event.preventDefault();show(current+1);}if(['ArrowLeft','PageUp'].includes(event.key)){event.preventDefault();show(current-1);}});
+  window.addEventListener('hashchange',()=>show(Number(location.hash.match(/^#slide-(\d+)$/)?.[1]||0)));
+  show(Number(location.hash.match(/^#slide-(\d+)$/)?.[1]||0));
+</script>
+</body>
+</html>
