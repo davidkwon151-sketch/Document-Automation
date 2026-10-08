@@ -1,5 +1,7 @@
 # 해외영업 이메일 회신: 실제 작업실·Gemini 데모
 
+발표 자료는 이 데모 폴더가 아닌 **[docs/prezi/README.md](../prezi/README.md)**에 있음. [Prezi 원본 발표](https://prezi.com/craft/room/qooL8Ebq7TjeTamKQoBjjg?referral_token=47dSrRlnB3FN)와 [GitHub 보관용 HTML 사본](../prezi/index.html)을 그곳에서 열 수 있음.
+
 **[영어·스페인어·히브리어 실제 모델 회신 영상 (약 1분 31초)](buyer_email_multilingual_live_demo.mp4)** · [짧은 미리보기](buyer_email_multilingual_live_preview.gif) · [녹화 출처 기록](multilingual_live_provenance.json)
 
 ![영어·스페인어·히브리어 실제 모델 회신 데모](buyer_email_multilingual_live_preview.gif)
