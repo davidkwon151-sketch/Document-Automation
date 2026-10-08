@@ -80,6 +80,33 @@ def test_sales_job_isolated_drafted_and_key_not_persisted(tmp_path):
     assert call(api, 'GET', f'/api/sales/jobs/{identifier}').status_code == 404
 
 
+def test_hebrew_language_is_accepted_by_protected_sales_api(tmp_path):
+    seen = []
+    class Model:
+        def generate_json(self, name, payload):
+            seen.append((name, payload['language']))
+            if name == 'buyer_email':
+                return {'requests': [{'buyer_quote': 'Could you share availability?',
+                    'answer': 'מה הכמות המבוקשת?', 'evidence': []}]}
+            return {'complete': True, 'items': [{'index': 1, 'supported': True}]}
+    api = TestClient(web_api.create_app(root=tmp_path / 'private', secret=SECRET,
+                     client_factory=Model), raise_server_exceptions=False)
+    created = call(api, 'POST', '/api/sales/jobs',
+                   {'email_text': 'Could you share availability?', 'sources': []})
+    identifier = created.json()['job_id']
+    route = f'/api/sales/jobs/{identifier}'
+    assert call(api, 'POST', route + '/draft', {'language': 'he'}).status_code == 202
+    for _ in range(100):
+        view = call(api, 'GET', route).json()
+        if view['status'] != 'processing':
+            break
+        time.sleep(.02)
+    assert view['result']['language'] == 'he'
+    assert 'מה הכמות המבוקשת?' in view['result']['email']
+    assert seen == [('buyer_email', 'he'), ('buyer_email_review', 'he')]
+    assert call(api, 'POST', route + '/draft', {'language': 'xx'}).status_code == 422
+
+
 def test_review_progress_is_visible_while_model_is_still_running(tmp_path):
     reviewing = threading.Event()
     release = threading.Event()

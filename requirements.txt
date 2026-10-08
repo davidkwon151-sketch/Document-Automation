@@ -15,3 +15,4 @@ pypdfium2==5.13.0
 Pillow==12.3.0
 olefile==0.47
 fonttools==4.66.1
+cryptography==50.0.2

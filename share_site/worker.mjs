@@ -62,6 +62,14 @@ export function createWorker(assets) {
     return new Response(response.body,{status:response.status,headers});
    }catch{return json({error:'문서 처리 PC에 연결할 수 없습니다. 운영자에게 연결 상태 확인을 요청해 주세요.'},503);}
   }
+  if(path==='/oauth/gmail/callback') {
+   if(request.method!=='GET'||url.search.length>8192||!url.searchParams.get('state'))return json({error:'Gmail 연결 요청을 확인할 수 없습니다.'},400);
+   if(!env.RA_BACKEND_URL||!env.RA_GATEWAY_SECRET)return json({error:'Gmail 연결 서버 설정이 필요합니다.'},503);
+   try {
+    const response=await proxy(request,env,'oauth:callback','/api/sales/mail/oauth/callback'+url.search,new Uint8Array());
+    return new Response(response.body,{status:response.status,headers:{...security,'Content-Type':'text/html; charset=utf-8'}});
+   }catch{return json({error:'문서 처리 PC에 연결할 수 없습니다.'},503);}
+  }
   const account=request.headers.get('oai-authenticated-user-id');
   const user=session ? 'guest:'+session : account;
   const redeem=path==='/access/redeem',logout=path==='/access/logout';

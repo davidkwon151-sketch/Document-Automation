@@ -5,7 +5,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from agent.buyer_email import draft_buyer_reply, parse_buyer_email, requested_documents
+from agent.buyer_email import REPLY_LANGUAGES, draft_buyer_reply, parse_buyer_email, requested_documents
 from agent.multimodal_intake import collect_multimodal, generation_sources
 from app.buyer_email_ui import link_trade_sources
 
@@ -86,6 +86,33 @@ def test_tone_and_real_progress_are_forwarded_without_exposing_unreviewed_answer
     assert [call.args[1]['tone'] for call in client.generate_json.call_args_list] == ['warm', 'warm']
     with pytest.raises(ValueError):
         draft_buyer_reply(email, sources, client, tone='unsupported')
+
+
+@pytest.mark.parametrize('language', list(REPLY_LANGUAGES))
+def test_reply_languages_keep_selected_language_through_both_passes(tmp_path, language):
+    email, sources = fixture(tmp_path)
+    client = client_for(email, sources)
+    result = draft_buyer_reply(email, sources, client, language=language)
+    assert result['language'] == language
+    assert result['email'].startswith(REPLY_LANGUAGES[language][1])
+    assert result['email'].endswith(REPLY_LANGUAGES[language][2])
+    assert result['subject'] == REPLY_LANGUAGES[language][4]
+    assert [call.args[1]['language'] for call in client.generate_json.call_args_list] == [language, language]
+
+
+@pytest.mark.parametrize('language,question', [('he', 'מה הכמות המבוקשת?'),
+                                               ('ar', 'ما الكمية المطلوبة؟'),
+                                               ('ja', 'ご希望の数量は？')])
+def test_non_latin_clarification_question_is_retained(tmp_path, language, question):
+    email = parse_buyer_email('Please send an offer.')
+    client = Mock()
+    client.generate_json.side_effect = [
+        {'requests': [{'buyer_quote': email['body'], 'answer': question, 'evidence': []}]},
+        {'complete': True, 'items': [{'index': 1, 'supported': True}]},
+    ]
+    result = draft_buyer_reply(email, [], client, language=language)
+    assert result['requests'][0]['status'] == 'general'
+    assert question in result['email']
 
 
 def test_unsupported_request_is_explicitly_pending(tmp_path):

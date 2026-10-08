@@ -23,7 +23,7 @@ import httpx
 
 from agent.multimodal_intake import (collect_multimodal, append_multimodal_intake, confirm_intake,
                                      generation_sources, SUPPORTED_SUFFIXES)
-from agent.buyer_email import parse_buyer_email, draft_buyer_reply, requested_documents
+from agent.buyer_email import parse_buyer_email, draft_buyer_reply, requested_documents, REPLY_LANGUAGES
 from agent.email_signature import card_candidate, signed_eml
 from agent.global_workflows import (blank_global_input, create_global_template,
                                     export_global_workflow, prepare_global_workflow, propose_global_bindings)
@@ -42,6 +42,8 @@ from templates.profiles import load_form_profile
 from app.guest_access import GuestAccess, GuestAccessError
 from app.mcp_access import MCPAccess, MCPAccessError
 from app.mcp_api import install_mcp
+from app.gmail_connector import GmailConnector
+from app.gmail_service import GmailService
 
 MAX_BODY = 16 * 1024 * 1024
 MAX_FILE = 10 * 1024 * 1024
@@ -102,6 +104,9 @@ class Gateway:
         guest, connector = None, None
         if user == 'invite:redeem':
             if scope['method'] != 'POST' or path != '/api/access/redeem':
+                return await reject(401, 'authentication_required')
+        elif user == 'oauth:callback':
+            if scope['method'] != 'GET' or not path.startswith('/api/sales/mail/oauth/callback?'):
                 return await reject(401, 'authentication_required')
         elif user.startswith('guest:'):
             try:
@@ -279,7 +284,8 @@ def _convert_hwp(path, url, token):
     return converted
 
 
-def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp_token=None):
+def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp_token=None,
+               gmail_connector=None):
     secret = secret or os.environ.get('RA_GATEWAY_SECRET', '')
     if len(secret) < 32:
         raise RuntimeError('RA_GATEWAY_SECRET must contain at least 32 characters')
@@ -307,6 +313,12 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
     hwp_url = hwp_url or os.environ.get('RA_HWP_WORKER_URL')
     hwp_token = hwp_token or os.environ.get('RA_HWP_WORKER_TOKEN')
     app = FastAPI(title='문서 표준화 AI AGENT', docs_url=None, redoc_url=None, openapi_url=None)
+    if gmail_connector is None and all(os.environ.get(key) for key in
+                                       ('GMAIL_CLIENT_ID', 'GMAIL_CLIENT_SECRET', 'GMAIL_REDIRECT_URI')):
+        gmail_connector = GmailConnector(os.environ['GMAIL_CLIENT_ID'],
+            os.environ['GMAIL_CLIENT_SECRET'], os.environ['GMAIL_REDIRECT_URI'])
+    gmail = GmailService(root, secret, gmail_connector, model_factory=client_factory)
+    mail_syncing, mail_sync_lock = set(), threading.Lock()
     guests = GuestAccess(root)
     mcp_access = MCPAccess(root, guest_access=guests)
     app.add_middleware(Gateway, secret=secret, nonce_db=str(root / '.gateway-nonces.sqlite3'), guests=guests,
@@ -315,6 +327,14 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
     locks, lock_guard, upload_lock = {}, threading.Lock(), threading.RLock()
     executor, work_slots = ThreadPoolExecutor(max_workers=2, thread_name_prefix='ra-web'), threading.BoundedSemaphore(2)
     instance = uuid4().hex
+
+    @app.on_event('startup')
+    def start_gmail_polling():
+        gmail.start()
+
+    @app.on_event('shutdown')
+    def stop_gmail_polling():
+        gmail.stop()
 
     def tenant(request):
         directory = root / sha256(request.state.user.encode()).hexdigest()
@@ -571,6 +591,74 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
         return {'signed_in': True, 'access_mode': 'guest' if guest else 'account',
                 **({key: guest[key] for key in ('label', 'expires_at')} if guest else {})}
 
+    @app.get('/api/sales/mail/status')
+    def mail_status(request: Request):
+        return gmail.status(request.state.user)
+
+    @app.post('/api/sales/mail/connect')
+    def mail_connect(request: Request, payload: dict):
+        if payload != {}:
+            raise ValueError('메일 연결 요청을 확인해야 함')
+        return {'authorization_url': gmail.authorization_url(request.state.user)}
+
+    @app.get('/api/sales/mail/oauth/callback')
+    def mail_callback(request: Request, state: str = '', code: str = ''):
+        if request.state.user != 'oauth:callback':
+            raise HTTPException(403, 'oauth_callback_only')
+        try:
+            gmail.callback(code, state)
+            message = 'Gmail 연결을 완료했습니다. 영업 작업실로 돌아가 새 메일을 확인하세요.'
+        except ValueError:
+            message = 'Gmail 연결을 완료하지 못했습니다. 영업 작업실에서 다시 연결해 주세요.'
+        return Response('<!doctype html><html lang="ko"><meta charset="utf-8">'
+                        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+                        '<title>Gmail 연결</title><body><main><h1>' + message +
+                        '</h1><a href="/sales">영업 작업실로 돌아가기</a></main></body></html>',
+                        media_type='text/html; charset=utf-8')
+
+    @app.post('/api/sales/mail/sync')
+    def mail_sync(request: Request, payload: dict):
+        if payload != {} or not gmail.status(request.state.user)['connected']:
+            raise ValueError('연결된 Gmail 계정이 필요함')
+        owner = gmail.owner(request.state.user)
+        with mail_sync_lock:
+            if owner in mail_syncing:
+                return {'started': False, 'already_running': True}
+            mail_syncing.add(owner)
+        def work():
+            try:
+                gmail.sync_owner_hash(owner)
+            finally:
+                with mail_sync_lock:
+                    mail_syncing.discard(owner)
+        executor.submit(work)
+        return {'started': True}
+
+    @app.get('/api/sales/mail/inbox')
+    def mail_inbox(request: Request):
+        owner = gmail.owner(request.state.user)
+        messages = []
+        for row in gmail.inbox(request.state.user):
+            messages.append({'id': row['incoming_id'], 'from': row['incoming']['sender'],
+                             'incoming': row['incoming'], 'subject': row['subject'],
+                             'recipient': row['recipient'], 'body': row['body'],
+                             'state': row['state'], 'revision': row['revision'],
+                             'fingerprint': row['fingerprint'], 'review': row['review'],
+                             'draft': row.get('draft'),
+                             'provider_message_id': row['provider_message_id']})
+        return {'messages': messages, 'syncing': owner in mail_syncing}
+
+    @app.post('/api/sales/mail/messages/{incoming_id}/send')
+    def mail_send(incoming_id: str, request: Request, payload: dict):
+        if not re.fullmatch(r'[A-Za-z0-9_-]{1,256}', incoming_id):
+            raise HTTPException(404, 'mail_not_found')
+        try:
+            row = gmail.send(request.state.user, incoming_id, payload)
+        except KeyError:
+            raise HTTPException(404, 'mail_not_found') from None
+        return {'id': row['incoming_id'], 'state': row['state'],
+                'provider_message_id': row['provider_message_id']}
+
     def sales_job(request, identifier):
         if not ID.fullmatch(identifier):
             raise HTTPException(404, 'sales_job_not_found')
@@ -769,7 +857,7 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
             if not isinstance(payload, dict) or set(payload) - {'language', 'tone', 'gemini_api_key'}:
                 raise ValueError('sales_draft')
             language, tone = payload.get('language', 'en'), payload.get('tone', 'professional')
-            if (not isinstance(language, str) or language not in {'en', 'ko'}
+            if (not isinstance(language, str) or language not in REPLY_LANGUAGES
                     or not isinstance(tone, str) or tone not in {'professional', 'warm', 'concise'}):
                 raise ValueError('language')
             sources = sales_sources(state, require_sources=False)

@@ -205,3 +205,29 @@ def test_sales_workspace_visual_flow_is_accessible_and_responsive():
     assert 'function updateFlow()' in script and 'updateGates(){updateFlow();' in script
     assert 'aria-current' in script and 'prefers-reduced-motion:reduce' in css
     assert '@media(max-width:600px)' in css and '.upload-grid' in css
+
+
+def test_gmail_review_requires_full_preview_and_explicit_confirmation():
+    html = (SITE / 'sales.html').read_text(encoding='utf-8')
+    script = (SITE / 'sales.js').read_text(encoding='utf-8')
+    css = (SITE / 'sales.css').read_text(encoding='utf-8')
+    for field in ('mail-connection', 'mail-connect', 'mail-sync', 'mail-inbox',
+                  'mail-to', 'mail-subject', 'mail-body', 'mail-preview',
+                  'mail-confirm', 'mail-send', 'mail-send-status'):
+        assert f'id="{field}"' in html
+    assert 'type="password"' not in html.split('id="sales-mail"', 1)[1].split('id="sales-intake"', 1)[0]
+    assert "$('mail-send').disabled=" in script
+    assert 'id="mail-send" class="action-primary" type="button" disabled' in html
+    assert 'id="mail-confirm" type="checkbox"' in html
+    assert "!$('mail-confirm').checked" in script
+    assert "$('mail-preview').textContent=" in script
+    assert "$('mail-confirm').checked=false" in script
+    assert "message.incoming?.body" in script
+    assert '새 받은 메일 본문을 서버의 Gemini 모델에 보내' in html
+    assert "confirmed:true" in script and "fingerprint=selectedMail.fingerprint||draft.fingerprint" in script
+    assert "result.status!=='sent'" in script
+    assert "url.hostname!=='accounts.google.com'" in script
+    assert "setInterval(()=>{if(mailConnected&&!mailBusy&&!document.hidden)" in script
+    assert '.mail-preview' in css and 'overflow-wrap:anywhere' in css
+    for language in ('en', 'ko', 'zh-CN', 'es', 'fr', 'de', 'ar', 'pt', 'ja', 'he'):
+        assert f'<option value="{language}">' in html

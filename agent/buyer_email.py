@@ -9,6 +9,32 @@ import re
 from agent.multimodal_intake import validate_generation_source, validate_source_origin
 
 
+# ISO-style reply codes are shared by the API and the local workspace.
+# Each fallback is safe, nonfactual prose in the selected language.
+REPLY_LANGUAGES = {
+    'en': ('English', 'Thank you for your email.', 'Kind regards,\n[Your name]',
+           'The following points need further confirmation:', 'Re: Your inquiry'),
+    'ko': ('한국어', '문의해 주셔서 감사합니다.', '감사합니다.\n[보내는 사람 이름]',
+           '다음 사항은 추가 확인이 필요합니다.', 'Re: 문의에 대한 답변'),
+    'zh-CN': ('简体中文', '感谢您的来信。', '此致\n[Your name]',
+              '以下事项需要进一步确认：', 'Re: 咨询'),
+    'es': ('Español', 'Gracias por su mensaje.', 'Atentamente,\n[Your name]',
+           'Los siguientes puntos requieren confirmación:', 'Re: Consulta'),
+    'fr': ('Français', 'Merci pour votre message.', 'Cordialement,\n[Your name]',
+           'Les points suivants nécessitent une confirmation :', 'Re: Demande de renseignements'),
+    'de': ('Deutsch', 'Vielen Dank für Ihre Nachricht.', 'Mit freundlichen Grüßen\n[Your name]',
+           'Die folgenden Punkte müssen noch bestätigt werden:', 'Re: Anfrage'),
+    'ar': ('العربية', 'شكرًا على رسالتكم.', 'مع خالص التحية،\n[Your name]',
+           'تحتاج النقاط التالية إلى تأكيد إضافي:', 'Re: استفسار'),
+    'pt': ('Português', 'Agradecemos sua mensagem.', 'Atenciosamente,\n[Your name]',
+           'Os pontos a seguir precisam de confirmação:', 'Re: Consulta'),
+    'ja': ('日本語', 'お問い合わせいただきありがとうございます。', 'よろしくお願いいたします。\n[Your name]',
+           '以下の点について、追加確認が必要です。', 'Re: お問い合わせ'),
+    'he': ('עברית', 'תודה על פנייתכם.', 'בברכה,\n[Your name]',
+           'הנושאים הבאים דורשים אישור נוסף:', 'Re: פנייה'),
+}
+
+
 class _TextHTML(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -76,7 +102,7 @@ def _numbers(text):
 
 def _safe_general(answer):
     """Without seller evidence, only a clarification question enters the reply."""
-    return (answer.endswith('?') and not _numbers(answer)
+    return (answer.endswith(('?', '？', '؟')) and not _numbers(answer)
             and not re.search(r'[.!](?:\s|$)', answer)
             and not re.search(r'\b(?:we|our team|I)\s+(?:can|will|have|are|am|shall|could)\b',
                               answer, re.I))
@@ -123,7 +149,7 @@ def draft_buyer_reply(email, sources, client, *, language='en', tone='profession
     The independent review must cover every item. Unsupported answers are held
     out of the reply. The returned evidence is a sidecar, never a sent email.
     """
-    if (not isinstance(language, str) or language not in {'en', 'ko'}
+    if (not isinstance(language, str) or language not in REPLY_LANGUAGES
             or not isinstance(tone, str) or tone not in {'professional', 'warm', 'concise'}
             or not isinstance(email, dict) or not email.get('body')):
         raise ValueError('받은 이메일과 답변 언어를 확인해야 함')
@@ -220,8 +246,7 @@ def draft_buyer_reply(email, sources, client, *, language='en', tone='profession
             items.append({'index': len(items) + 1, 'buyer_quote': quote, 'answer': '',
                           'evidence': [], 'status': 'needs_confirmation'})
     pending = [item for item in items if item['status'] == 'needs_confirmation']
-    intro_default = ('Thank you for your email.' if language == 'en' else '문의해 주셔서 감사합니다.')
-    close_default = ('Kind regards,\n[Your name]' if language == 'en' else '감사합니다.\n[보내는 사람 이름]')
+    _, intro_default, close_default, pending_heading, subject_default = REPLY_LANGUAGES[language]
     prose_ok = review.get('email_prose_supported') is True
     opening = response.get('opening') if prose_ok else None
     closing = response.get('closing') if prose_ok else None
@@ -230,25 +255,15 @@ def draft_buyer_reply(email, sources, client, *, language='en', tone='profession
     if (_numbers(opening + '\n' + closing)
             or re.search(r'\bour\s+(?:\w+\s+){0,2}products?\b', opening, re.I)):
         opening, closing = intro_default, close_default
-    if language == 'en':
-        lines = [opening, '']
-        answers = [item['answer'] for item in items if item['status'] in {'draft', 'general'}]
-        if answers:
-            lines += ['\n\n'.join(answers)]
-        if pending:
-            lines += ['', 'The following points need further confirmation:']
-            lines += ['- ' + item['buyer_quote'] for item in pending]
-        lines += ['', closing]
-    else:
-        lines = [opening, '']
-        answers = [item['answer'] for item in items if item['status'] in {'draft', 'general'}]
-        if answers:
-            lines += ['\n\n'.join(answers)]
-        if pending:
-            lines += ['', '다음 사항은 추가 확인이 필요합니다.']
-            lines += ['- ' + item['buyer_quote'] for item in pending]
-        lines += ['', closing]
-    subject = ('Re: ' + email['subject']) if email['subject'] and not email['subject'].casefold().startswith('re:') else (email['subject'] or ('Re: Your inquiry' if language == 'en' else 'Re: 문의에 대한 답변'))
+    lines = [opening, '']
+    answers = [item['answer'] for item in items if item['status'] in {'draft', 'general'}]
+    if answers:
+        lines += ['\n\n'.join(answers)]
+    if pending:
+        lines += ['', pending_heading]
+        lines += ['- ' + item['buyer_quote'] for item in pending]
+    lines += ['', closing]
+    subject = ('Re: ' + email['subject']) if email['subject'] and not email['subject'].casefold().startswith('re:') else (email['subject'] or subject_default)
     if progress:
         progress('assembled')
     return {'status': 'review_required', 'email': '\n'.join(lines), 'subject': subject,

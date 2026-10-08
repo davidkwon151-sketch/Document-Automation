@@ -4,7 +4,7 @@ import json
 
 import streamlit as st
 
-from agent.buyer_email import draft_buyer_reply, parse_buyer_email
+from agent.buyer_email import REPLY_LANGUAGES, draft_buyer_reply, parse_buyer_email
 from app.multimodal_ui import render_multimodal_upload
 from llm.client import LLMClient
 
@@ -30,7 +30,7 @@ def render_buyer_email():
     eml = st.file_uploader('받은 이메일 EML (선택)', type=['eml'], key='sales_eml')
     pasted = st.text_area('받은 이메일 본문', height=180, key='sales_email_text',
                           help='EML을 올리면 이 입력 대신 EML 본문을 사용합니다.')
-    language = st.selectbox('회신 언어', ['en', 'ko'], format_func=lambda code: 'English' if code == 'en' else '한국어',
+    language = st.selectbox('회신 언어', list(REPLY_LANGUAGES), format_func=lambda code: REPLY_LANGUAGES[code][0],
                             key='sales_language')
     try:
         email = parse_buyer_email(pasted, eml=eml.getvalue() if eml else None) if eml or pasted.strip() else None
