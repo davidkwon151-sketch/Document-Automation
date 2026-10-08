@@ -578,6 +578,14 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
             raise HTTPException(404, 'sales_job_not_found')
         with lock_guard:
             lock = locks.setdefault(str(directory), threading.RLock())
+        with lock:
+            current = read(directory)
+            if current.get('processing') and current.get('operation_owner') != instance:
+                current.update(processing=False, status='failed',
+                               error={'code': 'interrupted', 'message': '서버가 다시 시작되었습니다. 초안을 다시 작성해 주세요.'})
+                current.pop('result', None)
+                current.pop('draft_progress', None)
+                write(directory, current)
         return directory, lock
 
     def sales_view(state):
@@ -589,6 +597,7 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
                        'status': ('processing' if state.get('processing') else
                                   'failed' if state.get('error') else state.get('status', 'uploaded')),
                        'operation': state.get('operation'), 'error': state.get('error'),
+                       'draft_progress': state.get('draft_progress'),
                        'intake': {key: state['intake'][key] for key in ('files', 'sources', 'confirmations', 'fingerprint')},
                        'result': state.get('result'), 'trade': public_trade,
                        'user_notes': state.get('user_notes', [])}, root)
@@ -706,6 +715,7 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
                 if note.strip():
                     state.setdefault('user_notes', []).append(note.strip())
                 state.pop('result', None); state.pop('trade', None); state.pop('error', None)
+                state.pop('draft_progress', None)
                 state['status'] = 'uploaded'
                 write(directory, state)
                 return sales_view(state)
@@ -725,7 +735,7 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
                     raise ValueError('ocr_request')
                 key = gemini_key(payload) if client_factory is None else None
                 paths = list(state['source_paths'])
-                state.pop('result', None); state.pop('trade', None)
+                state.pop('result', None); state.pop('trade', None); state.pop('draft_progress', None)
                 write(directory, state)
                 def apply(current, extracted):
                     current['intake'] = extracted
@@ -744,6 +754,7 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
             if not ({'transcriptions', 'receipts'} & set(payload)) or set(payload) - {'transcriptions', 'receipts', 'confirmed'}:
                 raise ValueError('intake_action')
             state.pop('result', None); state.pop('trade', None); state.pop('error', None)
+            state.pop('draft_progress', None)
             state['status'] = 'uploaded'
             write(directory, state)
             return sales_view(state)
@@ -754,17 +765,30 @@ def create_app(*, root=None, secret=None, client_factory=None, hwp_url=None, hwp
         with lock:
             state = read(directory)
             ensure_idle(state)
-            if not isinstance(payload, dict) or set(payload) - {'language', 'gemini_api_key'}:
+            if not isinstance(payload, dict) or set(payload) - {'language', 'tone', 'gemini_api_key'}:
                 raise ValueError('sales_draft')
-            language = payload.get('language', 'en')
-            if language not in {'en', 'ko'}:
+            language, tone = payload.get('language', 'en'), payload.get('tone', 'professional')
+            if (not isinstance(language, str) or language not in {'en', 'ko'}
+                    or not isinstance(tone, str) or tone not in {'professional', 'warm', 'concise'}):
                 raise ValueError('language')
             sources = sales_sources(state, require_sources=False)
             key = gemini_key(payload) if client_factory is None else None
             state.pop('result', None)
+            state['draft_progress'] = {'events': [{'stage': 'queued', 'at': time.time()}], 'requests': []}
+            def progress(stage, requests=None):
+                with lock:
+                    current = read(directory)
+                    if (not current.get('processing') or current.get('operation_owner') != instance
+                            or current.get('operation') != 'sales_draft'):
+                        return
+                    current['draft_progress']['events'].append({'stage': stage, 'at': time.time()})
+                    if requests is not None:
+                        current['draft_progress']['requests'] = requests
+                    write(directory, current)
             return schedule(directory, lock, state, 'sales_draft',
                 lambda: draft_buyer_reply(state['email'], sources, sales_model_client(key, writing=True),
-                                          language=language, user_notes=state.get('user_notes', [])),
+                                          language=language, tone=tone,
+                                          user_notes=state.get('user_notes', []), progress=progress),
                 present=sales_view)
 
     @app.post('/api/sales/jobs/{identifier}/trade/propose')

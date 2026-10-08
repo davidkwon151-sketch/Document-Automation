@@ -158,6 +158,10 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert 'id="sales-writing"' in html and 'id="sales-writing" hidden' not in html
     assert 'id="sales-draft" disabled' in html and 'id="trade-propose" class="secondary" disabled' in html
     assert 'id="sales-documents-preview"' in html and 'id="sales-draft-error"' in html
+    assert 'id="sales-tone"' in html and 'id="sales-progress"' in html
+    assert 'id="sales-progress-steps"' in html and 'id="sales-progress-requests"' in html
+    assert 'renderProgress(data.draft_progress)' in script
+    assert "tone:$('sales-tone').value" in script
     assert 'id="sales-supplement-text"' in html and 'id="sales-supplement-files"' in html
     assert "sales/jobs/'+sales.job_id+'/supplement" in script
     assert "$('sales-draft').disabled=busy||!prepared" in script

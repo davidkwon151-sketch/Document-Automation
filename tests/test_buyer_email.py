@@ -71,6 +71,23 @@ def test_grounded_reply_and_trade_document_handoff(tmp_path):
     assert state['gw_prefill_files'] == ['same-original-file']
 
 
+def test_tone_and_real_progress_are_forwarded_without_exposing_unreviewed_answers(tmp_path):
+    email, sources = fixture(tmp_path)
+    client = client_for(email, sources)
+    events = []
+    result = draft_buyer_reply(email, sources, client, language='ko', tone='warm',
+                               progress=lambda stage, requests=None: events.append((stage, requests)))
+    assert result['tone'] == 'warm' and result['language'] == 'ko'
+    assert result['subject'] == 'Re: 문의에 대한 답변'
+    assert [stage for stage, _ in events] == ['composing', 'matching', 'reviewing', 'assembled']
+    assert len(events[1][1]) == 2
+    assert all(set(item) == {'quote', 'source_count'} for item in events[1][1])
+    assert events[1][1][0]['source_count'] == 1
+    assert [call.args[1]['tone'] for call in client.generate_json.call_args_list] == ['warm', 'warm']
+    with pytest.raises(ValueError):
+        draft_buyer_reply(email, sources, client, tone='unsupported')
+
+
 def test_unsupported_request_is_explicitly_pending(tmp_path):
     email, sources = fixture(tmp_path)
     client = client_for(email, sources)

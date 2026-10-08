@@ -11,3 +11,12 @@
 #sales-review.error{border-color:#b84141;background:#fff1f1}
 #sales-documents{padding:14px 0}
 #sales-reply{min-height:260px}
+.draft-progress{margin:20px 0;padding:18px;border:1px solid var(--line);border-radius:10px;background:#f7fafc}
+.draft-progress h3{margin:0 0 10px;font-size:17px}
+.draft-progress ol{margin:0;padding-left:22px}
+.draft-progress li{padding:5px 0;color:var(--muted)}
+.draft-progress li.current{color:#20577b;font-weight:700}
+.draft-progress li.done{color:#326249}
+.draft-progress #sales-progress-requests{margin-top:10px;overflow-wrap:anywhere}
+.draft-progress #sales-progress-requests p{margin:5px 0}
+.draft-progress>p{font-size:13px;color:var(--muted)}

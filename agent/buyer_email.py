@@ -116,13 +116,16 @@ def _user_notes(notes):
     return result
 
 
-def draft_buyer_reply(email, sources, client, *, language='en', user_notes=None):
+def draft_buyer_reply(email, sources, client, *, language='en', tone='professional',
+                      user_notes=None, progress=None):
     """Two model passes: compose bound answers, then review coverage and meaning.
 
     The independent review must cover every item. Unsupported answers are held
     out of the reply. The returned evidence is a sidecar, never a sent email.
     """
-    if language not in {'en', 'ko'} or not isinstance(email, dict) or not email.get('body'):
+    if (not isinstance(language, str) or language not in {'en', 'ko'}
+            or not isinstance(tone, str) or tone not in {'professional', 'warm', 'concise'}
+            or not isinstance(email, dict) or not email.get('body')):
         raise ValueError('받은 이메일과 답변 언어를 확인해야 함')
     if not isinstance(sources, list) or len(sources) > 400:
         raise ValueError('확인된 원자료가 너무 많거나 형식이 잘못됨')
@@ -141,8 +144,10 @@ def draft_buyer_reply(email, sources, client, *, language='en', user_notes=None)
     clean_sources = [{key: source.get(key) for key in ('source_id', 'filename', 'page', 'sheet',
                       'location', 'text', 'context_text', 'document_sha256', 'origin')}
                      for source in source_map.values()]
+    if progress:
+        progress('composing')
     response = client.generate_json('buyer_email', {'email': email, 'sources': clean_sources,
-                                                     'language': language})
+                                                     'language': language, 'tone': tone})
     raw_items = response.get('requests') if isinstance(response, dict) else None
     if not isinstance(raw_items, list) or not 1 <= len(raw_items) <= 20:
         raise ValueError('바이어 요청을 1~20개 항목으로 분석해야 함')
@@ -179,8 +184,13 @@ def draft_buyer_reply(email, sources, client, *, language='en', user_notes=None)
         items.append({'index': number, 'buyer_quote': quote, 'answer': answer,
                       'evidence': bound, 'status': ('draft' if bound else 'general')
                       if answer else 'needs_confirmation'})
+    if progress:
+        progress('matching', [{'quote': item['buyer_quote'][:500],
+                               'source_count': len(item['evidence'])} for item in items])
+        progress('reviewing')
     review = client.generate_json('buyer_email_review', {'email': email, 'requests': items,
                                                           'sources': clean_sources, 'language': language,
+                                                          'tone': tone,
                                                           'opening': response.get('opening', ''),
                                                           'closing': response.get('closing', '')})
     if not isinstance(review, dict) or type(review.get('complete')) is not bool:
@@ -238,8 +248,11 @@ def draft_buyer_reply(email, sources, client, *, language='en', user_notes=None)
             lines += ['', '다음 사항은 추가 확인이 필요합니다.']
             lines += ['- ' + item['buyer_quote'] for item in pending]
         lines += ['', closing]
-    subject = ('Re: ' + email['subject']) if email['subject'] and not email['subject'].casefold().startswith('re:') else (email['subject'] or 'Re: Your inquiry')
+    subject = ('Re: ' + email['subject']) if email['subject'] and not email['subject'].casefold().startswith('re:') else (email['subject'] or ('Re: Your inquiry' if language == 'en' else 'Re: 문의에 대한 답변'))
+    if progress:
+        progress('assembled')
     return {'status': 'review_required', 'email': '\n'.join(lines), 'subject': subject,
+            'language': language, 'tone': tone,
             'requests': items, 'documents': _documents(email, items),
             'review': {'complete': review['complete'], 'pending_count': len(pending),
                        'coverage_check_required': not review['complete'],
