@@ -3,7 +3,7 @@
 영업 작업실의 Gmail 연결은 Google OAuth 웹 애플리케이션 권한으로 동작함. 비밀번호나 API 키만으로 Gmail 수신·발송에 접근하지 않음. 서버가 켜져 있고 `GEMINI_API_KEY`가 설정된 경우 60초 간격으로 최근 받은편지함을 확인하고, 새 메일마다 출처 없는 회사 사실을 단정하지 않는 검토용 초안을 작성함. 초안은 자동 발송되지 않음. 담당자가 수신인·제목·본문을 확인하고 체크한 뒤 발송 버튼을 누르면 Gmail API로 한 번만 발송 시도함. 결과가 불확실한 경우 자동 재발송을 금지함.
 
 1. Google Cloud 프로젝트에서 Gmail API를 사용 설정하고 OAuth 동의 화면을 구성함. 외부 시험 앱이라면 사용할 Google 계정을 테스트 사용자에 추가함.
-2. OAuth 클라이언트 유형 `웹 애플리케이션`을 만들고 승인된 리디렉션 URI에 `https://ra-document-workspace-20261004.sooyeon-jun-0389.chatgpt.site/oauth/gmail/callback`을 정확히 등록함.
+2. OAuth 클라이언트 유형 `웹 애플리케이션`을 만들고 승인된 리디렉션 URI에 `https://document-standardization-agent.vercel.app/oauth/gmail/callback`을 정확히 등록함. Google Cloud의 URI와 PC 서버의 `GMAIL_REDIRECT_URI`는 완전히 같아야 함.
 3. 비공개 `.runtime/external-server.env`에 `GMAIL_CLIENT_ID`, `GMAIL_CLIENT_SECRET`, `GMAIL_REDIRECT_URI`를 입력함. `GEMINI_API_KEY`는 프로젝트 루트의 비공개 `.env`에 입력함. 두 파일은 Git에 올리지 않음.
 4. 외부 API 서버를 재시작하고 영업 작업실의 Gmail 연결 버튼에서 Google 계정을 승인함. 연결 후 새 메일 확인을 누르거나 자동 동기화를 기다림.
 
