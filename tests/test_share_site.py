@@ -156,7 +156,7 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert "'/sales'||path==='/common')&&!user" in worker
     assert 'id="sales-trade"' in html and 'id="trade-transaction"' in html
     assert 'id="sales-writing"' in html and 'id="sales-writing" hidden' not in html
-    assert 'id="sales-draft" disabled' in html and 'id="trade-propose" class="secondary" disabled' in html
+    assert 'id="sales-draft" class="action-primary" disabled' in html and 'id="trade-propose" class="secondary" disabled' in html
     assert 'id="sales-documents-preview"' in html and 'id="sales-draft-error"' in html
     assert 'id="sales-tone"' in html and 'id="sales-progress"' in html
     assert 'id="sales-card-file"' in html and 'id="sales-sign-logo"' in html
@@ -173,6 +173,8 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert 'function updateGates()' in script and 'requested_documents' in script
     assert "/trade/propose'" in script and "/trade/prepare'" in script and "/trade/export'" in script
     assert 'trade-final-confirm' in html and 'tradeDirty' in script
+
+
     landing = (SITE / 'index.html').read_text(encoding='utf-8')
     assert 'id="workspaces"' in landing and '해외영업·해외사업개발' in landing
     assert '공통 보고서·기안' in landing and 'href="common"' in landing
@@ -188,3 +190,16 @@ def test_sales_workspace_is_protected_and_keeps_user_key_in_request_only():
     assert 'localStorage' not in script and 'GEMINI_API_KEY=' not in common + script
     for forbidden in ('OPENAI_API_KEY=', 'GEMINI_API_KEY=', 'sk-proj-'):
         assert forbidden not in html + script
+
+
+def test_sales_workspace_visual_flow_is_accessible_and_responsive():
+    html = (SITE / 'sales.html').read_text(encoding='utf-8')
+    css = (SITE / 'sales.css').read_text(encoding='utf-8')
+    script = (SITE / 'sales.js').read_text(encoding='utf-8')
+    assert 'class="sales-hero"' in html and 'class="hero-visual" aria-hidden="true"' in html
+    assert all(f'data-flow="{step}"' in html for step in ('intake', 'evidence', 'writing', 'trade'))
+    assert all(f'id="{target}"' in html for target in ('sales-intake', 'sales-evidence', 'sales-writing', 'sales-trade'))
+    assert 'class="icon-library" aria-hidden="true"' in html
+    assert 'function updateFlow()' in script and 'updateGates(){updateFlow();' in script
+    assert 'aria-current' in script and 'prefers-reduced-motion:reduce' in css
+    assert '@media(max-width:600px)' in css and '.upload-grid' in css
